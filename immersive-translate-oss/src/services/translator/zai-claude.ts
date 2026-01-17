@@ -1,25 +1,24 @@
-/**
- * Z.AI Claude Adapter
- * Uses Anthropic-compatible API format for Z.AI Coding Plan
- * Endpoint: https://api.z.ai/api/anthropic
- */
-
 import { TranslationAdapter, TranslationError } from './adapter.interface'
+import { PromptTemplate, ExtensionConfig } from '@/types/config'
+import { getActivePrompt, renderPrompt } from './prompts'
 
 export interface ZaiClaudeConfig {
     apiKey: string
     model?: string  // Default: glm-4.7 (Z.AI Coding Plan uses GLM models via Anthropic API)
+    endpoint?: string
+    customPrompts?: PromptTemplate[]
+    activePromptId?: string
 }
 
 export class ZaiClaudeAdapter implements TranslationAdapter {
     providerId = 'zai-claude'
 
     private config: ZaiClaudeConfig
-    private readonly endpoint = 'https://api.z.ai/api/anthropic/v1/messages'
 
     constructor(config: ZaiClaudeConfig) {
         this.config = {
             model: 'glm-4.7',
+            endpoint: 'https://api.z.ai/api/anthropic/v1/messages',
             ...config,
         }
     }
@@ -32,19 +31,19 @@ export class ZaiClaudeAdapter implements TranslationAdapter {
         const isSenseMode = texts.some(t => t.startsWith('[SENSE_MODE]'));
         const cleanTexts = isSenseMode ? texts.map(t => t.replace('[SENSE_MODE]', '')) : texts;
 
-        const systemPrompt = isSenseMode
-            ? `You are an expert language tutor. Analyze the following English sentences.
-1. Split each sentence into logical sense groups based heavily on PREPOSITIONS (in, on, at, with, by, to...) and conjunctions.
-2. Translate each sense group into ${targetLang}.
-3. Return a JSON array of arrays (one inner array per input sentence).
-4. Format: [[{"src": "part1", "tgt": "trans1"}, ...], [...]]
-5. STRICT JSON OUTPUT ONLY.`
-            : `You are a professional translator. Translate the following JSON array. Output ONE TRANSLATED LINE per input line, in order. Format each line as valid JSON string. Return ONLY the translations, one per line.`;
+        // Resolve generic config for prompt helper
+        const mockConfig = {
+            customPrompts: this.config.customPrompts || [],
+            activePromptId: this.config.activePromptId || 'default-normal'
+        } as ExtensionConfig
+
+        const promptTemplate = getActivePrompt(mockConfig, isSenseMode ? 'sense' : 'normal')
+        const systemPrompt = renderPrompt(promptTemplate.system, _sourceLang, targetLang)
 
         const userMessage = JSON.stringify(cleanTexts);
 
         try {
-            const response = await fetch(this.endpoint, {
+            const response = await fetch(this.config.endpoint!, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -97,16 +96,17 @@ export class ZaiClaudeAdapter implements TranslationAdapter {
         const isSenseMode = texts.some(t => t.startsWith('[SENSE_MODE]'));
         const cleanTexts = isSenseMode ? texts.map(t => t.replace('[SENSE_MODE]', '')) : texts;
 
-        // Prompt LLM to output line-by-line for streaming parsing
-        const systemPrompt = isSenseMode
-            ? `You are an expert language tutor. Split each sentence into sense groups based on prepositions.
-For EACH input sentence, output exactly ONE line of JSON: [{"src": "part1", "tgt": "trans1"}, ...]
-Output lines in the same order as input. STRICT JSON, one array per line.`
-            : `You are a translator. For each input text, output its ${targetLang} translation on a separate line.
-Output in the same order as input. One translation per line, no extra text.`;
+        // Resolve generic config for prompt helper
+        const mockConfig = {
+            customPrompts: this.config.customPrompts || [],
+            activePromptId: this.config.activePromptId || 'default-normal'
+        } as ExtensionConfig
+
+        const promptTemplate = getActivePrompt(mockConfig, isSenseMode ? 'sense' : 'normal')
+        const systemPrompt = renderPrompt(promptTemplate.system, _sourceLang, targetLang)
 
         try {
-            const response = await fetch(this.endpoint, {
+            const response = await fetch(this.config.endpoint!, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

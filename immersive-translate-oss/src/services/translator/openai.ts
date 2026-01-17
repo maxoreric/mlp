@@ -1,14 +1,13 @@
-/**
- * OpenAI Compatible Adapter
- * Supports OpenAI, DeepSeek, GLM, and other OpenAI-compatible APIs
- */
-
 import { TranslationAdapter, TranslationError } from './adapter.interface'
+import { PromptTemplate, ExtensionConfig } from '@/types/config'
+import { getActivePrompt, renderPrompt } from './prompts'
 
 export interface OpenAIConfig {
     apiKey: string
     endpoint?: string  // Default: https://api.openai.com/v1
     model?: string     // Default: gpt-3.5-turbo
+    customPrompts?: PromptTemplate[]
+    activePromptId?: string
 }
 
 export class OpenAIAdapter implements TranslationAdapter {
@@ -33,14 +32,14 @@ export class OpenAIAdapter implements TranslationAdapter {
         const cleanTexts = isSenseMode ? texts.map(t => t.replace('[SENSE_MODE]', '')) : texts;
         const prompt = this.buildPrompt(cleanTexts, sourceLang, targetLang)
 
-        const systemContent = isSenseMode
-            ? `You are an expert language tutor. Analyze the following English sentences. 
-               1. Split each sentence into logical sense groups based heavily on PREPOSITIONS (in, on, at, with, by, to...) and conjunctions.
-               2. Translate each sense group into ${targetLang}.
-               3. Return a JSON array of arrays (one inner array per input sentence).
-               4. Format: [[{"src": "part1", "tgt": "trans1"}, ...], [...]]
-               5. STRICT JSON OUTPUT ONLY.`
-            : `You are a professional translator. Translate the following JSON array of text segments from ${sourceLang} to ${targetLang}. Keep the JSON structure unchanged. Return ONLY the JSON array with translated texts, no explanation.`;
+        // Resolve generic config for prompt helper
+        const mockConfig = {
+            customPrompts: this.config.customPrompts || [],
+            activePromptId: this.config.activePromptId || 'default-normal'
+        } as ExtensionConfig
+
+        const promptTemplate = getActivePrompt(mockConfig, isSenseMode ? 'sense' : 'normal')
+        const systemContent = renderPrompt(promptTemplate.system, sourceLang, targetLang)
 
         try {
             const response = await fetch(
@@ -114,15 +113,14 @@ export class OpenAIAdapter implements TranslationAdapter {
         const isSenseMode = texts.some(t => t.startsWith('[SENSE_MODE]'));
         const cleanTexts = isSenseMode ? texts.map(t => t.replace('[SENSE_MODE]', '')) : texts;
 
-        const systemContent = isSenseMode
-            ? `You are an expert language tutor. Analyze the following English sentences.
-               1. Split each sentence into logical sense groups based heavily on PREPOSITIONS and conjunctions.
-               2. Translate each sense group into ${targetLang}.
-               3. Output exactly ONE line of JSON per input sentence: [{"src": "part1", "tgt": "trans1"}, ...].
-               4. Output lines in the same order as input.`
-            : `You are a professional translator. Translate the following texts from ${sourceLang} to ${targetLang}. 
-               Output exactly ONE TRANSLATED LINE per input text. 
-               Output in the same order as input. No extra text or explanations.`;
+        // Resolve generic config for prompt helper
+        const mockConfig = {
+            customPrompts: this.config.customPrompts || [],
+            activePromptId: this.config.activePromptId || 'default-normal'
+        } as ExtensionConfig
+
+        const promptTemplate = getActivePrompt(mockConfig, isSenseMode ? 'sense' : 'normal')
+        const systemContent = renderPrompt(promptTemplate.system, sourceLang, targetLang)
 
         const prompt = JSON.stringify(cleanTexts);
 

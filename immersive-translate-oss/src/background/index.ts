@@ -102,7 +102,7 @@ async function handleTranslateBatch(data: {
         data.texts,
         data.sourceLang,
         data.targetLang,
-        config.translationService
+        config
     )
     return { success: true, data: results }
 }
@@ -126,7 +126,7 @@ async function handleTranslateStream(
             data.texts,
             data.sourceLang,
             data.targetLang,
-            config.translationService,
+            config,
             (index: number, translation: string) => {
                 // Send partial result to content script
                 chrome.tabs.sendMessage(tabId, {

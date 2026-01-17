@@ -3,7 +3,7 @@
  */
 
 import { translateWithAdapter } from '@/services/translator'
-import { TranslationServiceConfig } from '@/types/config'
+import { ExtensionConfig } from '@/types/config'
 import { TranslationError } from '@/services/translator/adapter.interface'
 
 // Mock adapters
@@ -33,10 +33,12 @@ describe('Translation Service', () => {
     })
 
     it('should use Google adapter by default', async () => {
-        const config: TranslationServiceConfig = {
-            type: 'google',
-            model: '',
-        }
+        const config = {
+            translationService: {
+                type: 'google',
+                model: '',
+            }
+        } as ExtensionConfig
 
         const { GoogleTranslateAdapter } = require('@/services/translator/google')
 
@@ -46,11 +48,13 @@ describe('Translation Service', () => {
     })
 
     it('should use OpenAI adapter when configured', async () => {
-        const config: TranslationServiceConfig = {
-            type: 'openai',
-            apiKey: 'test-key',
-            model: 'gpt-3.5-turbo',
-        }
+        const config = {
+            translationService: {
+                type: 'openai',
+                apiKey: 'test-key',
+                model: 'gpt-3.5-turbo',
+            }
+        } as ExtensionConfig
 
         const { OpenAIAdapter } = require('@/services/translator/openai')
 
@@ -60,11 +64,13 @@ describe('Translation Service', () => {
     })
 
     it('should throw error if API key is missing for OpenAI', async () => {
-        const config: TranslationServiceConfig = {
-            type: 'openai',
-            model: 'gpt-3.5-turbo',
-            // apiKey missing
-        }
+        const config = {
+            translationService: {
+                type: 'openai',
+                model: 'gpt-3.5-turbo',
+                // apiKey missing
+            }
+        } as ExtensionConfig
 
         await expect(
             translateWithAdapter(mockTexts, sourceLang, targetLang, config)
@@ -72,10 +78,14 @@ describe('Translation Service', () => {
     })
 
     it('should retry on failure', async () => {
-        const config: TranslationServiceConfig = {
-            type: 'google',
-            model: '',
-        }
+        const config = {
+            translationService: {
+                type: 'google',
+                model: '',
+            },
+            maxRetries: 3,
+            retryDelay: 1000
+        } as ExtensionConfig
 
         // Mock implementation that fails twice then succeeds
         const mockTranslate = jest.fn()
@@ -95,10 +105,13 @@ describe('Translation Service', () => {
     })
 
     it('should not retry on non-retryable error', async () => {
-        const config: TranslationServiceConfig = {
-            type: 'google',
-            model: '',
-        }
+        const config = {
+            translationService: {
+                type: 'google',
+                model: '',
+            },
+            maxRetries: 3
+        } as ExtensionConfig
 
         // Mock non-retryable error
         const nonRetryableError = new TranslationError('Invalid Request', false)

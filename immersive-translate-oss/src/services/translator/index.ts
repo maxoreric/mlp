@@ -7,37 +7,41 @@ import { TranslationAdapter, TranslationError } from './adapter.interface'
 import { GoogleTranslateAdapter } from './google'
 import { OpenAIAdapter, OpenAIConfig } from './openai'
 import { ZaiClaudeAdapter, ZaiClaudeConfig } from './zai-claude'
-import { TranslationServiceConfig } from '@/types/config'
-
-export type { TranslationAdapter, TranslationError }
-
-const MAX_RETRIES = 3
-const RETRY_DELAY_MS = 1000
-
+import { ExtensionConfig } from '@/types/config'
 /**
  * Get adapter instance based on service config
  */
-function getAdapter(config: TranslationServiceConfig): TranslationAdapter {
-    switch (config.type) {
+function getAdapter(config: ExtensionConfig): TranslationAdapter {
+    const serviceConfig = config.translationService
+
+    const promptConfig = {
+        customPrompts: config.customPrompts,
+        activePromptId: config.activePromptId
+    }
+
+    switch (serviceConfig.type) {
         case 'openai':
         case 'z-ai':
         case 'custom':
-            if (!config.apiKey) {
+            if (!serviceConfig.apiKey) {
                 throw new TranslationError('API key is required for OpenAI/Custom service')
             }
             return new OpenAIAdapter({
-                apiKey: config.apiKey,
-                endpoint: config.endpoint,
-                model: config.model,
+                apiKey: serviceConfig.apiKey,
+                endpoint: serviceConfig.endpoint,
+                model: serviceConfig.model,
+                ...promptConfig
             } as OpenAIConfig)
 
         case 'zai-claude':
-            if (!config.apiKey) {
+            if (!serviceConfig.apiKey) {
                 throw new TranslationError('API key is required for Z.AI Claude service')
             }
             return new ZaiClaudeAdapter({
-                apiKey: config.apiKey,
-                model: config.model || 'glm-4.7',
+                apiKey: serviceConfig.apiKey,
+                model: serviceConfig.model || 'glm-4.7',
+                endpoint: serviceConfig.endpoint,
+                ...promptConfig
             } as ZaiClaudeConfig)
 
         case 'google':
@@ -53,13 +57,18 @@ export async function translateWithAdapter(
     texts: string[],
     sourceLang: string,
     targetLang: string,
-    serviceConfig: TranslationServiceConfig
+    config: ExtensionConfig,
+    retryConfig?: { maxRetries: number; retryDelay: number }
 ): Promise<string[]> {
-    const adapter = getAdapter(serviceConfig)
+    const adapter = getAdapter(config)
+
+    // Default values if not provided
+    const maxRetries = retryConfig?.maxRetries ?? config.maxRetries ?? 3
+    const retryDelay = retryConfig?.retryDelay ?? config.retryDelay ?? 1000
 
     let lastError: Error | null = null
 
-    for (let attempt = 0; attempt < MAX_RETRIES; attempt++) {
+    for (let attempt = 0; attempt < maxRetries; attempt++) {
         try {
             return await adapter.translate(texts, sourceLang, targetLang)
         } catch (error) {
@@ -70,8 +79,8 @@ export async function translateWithAdapter(
             }
 
             // Exponential backoff
-            if (attempt < MAX_RETRIES - 1) {
-                await sleep(RETRY_DELAY_MS * Math.pow(2, attempt))
+            if (attempt < maxRetries - 1) {
+                await sleep(retryDelay * Math.pow(2, attempt))
             }
         }
     }
@@ -86,11 +95,11 @@ export async function translateStreamWithAdapter(
     texts: string[],
     sourceLang: string,
     targetLang: string,
-    serviceConfig: TranslationServiceConfig,
+    config: ExtensionConfig,
     onChunk: (index: number, translation: string) => void
 ): Promise<void> {
     // Streaming only supported for zai-claude
-    const adapter = getAdapter(serviceConfig)
+    const adapter = getAdapter(config)
 
     // Check if adapter supports streaming
     if (adapter.translateStream) {
@@ -100,7 +109,7 @@ export async function translateStreamWithAdapter(
 
     // Fallback to batch translation
     try {
-        const results = await translateWithAdapter(texts, sourceLang, targetLang, serviceConfig)
+        const results = await translateWithAdapter(texts, sourceLang, targetLang, config)
         results.forEach((result, index) => onChunk(index, result))
     } catch (error) {
         throw error

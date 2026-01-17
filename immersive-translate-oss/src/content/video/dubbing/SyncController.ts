@@ -30,6 +30,11 @@ export class SyncController {
     private waitingForCueIndex: number = -1
     private waitingTimeout: ReturnType<typeof setTimeout> | null = null
 
+    // Constants
+    private readonly SMART_PAUSE_BUFFER = 0.25 // Pausing 0.25s before end
+    private readonly SMART_PAUSE_TOLERANCE = -1.0 // Don't pause if way past end
+
+
     // Smart Pause State
     private isSpeaking: boolean = false
     private pausedForDubbing: boolean = false
@@ -214,7 +219,7 @@ export class SyncController {
             if (currentCue) {
                 // Buffer zone: pause 0.2s before the literal end to avoid frame skipping over it
                 const timeToFinish = currentCue.endTime - currentTime
-                if (timeToFinish < 0.25 && timeToFinish > -1.0) { // Tolerance range
+                if (timeToFinish < this.SMART_PAUSE_BUFFER && timeToFinish > this.SMART_PAUSE_TOLERANCE) { // Tolerance range
                     if (!this.pausedForDubbing) {
                         console.log(`[SyncController] Smart Pause: waiting for TTS (Cue ${this.state.currentCueIndex})`)
                         this.pausedForDubbing = true

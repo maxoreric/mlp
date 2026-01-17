@@ -1,9 +1,12 @@
 import { useEffect, useState } from 'react'
-import { Switch } from '../components/ui/Switch'
-import { Icons } from '../components/ui/Icons'
 import { Select } from '../components/ui/Select'
 import { ExtensionConfig, DEFAULT_CONFIG, TranslationServiceType } from '../types/config'
 import { MessagePayload, MessageResponse } from '../types/messages'
+import { Header } from './components/Header'
+import { TranslationControl } from './components/TranslationControl'
+import { DubbingControl } from './components/DubbingControl'
+import { PdfLink } from './components/PdfLink'
+import { PromptManager } from './components/PromptManager'
 
 const SERVICE_OPTIONS: { value: TranslationServiceType; label: string }[] = [
     { value: 'google', label: 'Google 翻译 (免费)' },
@@ -122,116 +125,24 @@ export default function App() {
 
     return (
         <div className="w-80 bg-slate-50 min-h-[500px] flex flex-col font-sans text-slate-800">
-            {/* Header */}
-            <div className="flex items-center justify-between px-6 py-5 bg-gradient-to-r from-sky-500 to-indigo-600 shadow-lg z-10 text-white">
-                <div className="flex items-center space-x-3">
-                    <div className="bg-white/20 p-2 rounded-xl backdrop-blur-sm">
-                        <Icons.Globe className="w-5 h-5 text-white" />
-                    </div>
-                    <div>
-                        <h1 className="font-bold text-lg leading-tight tracking-tight">Immersive</h1>
-                        <p className="text-[10px] text-sky-100 font-medium tracking-wider opacity-90">TRANSLATE OSS</p>
-                    </div>
-                </div>
-                <button
-                    onClick={openOptions}
-                    className="p-2 hover:bg-white/10 rounded-lg transition-colors text-white/80 hover:text-white"
-                    title="设置"
-                >
-                    <Icons.Settings className="w-5 h-5" />
-                </button>
-            </div>
+            <Header onOpenOptions={openOptions} />
 
             {/* Main Content */}
             <div className="flex-1 p-5 space-y-5 overflow-y-auto">
-                {/* Main Toggle Card */}
-                <div className="bg-white rounded-2xl p-5 shadow-sm border border-slate-100 hover:shadow-md transition-shadow">
-                    <div className="flex items-center justify-between mb-4">
-                        <div className="flex items-center space-x-3">
-                            <div className={`relative flex h-3 w-3`}>
-                                {config.enabled && <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>}
-                                <span className={`relative inline-flex rounded-full h-3 w-3 ${config.enabled ? 'bg-green-500' : 'bg-slate-300'}`}></span>
-                            </div>
-                            <span className="font-semibold text-slate-700">网页翻译</span>
-                        </div>
-                        <Switch checked={config.enabled} onChange={(checked) => handleToggle('enabled', checked)} />
-                    </div>
+                <TranslationControl
+                    enabled={config.enabled}
+                    translating={translating}
+                    onToggle={(checked) => handleToggle('enabled', checked)}
+                    onTranslate={handleTranslatePage}
+                />
 
-                    <button
-                        onClick={handleTranslatePage}
-                        disabled={!config.enabled || translating}
-                        className="w-full py-3 bg-slate-50 text-sky-600 hover:bg-sky-50 hover:text-sky-700 disabled:opacity-50 disabled:cursor-not-allowed font-semibold rounded-xl text-sm transition-all flex items-center justify-center space-x-2 border border-slate-100/50"
-                    >
-                        {translating ? (
-                            <>
-                                <div className="w-4 h-4 border-2 border-current border-t-transparent rounded-full animate-spin"></div>
-                                <span>翻译中...</span>
-                            </>
-                        ) : (
-                            <>
-                                <Icons.Translate className="w-4 h-4" />
-                                <span>翻译当前页面</span>
-                            </>
-                        )}
-                    </button>
-                </div>
+                <DubbingControl
+                    enabled={!!config.videoSubtitle?.enabled}
+                    onToggle={(checked) => handleToggle('videoSubtitle', checked)}
+                    onToggleDubbing={handleToggleDubbing}
+                />
 
-                {/* Video Subtitle Card */}
-                <div className="relative overflow-hidden rounded-2xl bg-slate-900 p-5 shadow-lg text-white group">
-                    <div className="absolute top-0 right-0 p-4 opacity-5 transform group-hover:scale-110 transition-transform duration-500">
-                        <Icons.Video className="w-24 h-24" />
-                    </div>
-
-                    <div className="relative z-10">
-                        <div className="flex items-center justify-between mb-4">
-                            <div className="flex items-center space-x-2">
-                                <span className="bg-indigo-500/20 text-indigo-300 p-1.5 rounded-lg">
-                                    <Icons.Video className="w-4 h-4" />
-                                </span>
-                                <span className="font-semibold text-sm tracking-wide">视频增强</span>
-                            </div>
-                            <Switch
-                                checked={!!config.videoSubtitle?.enabled}
-                                onChange={(checked) => handleToggle('videoSubtitle', checked)}
-                                className="brightness-110"
-                            />
-                        </div>
-
-                        <p className="text-xs text-slate-400 mb-4 font-normal leading-relaxed">
-                            为 YouTube 和 Bilibili 提供实时双语字幕与 AI 配音。
-                        </p>
-
-                        {/* Dubbing Toggle Button */}
-                        <button
-                            onClick={handleToggleDubbing}
-                            disabled={!config.videoSubtitle?.enabled}
-                            className={`w-full py-2.5 text-xs font-medium rounded-xl transition-all flex items-center justify-center space-x-2 border 
-                                ${config.videoSubtitle?.enabled
-                                    ? 'bg-indigo-600 hover:bg-indigo-500 text-white border-transparent shadow-lg shadow-indigo-900/20'
-                                    : 'bg-slate-800 text-slate-500 border-slate-700 cursor-not-allowed'}`}
-                        >
-                            <Icons.Volume className="w-3.5 h-3.5" />
-                            <span>启用 AI 配音</span>
-                        </button>
-                    </div>
-                </div>
-
-                {/* PDF Reader Entry */}
-                <button
-                    onClick={() => chrome.tabs.create({ url: chrome.runtime.getURL('pdf/index.html') })}
-                    className="w-full bg-white hover:bg-orange-50/50 text-slate-700 p-4 rounded-2xl shadow-sm border border-slate-100 transition-all flex items-center justify-between group hover:shadow-md hover:border-orange-100"
-                >
-                    <div className="flex items-center space-x-4">
-                        <div className="bg-orange-100 text-orange-600 p-2.5 rounded-xl group-hover:scale-110 transition-transform">
-                            <Icons.FileText className="w-5 h-5" />
-                        </div>
-                        <div className="text-left">
-                            <div className="font-semibold text-sm text-slate-800">PDF 阅读器</div>
-                            <div className="text-xs text-slate-500">本地文件双语对照</div>
-                        </div>
-                    </div>
-                    <Icons.ChevronRight className="w-5 h-5 text-slate-300 group-hover:text-orange-400 transition-colors" />
-                </button>
+                <PdfLink />
             </div>
 
             {/* Footer with Configuration Controls */}
@@ -273,6 +184,113 @@ export default function App() {
                         options={SERVICE_OPTIONS}
                         className="w-full text-xs font-medium"
                     />
+                </div>
+
+                {/* Prompt Manager (Only for AI services) */}
+                {['openai', 'z-ai', 'zai-claude', 'custom'].includes(config.translationService.type) && (
+                    <PromptManager
+                        customPrompts={config.customPrompts || []}
+                        activePromptId={config.activePromptId || 'default-normal'}
+                        onSave={(prompts) => handleConfigChange({ customPrompts: prompts })}
+                        onSelectActive={(id) => handleConfigChange({ activePromptId: id })}
+                    />
+                )}
+
+                <div className="space-y-1.5 pt-2 border-t border-slate-100">
+                    <div className="flex items-center justify-between">
+                        <label className="text-[10px] uppercase font-bold text-slate-400 tracking-wider">每次请求段落数 (Batch Size)</label>
+                        <span className="text-[10px] text-slate-400">{config.requestBatchSize || 30}</span>
+                    </div>
+                    <input
+                        type="range"
+                        min="5"
+                        max="100"
+                        step="5"
+                        value={config.requestBatchSize || 30}
+                        onChange={(e) => handleConfigChange({ requestBatchSize: parseInt(e.target.value) })}
+                        className="w-full h-1 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-indigo-600"
+                    />
+                    <p className="text-[10px] text-slate-400">设置过大可能导致超时，建议值: 20-50</p>
+                </div>
+
+                {/* Advanced Translation Settings */}
+                <div className="space-y-1.5 pt-2 border-t border-slate-100">
+                    <label className="text-[10px] uppercase font-bold text-slate-400 tracking-wider block mb-2">高级设置</label>
+
+                    {/* Retries */}
+                    <div className="grid grid-cols-2 gap-2 mb-2">
+                        <div>
+                            <div className="flex justify-between">
+                                <span className="text-[10px] text-slate-500">重试次数</span>
+                                <span className="text-[10px] text-slate-400">{config.maxRetries ?? 3}</span>
+                            </div>
+                            <input
+                                type="range"
+                                min="0"
+                                max="5"
+                                value={config.maxRetries ?? 3}
+                                onChange={(e) => handleConfigChange({ maxRetries: parseInt(e.target.value) })}
+                                className="w-full h-1 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-indigo-600"
+                            />
+                        </div>
+                        <div>
+                            <div className="flex justify-between">
+                                <span className="text-[10px] text-slate-500">重试延迟 (ms)</span>
+                                <span className="text-[10px] text-slate-400">{config.retryDelay ?? 1000}</span>
+                            </div>
+                            <input
+                                type="range"
+                                min="100"
+                                max="5000"
+                                step="100"
+                                value={config.retryDelay ?? 1000}
+                                onChange={(e) => handleConfigChange({ retryDelay: parseInt(e.target.value) })}
+                                className="w-full h-1 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-indigo-600"
+                            />
+                        </div>
+                    </div>
+
+                    {/* API Endpoint & Model Override */}
+                    {(['openai', 'z-ai', 'zai-claude', 'custom'].includes(config.translationService.type)) && (
+                        <div className="space-y-2 mt-2">
+                            <div>
+                                <label className="text-[10px] text-slate-500 block mb-1">API Endpoint (可选)</label>
+                                <input
+                                    type="text"
+                                    placeholder="默认使用官方端点"
+                                    value={config.translationService.endpoint || ''}
+                                    onChange={(e) => {
+                                        const val = e.target.value
+                                        const updatedService = { ...config.translationService, endpoint: val ? val : undefined }
+                                        handleConfigChange({ translationService: updatedService })
+                                    }}
+                                    className="w-full text-xs px-2 py-1 border border-slate-200 rounded focus:border-indigo-500 outline-none"
+                                />
+                            </div>
+                            <div>
+                                <label className="text-[10px] text-slate-500 block mb-1">模型名称 (Model)</label>
+                                <input
+                                    type="text"
+                                    placeholder="例如: gpt-3.5-turbo, glm-4"
+                                    value={config.translationService.model || ''}
+                                    onChange={(e) => {
+                                        const val = e.target.value
+                                        const updatedService = { ...config.translationService, model: val ? val : undefined }
+                                        handleConfigChange({ translationService: updatedService })
+                                    }}
+                                    className="w-full text-xs px-2 py-1 border border-slate-200 rounded focus:border-indigo-500 outline-none"
+                                />
+                            </div>
+                        </div>
+                    )}
+
+                    {/* Reset Floating Ball */}
+                    <button
+                        onClick={() => handleConfigChange({ floatingBall: { position: { x: -1, y: -1 } } })}
+                        className="w-full mt-3 py-1.5 text-xs text-slate-500 border border-slate-200 rounded hover:bg-slate-50 transition-colors"
+                    >
+                        重置悬浮球位置
+                    </button>
                 </div>
             </div>
         </div>

@@ -136,6 +136,8 @@ export interface FloatingBallCallbacks {
   onTranslate: () => void
   onSettings: () => void
   onToggle: (enabled: boolean) => void
+  onPositionChange?: (x: number, y: number) => void
+  initialPosition?: { x: number, y: number }
 }
 
 export class FloatingBall {
@@ -158,6 +160,16 @@ export class FloatingBall {
     const style = document.createElement('style')
     style.textContent = FLOATING_BALL_STYLES
     this.shadow.appendChild(style)
+
+    // ... rest of init code will be handled by existing code or subsequent edits if needed
+
+    // Logic continues below... I'm just replacing up to the style injection to be safe or I can use target content better.
+    // Actually, I can just replace the interface and constructor signature.
+    // But I entered constructor body in ReplacementContent. 
+    // Let's stick to replacing the interface and class start.
+    // Wait, I need to use `callbacks.initialPosition` in the constructor.
+    // I will do that in a separate edit or include it here if I include the initialization logic.
+
 
     // Create SVG Gradient for progress
     const svgDefs = document.createElement('div')
@@ -208,8 +220,13 @@ export class FloatingBall {
     this.shadow.appendChild(container)
 
     // Set initial position
-    this.wrapper.style.right = '40px'
-    this.wrapper.style.bottom = '100px'
+    if (this.callbacks.initialPosition && this.callbacks.initialPosition.x >= 0 && this.callbacks.initialPosition.y >= 0) {
+      this.wrapper.style.right = `${this.callbacks.initialPosition.x}px`
+      this.wrapper.style.bottom = `${this.callbacks.initialPosition.y}px`
+    } else {
+      this.wrapper.style.right = '40px'
+      this.wrapper.style.bottom = '100px'
+    }
 
     // Setup event listeners
     this.setupEventListeners()
@@ -327,6 +344,13 @@ export class FloatingBall {
   private onDragEnd(): void {
     setTimeout(() => {
       this.isDragging = false
+      if (this.callbacks.onPositionChange) {
+        const rect = this.wrapper.getBoundingClientRect()
+        // Save position relative to bottom-right as per our CSS logic (right/bottom)
+        const right = window.innerWidth - rect.right
+        const bottom = window.innerHeight - rect.bottom
+        this.callbacks.onPositionChange(right, bottom)
+      }
     }, 10)
   }
 

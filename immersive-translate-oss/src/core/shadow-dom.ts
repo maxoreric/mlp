@@ -147,36 +147,46 @@ export function updateTranslationContent(
 ): void {
   content.className = isError ? 'translation-text error' : 'translation-text'
 
-  if (!isError && content.closest('.style-sense')) {
+  if (!isError) {
     try {
       // Extract JSON from text (may have markdown code blocks or extra text)
       const jsonText = extractJsonFromText(text)
-      const data = JSON.parse(jsonText)
 
-      // Handle both flat array [{src, tgt}, ...] and nested [[{src, tgt}, ...]]
-      let items: Array<{ src: string, tgt: string }> = []
-      if (Array.isArray(data)) {
-        if (data.length > 0 && Array.isArray(data[0])) {
-          // Nested array: flatten first level
-          items = data.flat()
-        } else if (data.length > 0 && data[0].src) {
-          // Flat array
-          items = data
+      // Only attempt parse if it looks like object/array
+      // Relaxed check: do not require .style-sense parent, specifically for Z.AI streaming behavior
+      if (jsonText.startsWith('{') || jsonText.startsWith('[')) {
+        const data = JSON.parse(jsonText)
+
+        // Handle both flat array [{src, tgt}, ...] and nested [[{src, tgt}, ...]]
+        let items: Array<{ src: string, tgt: string }> = []
+        if (Array.isArray(data)) {
+          if (data.length > 0 && Array.isArray(data[0])) {
+            // Nested array: flatten first level
+            items = data.flat()
+          } else if (data.length > 0 && (data[0].src || data[0].tgt)) {
+            // Flat array
+            items = data
+          }
+        } else if (typeof data === 'object' && data !== null) {
+          // Single object
+          if (data.src || data.tgt) {
+            items = [data]
+          }
         }
-      }
 
-      if (items.length > 0) {
-        content.innerHTML = items.map((item: any) => `
-          <div class="sense-block">
-            <div class="sense-src">${escapeHtml(item.src || '')}</div>
-            <div class="sense-tgt">${escapeHtml(item.tgt || '')}</div>
-          </div>
-        `).join('')
-        return
+        if (items.length > 0) {
+          content.innerHTML = items.map((item: any) => `
+              <div class="sense-block">
+                <div class="sense-src">${escapeHtml(item.src || '')}</div>
+                <div class="sense-tgt">${escapeHtml(item.tgt || '')}</div>
+              </div>
+            `).join('')
+          return
+        }
       }
     } catch (e) {
       // Fallback to plain text if parsing fails
-      console.warn('[Sense Group] Failed to parse:', e, 'Raw:', text.substring(0, 200))
+      // console.warn('[Sense Group] Failed to parse:', e)
     }
   }
 

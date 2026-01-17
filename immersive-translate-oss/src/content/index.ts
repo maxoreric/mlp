@@ -47,6 +47,7 @@ async function init(): Promise<void> {
 
     // Create floating ball
     floatingBall = new FloatingBall({
+        initialPosition: config.floatingBall?.position,
         onTranslate: () => translatePage(),
         onSettings: () => chrome.runtime.openOptionsPage(),
         onToggle: (enabled) => {
@@ -57,6 +58,27 @@ async function init(): Promise<void> {
                 translatedBlocks = new WeakSet()
             }
         },
+        onPositionChange: (x, y) => {
+            // Update local config object
+            if (!config.floatingBall) {
+                config.floatingBall = { position: { x, y } }
+            } else {
+                config.floatingBall.position = { x, y }
+            }
+
+            // Save to storage
+            chrome.storage.local.get('config', (result) => {
+                const currentConfig = result.config || {}
+                const newConfig = {
+                    ...currentConfig,
+                    floatingBall: {
+                        ...(currentConfig.floatingBall || {}),
+                        position: { x, y }
+                    }
+                }
+                chrome.storage.local.set({ config: newConfig })
+            })
+        }
     })
 
     if (config.enabled) {
@@ -218,58 +240,72 @@ async function translatePage(): Promise<void> {
         })
 
         // Prepare texts for streaming translation
-        const texts = sortedBlocks.map(b =>
+        const allTexts = sortedBlocks.map(b =>
             config.displayStyle === 'sense' ? `[SENSE_MODE]${b.text}` : b.text
         )
-        const requestId = `stream_${Date.now()}`
+
+        const batchSize = config.requestBatchSize || 20
         let completedCount = 0
 
-        // Set up listener for streaming chunks
-        const streamListener = (message: MessagePayload) => {
+        const requestOffsetMap = new Map<string, number>()
+
+        const globalStreamListener = (message: MessagePayload) => {
             if (message.action === 'STREAM_CHUNK' && message.data) {
-                const { requestId: msgReqId, index, translation } = message.data as {
-                    requestId: string
-                    index: number
-                    translation: string
-                }
-                if (msgReqId === requestId && uiElements[index]) {
-                    updateTranslationContent(uiElements[index].ui.content, translation)
-                    completedCount++
-                    floatingBall?.setProgress(completedCount / sortedBlocks.length)
-                }
-            } else if (message.action === 'STREAM_COMPLETE' && message.data) {
-                const { requestId: msgReqId } = message.data as { requestId: string }
-                if (msgReqId === requestId) {
-                    console.log('[Immersive Translate] Streaming complete!')
-                    chrome.runtime.onMessage.removeListener(streamListener)
+                const { requestId: msgReqId, index, translation } = message.data as { requestId: string, index: number, translation: string }
+
+                if (requestOffsetMap.has(msgReqId)) {
+                    const offset = requestOffsetMap.get(msgReqId)!
+                    const globalIndex = offset + index
+
+                    if (uiElements[globalIndex]) {
+                        updateTranslationContent(uiElements[globalIndex].ui.content, translation)
+                        // Note: we might want to track completion per block effectively
+                    }
                 }
             }
         }
-        chrome.runtime.onMessage.addListener(streamListener)
 
-        // Send streaming translation request
-        const response = await sendMessage({
-            action: 'TRANSLATE_STREAM',
-            data: {
-                texts,
-                sourceLang: 'auto',
-                targetLang: config.targetLang,
-                requestId,
-            },
-        })
+        chrome.runtime.onMessage.addListener(globalStreamListener)
 
-        if (!response.success) {
-            console.error('[Immersive Translate] Stream request failed:', response.error)
-            // Fall back to error display
-            uiElements.forEach(({ ui }) => {
-                if (!ui.content.textContent || ui.content.classList.contains('loading')) {
-                    updateTranslationContent(ui.content, response.error || '翻译失败', true)
-                }
+        // Process in batches
+        for (let i = 0; i < allTexts.length; i += batchSize) {
+            if (!isTranslating) break // Allow abort
+
+            const chunkTexts = allTexts.slice(i, i + batchSize)
+            const requestId = `stream_batch_${Date.now()}_${i}`
+            requestOffsetMap.set(requestId, i) // Store offset for this batch
+
+            console.log(`[Immersive Translate] Processing batch starting at ${i}, size: ${chunkTexts.length}`)
+
+            const response = await sendMessage({
+                action: 'TRANSLATE_STREAM',
+                data: {
+                    texts: chunkTexts,
+                    sourceLang: 'auto',
+                    targetLang: config.targetLang,
+                    requestId,
+                },
             })
-            chrome.runtime.onMessage.removeListener(streamListener)
+
+            if (!response.success) {
+                console.error(`[Immersive Translate] Batch failed (start: ${i}):`, response.error)
+                // Mark these as failed
+                chunkTexts.forEach((_, idx) => {
+                    const ui = uiElements[i + idx].ui
+                    updateTranslationContent(ui.content, response.error || '翻译失败', true)
+                })
+            }
+
+            // Clean up map for this request
+            requestOffsetMap.delete(requestId)
+
+            // Update progress
+            completedCount += chunkTexts.length
+            floatingBall?.setProgress(completedCount / sortedBlocks.length)
         }
 
-        console.log('[Immersive Translate] Translation request sent')
+        chrome.runtime.onMessage.removeListener(globalStreamListener)
+        console.log('[Immersive Translate] All batches complete')
 
     } catch (error) {
         console.error('[Immersive Translate] Translation failed:', error)

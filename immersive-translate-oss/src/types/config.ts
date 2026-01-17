@@ -9,6 +9,22 @@ export interface ExtensionConfig {
     videoSubtitle: VideoSubtitleConfig
     dubbing: DubbingOptions
     siteRules: SiteRule[]
+    requestBatchSize: number
+    maxRetries: number
+    retryDelay: number
+    floatingBall: {
+        position: { x: number; y: number }
+    }
+    customPrompts: PromptTemplate[]
+    activePromptId: string // 'default-normal' | 'default-sense' | custom UUID
+}
+
+export interface PromptTemplate {
+    id: string
+    name: string
+    type: 'normal' | 'sense'
+    system: string
+    user?: string
 }
 
 export type TranslationServiceType = 'google' | 'openai' | 'custom' | 'z-ai' | 'zai-claude'
@@ -54,4 +70,12 @@ export const DEFAULT_CONFIG: ExtensionConfig = {
     },
     dubbing: DEFAULT_DUBBING_OPTIONS,
     siteRules: [],
+    requestBatchSize: 30,
+    maxRetries: 3,
+    retryDelay: 1000,
+    floatingBall: {
+        position: { x: -1, y: -1 } // -1 indicates default position (calculated in CSS/JS)
+    },
+    customPrompts: [],
+    activePromptId: 'default-normal'
 }
