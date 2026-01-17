@@ -1,0 +1,473 @@
+{
+   "accountBalance": {
+      "message": "Stanje računa:"
+   },
+   "advancedSettings": {
+      "message": "Napredne postavke"
+   },
+   "aiSubtitlesRecognitionInBackground": {
+      "message": "AI titlovi još nisu dostupni. Dodatak je započeo njihovo prepoznavanje u pozadini. Nakon što čujete prvu sinkroniziranu rečenicu, možete zatvoriti stranicu i pričekati obavijest e-poštom; kada bude spremno, gumb za sinkronizaciju će postati zelen i kvaliteta prijevoda će biti bolja."
+   },
+   "back": {
+      "message": "Natrag"
+   },
+   "backToSettings": {
+      "message": "Natrag na postavke"
+   },
+   "backgroundAudio": {
+      "message": "Pozadinski zvuk"
+   },
+   "balanceRequiredText": {
+      "message": "Stanje vašeg računa je nedovoljno. Molimo doplatite za korištenje ove značajke"
+   },
+   "balanceRequiredTitle": {
+      "message": "Potrebno stanje"
+   },
+   "balanceRunningLow": {
+      "message": "Vaše stanje se smanjuje. Kako biste izbjegli loše iskustvo gledanja, preporučujemo dopunu unaprijed."
+   },
+   "browserShortcutSettingsTip": {
+      "message": "Molimo konfigurirajte prečace u postavkama proširenja preglednika"
+   },
+   "cancel": {
+      "message": "Odustani"
+   },
+   "cancelButton": {
+      "message": "Odustani"
+   },
+   "completing": {
+      "message": "Dovršavanje"
+   },
+   "confirmButton": {
+      "message": "Nastavi i spremi"
+   },
+   "confirmDeleteSpeaker": {
+      "message": "Jeste li sigurni da želite izbrisati ovog govornika?"
+   },
+   "contentMenusTitle": {
+      "message": "Pokreni reprodukciju sinkronizacije"
+   },
+   "corsNotSupported": {
+      "message": "Ova web stranica ne dopušta preuzimanje medijskih datoteka. Univerzalna sinkronizacija nije podržana."
+   },
+   "debugInfo": {
+      "message": "Informacije o otklanjanju grešaka"
+   },
+   "delete": {
+      "message": "Izbriši"
+   },
+   "deleteSpeaker": {
+      "message": "Izbriši"
+   },
+   "description": {
+      "message": "Prijevod i sinkronizacija videozapisa—razumijte strane jezike, pristupite globalnom znanju"
+   },
+   "disableGlobally": {
+      "message": "Onemogući globalno"
+   },
+   "doNotClosePage": {
+      "message": "Molimo ne zatvarajte niti osvježavajte ovu stranicu tijekom učitavanja, inače će učitavanje biti prekinuto."
+   },
+   "downloading": {
+      "message": "Preuzimanje"
+   },
+   "dropboxClickCcToTranscribe": {
+      "message": "Ovaj videozapis još nije transkribiran. Molimo kliknite na CC gumb na dnu Dropbox videozapisa za transkripciju titlova. Nakon završetka transkripcije, kliknite na gumb za sinkronizaciju dodatka za prijevod i sinkronizaciju."
+   },
+   "dropdownNoOptions": {
+      "message": "Nema dostupnih opcija"
+   },
+   "dropdownPlaceholder": {
+      "message": "Molimo odaberite"
+   },
+   "dropdownSearch": {
+      "message": "Pretraži..."
+   },
+   "dubbingSettings": {
+      "message": "Postavke sinkronizacije"
+   },
+   "edgeShortcutSettingsTip": {
+      "message": "Otvaranje stranice postavki prečaca Edge proširenja"
+   },
+   "edit": {
+      "message": "Uredi"
+   },
+   "editSpeaker": {
+      "message": "Uredi"
+   },
+   "enterSpeakerName": {
+      "message": "Unesite ime govornika"
+   },
+   "enterVoice": {
+      "message": "Unesite naziv glasa"
+   },
+   "error": {
+      "message": "Greška"
+   },
+   "female": {
+      "message": "Ženski"
+   },
+   "firefoxShortcutSettingsTip": {
+      "message": "Otvaranje Firefox stranice dodataka, molimo postavite prečace u Proširenja i Teme"
+   },
+   "free": {
+      "message": "Besplatno"
+   },
+   "freeForVip": {
+      "message": "Besplatno za VIP"
+   },
+   "freeOptionTipText": {
+      "message": "Ako ne želite doplatiti, možete odabrati besplatnu opciju, "
+   },
+   "freeUserDailyLimit": {
+      "message": "Besplatni korisnici mogu gledati do 5 videozapisa dnevno putem dodatka. Nadogradite na članstvo za neograničeno gledanje."
+   },
+   "freeUserNoSubtitles": {
+      "message": "Ovaj videozapis nema ugrađene titlove. Molimo pretplatite se na članstvo dodatka za prepoznavanje titlova i uživajte u značajkama prijevoda i sinkronizacije."
+   },
+   "gender": {
+      "message": "Spol"
+   },
+   "hideUntilNextVisit": {
+      "message": "Sakrij do sljedećeg posjeta"
+   },
+   "insufficientBalance": {
+      "message": "Zbog nedovoljnog stanja, usluga je prešla na Google Translate. Za korištenje AI prijevoda, molimo doplatite kredit."
+   },
+   "insufficientBalanceAlertMsg": {
+      "message": "Vaše stanje je nedovoljno. Molimo nadoplatite stanje prije korištenja AI prijevoda i Azure TTS. Ako ne želite nadoplatiti, možete se vratiti na Google Translate i besplatne tipove glasa."
+   },
+   "insufficientBalanceAndMembership": {
+      "message": "Molimo doplatite članstvo i stanje prije korištenja AI prijevoda i Azure TTS. Ako ne želite doplatiti, također možete odabrati Google Translate i besplatne tipove glasa."
+   },
+   "insufficientMembership": {
+      "message": "Vaše članstvo je isteklo. Molimo doplatite članstvo prije korištenja AI prijevoda i Azure TTS. Ako ne želite doplatiti, također možete odabrati Google Translate i besplatne tipove glasa."
+   },
+   "iosInterceptorConflictMessage": {
+      "message": "Drugo proširenje preglednika blokira presretanje zahtjeva za titlove. Onemogućite proširenja u sukobu, osvježite stranicu i pokušajte ponovno."
+   },
+   "iosInterceptorConflictTitle": {
+      "message": "Otkriven sukob proširenja"
+   },
+   "iosOpenOriginVolume": {
+      "message": "Uključi izvorni zvuk"
+   },
+   "iosUniversalDubbingNotSupported": {
+      "message": "Univerzalna sinkronizacija nije podržana na iOS uređajima. Molimo koristite desktop preglednik."
+   },
+   "liveStreamNotSupported": {
+      "message": "Prijenos uživo nije podržan za univerzalnu sinkronizaciju."
+   },
+   "liveVideoNotSupported": {
+      "message": "Sinkronizacija live prijenosa trenutno nije podržana"
+   },
+   "loading": {
+      "message": "učitavanje"
+   },
+   "login": {
+      "message": "Prijava"
+   },
+   "loginAndUsePlugin": {
+      "message": "Molimo prvo kliknite na ikonu dodatka za prijavu, zatim koristite dodatak za reprodukciju sinkronizacije."
+   },
+   "logout": {
+      "message": "Odjava"
+   },
+   "lowBalanceText": {
+      "message": "Stanje vašeg računa je ispod 1 $. Preporučujemo dopunu uskoro kako biste osigurali neprekinutu uslugu"
+   },
+   "lowBalanceTitle": {
+      "message": "Upozorenje o niskom stanju"
+   },
+   "male": {
+      "message": "Muški"
+   },
+   "man": {
+      "message": "Muški"
+   },
+   "mediaSourceNotDetected": {
+      "message": "Nije moguće otkriti izvor videozapisa. Ova web stranica možda nije podržana."
+   },
+   "memberUser": {
+      "message": "PRO"
+   },
+   "membershipExpires": {
+      "message": "Istječe:"
+   },
+   "membershipIcon": {
+      "message": "Ikona članstva"
+   },
+   "membershipRequired": {
+      "message": "Molimo nadogradite na članstvo prije korištenja OpenAI prijevoda."
+   },
+   "membershipRequiredForAI": {
+      "message": "Molimo doplatite članstvo prije korištenja AI prijevoda. Ako ne želite doplatiti, također možete odabrati Google Translate."
+   },
+   "membershipRequiredTitle": {
+      "message": "Potrebno članstvo"
+   },
+   "metadataNotFound": {
+      "message": "Metapodaci videozapisa nisu pronađeni, osvježite stranicu i pokušajte ponovno"
+   },
+   "multiVideoNotSupported": {
+      "message": "Ova stranica ima više videozapisa. Univerzalna sinkronizacija podržava samo stranice s jednim videozapisom pri korištenju HLS streamova."
+   },
+   "name": {
+      "message": "YouTube Dubbing – Prijevod i Sinkronizacija"
+   },
+   "noAudioTrackFound": {
+      "message": "Nije pronađen audio zapis. Ovaj video izgleda kao samo video bez zvuka i ne može se koristiti za prepoznavanje sinkronizacije."
+   },
+   "noSpeakers": {
+      "message": "Nema govornika"
+   },
+   "noSubtitlesFound": {
+      "message": "Ovaj videozapis nema titlove i ne podržava prijevod i sinkronizaciju"
+   },
+   "noSubtitlesWaitOptimization": {
+      "message": "Titlovi nisu dostupni. Molimo pričekajte da dodatak prepozna titlove za ovaj videozapis. Primit ćete obavijest e-poštom na vašu registriranu adresu nakon što prepoznavanje bude dovršeno."
+   },
+   "notSupported": {
+      "message": "Nije podržano"
+   },
+   "originalAudio": {
+      "message": "Izvorni"
+   },
+   "pauseVideo": {
+      "message": "Pauziraj videozapis"
+   },
+   "pay": {
+      "message": "Plati"
+   },
+   "pleaseClickVideoToPlay": {
+      "message": "Kliknite na video da biste ga otvorili, a zatim upotrijebite značajku sinkronizacije."
+   },
+   "postLoginTranslationSettings": {
+      "message": "Prijava uspješna. Kliknite na ikonu dodatka za odabir jezika prijevoda i popisa glasova."
+   },
+   "premiumMemberDurationLimit": {
+      "message": "Ovaj videozapis nema titlove i trajanje videozapisa prelazi 3 sata, prijevod i sinkronizacija nisu podržani. Molimo odaberite kraći videozapis ili videozapis s titlovima."
+   },
+   "rechargeLimit": {
+      "message": "Kredit+Član"
+   },
+   "safariShortcutSettingsTip": {
+      "message": "Molimo postavite prečace u Safari > Postavke > Proširenja"
+   },
+   "save": {
+      "message": "Spremi"
+   },
+   "saveFailedText": {
+      "message": "Spremanje postavki nije uspjelo, pokušajte ponovno"
+   },
+   "saveFailedTitle": {
+      "message": "Spremanje neuspjelo"
+   },
+   "saveSuccessText": {
+      "message": "Postavke uspješno spremljene"
+   },
+   "saveSuccessTitle": {
+      "message": "Spremanje uspješno"
+   },
+   "save_settings": {
+      "message": "Spremi postavke"
+   },
+   "saving": {
+      "message": "Spremanje..."
+   },
+   "searchSourceLanguage": {
+      "message": "Pretraži izvorni jezik..."
+   },
+   "searchTargetLanguage": {
+      "message": "Pretraži ciljni jezik..."
+   },
+   "selectSourceLanguage": {
+      "message": "Odaberi izvorni jezik"
+   },
+   "selectSpeaker": {
+      "message": "Odaberi"
+   },
+   "selectTargetLanguage": {
+      "message": "Odaberi ciljni jezik"
+   },
+   "sex": {
+      "message": "Spol:"
+   },
+   "shortcutSettings": {
+      "message": "Postavke prečaca"
+   },
+   "showSubtitle": {
+      "message": "titlovi:"
+   },
+   "sourceLanguage": {
+      "message": "Izvorni jezik"
+   },
+   "source_languages": {
+      "message": "Izvorni jezik:"
+   },
+   "speaker": {
+      "message": "Govornik"
+   },
+   "speakerList": {
+      "message": "Popis govornika"
+   },
+   "speakerName": {
+      "message": "Ime govornika"
+   },
+   "speakersTitle": {
+      "message": "Govornici"
+   },
+   "startUpload": {
+      "message": "Započni prijenos"
+   },
+   "subscribe": {
+      "message": "Pretplati se"
+   },
+   "subscriptionRecharge": {
+      "message": "Pretplata & nadoplata"
+   },
+   "subtitleSize": {
+      "message": "Veličina"
+   },
+   "subtitles": {
+      "message": "Titlovi"
+   },
+   "subtitlesRateLimitedByYouTube": {
+      "message": "Titlovi za ovaj videozapis trenutno su ograničeni od strane YouTubea. Molimo pokušajte ponovno kasnije."
+   },
+   "swapVolumeSettingsCommand": {
+      "message": "Prebaci postavke glasnoće između izvornog i sinkroniziranog zvuka"
+   },
+   "switchModelWarning": {
+      "message": "Promjena glasa ili modela prijevoda tijekom reprodukcije videozapisa uzrokovat će dodatne troškove zbog potrošenih resursa. Preporučujemo promjenu u sljedećem videozapisu. Za nastavak, kliknite Nastavi i spremi."
+   },
+   "targetLanguage": {
+      "message": "Ciljni jezik"
+   },
+   "target_languages": {
+      "message": "Ciljni jezik:"
+   },
+   "taskAlreadySubmitted": {
+      "message": "Ovaj video se već obrađuje za AI prepoznavanje titlova. Molimo pričekajte obavijest putem e-pošte."
+   },
+   "textToSpeech": {
+      "message": "Tekst u govor:"
+   },
+   "textToSpeechToggle": {
+      "message": "Plutajući gumb"
+   },
+   "toggleSubtitles": {
+      "message": "Uključi/isključi titlove"
+   },
+   "tooExpensive": {
+      "message": "Skupo"
+   },
+   "translateEngineTipText": {
+      "message": "promijenite uslugu prijevoda na Google"
+   },
+   "translateService": {
+      "message": "Prijevod:"
+   },
+   "translatedAudio": {
+      "message": "Prijevod"
+   },
+   "translationEngine": {
+      "message": "Prevodilački sustav"
+   },
+   "translationService": {
+      "message": "Usluga prijevoda"
+   },
+   "translationServiceTitle": {
+      "message": "Usluga prijevoda"
+   },
+   "trialMemberDurationLimit": {
+      "message": "Ovaj videozapis nema titlove. Kao probni član, trenutno su podržani samo videozapisi kraći od 15 minuta za prepoznavanje titlova. Premium članovi podržavaju videozapise do 3 sata."
+   },
+   "trialMemberModelLimit": {
+      "message": "Probni članovi mogu koristiti samo Gemini i Google Translate. Za korištenje drugih modela, molimo pretplatite se na naše članstvo."
+   },
+   "universalDubbingMemberOnly": {
+      "message": "Univerzalna sinkronizacija zahtijeva cloud GPU računalnu snagu (visok trošak), samo za VIP."
+   },
+   "universalDubbingNotSupported": {
+      "message": "Univerzalna sinkronizacija nije podržana za ovaj videozapis u trenutnoj verziji. Podrška je planirana u sljedećoj verziji. Molimo kontaktirajte korisničku podršku za detalje."
+   },
+   "unknownError": {
+      "message": "Došlo je do nepoznate greške. Molimo pokušajte ponovo."
+   },
+   "upgradeMembershipForBackgroundRecognition": {
+      "message": "Nadogradite na članstvo i dodatak će prepoznati AI titlove u pozadini. Nakon što primite obavijest e-poštom, vratite se gledati; gumb za sinkronizaciju će postati zelen i prijevodi će biti točniji."
+   },
+   "uploadComplete": {
+      "message": "Prijenos dovršen"
+   },
+   "uploadFailed": {
+      "message": "Prijenos nije uspio"
+   },
+   "uploadMediaForRecognition": {
+      "message": "Nisu pronađeni titlovi. Želite li prenijeti videozapis za AI prepoznavanje titlova?"
+   },
+   "uploading": {
+      "message": "Prijenos"
+   },
+   "uploadingMedia": {
+      "message": "Prijenos medija..."
+   },
+   "videoDrmProtected": {
+      "message": "Ovaj video je zaštićen DRM-om i ne može se koristiti za sinkronizaciju."
+   },
+   "videoDurationExceedsLimit": {
+      "message": "Ovaj video prelazi 3 sata trajanja. Univerzalna sinkronizacija trenutno nije podržana za videe duže od 3 sata."
+   },
+   "vipAndBalanceRequiredText": {
+      "message": "Morate biti član i imati dovoljno stanja za korištenje ove značajke"
+   },
+   "vipAndBalanceRequiredTitle": {
+      "message": "Potrebno članstvo i stanje"
+   },
+   "vipFreeOptionTipText": {
+      "message": "Kao član, možete besplatno koristiti sljedeće usluge prijevoda"
+   },
+   "vipRequiredText": {
+      "message": "Morate biti član za korištenje ove značajke"
+   },
+   "vipRequiredTitle": {
+      "message": "Potrebno članstvo"
+   },
+   "vipTranslateEngineTipText": {
+      "message": "Promijenite uslugu prijevoda na besplatne usluge za članove poput gemini, deepseek, gpt-3.5-turbo ili claude-3-haiku"
+   },
+   "voice": {
+      "message": "Glas"
+   },
+   "voiceSettingsMismatch": {
+      "message": "Vrsta glasa i postavke glasa ne odgovaraju. Idite na stranicu postavki da ponovno odaberete i spremite postavke glasa."
+   },
+   "voiceTypeTipText": {
+      "message": "promijenite tip glasa na besplatnu verziju"
+   },
+   "voices": {
+      "message": "Glas:"
+   },
+   "voicesAndSubtitles": {
+      "message": "Glas i titlovi"
+   },
+   "voicesAndSubtitlesTitle": {
+      "message": "Glas i titlovi"
+   },
+   "voicesType": {
+      "message": "Tip glasa:"
+   },
+   "waitingForRecognition": {
+      "message": "Video je uspješno učitan. AI prepoznavanje titlova je u tijeku. Primit ćete obavijest e-poštom kada bude spremno."
+   },
+   "woman": {
+      "message": "Ženski"
+   },
+   "zoomRecordingDnrNotSupported": {
+      "message": "Vaš preglednik ne podržava prepoznavanje učitavanja Zoom snimki. Molimo koristite Chrome/Edge."
+   },
+   "zoomRecordingDownloadForbidden403": {
+      "message": "Preuzimanje Zoom snimke je zabranjeno (403). Molimo reproducirajte/osvježite stranicu za verifikaciju, zatim pokušajte ponovno."
+   }
+}

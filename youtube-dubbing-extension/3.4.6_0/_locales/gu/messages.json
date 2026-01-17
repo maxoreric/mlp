@@ -1,0 +1,470 @@
+{
+   "accountBalance": {
+      "message": "ખાતા બેલેન્સ:"
+   },
+   "advancedSettings": {
+      "message": "ઉન્નત સેટિંગ્સ"
+   },
+   "aiSubtitlesRecognitionInBackground": {
+      "message": "AI સબટાઇટલ હજી ઉપલબ્ધ નથી। પ્લગઇને બેકગ્રાઉન્ડમાં ઓળખ શરૂ કરી છે। પહેલું ડબ કરેલું વાક્ય સાંભળ્યા પછી તમે પેજ બંધ કરી શકો છો અને ઈમેલ સૂચનાની રાહ જોઈ શકો છો; તૈયાર થયા પછી ડબિંગ બટન લીલું થશે અને અનુવાદ ગુણવત્તા વધુ સારી હશે।"
+   },
+   "back": {
+      "message": "પાછા"
+   },
+   "backToSettings": {
+      "message": "સેટિંગ્સ પર પાછા"
+   },
+   "backgroundAudio": {
+      "message": "પૃષ્ઠભૂમિ ધ્વનિ"
+   },
+   "balanceRequiredText": {
+      "message": "તમારું ખાતા બેલેન્સ અપૂરતું છે। આ સુવિધાનો ઉપયોગ કરવા માટે કૃપા કરીને રિચાર્જ કરો"
+   },
+   "balanceRequiredTitle": {
+      "message": "બેલેન્સ જરૂરી"
+   },
+   "balanceRunningLow": {
+      "message": "તમારું બેલેન્સ ઓછું થઈ રહ્યું છે। ખરાબ જોવાના અનુભવને ટાળવા માટે, અગાઉથી રિચાર્જ કરવાની ભલામણ કરવામાં આવે છે।"
+   },
+   "browserShortcutSettingsTip": {
+      "message": "કૃપા કરીને બ્રાઉઝર એક્સટેન્શન સેટિંગ્સમાં શોર્ટકટ ગોઠવો"
+   },
+   "cancel": {
+      "message": "રદ કરો"
+   },
+   "cancelButton": {
+      "message": "રદ કરો"
+   },
+   "completing": {
+      "message": "પૂર્ણ થઈ રહ્યું છે"
+   },
+   "confirmButton": {
+      "message": "ચાલુ રાખો અને સાચવો"
+   },
+   "confirmDeleteSpeaker": {
+      "message": "શું તમે ખરેખર આ સ્પીકરને કાઢી નાખવા માંગો છો?"
+   },
+   "contentMenusTitle": {
+      "message": "વોઇસઓવર પ્લેબેક શરૂ કરો"
+   },
+   "corsNotSupported": {
+      "message": "આ વેબસાઇટ મીડિયા ફાઇલો ડાઉનલોડ કરવાની મંજૂરી આપતી નથી. યુનિવર્સલ ડબિંગ સપોર્ટેડ નથી."
+   },
+   "debugInfo": {
+      "message": "ડિબગ માહિતી"
+   },
+   "delete": {
+      "message": "કાઢી નાખો"
+   },
+   "deleteSpeaker": {
+      "message": "કાઢી નાખો"
+   },
+   "description": {
+      "message": "એક ક્લિકમાં વિડિઓ અનુવાદ અને ડબિંગ—વિદેશી ભાષાઓ તરત સમજો, વૈશ્વિક જ્ઞાન મેળવો"
+   },
+   "disableGlobally": {
+      "message": "વૈશ્વિક રીતે નિષ્ક્રિય કરો"
+   },
+   "doNotClosePage": {
+      "message": "કૃપા કરીને અપલોડ દરમિયાન આ પૃષ્ઠ બંધ અથવા રિફ્રેશ ન કરો, નહીં તો અપલોડ અટકી જશે."
+   },
+   "downloading": {
+      "message": "ડાઉનલોડ થઈ રહ્યું છે"
+   },
+   "dropboxClickCcToTranscribe": {
+      "message": "આ વિડિઓ હજી ટ્રાન્સક્રાઇબ થયો નથી। કૃપા કરીને સબટાઇટલ ટ્રાન્સક્રાઇબ કરવા માટે Dropbox વિડિઓના તળિયે CC બટન પર ક્લિક કરો। ટ્રાન્સક્રિપ્શન પૂર્ણ થયા પછી, અનુવાદ અને ડબિંગ માટે પ્લગઇનના ડબિંગ બટન પર ક્લિક કરો।"
+   },
+   "dropdownNoOptions": {
+      "message": "કોઈ વિકલ્પો ઉપલબ્ધ નથી"
+   },
+   "dropdownPlaceholder": {
+      "message": "કૃપા કરીને ચૂંટો"
+   },
+   "dropdownSearch": {
+      "message": "શોધો..."
+   },
+   "dubbingSettings": {
+      "message": "ડબિંગ સેટિંગ્સ"
+   },
+   "edgeShortcutSettingsTip": {
+      "message": "Edge એક્સટેન્શન શોર્ટકટ સેટિંગ્સ પેજ ખોલી રહ્યું છે"
+   },
+   "edit": {
+      "message": "સંપાદિત કરો"
+   },
+   "editSpeaker": {
+      "message": "સંપાદિત કરો"
+   },
+   "enterSpeakerName": {
+      "message": "સ્પીકર નામ દાખલ કરો"
+   },
+   "enterVoice": {
+      "message": "અવાજ નામ દાખલ કરો"
+   },
+   "error": {
+      "message": "ભૂલ"
+   },
+   "female": {
+      "message": "સ્ત્રી"
+   },
+   "firefoxShortcutSettingsTip": {
+      "message": "Firefox એડ-ઓન્સ પેજ ખોલી રહ્યું છે, કૃપા કરીને એક્સટેન્શન્સ અને થીમ્સમાં શોર્ટકટ સેટ કરો"
+   },
+   "free": {
+      "message": "મફત"
+   },
+   "freeForVip": {
+      "message": "VIP મફત"
+   },
+   "freeOptionTipText": {
+      "message": "જો તમે રિચાર્જ કરવા માંગતા નથી, તો તમે મફત વિકલ્પ ચૂંટી શકો છો, "
+   },
+   "freeUserDailyLimit": {
+      "message": "મફત વપરાશકર્તાઓ પ્લગઇન દ્વારા પ્રતિ દિવસ મહત્તમ 5 વિડિઓ જોઈ શકે છે। અમર્યાદિત જોવાના લાભો અનલોક કરવા માટે સભ્યપદ અપગ્રેડ કરો।"
+   },
+   "freeUserNoSubtitles": {
+      "message": "આ વિડિઓમાં બિલ્ટ-ઇન સબટાઇટલ નથી। કૃપા કરીને સબટાઇટલ ઓળખ માટે પ્લગઇન સભ્યપદ લો અને અનુવાદ અને ડબિંગ સુવિધાઓનો આનંદ માણો।"
+   },
+   "gender": {
+      "message": "લિંગ"
+   },
+   "hideUntilNextVisit": {
+      "message": "આગલી મુલાકાત સુધી છુપાવો"
+   },
+   "insufficientBalance": {
+      "message": "અપર્યાપ્ત બેલેન્સને કારણે, સેવા Google Translate પર ડાઉનગ્રેડ કરવામાં આવી છે। AI અનુવાદનો ઉપયોગ કરવા માટે, કૃપા કરીને તમારું ક્રેડિટ રિચાર્જ કરો।"
+   },
+   "insufficientBalanceAlertMsg": {
+      "message": "તમારું બેલેન્સ અપૂરતું છે। AI અનુવાદ અને Azure TTS નો ઉપયોગ કરતા પહેલા કૃપા કરીને તમારું બેલેન્સ રિચાર્જ કરો। જો તમે રિચાર્જ કરવા માંગતા નથી, તો તમે Google Translate અને મફત અવાજ પ્રકારો પર પાછા સ્વિચ કરી શકો છો।"
+   },
+   "insufficientBalanceAndMembership": {
+      "message": "AI અનુવાદ અને Azure TTS નો ઉપયોગ કરતા પહેલા કૃપા કરીને તમારું સભ્યપદ અને બેલેન્સ રિચાર્જ કરો। જો તમે રિચાર્જ કરવા માંગતા નથી, તો તમે Google Translate અને મફત અવાજ પ્રકારો પણ ચૂંટી શકો છો।"
+   },
+   "insufficientMembership": {
+      "message": "તમારું સભ્યપદ સમાપ્ત થઈ ગયું છે। AI અનુવાદ અને Azure TTS નો ઉપયોગ કરતા પહેલા કૃપા કરીને તમારું સભ્યપદ રિચાર્જ કરો। જો તમે રિચાર્જ કરવા માંગતા નથી, તો તમે Google Translate અને મફત અવાજ પ્રકારો પણ ચૂંટી શકો છો।"
+   },
+   "iosInterceptorConflictMessage": {
+      "message": "અન્ય બ્રાઉઝર એક્સટેન્શન સબટાઇટલ વિનંતી ઇન્ટરસેપ્શન બ્લોક કરી રહ્યું છે। સંઘર્ષરત એક્સટેન્શન અક્ષમ કરો, પેજ રિફ્રેશ કરો અને પછી ફરી પ્રયાસ કરો।"
+   },
+   "iosInterceptorConflictTitle": {
+      "message": "એક્સટેન્શન સંઘર્ષ શોધાયો"
+   },
+   "iosOpenOriginVolume": {
+      "message": "મૂળ ઑડિઓ ચાલુ કરો"
+   },
+   "iosUniversalDubbingNotSupported": {
+      "message": "iOS ઉપકરણો પર યુનિવર્સલ ડબિંગ સપોર્ટેડ નથી. કૃપા કરીને ડેસ્કટોપ બ્રાઉઝરનો ઉપયોગ કરો."
+   },
+   "liveStreamNotSupported": {
+      "message": "લાઇવ સ્ટ્રીમ્સ યુનિવર્સલ ડબિંગ માટે સપોર્ટેડ નથી."
+   },
+   "liveVideoNotSupported": {
+      "message": "લાઇવ વિડિઓ ડબિંગ હાલમાં સપોર્ટેડ નથી"
+   },
+   "loading": {
+      "message": "લોડ થઈ રહ્યું છે"
+   },
+   "login": {
+      "message": "લૉગિન"
+   },
+   "loginAndUsePlugin": {
+      "message": "કૃપા કરીને પહેલા પ્લગઇન આઇકન પર ક્લિક કરીને લોગિન કરો, પછી વોઇસઓવર પ્લેબેક માટે પ્લગઇનનો ઉપયોગ કરો।"
+   },
+   "logout": {
+      "message": "લૉગ આઉટ"
+   },
+   "lowBalanceText": {
+      "message": "તમારું ખાતા બેલેન્સ $1 થી નીચે છે। અવિચ્છિન્ન સેવા સુનિશ્ચિત કરવા માટે અમે ટૂંક સમયમાં રિચાર્જ કરવાની ભલામણ કરીએ છીએ"
+   },
+   "lowBalanceTitle": {
+      "message": "ઓછું બેલેન્સ ચેતવણી"
+   },
+   "male": {
+      "message": "પુરુષ"
+   },
+   "man": {
+      "message": "પુરુષ"
+   },
+   "mediaSourceNotDetected": {
+      "message": "વિડિઓ સ્ત્રોત શોધી શકાયો નથી. આ વેબસાઇટ સપોર્ટેડ ન પણ હોઈ શકે."
+   },
+   "memberUser": {
+      "message": "સભ્ય"
+   },
+   "membershipExpires": {
+      "message": "સુધી"
+   },
+   "membershipIcon": {
+      "message": "સભ્યપદ આઇકન"
+   },
+   "membershipRequired": {
+      "message": "કૃપા કરીને OpenAI અનુવાદનો ઉપયોગ કરતા પહેલા સભ્યપદ અપગ્રેડ કરો।"
+   },
+   "membershipRequiredForAI": {
+      "message": "AI અનુવાદનો ઉપયોગ કરતા પહેલા કૃપા કરીને તમારું સભ્યપદ રિચાર્જ કરો। જો તમે રિચાર્જ કરવા માંગતા નથી, તો તમે Google Translate પણ ચૂંટી શકો છો।"
+   },
+   "membershipRequiredTitle": {
+      "message": "સભ્યપદ જરૂરી"
+   },
+   "metadataNotFound": {
+      "message": "વિડિઓ મેટાડેટા મળ્યો નથી, કૃપા કરીને રિફ્રેશ કરો અને ફરી પ્રયાસ કરો"
+   },
+   "multiVideoNotSupported": {
+      "message": "આ પેજમાં બહુવિધ વિડિઓ છે. HLS સ્ટ્રીમ્સનો ઉપયોગ કરતી વખતે યુનિવર્સલ ડબિંગ માત્ર એક વિડિઓ ધરાવતા પેજને સપોર્ટ કરે છે."
+   },
+   "name": {
+      "message": "YouTube Dubbing – AI સબટાઇટલ અનુવાદ અને ડબિંગ | Translate & Dub"
+   },
+   "noAudioTrackFound": {
+      "message": "કોઈ ઓડિયો ટ્રેક મળ્યું નથી. આ વીડિયો ઓડિયો વિનાનું માત્ર વીડિયો લાગે છે અને ડબિંગ ઓળખ માટે ઉપયોગ કરી શકાતું નથી."
+   },
+   "noSpeakers": {
+      "message": "કોઈ સ્પીકર નથી"
+   },
+   "noSubtitlesFound": {
+      "message": "આ વિડિઓમાં સબટાઇટલ નથી અને અનુવાદ અને ડબિંગ સપોર્ટેડ નથી"
+   },
+   "noSubtitlesWaitOptimization": {
+      "message": "કોઈ સબટાઇટલ ઉપલબ્ધ નથી। કૃપા કરીને આ વિડિઓ માટે સબટાઇટલ ઓળખવા માટે પ્લગઇન રાહ જુઓ। ઓળખ પૂર્ણ થયા પછી તમારા નોંધાયેલા ઈમેલ સરનામે સૂચના મળશે।"
+   },
+   "notSupported": {
+      "message": "સપોર્ટેડ નથી"
+   },
+   "originalAudio": {
+      "message": "મૂળ"
+   },
+   "pauseVideo": {
+      "message": "વિડિઓ થોભાવો"
+   },
+   "pay": {
+      "message": "ચૂકવો"
+   },
+   "postLoginTranslationSettings": {
+      "message": "લોગિન સફળ. અનુવાદ ભાષા અને અવાજ ચૂંટવા માટે પ્લગઇન આઇકન પર ક્લિક કરો."
+   },
+   "premiumMemberDurationLimit": {
+      "message": "આ વિડિઓમાં સબટાઇટલ નથી અને વિડિઓ અવધિ 3 કલાકથી વધુ છે, અનુવાદ અને ડબિંગ સપોર્ટેડ નથી। કૃપા કરીને નાનો વિડિઓ અથવા સબટાઇટલ સાથેનો વિડિઓ ચૂંટો।"
+   },
+   "rechargeLimit": {
+      "message": "ક્રેડિટ+સભ્ય"
+   },
+   "safariShortcutSettingsTip": {
+      "message": "કૃપા કરીને Safari > પસંદગીઓ > એક્સટેન્શન્સમાં શોર્ટકટ સેટ કરો"
+   },
+   "save": {
+      "message": "સાચવો"
+   },
+   "saveFailedText": {
+      "message": "સેટિંગ્સ સાચવવી નિષ્ફળ, કૃપા કરીને ફરી પ્રયાસ કરો"
+   },
+   "saveFailedTitle": {
+      "message": "સાચવવું નિષ્ફળ"
+   },
+   "saveSuccessText": {
+      "message": "સેટિંગ્સ સફળતાપૂર્વક સાચવાઈ"
+   },
+   "saveSuccessTitle": {
+      "message": "સફળતાપૂર્વક સાચવ્યું"
+   },
+   "save_settings": {
+      "message": "સેટિંગ્સ સાચવો"
+   },
+   "saving": {
+      "message": "સાચવી રહ્યું છે..."
+   },
+   "searchSourceLanguage": {
+      "message": "સ્રોત ભાષા શોધો..."
+   },
+   "searchTargetLanguage": {
+      "message": "લક્ષ્ય ભાષા શોધો..."
+   },
+   "selectSourceLanguage": {
+      "message": "સ્રોત ભાષા ચૂંટો"
+   },
+   "selectSpeaker": {
+      "message": "ચૂંટો"
+   },
+   "selectTargetLanguage": {
+      "message": "લક્ષ્ય ભાષા ચૂંટો"
+   },
+   "sex": {
+      "message": "લિંગ:"
+   },
+   "shortcutSettings": {
+      "message": "શોર્ટકટ સેટિંગ્સ"
+   },
+   "showSubtitle": {
+      "message": "સબટાઇટલ:"
+   },
+   "sourceLanguage": {
+      "message": "સ્રોત ભાષા"
+   },
+   "source_languages": {
+      "message": "સ્રોત ભાષા:"
+   },
+   "speaker": {
+      "message": "સ્પીકર"
+   },
+   "speakerList": {
+      "message": "સ્પીકર યાદી"
+   },
+   "speakerName": {
+      "message": "સ્પીકર નામ"
+   },
+   "speakersTitle": {
+      "message": "સ્પીકર્સ"
+   },
+   "startUpload": {
+      "message": "અપલોડ શરૂ કરો"
+   },
+   "subscribe": {
+      "message": "સભ્ય બનો"
+   },
+   "subscriptionRecharge": {
+      "message": "સબ્સ્ક્રાઇબ & રિચાર્જ"
+   },
+   "subtitleSize": {
+      "message": "કદ"
+   },
+   "subtitles": {
+      "message": "સબટાઇટલ"
+   },
+   "subtitlesRateLimitedByYouTube": {
+      "message": "આ વિડિઓ માટેના સબટાઇટલ હાલમાં YouTube દ્વારા રેટ-મર્યાદિત છે। કૃપા કરીને પછીથી ફરી પ્રયાસ કરો।"
+   },
+   "swapVolumeSettingsCommand": {
+      "message": "મૂળ અને ડબ કરેલા ઑડિઓ વચ્ચે વોલ્યુમ સેટિંગ્સ ટોગલ કરો"
+   },
+   "switchModelWarning": {
+      "message": "વિડિઓ પ્લેબેક દરમિયાન અવાજ અથવા અનુવાદ મોડેલ સ્વિચ કરવાથી નકામા સંસાધનોને કારણે વધારાના શુલ્ક લાગશે। અમે આગલા વિડિઓમાં સ્વિચ કરવાની ભલામણ કરીએ છીએ। છતાં આગળ વધવા માટે, Continue and Save પર ક્લિક કરો।"
+   },
+   "targetLanguage": {
+      "message": "લક્ષ્ય ભાષા"
+   },
+   "target_languages": {
+      "message": "લક્ષ્ય ભાષા:"
+   },
+   "taskAlreadySubmitted": {
+      "message": "આ વિડિઓ AI સબટાઇટલ ઓળખ માટે પહેલેથી જ પ્રક્રિયામાં છે. કૃપા કરીને ઇમેઇલ સૂચનાની રાહ જુઓ."
+   },
+   "textToSpeech": {
+      "message": "ટેક્સ્ટ ટુ સ્પીચ:"
+   },
+   "textToSpeechToggle": {
+      "message": "ફ્લોટિંગ બટન"
+   },
+   "toggleSubtitles": {
+      "message": "સબટાઇટલ ટોગલ કરો"
+   },
+   "tooExpensive": {
+      "message": "મોંઘું"
+   },
+   "translateEngineTipText": {
+      "message": "અનુવાદ સેવાને Google માં બદલો"
+   },
+   "translateService": {
+      "message": "અનુવાદ:"
+   },
+   "translatedAudio": {
+      "message": "અનુવાદિત"
+   },
+   "translationEngine": {
+      "message": "અનુવાદ એન્જિન"
+   },
+   "translationService": {
+      "message": "અનુવાદ સેવા"
+   },
+   "translationServiceTitle": {
+      "message": "અનુવાદ સેવા"
+   },
+   "trialMemberDurationLimit": {
+      "message": "આ વિડિઓમાં સબટાઇટલ નથી। ટ્રાયલ સભ્ય તરીકે, હાલમાં માત્ર 15 મિનિટથી ઓછા વિડિઓ માટે સબટાઇટલ ઓળખ સપોર્ટેડ છે। પ્રીમિયમ સભ્યો 3 કલાકથી ઓછા વિડિઓ સપોર્ટ કરે છે।"
+   },
+   "trialMemberModelLimit": {
+      "message": "ટ્રાયલ સભ્યો માત્ર Gemini અને Google Translate નો ઉપયોગ કરી શકે છે। અન્ય મોડેલોનો ઉપયોગ કરવા માટે, કૃપા કરીને અમારી સભ્યપદ સબ્સ્ક્રાઇબ કરો।"
+   },
+   "universalDubbingMemberOnly": {
+      "message": "યુનિવર્સલ ડબિંગ માટે ક્લાઉડ GPU કમ્પ્યુટિંગ પાવર જરૂરી છે (ઊંચી કિંમત), ફક્ત VIP માટે."
+   },
+   "universalDubbingNotSupported": {
+      "message": "વર્તમાન સંસ્કરણમાં આ વિડિઓ માટે યુનિવર્સલ ડબિંગ સપોર્ટેડ નથી। આગલા સંસ્કરણમાં સપોર્ટ આપવામાં આવશે। વિગતો માટે કૃપા કરીને ગ્રાહક સેવા સાથે સંપર્ક કરો।"
+   },
+   "unknownError": {
+      "message": "અજ્ઞાત ભૂલ આવી. કૃપા કરીને ફરીથી પ્રયાસ કરો."
+   },
+   "upgradeMembershipForBackgroundRecognition": {
+      "message": "સભ્યપદ અપગ્રેડ કરો અને પ્લગઇન બેકગ્રાઉન્ડમાં AI સબટાઇટલ ઓળખશે। ઈમેલ સૂચના પ્રાપ્ત થયા પછી પાછા આવીને જુઓ; ડબિંગ બટન લીલું થશે અને અનુવાદ વધુ સચોટ હશે।"
+   },
+   "uploadComplete": {
+      "message": "અપલોડ પૂર્ણ"
+   },
+   "uploadFailed": {
+      "message": "અપલોડ નિષ્ફળ"
+   },
+   "uploadMediaForRecognition": {
+      "message": "કોઈ સબટાઇટલ મળ્યા નથી. AI સબટાઇટલ ઓળખ માટે વિડિઓ અપલોડ કરવા માંગો છો?"
+   },
+   "uploading": {
+      "message": "અપલોડ થઈ રહ્યું છે"
+   },
+   "uploadingMedia": {
+      "message": "મીડિયા અપલોડ થઈ રહ્યું છે..."
+   },
+   "videoDrmProtected": {
+      "message": "આ વિડીયો DRM દ્વારા સુરક્ષિત છે અને ડબિંગ માટે ઉપયોગ કરી શકાતો નથી."
+   },
+   "videoDurationExceedsLimit": {
+      "message": "આ વીડિયો 3 કલાકથી વધુ લાંબો છે. 3 કલાકથી વધુ લાંબા વીડિયો માટે હાલમાં યુનિવર્સલ ડબિંગ સપોર્ટેડ નથી."
+   },
+   "vipAndBalanceRequiredText": {
+      "message": "આ સુવિધાનો ઉપયોગ કરવા માટે તમારે સભ્ય બનવાની અને પર્યાપ્ત બેલેન્સ રાખવાની જરૂર છે"
+   },
+   "vipAndBalanceRequiredTitle": {
+      "message": "સભ્યપદ અને બેલેન્સ જરૂરી"
+   },
+   "vipFreeOptionTipText": {
+      "message": "સભ્ય તરીકે, તમે નીચેની અનુવાદ સેવાઓનો મફતમાં ઉપયોગ કરી શકો છો"
+   },
+   "vipRequiredText": {
+      "message": "આ સુવિધાનો ઉપયોગ કરવા માટે તમારે સભ્ય બનવાની જરૂર છે"
+   },
+   "vipRequiredTitle": {
+      "message": "સભ્યપદ જરૂરી"
+   },
+   "vipTranslateEngineTipText": {
+      "message": "અનુવાદ સેવાને gemini, deepseek, gpt-3.5-turbo, અથવા claude-3-haiku જેવી સભ્ય-મફત સેવાઓમાં બદલો"
+   },
+   "voice": {
+      "message": "અવાજ"
+   },
+   "voiceSettingsMismatch": {
+      "message": "અવાજ પ્રકાર અને અવાજ સેટિંગ્સ મેળ ખાતી નથી. કૃપા કરીને સેટિંગ્સ પેજ પર જઈને અવાજ સેટિંગ્સ ફરીથી પસંદ કરો અને સાચવો."
+   },
+   "voiceTypeTipText": {
+      "message": "અવાજ પ્રકારને મફત સંસ્કરણમાં બદલો"
+   },
+   "voices": {
+      "message": "અવાજ:"
+   },
+   "voicesAndSubtitles": {
+      "message": "અવાજ અને સબટાઇટલ"
+   },
+   "voicesAndSubtitlesTitle": {
+      "message": "અવાજ અને સબટાઇટલ"
+   },
+   "voicesType": {
+      "message": "અવાજ પ્રકાર:"
+   },
+   "waitingForRecognition": {
+      "message": "વીડિયો સફળતાપૂર્વક અપલોડ થયો. AI સબટાઇટલ ઓળખ ચાલુ છે. તૈયાર થયા પછી તમને ઇમેઇલ સૂચના મળશે."
+   },
+   "woman": {
+      "message": "સ્ત્રી"
+   },
+   "zoomRecordingDnrNotSupported": {
+      "message": "તમારું બ્રાઉઝર Zoom રેકોર્ડિંગ અપલોડ ઓળખને સમર્થન આપતું નથી. કૃપા કરીને Chrome/Edge નો ઉપયોગ કરો."
+   },
+   "zoomRecordingDownloadForbidden403": {
+      "message": "Zoom રેકોર્ડિંગ ડાઉનલોડ પ્રતિબંધિત હતું (403). કૃપા કરીને ચકાસણી પસાર કરવા માટે પેજ ચલાવો/રીફ્રેશ કરો, પછી ફરી અપલોડ કરવાનો પ્રયાસ કરો."
+   }
+}

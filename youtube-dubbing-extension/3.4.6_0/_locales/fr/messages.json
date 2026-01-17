@@ -1,0 +1,470 @@
+{
+   "accountBalance": {
+      "message": "Solde du compte :"
+   },
+   "advancedSettings": {
+      "message": "Paramètres avancés"
+   },
+   "aiSubtitlesRecognitionInBackground": {
+      "message": "Cette vidéo n'a pas encore de sous-titres IA. Le module a démarré la reconnaissance en arrière-plan. Après avoir entendu la première phrase doublée, vous pouvez fermer la page et attendre l'email de notification; lorsque tout est prêt, le bouton de doublage deviendra vert et la qualité de traduction sera meilleure."
+   },
+   "back": {
+      "message": "Retour"
+   },
+   "backToSettings": {
+      "message": "Retour paramètres"
+   },
+   "backgroundAudio": {
+      "message": "Son de fond"
+   },
+   "balanceRequiredText": {
+      "message": "Rechargez votre solde"
+   },
+   "balanceRequiredTitle": {
+      "message": "Solde requis"
+   },
+   "balanceRunningLow": {
+      "message": "Solde faible, rechargez bientôt."
+   },
+   "browserShortcutSettingsTip": {
+      "message": "Configurez dans extensions"
+   },
+   "cancel": {
+      "message": "Annuler"
+   },
+   "cancelButton": {
+      "message": "Annuler"
+   },
+   "completing": {
+      "message": "Finalisation"
+   },
+   "confirmButton": {
+      "message": "Continuer"
+   },
+   "confirmDeleteSpeaker": {
+      "message": "Êtes-vous sûr de vouloir supprimer ce locuteur?"
+   },
+   "contentMenusTitle": {
+      "message": "Commencer la lecture du doublage"
+   },
+   "corsNotSupported": {
+      "message": "Ce site Web ne permet pas le téléchargement de fichiers multimédias. Le doublage universel n'est pas pris en charge."
+   },
+   "debugInfo": {
+      "message": "Informations de débogage"
+   },
+   "delete": {
+      "message": "Supprimer"
+   },
+   "deleteSpeaker": {
+      "message": "Supprimer"
+   },
+   "description": {
+      "message": "Traduisez et doublez des vidéos en un clic, comprenez les langues, accédez au savoir mondial"
+   },
+   "disableGlobally": {
+      "message": "Désactiver globalement"
+   },
+   "doNotClosePage": {
+      "message": "Veuillez ne pas fermer ni actualiser cette page pendant le téléchargement, sinon le téléchargement sera interrompu."
+   },
+   "downloading": {
+      "message": "Téléchargement"
+   },
+   "dropboxClickCcToTranscribe": {
+      "message": "Cette vidéo n'a pas encore été transcrite. Cliquez sur le bouton CC en bas de la vidéo Dropbox pour créer les sous-titres. Une fois la transcription terminée, cliquez sur le bouton de doublage de l’extension pour traduire et doubler."
+   },
+   "dropdownNoOptions": {
+      "message": "Aucune option"
+   },
+   "dropdownPlaceholder": {
+      "message": "Sélectionnez"
+   },
+   "dropdownSearch": {
+      "message": "Rechercher..."
+   },
+   "dubbingSettings": {
+      "message": "Paramètres de doublage"
+   },
+   "edgeShortcutSettingsTip": {
+      "message": "Ouvre page raccourcis Edge"
+   },
+   "edit": {
+      "message": "Modifier"
+   },
+   "editSpeaker": {
+      "message": "Modifier le locuteur"
+   },
+   "enterSpeakerName": {
+      "message": "Entrer le nom du locuteur"
+   },
+   "enterVoice": {
+      "message": "Entrer le nom de la voix"
+   },
+   "error": {
+      "message": "Erreur"
+   },
+   "female": {
+      "message": "Femme"
+   },
+   "firefoxShortcutSettingsTip": {
+      "message": "Ouvre page add-ons Firefox"
+   },
+   "free": {
+      "message": "Gratuit"
+   },
+   "freeForVip": {
+      "message": "Gratuit pour VIP"
+   },
+   "freeOptionTipText": {
+      "message": "Option gratuite disponible,"
+   },
+   "freeUserDailyLimit": {
+      "message": "Les utilisateurs gratuits peuvent regarder jusqu'à 5 vidéos par jour via le plugin. Passez à l'adhésion pour débloquer les avantages de visualisation illimitée."
+   },
+   "freeUserNoSubtitles": {
+      "message": "Cette vidéo n'a pas de sous-titres intégrés. Veuillez vous abonner à l'adhésion du plugin pour la reconnaissance de sous-titres et profiter des fonctions de traduction et de doublage."
+   },
+   "gender": {
+      "message": "Sexe"
+   },
+   "hideUntilNextVisit": {
+      "message": "Masquer jusqu'à la prochaine visite"
+   },
+   "insufficientBalance": {
+      "message": "Solde insuffisant, passé à Google Trad."
+   },
+   "insufficientBalanceAlertMsg": {
+      "message": "Solde bas, rechargez ou passez à Google."
+   },
+   "insufficientBalanceAndMembership": {
+      "message": "Rechargez votre adhésion et solde avant d'utiliser la traduction IA et Azure TTS. Si vous ne voulez pas recharger, vous pouvez choisir Google Translate et les types de voix gratuits."
+   },
+   "insufficientMembership": {
+      "message": "Votre adhésion a expiré. Rechargez votre adhésion avant d'utiliser la traduction IA et Azure TTS. Si vous ne voulez pas recharger, vous pouvez choisir Google Translate et les types de voix gratuits."
+   },
+   "iosInterceptorConflictMessage": {
+      "message": "Une autre extension du navigateur bloque l’interception des requêtes de sous-titres. Désactivez les extensions en conflit, actualisez la page puis réessayez."
+   },
+   "iosInterceptorConflictTitle": {
+      "message": "Conflit d’extension détecté"
+   },
+   "iosOpenOriginVolume": {
+      "message": "Original"
+   },
+   "iosUniversalDubbingNotSupported": {
+      "message": "Le doublage universel n'est pas pris en charge sur les appareils iOS. Veuillez utiliser un navigateur de bureau."
+   },
+   "liveStreamNotSupported": {
+      "message": "Les diffusions en direct ne sont pas prises en charge pour le doublage universel."
+   },
+   "liveVideoNotSupported": {
+      "message": "Live non pris en charge"
+   },
+   "loading": {
+      "message": "Chargement"
+   },
+   "login": {
+      "message": "Connexion"
+   },
+   "loginAndUsePlugin": {
+      "message": "Connectez-vous via l'icône pour doublage."
+   },
+   "logout": {
+      "message": "Déconnexion"
+   },
+   "lowBalanceText": {
+      "message": "Solde \u003C1$, rechargez vite"
+   },
+   "lowBalanceTitle": {
+      "message": "Solde faible"
+   },
+   "male": {
+      "message": "Homme"
+   },
+   "man": {
+      "message": "Homme"
+   },
+   "mediaSourceNotDetected": {
+      "message": "Impossible de détecter la source vidéo. Ce site web n'est peut-être pas pris en charge."
+   },
+   "memberUser": {
+      "message": "PRO"
+   },
+   "membershipExpires": {
+      "message": "Expire le"
+   },
+   "membershipIcon": {
+      "message": "Icône membre"
+   },
+   "membershipRequired": {
+      "message": "Devenez membre pour OpenAI."
+   },
+   "membershipRequiredForAI": {
+      "message": "Rechargez votre adhésion avant d'utiliser la traduction IA. Si vous ne voulez pas recharger, vous pouvez choisir Google Translate."
+   },
+   "membershipRequiredTitle": {
+      "message": "Abonnement requis"
+   },
+   "metadataNotFound": {
+      "message": "Métadonnées vidéo introuvables, veuillez actualiser la page et réessayer"
+   },
+   "multiVideoNotSupported": {
+      "message": "Cette page contient plusieurs vidéos. Le doublage universel ne prend en charge que les pages avec une seule vidéo lors de l'utilisation de flux HLS."
+   },
+   "name": {
+      "message": "YouTube Dubbing – Traduction et Doublage de Sous-titres par IA | Translate"
+   },
+   "noAudioTrackFound": {
+      "message": "Aucune piste audio détectée. Cette vidéo semble être uniquement vidéo sans audio et ne peut pas être utilisée pour la reconnaissance de doublage."
+   },
+   "noSpeakers": {
+      "message": "Aucun locuteur"
+   },
+   "noSubtitlesFound": {
+      "message": "Cette vidéo n'a pas de sous-titres et ne prend pas en charge la traduction et le doublage"
+   },
+   "noSubtitlesWaitOptimization": {
+      "message": "Aucun sous-titre disponible. Veuillez attendre que le plugin reconnaisse les sous-titres pour cette vidéo. Vous recevrez une notification par e-mail à votre adresse enregistrée une fois la reconnaissance terminée."
+   },
+   "notSupported": {
+      "message": "Non pris en charge"
+   },
+   "originalAudio": {
+      "message": "Original"
+   },
+   "pauseVideo": {
+      "message": "Mettre en pause la vidéo"
+   },
+   "pay": {
+      "message": "Payer"
+   },
+   "postLoginTranslationSettings": {
+      "message": "Connecté, cliquez l'icône pour choisir langue et voix."
+   },
+   "premiumMemberDurationLimit": {
+      "message": "Cette vidéo n'a pas de sous-titres et la durée de la vidéo dépasse 3 heures, la traduction et le doublage ne sont pas pris en charge. Veuillez sélectionner une vidéo plus courte ou une vidéo avec des sous-titres."
+   },
+   "rechargeLimit": {
+      "message": "Crédit + membre"
+   },
+   "safariShortcutSettingsTip": {
+      "message": "Safari > Préférences > Extensions"
+   },
+   "save": {
+      "message": "Enregistrer"
+   },
+   "saveFailedText": {
+      "message": "Échec de l'enregistrement, veuillez réessayer"
+   },
+   "saveFailedTitle": {
+      "message": "Échec sauvegarde"
+   },
+   "saveSuccessText": {
+      "message": "Paramètres enregistrés"
+   },
+   "saveSuccessTitle": {
+      "message": "Enregistrement réussi"
+   },
+   "save_settings": {
+      "message": "Enregistrer"
+   },
+   "saving": {
+      "message": "Enregistrement..."
+   },
+   "searchSourceLanguage": {
+      "message": "Chercher langue source..."
+   },
+   "searchTargetLanguage": {
+      "message": "Chercher langue cible..."
+   },
+   "selectSourceLanguage": {
+      "message": "Choisir langue source"
+   },
+   "selectSpeaker": {
+      "message": "Choisir"
+   },
+   "selectTargetLanguage": {
+      "message": "Choisir langue cible"
+   },
+   "sex": {
+      "message": "Sexe :"
+   },
+   "shortcutSettings": {
+      "message": "Raccourcis clavier"
+   },
+   "showSubtitle": {
+      "message": "Afficher sous-titres :"
+   },
+   "sourceLanguage": {
+      "message": "Langue source"
+   },
+   "source_languages": {
+      "message": "Langue source :"
+   },
+   "speaker": {
+      "message": "Personnage"
+   },
+   "speakerList": {
+      "message": "Liste des locuteurs"
+   },
+   "speakerName": {
+      "message": "Nom du locuteur"
+   },
+   "speakersTitle": {
+      "message": "Personnages"
+   },
+   "startUpload": {
+      "message": "Démarrer le téléversement"
+   },
+   "subscribe": {
+      "message": "S'abonner"
+   },
+   "subscriptionRecharge": {
+      "message": "Abonnement & Recharge"
+   },
+   "subtitleSize": {
+      "message": "Taille"
+   },
+   "subtitles": {
+      "message": "Sous-titres"
+   },
+   "subtitlesRateLimitedByYouTube": {
+      "message": "Les sous-titres de cette vidéo sont actuellement limités par YouTube. Veuillez réessayer plus tard."
+   },
+   "swapVolumeSettingsCommand": {
+      "message": "Basculer les paramètres de volume entre l'audio original et doublé"
+   },
+   "switchModelWarning": {
+      "message": "Changement coûteux, confirmez pour continuer."
+   },
+   "targetLanguage": {
+      "message": "Langue cible"
+   },
+   "target_languages": {
+      "message": "Langue cible :"
+   },
+   "taskAlreadySubmitted": {
+      "message": "Cette vidéo est déjà en cours de traitement pour la reconnaissance des sous-titres par IA. Veuillez attendre la notification par e-mail."
+   },
+   "textToSpeech": {
+      "message": "Doublage texte :"
+   },
+   "textToSpeechToggle": {
+      "message": "Boule flottante"
+   },
+   "toggleSubtitles": {
+      "message": "Activer sous-titres"
+   },
+   "tooExpensive": {
+      "message": "Cher"
+   },
+   "translateEngineTipText": {
+      "message": "passez à Google Traduction"
+   },
+   "translateService": {
+      "message": "Traduction:"
+   },
+   "translatedAudio": {
+      "message": "Traduit"
+   },
+   "translationEngine": {
+      "message": "Moteur de traduction"
+   },
+   "translationService": {
+      "message": "Service de traduction"
+   },
+   "translationServiceTitle": {
+      "message": "Traduction"
+   },
+   "trialMemberDurationLimit": {
+      "message": "Cette vidéo n'a pas de sous-titres. En tant que membre d'essai, seules les vidéos de moins de 15 minutes sont actuellement prises en charge pour la reconnaissance de sous-titres. Les membres premium prennent en charge les vidéos de moins de 3 heures."
+   },
+   "trialMemberModelLimit": {
+      "message": "Les membres en période d’essai ne peuvent utiliser que Gemini et Google Traduction. Pour d’autres modèles, veuillez souscrire à notre abonnement."
+   },
+   "universalDubbingMemberOnly": {
+      "message": "Le doublage universel nécessite de la puissance de calcul GPU cloud (coût élevé), réservé aux VIP."
+   },
+   "universalDubbingNotSupported": {
+      "message": "Le doublage universel n'est pas pris en charge pour cette vidéo dans la version actuelle. Le support est prévu pour la prochaine version. Veuillez contacter le service client pour plus de détails."
+   },
+   "unknownError": {
+      "message": "Une erreur inconnue s'est produite. Veuillez réessayer."
+   },
+   "upgradeMembershipForBackgroundRecognition": {
+      "message": "Passez à l’abonnement pour que le module reconnaisse les sous-titres IA en arrière-plan. Après réception de l’e-mail de notification, revenez regarder ; le bouton de doublage deviendra vert et la traduction sera plus précise."
+   },
+   "uploadComplete": {
+      "message": "Téléchargement terminé"
+   },
+   "uploadFailed": {
+      "message": "Échec du téléchargement"
+   },
+   "uploadMediaForRecognition": {
+      "message": "Aucun sous-titre trouvé. Souhaitez-vous téléverser la vidéo pour la reconnaissance de sous-titres par IA ?"
+   },
+   "uploading": {
+      "message": "Téléchargement"
+   },
+   "uploadingMedia": {
+      "message": "Téléversement du média..."
+   },
+   "videoDrmProtected": {
+      "message": "Cette vidéo est protégée par DRM et ne peut pas être utilisée pour le doublage."
+   },
+   "videoDurationExceedsLimit": {
+      "message": "Cette vidéo dépasse 3 heures de durée. Le doublage universel n'est actuellement pas pris en charge pour les vidéos de plus de 3 heures."
+   },
+   "vipAndBalanceRequiredText": {
+      "message": "Rechargez membre et solde"
+   },
+   "vipAndBalanceRequiredTitle": {
+      "message": "Membre et solde requis"
+   },
+   "vipFreeOptionTipText": {
+      "message": "Gratuit pour membres :"
+   },
+   "vipRequiredText": {
+      "message": "Fonction réservée aux membres"
+   },
+   "vipRequiredTitle": {
+      "message": "Membre requis"
+   },
+   "vipTranslateEngineTipText": {
+      "message": "gemini, deepseek, etc."
+   },
+   "voice": {
+      "message": "Voix"
+   },
+   "voiceSettingsMismatch": {
+      "message": "Le type de voix et les paramètres de voix ne correspondent pas. Veuillez accéder à la page des paramètres pour sélectionner à nouveau et enregistrer les paramètres de voix."
+   },
+   "voiceTypeTipText": {
+      "message": "voix gratuite disponible"
+   },
+   "voices": {
+      "message": "Voix :"
+   },
+   "voicesAndSubtitles": {
+      "message": "Voix et sous-titres"
+   },
+   "voicesAndSubtitlesTitle": {
+      "message": "Voix et sous-titres"
+   },
+   "voicesType": {
+      "message": "Type de voix :"
+   },
+   "waitingForRecognition": {
+      "message": "Vidéo téléchargée avec succès. La reconnaissance des sous-titres par IA est en cours. Vous recevrez une notification par e-mail lorsque ce sera prêt."
+   },
+   "woman": {
+      "message": "Femme"
+   },
+   "zoomRecordingDnrNotSupported": {
+      "message": "Votre navigateur ne prend pas en charge la reconnaissance de téléchargement d'enregistrement Zoom. Veuillez utiliser Chrome/Edge."
+   },
+   "zoomRecordingDownloadForbidden403": {
+      "message": "Le téléchargement de l'enregistrement Zoom a été interdit (403). Veuillez lire/actualiser la page pour passer la vérification, puis réessayez."
+   }
+}

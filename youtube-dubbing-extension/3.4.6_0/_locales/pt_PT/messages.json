@@ -1,0 +1,470 @@
+{
+   "accountBalance": {
+      "message": "Saldo da conta:"
+   },
+   "advancedSettings": {
+      "message": "Definições avançadas"
+   },
+   "aiSubtitlesRecognitionInBackground": {
+      "message": "Este vídeo ainda não tem legendas com IA. O plugin iniciou o reconhecimento em segundo plano. Depois de ouvir a primeira frase dobrada, pode fechar a página e aguardar o email de notificação; quando estiver pronto, o botão de dobragem ficará verde e a qualidade da tradução será melhor."
+   },
+   "back": {
+      "message": "Voltar"
+   },
+   "backToSettings": {
+      "message": "Voltar às definições"
+   },
+   "backgroundAudio": {
+      "message": "Som de fundo"
+   },
+   "balanceRequiredText": {
+      "message": "O seu saldo é insuficiente. Por favor, recarregue para usar esta funcionalidade"
+   },
+   "balanceRequiredTitle": {
+      "message": "Saldo necessário"
+   },
+   "balanceRunningLow": {
+      "message": "O seu saldo está a acabar. Recomendamos recarregar para evitar interrupções durante a visualização."
+   },
+   "browserShortcutSettingsTip": {
+      "message": "Por favor, configure os atalhos nas definições das extensões do navegador"
+   },
+   "cancel": {
+      "message": "Cancelar"
+   },
+   "cancelButton": {
+      "message": "Cancelar"
+   },
+   "completing": {
+      "message": "A concluir"
+   },
+   "confirmButton": {
+      "message": "Continuar e guardar"
+   },
+   "confirmDeleteSpeaker": {
+      "message": "Tem a certeza de que deseja eliminar este orador?"
+   },
+   "contentMenusTitle": {
+      "message": "Iniciar Reprodução de Dublagem"
+   },
+   "corsNotSupported": {
+      "message": "Este site não permite o download de ficheiros multimédia. A dobragem universal não é suportada."
+   },
+   "debugInfo": {
+      "message": "Informações de depuração"
+   },
+   "delete": {
+      "message": "Eliminar"
+   },
+   "deleteSpeaker": {
+      "message": "Excluir"
+   },
+   "description": {
+      "message": "Traduza e duble vídeos com um clique, entenda idiomas instantaneamente, acesse conhecimento global"
+   },
+   "disableGlobally": {
+      "message": "Desativar globalmente"
+   },
+   "doNotClosePage": {
+      "message": "Por favor, não feche nem atualize esta página durante o upload, caso contrário, o upload será interrompido."
+   },
+   "downloading": {
+      "message": "A transferir"
+   },
+   "dropboxClickCcToTranscribe": {
+      "message": "Este vídeo ainda não foi transcrito. Clique no botão CC na parte inferior do vídeo do Dropbox para gerar as legendas. Quando a transcrição terminar, clique no botão de dublagem da extensão para traduzir e dublar."
+   },
+   "dropdownNoOptions": {
+      "message": "Sem opções disponíveis"
+   },
+   "dropdownPlaceholder": {
+      "message": "Selecione"
+   },
+   "dropdownSearch": {
+      "message": "Buscar..."
+   },
+   "dubbingSettings": {
+      "message": "Definições de dublagem"
+   },
+   "edgeShortcutSettingsTip": {
+      "message": "A abrir a página de definições de atalhos da extensão Edge"
+   },
+   "edit": {
+      "message": "Editar"
+   },
+   "editSpeaker": {
+      "message": "Editar orador"
+   },
+   "enterSpeakerName": {
+      "message": "Inserir nome do orador"
+   },
+   "enterVoice": {
+      "message": "Inserir nome da voz"
+   },
+   "error": {
+      "message": "Erro"
+   },
+   "female": {
+      "message": "Feminino"
+   },
+   "firefoxShortcutSettingsTip": {
+      "message": "A abrir a página de extras do Firefox. Configure os atalhos em 'Extensões e Temas'"
+   },
+   "free": {
+      "message": "Grátis"
+   },
+   "freeForVip": {
+      "message": "Grátis para membros"
+   },
+   "freeOptionTipText": {
+      "message": "Se não quiser recarregar, pode escolher opções gratuitas,"
+   },
+   "freeUserDailyLimit": {
+      "message": "Utilizadores gratuitos podem assistir até 5 vídeos por dia através do plugin. Atualize para membro para desbloquear benefícios de visualização ilimitada."
+   },
+   "freeUserNoSubtitles": {
+      "message": "Este vídeo não tem legendas integradas. Por favor subscreva a versão premium da extensão para reconhecimento de legendas e desfrute das funcionalidades de tradução e dublagem."
+   },
+   "gender": {
+      "message": "Género"
+   },
+   "hideUntilNextVisit": {
+      "message": "Ocultar até à próxima visita"
+   },
+   "insufficientBalance": {
+      "message": "O seu saldo é insuficiente. O serviço foi alterado para Google Tradutor. Para usar tradução AI, recarregue o seu saldo."
+   },
+   "insufficientBalanceAlertMsg": {
+      "message": "O seu saldo é insuficiente. Recarregue para usar tradução AI e Azure TTS. Se não quiser recarregar, pode alternar para Google Tradutor e tipos de voz gratuitos."
+   },
+   "insufficientBalanceAndMembership": {
+      "message": "Recarregue a sua assinatura e saldo para usar tradução AI e Azure TTS. Se não quiser recarregar, também pode escolher Google Tradutor e tipos de voz gratuitos."
+   },
+   "insufficientMembership": {
+      "message": "A sua assinatura expirou. Recarregue a sua assinatura para usar tradução AI e Azure TTS. Se não quiser recarregar, também pode escolher Google Tradutor e tipos de voz gratuitos."
+   },
+   "iosInterceptorConflictMessage": {
+      "message": "Outra extensão do navegador está a bloquear a interceção de pedidos de legendas. Desativa as extensões em conflito, atualiza a página e tenta novamente."
+   },
+   "iosInterceptorConflictTitle": {
+      "message": "Conflito de extensões detectado"
+   },
+   "iosOpenOriginVolume": {
+      "message": "Ativar som original:"
+   },
+   "iosUniversalDubbingNotSupported": {
+      "message": "A dobragem universal não é suportada em dispositivos iOS. Por favor, use um navegador de desktop."
+   },
+   "liveStreamNotSupported": {
+      "message": "Transmissões em direto não são suportadas para dobragem universal."
+   },
+   "liveVideoNotSupported": {
+      "message": "Vídeos ao vivo não suportam dublagem de momento"
+   },
+   "loading": {
+      "message": "Carregando"
+   },
+   "login": {
+      "message": "Entrar"
+   },
+   "loginAndUsePlugin": {
+      "message": "Por favor, clique no ícone da extensão para iniciar sessão e depois usar a dublagem."
+   },
+   "logout": {
+      "message": "Sair"
+   },
+   "lowBalanceText": {
+      "message": "O seu saldo está abaixo de 1 USD. Recomendamos recarregar para garantir o serviço"
+   },
+   "lowBalanceTitle": {
+      "message": "Alerta de saldo baixo"
+   },
+   "male": {
+      "message": "Masculino"
+   },
+   "man": {
+      "message": "Homem"
+   },
+   "mediaSourceNotDetected": {
+      "message": "Não foi possível detetar a fonte do vídeo. Este site pode não ser suportado."
+   },
+   "memberUser": {
+      "message": "PRO"
+   },
+   "membershipExpires": {
+      "message": "Expira"
+   },
+   "membershipIcon": {
+      "message": "Ícone de membro"
+   },
+   "membershipRequired": {
+      "message": "Atualize para membro antes de usar tradução OpenAI."
+   },
+   "membershipRequiredForAI": {
+      "message": "Recarregue a sua assinatura para usar tradução AI. Se não quiser recarregar, também pode escolher Google Tradutor."
+   },
+   "membershipRequiredTitle": {
+      "message": "Assinatura necessária"
+   },
+   "metadataNotFound": {
+      "message": "Metadados do vídeo não encontrados, por favor atualize a página e tente novamente"
+   },
+   "multiVideoNotSupported": {
+      "message": "Esta página tem vários vídeos. A dobragem universal só suporta páginas com um único vídeo ao usar transmissões HLS."
+   },
+   "name": {
+      "message": "YouTube Dubbing – Tradução e Dublagem de Legendas por IA | Translate & Dub"
+   },
+   "noAudioTrackFound": {
+      "message": "Nenhuma faixa de áudio detetada. Este vídeo parece ser apenas vídeo sem áudio e não pode ser usado para reconhecimento de dobragem."
+   },
+   "noSpeakers": {
+      "message": "Sem oradores"
+   },
+   "noSubtitlesFound": {
+      "message": "Este vídeo não tem legendas e não suporta tradução e dublagem"
+   },
+   "noSubtitlesWaitOptimization": {
+      "message": "Nenhuma legenda disponível. Por favor aguarde enquanto o plugin reconhece as legendas para este vídeo. Receberá uma notificação por email no seu endereço registado assim que o reconhecimento estiver concluído."
+   },
+   "notSupported": {
+      "message": "Não suportado"
+   },
+   "originalAudio": {
+      "message": "Original"
+   },
+   "pauseVideo": {
+      "message": "Pausar vídeo"
+   },
+   "pay": {
+      "message": "Pagar"
+   },
+   "postLoginTranslationSettings": {
+      "message": "Sessão iniciada com sucesso. Clique no ícone da extensão para escolher o idioma de tradução e a lista de vozes."
+   },
+   "premiumMemberDurationLimit": {
+      "message": "Este vídeo não tem legendas e a duração do vídeo excede 3 horas, tradução e dublagem não são suportadas. Por favor selecione um vídeo mais curto ou um vídeo com legendas."
+   },
+   "rechargeLimit": {
+      "message": "Crédito + Membro"
+   },
+   "safariShortcutSettingsTip": {
+      "message": "Configure os atalhos em Safari > Preferências > Extensões"
+   },
+   "save": {
+      "message": "Guardar"
+   },
+   "saveFailedText": {
+      "message": "Erro ao guardar definições, tente novamente"
+   },
+   "saveFailedTitle": {
+      "message": "Falha ao guardar"
+   },
+   "saveSuccessText": {
+      "message": "Definições guardadas"
+   },
+   "saveSuccessTitle": {
+      "message": "Guardado com sucesso"
+   },
+   "save_settings": {
+      "message": "Guardar definições"
+   },
+   "saving": {
+      "message": "A guardar..."
+   },
+   "searchSourceLanguage": {
+      "message": "Buscar idioma de origem..."
+   },
+   "searchTargetLanguage": {
+      "message": "Buscar idioma de destino..."
+   },
+   "selectSourceLanguage": {
+      "message": "Escolher idioma de origem"
+   },
+   "selectSpeaker": {
+      "message": "Escolher"
+   },
+   "selectTargetLanguage": {
+      "message": "Escolher idioma de destino"
+   },
+   "sex": {
+      "message": "Sexo:"
+   },
+   "shortcutSettings": {
+      "message": "Definições de atalhos"
+   },
+   "showSubtitle": {
+      "message": "Mostrar legendas:"
+   },
+   "sourceLanguage": {
+      "message": "Idioma origem"
+   },
+   "source_languages": {
+      "message": "Idioma de origem:"
+   },
+   "speaker": {
+      "message": "Personagem"
+   },
+   "speakerList": {
+      "message": "Lista de oradores"
+   },
+   "speakerName": {
+      "message": "Nome do orador"
+   },
+   "speakersTitle": {
+      "message": "Personagens"
+   },
+   "startUpload": {
+      "message": "Iniciar carregamento"
+   },
+   "subscribe": {
+      "message": "Subscrever"
+   },
+   "subscriptionRecharge": {
+      "message": "Subscrever e recarregar"
+   },
+   "subtitleSize": {
+      "message": "Tamanho"
+   },
+   "subtitles": {
+      "message": "Legendas"
+   },
+   "subtitlesRateLimitedByYouTube": {
+      "message": "As legendas deste vídeo estão atualmente limitadas pelo YouTube. Por favor, tente novamente mais tarde."
+   },
+   "swapVolumeSettingsCommand": {
+      "message": "Alternar configurações de volume entre áudio original e dublado"
+   },
+   "switchModelWarning": {
+      "message": "Está a reproduzir um vídeo. Alterar a voz ou o modelo de tradução durante a reprodução resultará em custos adicionais porque os recursos já carregados serão desperdiçados. Recomendamos alternar no próximo vídeo. Se ainda quiser continuar, clique em Continuar e guardar."
+   },
+   "targetLanguage": {
+      "message": "Idioma destino"
+   },
+   "target_languages": {
+      "message": "Idioma alvo:"
+   },
+   "taskAlreadySubmitted": {
+      "message": "Este vídeo já está a ser processado para reconhecimento de legendas por IA. Por favor, aguarde a notificação por e-mail."
+   },
+   "textToSpeech": {
+      "message": "Texto para voz:"
+   },
+   "textToSpeechToggle": {
+      "message": "Bolha flutuante"
+   },
+   "toggleSubtitles": {
+      "message": "Ligar/desligar legendas"
+   },
+   "tooExpensive": {
+      "message": "Caro"
+   },
+   "translateEngineTipText": {
+      "message": "altere o serviço de tradução para Google"
+   },
+   "translateService": {
+      "message": "Serviço de tradução:"
+   },
+   "translatedAudio": {
+      "message": "Dublado"
+   },
+   "translationEngine": {
+      "message": "Motor de tradução"
+   },
+   "translationService": {
+      "message": "Serviço de tradução"
+   },
+   "translationServiceTitle": {
+      "message": "Serviço de tradução"
+   },
+   "trialMemberDurationLimit": {
+      "message": "Este vídeo não tem legendas. Como é um membro de teste, atualmente apenas vídeos com menos de 15 minutos são suportados para reconhecimento de legendas. Membros premium suportam vídeos com menos de 3 horas."
+   },
+   "trialMemberModelLimit": {
+      "message": "Os membros em período de avaliação só podem utilizar o Gemini e o Google Tradutor. Para utilizar outros modelos, subscreva o nosso plano."
+   },
+   "universalDubbingMemberOnly": {
+      "message": "A dobragem universal requer poder de computação GPU na nuvem (custo elevado), apenas para VIP."
+   },
+   "universalDubbingNotSupported": {
+      "message": "A dublagem universal não é suportada para este vídeo na versão atual. O suporte está planeado para a próxima versão. Por favor contacte o atendimento ao cliente para mais detalhes."
+   },
+   "unknownError": {
+      "message": "Ocorreu um erro desconhecido. Por favor, tente novamente."
+   },
+   "upgradeMembershipForBackgroundRecognition": {
+      "message": "Atualize para membro e o plugin reconhecerá as legendas com IA em segundo plano. Após receber o e-mail de notificação, volte para ver; o botão de dobragem ficará verde e a tradução será mais precisa."
+   },
+   "uploadComplete": {
+      "message": "Carregamento concluído"
+   },
+   "uploadFailed": {
+      "message": "Falha no carregamento"
+   },
+   "uploadMediaForRecognition": {
+      "message": "Nenhuma legenda encontrada. Gostaria de carregar o vídeo para reconhecimento de legendas por IA?"
+   },
+   "uploading": {
+      "message": "A carregar"
+   },
+   "uploadingMedia": {
+      "message": "A carregar média..."
+   },
+   "videoDrmProtected": {
+      "message": "Este vídeo está protegido por DRM e não pode ser usado para dobragem."
+   },
+   "videoDurationExceedsLimit": {
+      "message": "Este vídeo excede 3 horas de duração. A dobragem universal não é atualmente suportada para vídeos com mais de 3 horas."
+   },
+   "vipAndBalanceRequiredText": {
+      "message": "Precisa de ser membro e recarregar saldo para usar esta funcionalidade"
+   },
+   "vipAndBalanceRequiredTitle": {
+      "message": "Membro e saldo necessários"
+   },
+   "vipFreeOptionTipText": {
+      "message": "Como membro, pode usar os seguintes serviços de tradução gratuitamente"
+   },
+   "vipRequiredText": {
+      "message": "Precisa de ser membro para usar esta funcionalidade"
+   },
+   "vipRequiredTitle": {
+      "message": "Membro necessário"
+   },
+   "vipTranslateEngineTipText": {
+      "message": "Altere para serviços gratuitos para membros como gemini, deepseek, gpt-3.5-turbo ou claude-3-haiku"
+   },
+   "voice": {
+      "message": "Voz"
+   },
+   "voiceSettingsMismatch": {
+      "message": "O tipo de voz e as configurações de voz não correspondem. Aceda à página de definições para selecionar novamente e guardar as configurações de voz."
+   },
+   "voiceTypeTipText": {
+      "message": "altere o tipo de voz para a versão gratuita"
+   },
+   "voices": {
+      "message": "Voz:"
+   },
+   "voicesAndSubtitles": {
+      "message": "Voz e legendas"
+   },
+   "voicesAndSubtitlesTitle": {
+      "message": "Vozes e legendas"
+   },
+   "voicesType": {
+      "message": "Tipo de voz:"
+   },
+   "waitingForRecognition": {
+      "message": "Vídeo carregado com sucesso. O reconhecimento de legendas por IA está em andamento. Receberá uma notificação por e-mail quando estiver pronto."
+   },
+   "woman": {
+      "message": "Mulher"
+   },
+   "zoomRecordingDnrNotSupported": {
+      "message": "O seu navegador não suporta o reconhecimento de carregamento de gravações Zoom. Por favor, use o Chrome/Edge."
+   },
+   "zoomRecordingDownloadForbidden403": {
+      "message": "O download da gravação Zoom foi proibido (403). Por favor, reproduza/atualize a página para passar na verificação e tente novamente."
+   }
+}

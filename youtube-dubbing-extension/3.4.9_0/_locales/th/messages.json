@@ -1,0 +1,473 @@
+{
+   "accountBalance": {
+      "message": "ยอดเงินในบัญชี:"
+   },
+   "advancedSettings": {
+      "message": "การตั้งค่าขั้นสูง"
+   },
+   "aiSubtitlesRecognitionInBackground": {
+      "message": "ขณะนี้วิดีโอนี้ยังไม่มีคำบรรยายด้วย AI ปลั๊กอินได้เริ่มจดจำคำบรรยายอยู่เบื้องหลังแล้ว เมื่อได้ยินประโยคพากย์ประโยคแรก คุณสามารถปิดหน้าและรออีเมลแจ้งเตือนได้ เมื่อพร้อมแล้ว ปุ่มพากย์จะเปลี่ยนเป็นสีเขียว และคุณภาพการแปลจะดีขึ้น"
+   },
+   "back": {
+      "message": "กลับ"
+   },
+   "backToSettings": {
+      "message": "กลับไปตั้งค่า"
+   },
+   "backgroundAudio": {
+      "message": "เสียงพื้นหลัง"
+   },
+   "balanceRequiredText": {
+      "message": "ยอดเงินไม่พอ กรุณาเติมเงินเพื่อใช้ฟังก์ชันนี้"
+   },
+   "balanceRequiredTitle": {
+      "message": "ต้องมียอดเงิน"
+   },
+   "balanceRunningLow": {
+      "message": "ยอดเงินใกล้หมด แนะนำให้เติมเงินเพื่อประสบการณ์ที่ดี"
+   },
+   "browserShortcutSettingsTip": {
+      "message": "ตั้งค่าปุ่มลัดในส่วนขยายของเบราว์เซอร์"
+   },
+   "cancel": {
+      "message": "ยกเลิก"
+   },
+   "cancelButton": {
+      "message": "ยกเลิก"
+   },
+   "completing": {
+      "message": "กำลังดำเนินการเสร็จสิ้น"
+   },
+   "confirmButton": {
+      "message": "ดำเนินการต่อ"
+   },
+   "confirmDeleteSpeaker": {
+      "message": "คุณแน่ใจหรือไม่ว่าต้องการลบผู้พูดคนนี้?"
+   },
+   "contentMenusTitle": {
+      "message": "เริ่มเล่นเสียงพากย์"
+   },
+   "corsNotSupported": {
+      "message": "เว็บไซต์นี้ไม่อนุญาตให้ดาวน์โหลดไฟล์มีเดีย ไม่รองรับการพากย์เสียงสากล"
+   },
+   "debugInfo": {
+      "message": "ข้อมูลการดีบัก"
+   },
+   "delete": {
+      "message": "ลบ"
+   },
+   "deleteSpeaker": {
+      "message": "ลบ"
+   },
+   "description": {
+      "message": "แปลและพากย์วิดีโอออนไลน์ได้ในคลิกเดียว เข้าใจภาษาต่างชาติทันที เข้าถึงความรู้ทั่วโลกได้ง่าย"
+   },
+   "disableGlobally": {
+      "message": "ปิดใช้งานทั่วโลก"
+   },
+   "doNotClosePage": {
+      "message": "กรุณาอย่าปิดหรือรีเฟรชหน้านี้ระหว่างการอัปโหลด มิฉะนั้นการอัปโหลดจะถูกขัดจังหวะ"
+   },
+   "downloading": {
+      "message": "กำลังดาวน์โหลด"
+   },
+   "dropboxClickCcToTranscribe": {
+      "message": "วิดีโอนี้ยังไม่ได้ถอดเสียง กรุณาคลิกปุ่ม CC ที่ด้านล่างของวิดีโอ Dropbox เพื่อสร้างคำบรรยาย เมื่อถอดเสียงเสร็จแล้ว ให้คลิกปุ่มพากย์ของส่วนขยายเพื่อแปลและพากย์"
+   },
+   "dropdownNoOptions": {
+      "message": "ไม่มีตัวเลือก"
+   },
+   "dropdownPlaceholder": {
+      "message": "กรุณาเลือก"
+   },
+   "dropdownSearch": {
+      "message": "ค้นหา..."
+   },
+   "dubbingSettings": {
+      "message": "การตั้งค่าพากย์เสียง"
+   },
+   "edgeShortcutSettingsTip": {
+      "message": "กำลังเปิดหน้าการตั้งค่าปุ่มลัด Edge"
+   },
+   "edit": {
+      "message": "แก้ไข"
+   },
+   "editSpeaker": {
+      "message": "แก้ไขผู้พูด"
+   },
+   "enterSpeakerName": {
+      "message": "ใส่ชื่อผู้พูด"
+   },
+   "enterVoice": {
+      "message": "ใส่ชื่อเสียง"
+   },
+   "error": {
+      "message": "ข้อผิดพลาด"
+   },
+   "female": {
+      "message": "หญิง"
+   },
+   "firefoxShortcutSettingsTip": {
+      "message": "กำลังเปิดหน้า Firefox คลิกส่วนขยายเพื่อตั้งค่าปุ่มลัด"
+   },
+   "free": {
+      "message": "ฟรี"
+   },
+   "freeForVip": {
+      "message": "ฟรีสำหรับสมาชิก"
+   },
+   "freeOptionTipText": {
+      "message": "หากไม่เติมเงิน เลือกตัวเลือกฟรีได้"
+   },
+   "freeUserDailyLimit": {
+      "message": "ผู้ใช้ฟรีสามารถดูวิดีโอได้สูงสุด 5 วิดีโอต่อวันผ่านปลั๊กอิน อัปเกรดเป็นสมาชิกเพื่อปลดล็อกสิทธิประโยชน์การดูแบบไม่จำกัด"
+   },
+   "freeUserNoSubtitles": {
+      "message": "วิดีโอนี้ไม่มีคำบรรยายในตัว กรุณาสมัครสมาชิกปลั๊กอินสำหรับการจดจำคำบรรยายและเพลิดเพลินกับฟีเจอร์การแปลและพากย์เสียง"
+   },
+   "gender": {
+      "message": "เพศ"
+   },
+   "hideUntilNextVisit": {
+      "message": "ซ่อนจนกว่าจะเข้าชมครั้งถัดไป"
+   },
+   "insufficientBalance": {
+      "message": "ยอดเงินไม่พอ เปลี่ยนเป็น Google แปล กรุณาเติมเงิน"
+   },
+   "insufficientBalanceAlertMsg": {
+      "message": "ยอดเงินไม่พอ กรุณาเติมเงินเพื่อใช้ AI และ Azure TTS หรือใช้ Google"
+   },
+   "insufficientBalanceAndMembership": {
+      "message": "กรุณาเติมเงินสมาชิกและยอดเงินก่อนใช้ AI แปลและ Azure TTS หากไม่ต้องการเติมเงิน สามารถเลือก Google Translate และเสียงฟรีได้"
+   },
+   "insufficientMembership": {
+      "message": "สมาชิกของคุณหมดอายุแล้ว กรุณาเติมเงินสมาชิกก่อนใช้ AI แปลและ Azure TTS หากไม่ต้องการเติมเงิน สามารถเลือก Google Translate และเสียงฟรีได้"
+   },
+   "iosInterceptorConflictMessage": {
+      "message": "ส่วนขยายเบราว์เซอร์อื่นกำลังปิดกั้นการดักจับคำขอคำบรรยาย กรุณาปิดการใช้งานส่วนขยายที่ขัดแย้ง รีเฟรชหน้า แล้วลองอีกครั้ง"
+   },
+   "iosInterceptorConflictTitle": {
+      "message": "ตรวจพบความขัดแย้งของส่วนขยาย"
+   },
+   "iosOpenOriginVolume": {
+      "message": "เปิดเสียงต้นฉบับ:"
+   },
+   "iosUniversalDubbingNotSupported": {
+      "message": "การพากย์เสียงสากลไม่รองรับบนอุปกรณ์ iOS กรุณาใช้เบราว์เซอร์เดสก์ท็อป"
+   },
+   "liveStreamNotSupported": {
+      "message": "ไม่รองรับการถ่ายทอดสดสำหรับการพากย์เสียงสากล"
+   },
+   "liveVideoNotSupported": {
+      "message": "วิดีโอสดยังไม่รองรับการพากย์"
+   },
+   "loading": {
+      "message": "กำลังโหลด"
+   },
+   "login": {
+      "message": "Login"
+   },
+   "loginAndUsePlugin": {
+      "message": "กรุณาคลิกไอคอนเพื่อล็อกอินก่อนใช้ปลั๊กอิน"
+   },
+   "logout": {
+      "message": "ออกจากระบบ"
+   },
+   "lowBalanceText": {
+      "message": "ยอดเงินต่ำกว่า 1 ดอลลาร์ แนะนำให้เติมเงิน"
+   },
+   "lowBalanceTitle": {
+      "message": "แจ้งเตือนยอดเงินต่ำ"
+   },
+   "male": {
+      "message": "ชาย"
+   },
+   "man": {
+      "message": "ชาย"
+   },
+   "mediaSourceNotDetected": {
+      "message": "ไม่สามารถตรวจจับแหล่งที่มาของวิดีโอ เว็บไซต์นี้อาจไม่รองรับ"
+   },
+   "memberUser": {
+      "message": "PRO"
+   },
+   "membershipExpires": {
+      "message": "ถึง"
+   },
+   "membershipIcon": {
+      "message": "ไอคอนสมาชิก"
+   },
+   "membershipRequired": {
+      "message": "ต้องเป็นสมาชิกก่อนใช้ OpenAI แปล"
+   },
+   "membershipRequiredForAI": {
+      "message": "กรุณาเติมเงินสมาชิกก่อนใช้ AI แปล หากไม่ต้องการเติมเงิน สามารถเลือก Google Translate ได้"
+   },
+   "membershipRequiredTitle": {
+      "message": "ต้องเป็นสมาชิก"
+   },
+   "metadataNotFound": {
+      "message": "ไม่พบข้อมูลเมตาดาต้าของวิดีโอ กรุณารีเฟรชหน้าและลองใหม่อีกครั้ง"
+   },
+   "multiVideoNotSupported": {
+      "message": "หน้านี้มีวิดีโอหลายรายการ การพากย์เสียงสากลรองรับเฉพาะหน้าที่มีวิดีโอเดียวเมื่อใช้สตรีม HLS"
+   },
+   "name": {
+      "message": "YouTube Dubbing – แปลและพากย์คำบรรยายด้วย AI | Translate & Dub"
+   },
+   "noAudioTrackFound": {
+      "message": "ไม่พบแทร็กเสียง วิดีโอนี้ดูเหมือนเป็นวิดีโอเท่านั้นโดยไม่มีเสียง และไม่สามารถใช้สำหรับการรู้จำการพากย์เสียงได้"
+   },
+   "noSpeakers": {
+      "message": "ไม่มีผู้พูด"
+   },
+   "noSubtitlesFound": {
+      "message": "วิดีโอปัจจุบันไม่มีคำบรรยาย ไม่รองรับการแปลและพากย์เสียง"
+   },
+   "noSubtitlesWaitOptimization": {
+      "message": "ไม่มีคำบรรยายที่ใช้ได้ กรุณารอให้ปลั๊กอินจดจำคำบรรยายสำหรับวิดีโอนี้ คุณจะได้รับการแจ้งเตือนทางอีเมลที่อีเมลที่ลงทะเบียนไว้เมื่อการจดจำเสร็จสิ้น"
+   },
+   "notSupported": {
+      "message": "ไม่รองรับ"
+   },
+   "originalAudio": {
+      "message": "เสียงต้นฉบับ"
+   },
+   "pauseVideo": {
+      "message": "หยุดวิดีโอชั่วคราว"
+   },
+   "pay": {
+      "message": "ชำระเงิน"
+   },
+   "pleaseClickVideoToPlay": {
+      "message": "กรุณาคลิกวิดีโอเพื่อเปิด แล้วใช้ฟีเจอร์พากย์เสียง"
+   },
+   "postLoginTranslationSettings": {
+      "message": "เข้าสู่ระบบสำเร็จ คลิกไอคอนปลั๊กอินเพื่อเลือกภาษาและเสียง"
+   },
+   "premiumMemberDurationLimit": {
+      "message": "วิดีโอนี้ไม่มีคำบรรยายและระยะเวลาของวิดีโอเกิน 3 ชั่วโมง ไม่รองรับการแปลและพากย์เสียง กรุณาเลือกวิดีโอที่สั้นกว่าหรือวิดีโอที่มีคำบรรยาย"
+   },
+   "rechargeLimit": {
+      "message": "เติมเงิน+สมาชิก"
+   },
+   "safariShortcutSettingsTip": {
+      "message": "ตั้งค่าปุ่มลัดใน Safari > การตั้งค่า > ส่วนขยาย"
+   },
+   "save": {
+      "message": "บันทึก"
+   },
+   "saveFailedText": {
+      "message": "บันทึกการตั้งค่าล้มเหลว กรุณาลองใหม่"
+   },
+   "saveFailedTitle": {
+      "message": "บันทึกล้มเหลว"
+   },
+   "saveSuccessText": {
+      "message": "การตั้งค่าถูกบันทึกแล้ว"
+   },
+   "saveSuccessTitle": {
+      "message": "บันทึกสำเร็จ"
+   },
+   "save_settings": {
+      "message": "บันทึก"
+   },
+   "saving": {
+      "message": "กำลังบันทึก..."
+   },
+   "searchSourceLanguage": {
+      "message": "ค้นหาภาษาต้นฉบับ..."
+   },
+   "searchTargetLanguage": {
+      "message": "ค้นหาภาษาเป้าหมาย..."
+   },
+   "selectSourceLanguage": {
+      "message": "เลือกภาษาต้นฉบับ"
+   },
+   "selectSpeaker": {
+      "message": "เลือก"
+   },
+   "selectTargetLanguage": {
+      "message": "เลือกภาษาเป้าหมาย"
+   },
+   "sex": {
+      "message": "เพศ:"
+   },
+   "shortcutSettings": {
+      "message": "ตั้งค่าปุ่มลัด"
+   },
+   "showSubtitle": {
+      "message": "แสดงคำบรรยาย:"
+   },
+   "sourceLanguage": {
+      "message": "ภาษาต้นทาง"
+   },
+   "source_languages": {
+      "message": "ภาษาต้นฉบับ:"
+   },
+   "speaker": {
+      "message": "ผู้พูด"
+   },
+   "speakerList": {
+      "message": "รายชื่อผู้พูด"
+   },
+   "speakerName": {
+      "message": "ชื่อผู้พูด"
+   },
+   "speakersTitle": {
+      "message": "ตัวละคร"
+   },
+   "startUpload": {
+      "message": "เริ่มอัปโหลด"
+   },
+   "subscribe": {
+      "message": "สมัครสมาชิก"
+   },
+   "subscriptionRecharge": {
+      "message": "สมัครสมาชิก"
+   },
+   "subtitleSize": {
+      "message": "ขนาด"
+   },
+   "subtitles": {
+      "message": "คำบรรยาย"
+   },
+   "subtitlesRateLimitedByYouTube": {
+      "message": "คำบรรยายของวิดีโอนี้กำลังถูก YouTube จำกัด โปรดลองอีกครั้งในภายหลัง"
+   },
+   "swapVolumeSettingsCommand": {
+      "message": "สลับการตั้งค่าระดับเสียงระหว่างเสียงต้นฉบับและเสียงพากย์"
+   },
+   "switchModelWarning": {
+      "message": "เปลี่ยนโมเดลขณะเล่นจะเสียค่าใช้จ่ายเพิ่ม แนะนำรอวิดีโอถัดไป"
+   },
+   "targetLanguage": {
+      "message": "ภาษาเป้าหมาย"
+   },
+   "target_languages": {
+      "message": "ภาษาเป้าหมาย:"
+   },
+   "taskAlreadySubmitted": {
+      "message": "วิดีโอนี้กำลังอยู่ในระหว่างการประมวลผลสำหรับการรู้จำคำบรรยาย AI โปรดรอการแจ้งเตือนทางอีเมล"
+   },
+   "textToSpeech": {
+      "message": "พากย์ข้อความ:"
+   },
+   "textToSpeechToggle": {
+      "message": "ลูกบอลลอย"
+   },
+   "toggleSubtitles": {
+      "message": "เปิด/ปิดคำบรรยาย"
+   },
+   "tooExpensive": {
+      "message": "แพง"
+   },
+   "translateEngineTipText": {
+      "message": "เปลี่ยนบริการแปลเป็น Google"
+   },
+   "translateService": {
+      "message": "บริการแปล:"
+   },
+   "translatedAudio": {
+      "message": "เสียงแปล"
+   },
+   "translationEngine": {
+      "message": "เครื่องมือแปล"
+   },
+   "translationService": {
+      "message": "บริการแปล"
+   },
+   "translationServiceTitle": {
+      "message": "บริการแปล"
+   },
+   "trialMemberDurationLimit": {
+      "message": "วิดีโอปัจจุบันไม่มีคำบรรยาย เนื่องจากคุณเป็นสมาชิกทดลอง ปัจจุบันรองรับเฉพาะวิดีโอที่สั้นกว่า 15 นาทีสำหรับการจดจำคำบรรยาย สมาชิกพรีเมียมรองรับวิดีโอที่สั้นกว่า 3 ชั่วโมง"
+   },
+   "trialMemberModelLimit": {
+      "message": "สมาชิกทดลองใช้งานสามารถใช้ได้เฉพาะ Gemini และ Google แปลภาษาเท่านั้น หากต้องการใช้โมเดลอื่น กรุณาสมัครสมาชิกของเรา"
+   },
+   "universalDubbingMemberOnly": {
+      "message": "การพากย์เสียงสากลต้องใช้พลังการประมวลผล GPU บนคลาวด์ (ต้นทุนสูง) สำหรับ VIP เท่านั้น"
+   },
+   "universalDubbingNotSupported": {
+      "message": "การพากย์เสียงแบบสากลไม่รองรับสำหรับวิดีโอนี้ในเวอร์ชันปัจจุบัน การรองรับมีแผนในเวอร์ชันถัดไป กรุณาติดต่อฝ่ายบริการลูกค้าสำหรับรายละเอียด"
+   },
+   "unknownError": {
+      "message": "เกิดข้อผิดพลาดที่ไม่รู้จัก กรุณาลองใหม่อีกครั้ง"
+   },
+   "upgradeMembershipForBackgroundRecognition": {
+      "message": "อัปเกรดเป็นสมาชิก ปลั๊กอินจะจดจำคำบรรยาย AI ในเบื้องหลัง เมื่อได้รับอีเมลแจ้งเตือนแล้วกลับมาดูต่อ ปุ่มพากย์จะเปลี่ยนเป็นสีเขียว และการแปลจะแม่นยำขึ้น"
+   },
+   "uploadComplete": {
+      "message": "อัปโหลดเสร็จสิ้น"
+   },
+   "uploadFailed": {
+      "message": "อัปโหลดล้มเหลว"
+   },
+   "uploadMediaForRecognition": {
+      "message": "ไม่พบคำบรรยาย ต้องการอัปโหลดวิดีโอเพื่อรู้จำคำบรรยายด้วย AI หรือไม่?"
+   },
+   "uploading": {
+      "message": "กำลังอัปโหลด"
+   },
+   "uploadingMedia": {
+      "message": "กำลังอัปโหลดสื่อ..."
+   },
+   "videoDrmProtected": {
+      "message": "วิดีโอนี้ได้รับการคุ้มครองด้วย DRM และไม่สามารถใช้สำหรับการพากย์เสียงได้"
+   },
+   "videoDurationExceedsLimit": {
+      "message": "วิดีโอนี้ยาวกว่า 3 ชั่วโมง ขณะนี้ไม่รองรับการพากย์เสียงสากลสำหรับวิดีโอที่ยาวกว่า 3 ชั่วโมง"
+   },
+   "vipAndBalanceRequiredText": {
+      "message": "ต้องเป็นสมาชิกและเติมเงินเพื่อใช้ฟังก์ชันนี้"
+   },
+   "vipAndBalanceRequiredTitle": {
+      "message": "ต้องมีสมาชิกและยอดเงิน"
+   },
+   "vipFreeOptionTipText": {
+      "message": "สมาชิกใช้บริการแปลต่อไปนี้ฟรี"
+   },
+   "vipRequiredText": {
+      "message": "ต้องเป็นสมาชิกเพื่อใช้ฟังก์ชันนี้"
+   },
+   "vipRequiredTitle": {
+      "message": "ต้องเป็นสมาชิก"
+   },
+   "vipTranslateEngineTipText": {
+      "message": "เปลี่ยนเป็น gemini, deepseek, gpt-3.5 หรือ claude-3"
+   },
+   "voice": {
+      "message": "เสียง"
+   },
+   "voiceSettingsMismatch": {
+      "message": "ประเภทเสียงและการตั้งค่าเสียงไม่ตรงกัน โปรดไปที่หน้าการตั้งค่าเพื่อเลือกและบันทึกการตั้งค่าเสียงอีกครั้ง"
+   },
+   "voiceTypeTipText": {
+      "message": "เปลี่ยนประเภทเสียงเป็นฟรี"
+   },
+   "voices": {
+      "message": "เสียง:"
+   },
+   "voicesAndSubtitles": {
+      "message": "เสียงและคำบรรยาย"
+   },
+   "voicesAndSubtitlesTitle": {
+      "message": "เสียงและคำบรรยาย"
+   },
+   "voicesType": {
+      "message": "ประเภทเสียง:"
+   },
+   "waitingForRecognition": {
+      "message": "อัปโหลดวิดีโอสำเร็จแล้ว การรู้จำคำบรรยายด้วย AI กำลังดำเนินการ คุณจะได้รับการแจ้งเตือนทางอีเมลเมื่อพร้อม"
+   },
+   "woman": {
+      "message": "หญิง"
+   },
+   "zoomRecordingDnrNotSupported": {
+      "message": "เบราว์เซอร์ของคุณไม่รองรับการรู้จำการอัปโหลดการบันทึก Zoom กรุณาใช้ Chrome/Edge"
+   },
+   "zoomRecordingDownloadForbidden403": {
+      "message": "การดาวน์โหลดการบันทึก Zoom ถูกห้าม (403) กรุณาเล่น/รีเฟรชหน้าเพื่อผ่านการยืนยัน แล้วลองอัปโหลดอีกครั้ง"
+   }
+}

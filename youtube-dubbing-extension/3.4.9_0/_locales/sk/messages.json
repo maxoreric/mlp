@@ -1,0 +1,473 @@
+{
+   "accountBalance": {
+      "message": "Zostatok:"
+   },
+   "advancedSettings": {
+      "message": "Rozšírené nastavenia"
+   },
+   "aiSubtitlesRecognitionInBackground": {
+      "message": "AI titulky ešte nie sú k dispozícii. Plugin začal rozpoznávať ich na pozadí. Po vypočutí prvej nadabovanej vety môžete zavrieť stránku a počkať na e-mailovú notifikáciu; keď budú pripravené, tlačidlo dabingu sa zmení na zelené a kvalita prekladu bude lepšia."
+   },
+   "back": {
+      "message": "Späť"
+   },
+   "backToSettings": {
+      "message": "Späť na nastavenia"
+   },
+   "backgroundAudio": {
+      "message": "Hudba na pozadí"
+   },
+   "balanceRequiredText": {
+      "message": "Zostatok na vašom účte je nedostatočný. Pre použitie tejto funkcie si prosím nabite kredit."
+   },
+   "balanceRequiredTitle": {
+      "message": "Požadovaný zostatok"
+   },
+   "balanceRunningLow": {
+      "message": "Váš zostatok sa míňa. Pre zamedzenie zlého zážitku zo sledovania odporúčame dobiť kredit vopred."
+   },
+   "browserShortcutSettingsTip": {
+      "message": "Nakonfigurujte klávesové skratky v nastaveniach rozšírenia prehliadača"
+   },
+   "cancel": {
+      "message": "Zrušiť"
+   },
+   "cancelButton": {
+      "message": "Zrušiť"
+   },
+   "completing": {
+      "message": "Dokončovanie"
+   },
+   "confirmButton": {
+      "message": "Pokračovať a uložiť"
+   },
+   "confirmDeleteSpeaker": {
+      "message": "Naozaj chcete vymazať tohto rečníka?"
+   },
+   "contentMenusTitle": {
+      "message": "Spustiť prehrávanie dabingu"
+   },
+   "corsNotSupported": {
+      "message": "Táto webová stránka neumožňuje sťahovanie mediálnych súborov. Univerzálny dabing nie je podporovaný."
+   },
+   "debugInfo": {
+      "message": "Ladiace info"
+   },
+   "delete": {
+      "message": "Vymazať"
+   },
+   "deleteSpeaker": {
+      "message": "Vymazať"
+   },
+   "description": {
+      "message": "Jednoduchý preklad a dabing videa – okamžité porozumenie cudzím jazykom, ľahký prístup k celosvetovým poznatkom"
+   },
+   "disableGlobally": {
+      "message": "Zakázať globálne"
+   },
+   "doNotClosePage": {
+      "message": "Prosím, nezatvárajte ani neobnovujte túto stránku počas nahrávania, inak bude nahrávanie prerušené."
+   },
+   "downloading": {
+      "message": "Sťahovanie"
+   },
+   "dropboxClickCcToTranscribe": {
+      "message": "Toto video ešte nebolo prepísané. Kliknite na tlačidlo CC v spodnej časti Dropbox videa na prepísanie titulkov. Po dokončení prepisu kliknite na tlačidlo dabingu pluginu na preklad a dabing."
+   },
+   "dropdownNoOptions": {
+      "message": "Žiadne dostupné možnosti"
+   },
+   "dropdownPlaceholder": {
+      "message": "Prosím vyberte"
+   },
+   "dropdownSearch": {
+      "message": "Hľadať..."
+   },
+   "dubbingSettings": {
+      "message": "Nastavenia dabingu"
+   },
+   "edgeShortcutSettingsTip": {
+      "message": "Otváram stránku nastavení klávesových skratiek pre Edge rozšírenie"
+   },
+   "edit": {
+      "message": "Upraviť"
+   },
+   "editSpeaker": {
+      "message": "Upraviť"
+   },
+   "enterSpeakerName": {
+      "message": "Zadajte meno rečníka"
+   },
+   "enterVoice": {
+      "message": "Zadajte názov hlasu"
+   },
+   "error": {
+      "message": "Chyba"
+   },
+   "female": {
+      "message": "Žena"
+   },
+   "firefoxShortcutSettingsTip": {
+      "message": "Otváram stránku doplnkov pre Firefox, nastavte klávesové skratky v Rozšírenia a témy"
+   },
+   "free": {
+      "message": "zdarma"
+   },
+   "freeForVip": {
+      "message": "Zdarma pre VIP"
+   },
+   "freeOptionTipText": {
+      "message": "Ak nechcete dobiť kredit, môžete si vybrať bezplatnú možnosť, "
+   },
+   "freeUserDailyLimit": {
+      "message": "Bezplatní používatelia môžu denne pozerať až 5 videí cez plugin. Inovujte na členstvo a odomknite neobmedzené sledovanie."
+   },
+   "freeUserNoSubtitles": {
+      "message": "Toto video nemá zabudované titulky. Pre rozpoznanie titulkov a využívanie funkcií prekladu a dabingu si predplaťte členstvo v plugine."
+   },
+   "gender": {
+      "message": "Pohlavie"
+   },
+   "hideUntilNextVisit": {
+      "message": "Skryť do ďalšej návštevy"
+   },
+   "insufficientBalance": {
+      "message": "Kvôli nedostatočnému zostatku bola služba znížená na Google Prekladač. Pre použitie AI prekladu si prosím nabite kredit."
+   },
+   "insufficientBalanceAlertMsg": {
+      "message": "Váš zostatok je nedostatočný. Pred použitím AI prekladu a Azure TTS si prosím nabite kredit. Ak nechcete dobiť kredit, môžete sa prepnúť späť na Google Prekladač a bezplatné typy hlasov."
+   },
+   "insufficientBalanceAndMembership": {
+      "message": "Pred použitím AI prekladu a Azure TTS si prosím nabite členstvo a kredit. Ak nechcete dobiť, môžete si tiež vybrať Google Prekladač a bezplatné typy hlasov."
+   },
+   "insufficientMembership": {
+      "message": "Vaše členstvo vypršalo. Pred použitím AI prekladu a Azure TTS si prosím nabite členstvo. Ak nechcete dobiť, môžete si tiež vybrať Google Prekladač a bezplatné typy hlasov."
+   },
+   "iosInterceptorConflictMessage": {
+      "message": "Iné rozšírenie prehliadača blokuje zachytávanie požiadaviek na titulky. Zakážte konfliktné rozšírenia, obnovte stránku a skúste to znova."
+   },
+   "iosInterceptorConflictTitle": {
+      "message": "Zistený konflikt rozšírení"
+   },
+   "iosOpenOriginVolume": {
+      "message": "Zapnúť originálny zvuk"
+   },
+   "iosUniversalDubbingNotSupported": {
+      "message": "Univerzálny dabing nie je podporovaný na zariadeniach iOS. Prosím, použite desktopový prehliadač."
+   },
+   "liveStreamNotSupported": {
+      "message": "Živé vysielania nie sú podporované pre univerzálny dabing."
+   },
+   "liveVideoNotSupported": {
+      "message": "Živé videá momentálne nie sú podporované pre dabing"
+   },
+   "loading": {
+      "message": "načítava sa"
+   },
+   "login": {
+      "message": "Prihlásiť"
+   },
+   "loginAndUsePlugin": {
+      "message": "Najskôr kliknite na ikonu pluginu a prihláste sa, potom použite plugin na prehrávanie dabingu."
+   },
+   "logout": {
+      "message": "Odhlásiť sa"
+   },
+   "lowBalanceText": {
+      "message": "Zostatok na vašom účte je pod 1 $. Odporúčame čoskoro dobiť kredit pre zabezpečenie neprerušovanej služby"
+   },
+   "lowBalanceTitle": {
+      "message": "Upozornenie na nízky zostatok"
+   },
+   "male": {
+      "message": "Muž"
+   },
+   "man": {
+      "message": "Muž"
+   },
+   "mediaSourceNotDetected": {
+      "message": "Nepodarilo sa zistiť zdroj videa. Táto webová stránka nemusí byť podporovaná."
+   },
+   "memberUser": {
+      "message": "Člen"
+   },
+   "membershipExpires": {
+      "message": "Platí do"
+   },
+   "membershipIcon": {
+      "message": "Ikona členstva"
+   },
+   "membershipRequired": {
+      "message": "Pred použitím OpenAI prekladu si prosím predplaťte členstvo."
+   },
+   "membershipRequiredForAI": {
+      "message": "Pred použitím AI prekladu si prosím nabite členstvo. Ak nechcete dobiť, môžete si tiež vybrať Google Prekladač."
+   },
+   "membershipRequiredTitle": {
+      "message": "Vyžaduje sa členstvo"
+   },
+   "metadataNotFound": {
+      "message": "Metadata videa neboli nájdené, obnovte stránku a skúste to znova"
+   },
+   "multiVideoNotSupported": {
+      "message": "Táto stránka obsahuje viacero videí. Univerzálny dabing podporuje len stránky s jedným videom pri použití HLS streamov."
+   },
+   "name": {
+      "message": "YouTube Dubbing – Preložiť a dabovať"
+   },
+   "noAudioTrackFound": {
+      "message": "Nebola zistená zvuková stopa. Toto video sa zdá byť iba video bez zvuku a nemôže byť použité na rozpoznávanie dabingu."
+   },
+   "noSpeakers": {
+      "message": "Žiadni rečníci"
+   },
+   "noSubtitlesFound": {
+      "message": "Toto video nemá titulky a nepodporuje preklad ani dabing"
+   },
+   "noSubtitlesWaitOptimization": {
+      "message": "Titulky nie sú k dispozícii. Počkajte, kým plugin rozpozná titulky pre toto video. Po dokončení rozpoznávania dostanete e-mailovú notifikáciu na registrovanú adresu."
+   },
+   "notSupported": {
+      "message": "Nepodporované"
+   },
+   "originalAudio": {
+      "message": "Originál"
+   },
+   "pauseVideo": {
+      "message": "Pozastaviť video"
+   },
+   "pay": {
+      "message": "platiť"
+   },
+   "pleaseClickVideoToPlay": {
+      "message": "Kliknite na video, aby ste ho otvorili, a potom použite funkciu dabingu."
+   },
+   "postLoginTranslationSettings": {
+      "message": "Prihlásenie úspešné. Kliknutím na ikonu pluginu vyberte jazyk prekladu a zoznam hlasov."
+   },
+   "premiumMemberDurationLimit": {
+      "message": "Toto video nemá titulky a trvanie videa presahuje 3 hodiny, preklad a dabing nie sú podporované. Vyberte kratšie video alebo video s titulkami."
+   },
+   "rechargeLimit": {
+      "message": "Kredit+Členstvo"
+   },
+   "safariShortcutSettingsTip": {
+      "message": "Nastavte klávesové skratky v Safari > Predvoľby > Rozšírenia"
+   },
+   "save": {
+      "message": "Uložiť"
+   },
+   "saveFailedText": {
+      "message": "Nepodarilo sa uložiť nastavenia, skúste to znova"
+   },
+   "saveFailedTitle": {
+      "message": "Uloženie zlyhalo"
+   },
+   "saveSuccessText": {
+      "message": "Nastavenia úspešne uložené"
+   },
+   "saveSuccessTitle": {
+      "message": "Úspešne uložené"
+   },
+   "save_settings": {
+      "message": "Uložiť"
+   },
+   "saving": {
+      "message": "Ukladá sa..."
+   },
+   "searchSourceLanguage": {
+      "message": "Hľadať zdrojový jazyk..."
+   },
+   "searchTargetLanguage": {
+      "message": "Hľadať cieľový jazyk..."
+   },
+   "selectSourceLanguage": {
+      "message": "Vyberte zdrojový jazyk"
+   },
+   "selectSpeaker": {
+      "message": "Vybrať"
+   },
+   "selectTargetLanguage": {
+      "message": "Vyberte cieľový jazyk"
+   },
+   "sex": {
+      "message": "Pohlavie:"
+   },
+   "shortcutSettings": {
+      "message": "Klávesové skratky"
+   },
+   "showSubtitle": {
+      "message": "titulky:"
+   },
+   "sourceLanguage": {
+      "message": "Zdrojový jazyk"
+   },
+   "source_languages": {
+      "message": "Zdrojový jazyk:"
+   },
+   "speaker": {
+      "message": "Rečník"
+   },
+   "speakerList": {
+      "message": "Zoznam rečníkov"
+   },
+   "speakerName": {
+      "message": "Meno rečníka"
+   },
+   "speakersTitle": {
+      "message": "Rečníci"
+   },
+   "startUpload": {
+      "message": "Začať nahrávanie"
+   },
+   "subscribe": {
+      "message": "Predplatiť"
+   },
+   "subscriptionRecharge": {
+      "message": "Predplatiť & Dobiť"
+   },
+   "subtitleSize": {
+      "message": "Veľkosť"
+   },
+   "subtitles": {
+      "message": "Titulky"
+   },
+   "subtitlesRateLimitedByYouTube": {
+      "message": "Titulky pre toto video sú momentálne limitované YouTube. Skúste to neskôr."
+   },
+   "swapVolumeSettingsCommand": {
+      "message": "Prepnúť nastavenia hlasitosti medzi originálnym a dabovaným zvukom"
+   },
+   "switchModelWarning": {
+      "message": "Prepnutie hlasu alebo prekladového modelu počas prehrávania videa spôsobí dodatočné poplatky kvôli zmarneným zdrojom. Odporúčame prepnúť pri ďalšom videu. Pre pokračovanie kliknite Pokračovať a uložiť."
+   },
+   "targetLanguage": {
+      "message": "Cieľový jazyk"
+   },
+   "target_languages": {
+      "message": "Cieľový jazyk:"
+   },
+   "taskAlreadySubmitted": {
+      "message": "Toto video sa už spracováva pre rozpoznávanie titulkov AI. Počkajte prosím na e-mailové upozornenie."
+   },
+   "textToSpeech": {
+      "message": "Text na reč:"
+   },
+   "textToSpeechToggle": {
+      "message": "Plávajúca ikona"
+   },
+   "toggleSubtitles": {
+      "message": "Prepnúť titulky"
+   },
+   "tooExpensive": {
+      "message": "Drahé"
+   },
+   "translateEngineTipText": {
+      "message": "zmeňte prekladovú službu na Google"
+   },
+   "translateService": {
+      "message": "Preložiť:"
+   },
+   "translatedAudio": {
+      "message": "Preložené"
+   },
+   "translationEngine": {
+      "message": "Prekladací engine"
+   },
+   "translationService": {
+      "message": "Prekladová služba"
+   },
+   "translationServiceTitle": {
+      "message": "Prekladová služba"
+   },
+   "trialMemberDurationLimit": {
+      "message": "Toto video nemá titulky. Ako skúšobný člen môžete momentálne rozpoznávať titulky len pre videá do 15 minút. Prémiový členovia podporujú videá do 3 hodín."
+   },
+   "trialMemberModelLimit": {
+      "message": "Skúšobní členovia môžu používať len Gemini a Google Prekladač. Pre použitie iných modelov si prosím predplaťte naše členstvo."
+   },
+   "universalDubbingMemberOnly": {
+      "message": "Univerzálny dabing vyžaduje cloudovú GPU výpočtovú kapacitu (vysoké náklady), iba pre VIP."
+   },
+   "universalDubbingNotSupported": {
+      "message": "Univerzálny dabing nie je pre toto video podporovaný v aktuálnej verzii. Podpora je plánovaná v ďalšej verzii. Pre podrobnosti kontaktujte zákaznícky servis."
+   },
+   "unknownError": {
+      "message": "Vyskytla sa neznáma chyba. Skúste to znova."
+   },
+   "upgradeMembershipForBackgroundRecognition": {
+      "message": "Upgradujte na členstvo a plugin rozpozná AI titulky na pozadí. Po prijatí e-mailovej notifikácie sa vráťte späť na sledovanie; tlačidlo dabingu sa zmení na zelené a preklady budú presnejšie."
+   },
+   "uploadComplete": {
+      "message": "Nahrávanie dokončené"
+   },
+   "uploadFailed": {
+      "message": "Nahrávanie zlyhalo"
+   },
+   "uploadMediaForRecognition": {
+      "message": "Nenašli sa žiadne titulky. Chcete nahrať video na rozpoznávanie titulkov pomocou AI?"
+   },
+   "uploading": {
+      "message": "Nahrávanie"
+   },
+   "uploadingMedia": {
+      "message": "Nahrávanie médií..."
+   },
+   "videoDrmProtected": {
+      "message": "Toto video je chránené DRM a nemožno ho použiť na dabing."
+   },
+   "videoDurationExceedsLimit": {
+      "message": "Toto video presahuje 3 hodiny. Univerzálny dabing v súčasnosti nie je podporovaný pre videá dlhšie ako 3 hodiny."
+   },
+   "vipAndBalanceRequiredText": {
+      "message": "Na použitie tejto funkcie musíte byť členom a mať dostatok zostatku"
+   },
+   "vipAndBalanceRequiredTitle": {
+      "message": "Požadované členstvo a zostatok"
+   },
+   "vipFreeOptionTipText": {
+      "message": "Ako člen môžete bezplatne používať tieto prekladové služby"
+   },
+   "vipRequiredText": {
+      "message": "Na použitie tejto funkcie musíte byť členom"
+   },
+   "vipRequiredTitle": {
+      "message": "Požadované členstvo"
+   },
+   "vipTranslateEngineTipText": {
+      "message": "Zmeňte prekladovú službu na bezplatné služby pre členov ako gemini, deepseek, gpt-3.5-turbo alebo claude-3-haiku"
+   },
+   "voice": {
+      "message": "Hlas"
+   },
+   "voiceSettingsMismatch": {
+      "message": "Typ hlasu a nastavenia hlasu sa nezhodujú. Prejdite na stránku nastavení, aby ste znova vybrali a uložili nastavenia hlasu."
+   },
+   "voiceTypeTipText": {
+      "message": "zmeňte typ hlasu na bezplatnú verziu"
+   },
+   "voices": {
+      "message": "Hlas:"
+   },
+   "voicesAndSubtitles": {
+      "message": "Hlas a titulky"
+   },
+   "voicesAndSubtitlesTitle": {
+      "message": "Hlas a titulky"
+   },
+   "voicesType": {
+      "message": "Typ hlasu:"
+   },
+   "waitingForRecognition": {
+      "message": "Video bolo úspešne nahrané. Rozpoznávanie titulkov pomocou AI prebieha. Po dokončení dostanete e-mailové upozornenie."
+   },
+   "woman": {
+      "message": "Žena"
+   },
+   "zoomRecordingDnrNotSupported": {
+      "message": "Váš prehliadač nepodporuje rozpoznávanie nahrávania záznamov Zoom. Použite prosím Chrome/Edge."
+   },
+   "zoomRecordingDownloadForbidden403": {
+      "message": "Sťahovanie záznamu Zoom bolo zakázané (403). Prehrajte/obnovte stránku pre overenie a skúste to znova."
+   }
+}

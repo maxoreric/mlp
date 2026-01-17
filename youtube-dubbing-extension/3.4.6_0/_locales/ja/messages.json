@@ -1,0 +1,470 @@
+{
+   "accountBalance": {
+      "message": "アカウント残高:"
+   },
+   "advancedSettings": {
+      "message": "高度な設定"
+   },
+   "aiSubtitlesRecognitionInBackground": {
+      "message": "現在、この動画には AI 字幕がありません。拡張機能がバックグラウンドで認識を開始しました。最初の一文の吹き替えが聞こえたらページを閉じ、メール通知をお待ちください。準備ができると吹き替えボタンが緑色になり、翻訳品質が向上します。"
+   },
+   "back": {
+      "message": "戻る"
+   },
+   "backToSettings": {
+      "message": "設定に戻る"
+   },
+   "backgroundAudio": {
+      "message": "背景音"
+   },
+   "balanceRequiredText": {
+      "message": "アカウント残高が不足しています。この機能を使用するにはチャージしてください"
+   },
+   "balanceRequiredTitle": {
+      "message": "残高が必要です"
+   },
+   "balanceRunningLow": {
+      "message": "残高が少なくなっています。視聴体験が悪化しないように、事前にチャージすることをお勧めします。"
+   },
+   "browserShortcutSettingsTip": {
+      "message": "ブラウザ拡張機能の設定でショートカットを設定してください"
+   },
+   "cancel": {
+      "message": "キャンセル"
+   },
+   "cancelButton": {
+      "message": "キャンセル"
+   },
+   "completing": {
+      "message": "完了処理中"
+   },
+   "confirmButton": {
+      "message": "続行して保存"
+   },
+   "confirmDeleteSpeaker": {
+      "message": "この話者を削除してもよろしいですか？"
+   },
+   "contentMenusTitle": {
+      "message": "音声再生を開始"
+   },
+   "corsNotSupported": {
+      "message": "このウェブサイトではメディアファイルのダウンロードが許可されていません。ユニバーサル吹替は利用できません。"
+   },
+   "debugInfo": {
+      "message": "デバッグ情報"
+   },
+   "delete": {
+      "message": "削除"
+   },
+   "deleteSpeaker": {
+      "message": "削除"
+   },
+   "description": {
+      "message": "ワンクリックでオンライン動画を翻訳・吹き替え、外国語を即理解し、世界中の知識を手軽に習得"
+   },
+   "disableGlobally": {
+      "message": "全体的に無効化"
+   },
+   "doNotClosePage": {
+      "message": "アップロード中はこのページを閉じたり更新したりしないでください。アップロードが中断されます。"
+   },
+   "downloading": {
+      "message": "ダウンロード中"
+   },
+   "dropboxClickCcToTranscribe": {
+      "message": "この動画はまだ文字起こしされていません。Dropbox の動画下部にある CC ボタンをクリックして字幕を作成してください。文字起こしが完了したら、拡張機能の吹き替えボタンをクリックして翻訳と吹き替えを実行してください。"
+   },
+   "dropdownNoOptions": {
+      "message": "利用可能なオプションはありません"
+   },
+   "dropdownPlaceholder": {
+      "message": "選択"
+   },
+   "dropdownSearch": {
+      "message": "検索..."
+   },
+   "dubbingSettings": {
+      "message": "配音設定"
+   },
+   "edgeShortcutSettingsTip": {
+      "message": "Edgeの拡張機能ショートカット設定ページを開いています"
+   },
+   "edit": {
+      "message": "編集"
+   },
+   "editSpeaker": {
+      "message": "話者を編集"
+   },
+   "enterSpeakerName": {
+      "message": "話者名を入力"
+   },
+   "enterVoice": {
+      "message": "音声名を入力"
+   },
+   "error": {
+      "message": "エラー"
+   },
+   "female": {
+      "message": "女"
+   },
+   "firefoxShortcutSettingsTip": {
+      "message": "Firefoxアドオンページを開いています。拡張機能とテーマでショートカットを設定してください"
+   },
+   "free": {
+      "message": "無料"
+   },
+   "freeForVip": {
+      "message": "会員無料"
+   },
+   "freeOptionTipText": {
+      "message": "チャージしたくない場合は、無料オプションを選択できます。"
+   },
+   "freeUserDailyLimit": {
+      "message": "無料ユーザーは1日最大5本の動画を拡張機能経由で視聴できます。メンバーシップにアップグレードして無制限視聴特典をお楽しみください。"
+   },
+   "freeUserNoSubtitles": {
+      "message": "この動画には内蔵字幕がありません。字幕認識を行い、翻訳・吹き替え機能をお楽しみいただくには、拡張機能メンバーシップにご登録ください。"
+   },
+   "gender": {
+      "message": "性別"
+   },
+   "hideUntilNextVisit": {
+      "message": "次回訪問まで非表示"
+   },
+   "insufficientBalance": {
+      "message": "残高が不足していて、Google翻訳にダウングレードされました。AI翻訳を使用するには、残高を再チャージしてください。"
+   },
+   "insufficientBalanceAlertMsg": {
+      "message": "残高が不足しています。AI翻訳とAzure TTSを使用する前に、残高をチャージしてください。チャージしたくない場合は、Google翻訳と無料の音声タイプに切り替えることができます。"
+   },
+   "insufficientBalanceAndMembership": {
+      "message": "AI翻訳とAzure TTSを使用する前に、メンバーシップと残高をチャージしてください。チャージしたくない場合は、Google翻訳と無料の音声タイプを選択することもできます。"
+   },
+   "insufficientMembership": {
+      "message": "メンバーシップの有効期限が切れました。AI翻訳とAzure TTSを使用する前に、メンバーシップをチャージしてください。チャージしたくない場合は、Google翻訳と無料の音声タイプを選択することもできます。"
+   },
+   "iosInterceptorConflictMessage": {
+      "message": "別のブラウザー拡張機能が字幕リクエストの傍受を妨げています。競合する拡張機能を無効にし、ページを再読み込みしてから再試行してください。"
+   },
+   "iosInterceptorConflictTitle": {
+      "message": "拡張機能の競合を検出しました"
+   },
+   "iosOpenOriginVolume": {
+      "message": "オリジナル音声をオンにする"
+   },
+   "iosUniversalDubbingNotSupported": {
+      "message": "ユニバーサル吹き替えはiOSデバイスではサポートされていません。デスクトップブラウザをご利用ください。"
+   },
+   "liveStreamNotSupported": {
+      "message": "ライブストリームはユニバーサル吹替に対応していません。"
+   },
+   "liveVideoNotSupported": {
+      "message": "ライブビデオは現在、吹き替えに対応していません"
+   },
+   "loading": {
+      "message": "読み込み中"
+   },
+   "login": {
+      "message": "ログイン"
+   },
+   "loginAndUsePlugin": {
+      "message": "まず拡張機能のアイコンをクリックしてログインし、その後拡張機能を使用して音声再生を行ってください。"
+   },
+   "logout": {
+      "message": "ログアウト"
+   },
+   "lowBalanceText": {
+      "message": "アカウント残高が1ドル未満です。サービスの中断を避けるため、早めにチャージすることをお勧めします"
+   },
+   "lowBalanceTitle": {
+      "message": "残高不足アラート"
+   },
+   "male": {
+      "message": "男"
+   },
+   "man": {
+      "message": "男"
+   },
+   "mediaSourceNotDetected": {
+      "message": "動画ソースを検出できません。このウェブサイトはサポートされていない可能性があります。"
+   },
+   "memberUser": {
+      "message": "PRO"
+   },
+   "membershipExpires": {
+      "message": "会員期限"
+   },
+   "membershipIcon": {
+      "message": "会員アイコン"
+   },
+   "membershipRequired": {
+      "message": "OpenAI翻訳を使用する前に、会員登録をしてください。"
+   },
+   "membershipRequiredForAI": {
+      "message": "AI翻訳を使用する前に、メンバーシップをチャージしてください。チャージしたくない場合は、Google翻訳を選択することもできます。"
+   },
+   "membershipRequiredTitle": {
+      "message": "会員登録が必要です"
+   },
+   "metadataNotFound": {
+      "message": "動画情報を取得できません。更新して再試行してください"
+   },
+   "multiVideoNotSupported": {
+      "message": "このページには複数の動画があります。ユニバーサル吹き替えはHLSストリームの場合、単一動画のページのみサポートしています。"
+   },
+   "name": {
+      "message": "YouTube Dubbing – AI字幕翻訳＆吹き替え | Translate & Dub"
+   },
+   "noAudioTrackFound": {
+      "message": "オーディオトラックが検出されませんでした。この動画は音声のない映像のみのファイルのようです。吹き替え認識には使用できません。"
+   },
+   "noSpeakers": {
+      "message": "話者がいません"
+   },
+   "noSubtitlesFound": {
+      "message": "この動画には字幕がないため、翻訳・吹き替えに対応していません"
+   },
+   "noSubtitlesWaitOptimization": {
+      "message": "利用可能な字幕がありません。拡張機能がこの動画の字幕を認識するまでお待ちください。認識完了後、登録されたメールアドレスに通知メールをお送りします。"
+   },
+   "notSupported": {
+      "message": "未対応"
+   },
+   "originalAudio": {
+      "message": "原音声"
+   },
+   "pauseVideo": {
+      "message": "動画を一時停止"
+   },
+   "pay": {
+      "message": "支払う"
+   },
+   "postLoginTranslationSettings": {
+      "message": "ログイン成功。拡張機能のアイコンをクリックして、翻訳言語と声のリストを選択できます。"
+   },
+   "premiumMemberDurationLimit": {
+      "message": "この動画には字幕がなく、動画の長さが3時間を超えているため、翻訳・吹き替えに対応していません。より短い動画または字幕付きの動画を選択してください。"
+   },
+   "rechargeLimit": {
+      "message": "残高+会員"
+   },
+   "safariShortcutSettingsTip": {
+      "message": "Safari > 環境設定 > 拡張機能でショートカットを設定してください"
+   },
+   "save": {
+      "message": "保存"
+   },
+   "saveFailedText": {
+      "message": "設定の保存に失敗しました。もう一度お試しください"
+   },
+   "saveFailedTitle": {
+      "message": "保存に失敗しました"
+   },
+   "saveSuccessText": {
+      "message": "設定が保存されました"
+   },
+   "saveSuccessTitle": {
+      "message": "保存成功"
+   },
+   "save_settings": {
+      "message": "設定を保存"
+   },
+   "saving": {
+      "message": "保存中..."
+   },
+   "searchSourceLanguage": {
+      "message": "ソース言語を検索..."
+   },
+   "searchTargetLanguage": {
+      "message": "対象言語を検索..."
+   },
+   "selectSourceLanguage": {
+      "message": "ソース言語を選択"
+   },
+   "selectSpeaker": {
+      "message": "選択"
+   },
+   "selectTargetLanguage": {
+      "message": "対象言語を選択"
+   },
+   "sex": {
+      "message": "性別:"
+   },
+   "shortcutSettings": {
+      "message": "ショートカット設定"
+   },
+   "showSubtitle": {
+      "message": "字幕を表示"
+   },
+   "sourceLanguage": {
+      "message": "ソース言語"
+   },
+   "source_languages": {
+      "message": "ソース言語:"
+   },
+   "speaker": {
+      "message": "話者"
+   },
+   "speakerList": {
+      "message": "話者リスト"
+   },
+   "speakerName": {
+      "message": "話者名"
+   },
+   "speakersTitle": {
+      "message": "話者"
+   },
+   "startUpload": {
+      "message": "アップロード開始"
+   },
+   "subscribe": {
+      "message": "会員登録"
+   },
+   "subscriptionRecharge": {
+      "message": "購読 & チャージ"
+   },
+   "subtitleSize": {
+      "message": "サイズ"
+   },
+   "subtitles": {
+      "message": "字幕"
+   },
+   "subtitlesRateLimitedByYouTube": {
+      "message": "この動画の字幕は現在 YouTube により制限されています。しばらくしてからもう一度お試しください。"
+   },
+   "swapVolumeSettingsCommand": {
+      "message": "オリジナル音声と吹き替え音声の音量設定を切り替える"
+   },
+   "switchModelWarning": {
+      "message": "動画を再生中に、音声または翻訳モデルを切り替えると、すでにロードされたリソースが無駄になるため、追加料金が発生します。次の動画で切り替えることをお勧めします。それでも続行する場合は、続行して保存をクリックしてください。"
+   },
+   "targetLanguage": {
+      "message": "対象言語"
+   },
+   "target_languages": {
+      "message": "対象言語:"
+   },
+   "taskAlreadySubmitted": {
+      "message": "この動画はすでにAI字幕認識の処理中です。メール通知をお待ちください。"
+   },
+   "textToSpeech": {
+      "message": "テキスト読み上げ:"
+   },
+   "textToSpeechToggle": {
+      "message": "フローティングボール"
+   },
+   "toggleSubtitles": {
+      "message": "字幕の切り替え"
+   },
+   "tooExpensive": {
+      "message": "高すぎる"
+   },
+   "translateEngineTipText": {
+      "message": "翻訳サービスをGoogleに変更する"
+   },
+   "translateService": {
+      "message": "翻訳:"
+   },
+   "translatedAudio": {
+      "message": "翻訳音声"
+   },
+   "translationEngine": {
+      "message": "翻訳エンジン"
+   },
+   "translationService": {
+      "message": "翻訳サービス"
+   },
+   "translationServiceTitle": {
+      "message": "翻訳サービス"
+   },
+   "trialMemberDurationLimit": {
+      "message": "この動画には字幕がありません。試用版メンバーのため、現在15分以内の動画のみ字幕認識に対応しています。正式版メンバーは3時間以内の動画に対応しています。"
+   },
+   "trialMemberModelLimit": {
+      "message": "お試し会員は Gemini と Google 翻訳のみ利用できます。その他のモデルを利用するには、会員登録をご検討ください。"
+   },
+   "universalDubbingMemberOnly": {
+      "message": "ユニバーサル吹替はクラウドGPU計算能力を消費します（コストが高い）、VIP限定です。"
+   },
+   "universalDubbingNotSupported": {
+      "message": "現在のバージョンでは、この動画の汎用吹き替えはサポートされていません。次のバージョンでサポート予定です。詳細はカスタマーサービスにお問い合わせください。"
+   },
+   "unknownError": {
+      "message": "不明なエラーが発生しました。もう一度お試しください。"
+   },
+   "upgradeMembershipForBackgroundRecognition": {
+      "message": "メンバーシップにアップグレードすると、拡張機能がバックグラウンドで AI 字幕の認識を行います。メール通知を受け取ったら、戻って視聴してください。その時点で吹き替えボタンが緑色になり、翻訳精度が向上します。"
+   },
+   "uploadComplete": {
+      "message": "アップロード完了"
+   },
+   "uploadFailed": {
+      "message": "アップロード失敗"
+   },
+   "uploadMediaForRecognition": {
+      "message": "字幕が見つかりませんでした。AI字幕認識のために動画をアップロードしますか？"
+   },
+   "uploading": {
+      "message": "アップロード中"
+   },
+   "uploadingMedia": {
+      "message": "メディアをアップロード中..."
+   },
+   "videoDrmProtected": {
+      "message": "この動画はDRM保護されているため、吹き替え機能を使用できません。"
+   },
+   "videoDurationExceedsLimit": {
+      "message": "この動画は3時間を超えています。3時間を超える動画のユニバーサル吹替は現在サポートされていません。"
+   },
+   "vipAndBalanceRequiredText": {
+      "message": "この機能を使用するにはメンバーになり、十分な残高が必要です"
+   },
+   "vipAndBalanceRequiredTitle": {
+      "message": "メンバーシップと残高が必要です"
+   },
+   "vipFreeOptionTipText": {
+      "message": "メンバーとして、以下の翻訳サービスを無料で利用できます"
+   },
+   "vipRequiredText": {
+      "message": "この機能を使用するにはメンバーになる必要があります"
+   },
+   "vipRequiredTitle": {
+      "message": "メンバーシップが必要です"
+   },
+   "vipTranslateEngineTipText": {
+      "message": "翻訳サービスをgemini、deepseek、gpt-3.5-turboまたはclaude-3-haikuなどのメンバー無料サービスに変更"
+   },
+   "voice": {
+      "message": "音声"
+   },
+   "voiceSettingsMismatch": {
+      "message": "音声タイプと音声設定が一致しません。設定ページに移動して音声設定を再選択して保存してください。"
+   },
+   "voiceTypeTipText": {
+      "message": "音声タイプを無料バージョンに変更する"
+   },
+   "voices": {
+      "message": "声:"
+   },
+   "voicesAndSubtitles": {
+      "message": "音声と字幕"
+   },
+   "voicesAndSubtitlesTitle": {
+      "message": "音声と字幕"
+   },
+   "voicesType": {
+      "message": "音声タイプ:"
+   },
+   "waitingForRecognition": {
+      "message": "動画のアップロードが完了しました。AI字幕認識を実行中です。完了次第、メールでお知らせします。"
+   },
+   "woman": {
+      "message": "女"
+   },
+   "zoomRecordingDnrNotSupported": {
+      "message": "お使いのブラウザはZoom録画アップロード認識に対応していません。Chrome/Edgeをご使用ください。"
+   },
+   "zoomRecordingDownloadForbidden403": {
+      "message": "Zoom録画のダウンロードが禁止されました（403）。ページを再生/更新して認証を通過してから、再度アップロードしてください。"
+   }
+}

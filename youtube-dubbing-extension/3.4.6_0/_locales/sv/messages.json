@@ -1,0 +1,470 @@
+{
+   "accountBalance": {
+      "message": "Kontosaldo:"
+   },
+   "advancedSettings": {
+      "message": "Avancerade inställningar"
+   },
+   "aiSubtitlesRecognitionInBackground": {
+      "message": "AI-undertexter är ännu inte tillgängliga. Pluginet har börjat identifiera dem i bakgrunden. Efter att du hört den första dubbade meningen kan du stänga sidan och vänta på e-postmeddelandet; när det är klart blir dubbningsknappen grön och översättningskvaliteten blir bättre."
+   },
+   "back": {
+      "message": "Tillbaka"
+   },
+   "backToSettings": {
+      "message": "Tillbaka till inställningar"
+   },
+   "backgroundAudio": {
+      "message": "BGM"
+   },
+   "balanceRequiredText": {
+      "message": "Ditt kontosaldo är otillräckligt. Vänligen ladda för att använda denna funktion"
+   },
+   "balanceRequiredTitle": {
+      "message": "Saldo krävs"
+   },
+   "balanceRunningLow": {
+      "message": "Ditt saldo håller på att ta slut. För att undvika dålig tittarupplevelse rekommenderas det att ladda i förväg."
+   },
+   "browserShortcutSettingsTip": {
+      "message": "Vänligen konfigurera genvägar i webbläsartilläggets inställningar"
+   },
+   "cancel": {
+      "message": "Avbryt"
+   },
+   "cancelButton": {
+      "message": "Avbryt"
+   },
+   "completing": {
+      "message": "Slutför"
+   },
+   "confirmButton": {
+      "message": "Fortsätt och spara"
+   },
+   "confirmDeleteSpeaker": {
+      "message": "Är du säker på att du vill ta bort denna talare?"
+   },
+   "contentMenusTitle": {
+      "message": "Starta röstuppspelning"
+   },
+   "corsNotSupported": {
+      "message": "Denna webbplats tillåter inte nedladdning av mediefiler. Universell dubbning stöds inte."
+   },
+   "debugInfo": {
+      "message": "Felsökningsinfo"
+   },
+   "delete": {
+      "message": "Ta bort"
+   },
+   "deleteSpeaker": {
+      "message": "Ta bort"
+   },
+   "description": {
+      "message": "Översätt och dubba videor med ett klick—förstå främmande språk direkt, få tillgång till global kunskap"
+   },
+   "disableGlobally": {
+      "message": "Inaktivera globalt"
+   },
+   "doNotClosePage": {
+      "message": "Stäng eller uppdatera inte denna sida under uppladdning, annars avbryts uppladdningen."
+   },
+   "downloading": {
+      "message": "Laddar ner"
+   },
+   "dropboxClickCcToTranscribe": {
+      "message": "Denna video har ännu inte transkriberats. Vänligen klicka på CC-knappen längst ner i Dropbox-videon för att transkribera undertexterna. När transkriberingen är klar, klicka på pluginets dubbningsknapp för att översätta och dubba."
+   },
+   "dropdownNoOptions": {
+      "message": "Inga alternativ tillgängliga"
+   },
+   "dropdownPlaceholder": {
+      "message": "Vänligen välj"
+   },
+   "dropdownSearch": {
+      "message": "Sök..."
+   },
+   "dubbingSettings": {
+      "message": "Dubbningsinställningar"
+   },
+   "edgeShortcutSettingsTip": {
+      "message": "Öppnar Edge-tilläggets genvägsinställningssida"
+   },
+   "edit": {
+      "message": "Redigera"
+   },
+   "editSpeaker": {
+      "message": "Redigera"
+   },
+   "enterSpeakerName": {
+      "message": "Ange talarnamn"
+   },
+   "enterVoice": {
+      "message": "Ange röstnamn"
+   },
+   "error": {
+      "message": "Fel"
+   },
+   "female": {
+      "message": "Kvinna"
+   },
+   "firefoxShortcutSettingsTip": {
+      "message": "Öppnar Firefox tilläggssida, vänligen ställ in genvägar i Tillägg och Teman"
+   },
+   "free": {
+      "message": "gratis"
+   },
+   "freeForVip": {
+      "message": "Gratis för VIP"
+   },
+   "freeOptionTipText": {
+      "message": "Om du inte vill ladda kan du välja gratisalternativet, "
+   },
+   "freeUserDailyLimit": {
+      "message": "Gratisanvändare kan titta på upp till 5 videor per dag via pluginet. Uppgradera till medlemskap för att låsa upp obegränsad visning."
+   },
+   "freeUserNoSubtitles": {
+      "message": "Denna video har inga inbyggda undertexter. Vänligen prenumerera på plugin-medlemskap för undertextidentifiering och njut av översättnings- och dubbningsfunktioner."
+   },
+   "gender": {
+      "message": "Kön"
+   },
+   "hideUntilNextVisit": {
+      "message": "Dölj till nästa besök"
+   },
+   "insufficientBalance": {
+      "message": "På grund av otillräckligt saldo har tjänsten nedgraderats till Google Translate. För att använda AI-översättning, vänligen ladda ditt konto."
+   },
+   "insufficientBalanceAlertMsg": {
+      "message": "Ditt saldo är otillräckligt. Vänligen ladda ditt saldo innan du använder AI-översättning och Azure TTS. Om du inte vill ladda kan du byta tillbaka till Google Translate och gratis rösttyper."
+   },
+   "insufficientBalanceAndMembership": {
+      "message": "Vänligen ladda ditt medlemskap och saldo innan du använder AI-översättning och Azure TTS. Om du inte vill ladda kan du också välja Google Translate och gratis rösttyper."
+   },
+   "insufficientMembership": {
+      "message": "Ditt medlemskap har gått ut. Vänligen ladda ditt medlemskap innan du använder AI-översättning och Azure TTS. Om du inte vill ladda kan du också välja Google Translate och gratis rösttyper."
+   },
+   "iosInterceptorConflictMessage": {
+      "message": "Ett annat webbläsartillägg blockerar undertextförfrågningsavlyssning. Inaktivera motstridiga tillägg, uppdatera sidan och försök igen."
+   },
+   "iosInterceptorConflictTitle": {
+      "message": "Tilläggskonflikt upptäckt"
+   },
+   "iosOpenOriginVolume": {
+      "message": "Aktivera originalljud"
+   },
+   "iosUniversalDubbingNotSupported": {
+      "message": "Universell dubbing stöds inte på iOS-enheter. Använd en webbläsare på datorn."
+   },
+   "liveStreamNotSupported": {
+      "message": "Livestreamar stöds inte för universell dubbning."
+   },
+   "liveVideoNotSupported": {
+      "message": "Livevideor stöds för närvarande inte för dubbning"
+   },
+   "loading": {
+      "message": "laddar"
+   },
+   "login": {
+      "message": "Logga in"
+   },
+   "loginAndUsePlugin": {
+      "message": "Vänligen klicka på plugin-ikonen för att logga in först, använd sedan pluginet för röstuppspelning."
+   },
+   "logout": {
+      "message": "Logga ut"
+   },
+   "lowBalanceText": {
+      "message": "Ditt kontosaldo är under 1 dollar. Vi rekommenderar att ladda snart för att säkerställa oavbruten service"
+   },
+   "lowBalanceTitle": {
+      "message": "Lågt saldo"
+   },
+   "male": {
+      "message": "Man"
+   },
+   "man": {
+      "message": "Man"
+   },
+   "mediaSourceNotDetected": {
+      "message": "Kan inte upptäcka videokällan. Denna webbplats kanske inte stöds."
+   },
+   "memberUser": {
+      "message": "PRO"
+   },
+   "membershipExpires": {
+      "message": "Giltig till"
+   },
+   "membershipIcon": {
+      "message": "Medlemsikon"
+   },
+   "membershipRequired": {
+      "message": "Vänligen uppgradera till medlemskap innan du använder OpenAI-översättning."
+   },
+   "membershipRequiredForAI": {
+      "message": "Vänligen ladda ditt medlemskap innan du använder AI-översättning. Om du inte vill ladda kan du också välja Google Translate."
+   },
+   "membershipRequiredTitle": {
+      "message": "Medlemskap krävs"
+   },
+   "metadataNotFound": {
+      "message": "Videometadata hittades inte, vänligen uppdatera och försök igen"
+   },
+   "multiVideoNotSupported": {
+      "message": "Denna sida har flera videor. Universell dubbning stöder endast sidor med en enda video vid användning av HLS-strömmar."
+   },
+   "name": {
+      "message": "YouTube Dubbing – Översätt & Dubbning"
+   },
+   "noAudioTrackFound": {
+      "message": "Inget ljudspår hittades. Denna video verkar vara endast video utan ljud och kan inte användas för dubbningsigenkänning."
+   },
+   "noSpeakers": {
+      "message": "Inga talare"
+   },
+   "noSubtitlesFound": {
+      "message": "Denna video har inga undertexter och stöder inte översättning och dubbning"
+   },
+   "noSubtitlesWaitOptimization": {
+      "message": "Inga undertexter tillgängliga. Vänligen vänta på att pluginet identifierar undertexter för denna video. Du får ett e-postmeddelande till din registrerade e-postadress när identifieringen är klar."
+   },
+   "notSupported": {
+      "message": "Stöds inte"
+   },
+   "originalAudio": {
+      "message": "Original"
+   },
+   "pauseVideo": {
+      "message": "Pausa video"
+   },
+   "pay": {
+      "message": "betala"
+   },
+   "postLoginTranslationSettings": {
+      "message": "Inloggning lyckades. Klicka på plugin-ikonen för att välja översättningsspråk och röstlista."
+   },
+   "premiumMemberDurationLimit": {
+      "message": "Denna video har inga undertexter och videolängden överstiger 3 timmar, översättning och dubbning stöds inte. Vänligen välj en kortare video eller en video med undertexter."
+   },
+   "rechargeLimit": {
+      "message": "Saldo+Medlem"
+   },
+   "safariShortcutSettingsTip": {
+      "message": "Vänligen ställ in genvägar i Safari > Inställningar > Tillägg"
+   },
+   "save": {
+      "message": "Spara"
+   },
+   "saveFailedText": {
+      "message": "Det gick inte att spara inställningar, försök igen"
+   },
+   "saveFailedTitle": {
+      "message": "Misslyckades"
+   },
+   "saveSuccessText": {
+      "message": "Inställningar sparade"
+   },
+   "saveSuccessTitle": {
+      "message": "Sparat"
+   },
+   "save_settings": {
+      "message": "Spara inställningar"
+   },
+   "saving": {
+      "message": "Sparar..."
+   },
+   "searchSourceLanguage": {
+      "message": "Sök källspråk..."
+   },
+   "searchTargetLanguage": {
+      "message": "Sök målspråk..."
+   },
+   "selectSourceLanguage": {
+      "message": "Välj källspråk"
+   },
+   "selectSpeaker": {
+      "message": "Välj"
+   },
+   "selectTargetLanguage": {
+      "message": "Välj målspråk"
+   },
+   "sex": {
+      "message": "Kön:"
+   },
+   "shortcutSettings": {
+      "message": "Genvägar"
+   },
+   "showSubtitle": {
+      "message": "undertexter:"
+   },
+   "sourceLanguage": {
+      "message": "Källspråk"
+   },
+   "source_languages": {
+      "message": "Källspråk:"
+   },
+   "speaker": {
+      "message": "Talare"
+   },
+   "speakerList": {
+      "message": "Talarlista"
+   },
+   "speakerName": {
+      "message": "Talarnamn"
+   },
+   "speakersTitle": {
+      "message": "Talare"
+   },
+   "startUpload": {
+      "message": "Starta uppladdning"
+   },
+   "subscribe": {
+      "message": "Bli medlem"
+   },
+   "subscriptionRecharge": {
+      "message": "Prenumerera & Fyll på"
+   },
+   "subtitleSize": {
+      "message": "Storlek"
+   },
+   "subtitles": {
+      "message": "Undertexter"
+   },
+   "subtitlesRateLimitedByYouTube": {
+      "message": "Undertexter för denna video är för närvarande hastighetsbegränsade av YouTube. Vänligen försök igen senare."
+   },
+   "swapVolumeSettingsCommand": {
+      "message": "Växla volyminställningar mellan original och dubbat ljud"
+   },
+   "switchModelWarning": {
+      "message": "Att byta röst- eller översättningsmodell under videouppspelning medför extra avgifter på grund av slösade resurser. Vi rekommenderar att byta i nästa video. För att fortsätta ändå, klicka på Fortsätt och spara."
+   },
+   "targetLanguage": {
+      "message": "Målspråk"
+   },
+   "target_languages": {
+      "message": "Målspråk:"
+   },
+   "taskAlreadySubmitted": {
+      "message": "Denna video bearbetas redan för AI-undertextidentifiering. Vänta på e-postmeddelandet."
+   },
+   "textToSpeech": {
+      "message": "Text till tal:"
+   },
+   "textToSpeechToggle": {
+      "message": "Svävande boll"
+   },
+   "toggleSubtitles": {
+      "message": "Växla undertexter"
+   },
+   "tooExpensive": {
+      "message": "För dyrt"
+   },
+   "translateEngineTipText": {
+      "message": "ändra översättningstjänsten till Google"
+   },
+   "translateService": {
+      "message": "Översätt:"
+   },
+   "translatedAudio": {
+      "message": "Översatt"
+   },
+   "translationEngine": {
+      "message": "Översättningsmotor"
+   },
+   "translationService": {
+      "message": "Översättningstjänst"
+   },
+   "translationServiceTitle": {
+      "message": "Översättningstjänst"
+   },
+   "trialMemberDurationLimit": {
+      "message": "Denna video har inga undertexter. Som provmedlem stöds för närvarande endast videor under 15 minuter för undertextidentifiering. Premiummedlemmar stöder videor under 3 timmar."
+   },
+   "trialMemberModelLimit": {
+      "message": "Provmedlemmar kan endast använda Gemini och Google Translate. För att använda andra modeller, vänligen prenumerera på vårt medlemskap."
+   },
+   "universalDubbingMemberOnly": {
+      "message": "Universell dubbning kräver molnbaserad GPU-beräkningskraft (hög kostnad), endast för VIP."
+   },
+   "universalDubbingNotSupported": {
+      "message": "Universal dubbning stöds inte för denna video i nuvarande version. Stöd planeras för nästa version. Vänligen kontakta kundservice för detaljer."
+   },
+   "unknownError": {
+      "message": "Ett okänt fel uppstod. Försök igen."
+   },
+   "upgradeMembershipForBackgroundRecognition": {
+      "message": "Uppgradera till medlemskap så identifierar pluginet AI-undertexter i bakgrunden. Efter att du fått e-postmeddelandet, kom tillbaka för att titta; då blir dubbningsknappen grön och översättningarna mer exakta."
+   },
+   "uploadComplete": {
+      "message": "Uppladdning klar"
+   },
+   "uploadFailed": {
+      "message": "Uppladdning misslyckades"
+   },
+   "uploadMediaForRecognition": {
+      "message": "Inga undertexter hittades. Vill du ladda upp videon för AI-undertextigenkänning?"
+   },
+   "uploading": {
+      "message": "Laddar upp"
+   },
+   "uploadingMedia": {
+      "message": "Laddar upp media..."
+   },
+   "videoDrmProtected": {
+      "message": "Denna video är skyddad av DRM och kan inte användas för dubbning."
+   },
+   "videoDurationExceedsLimit": {
+      "message": "Denna video överstiger 3 timmar. Universell dubbning stöds för närvarande inte för videor längre än 3 timmar."
+   },
+   "vipAndBalanceRequiredText": {
+      "message": "Du måste vara medlem och ha tillräckligt saldo för att använda denna funktion"
+   },
+   "vipAndBalanceRequiredTitle": {
+      "message": "Medlemskap och saldo krävs"
+   },
+   "vipFreeOptionTipText": {
+      "message": "Som medlem kan du använda följande översättningstjänster gratis"
+   },
+   "vipRequiredText": {
+      "message": "Du måste vara medlem för att använda denna funktion"
+   },
+   "vipRequiredTitle": {
+      "message": "Medlemskap krävs"
+   },
+   "vipTranslateEngineTipText": {
+      "message": "Ändra översättningstjänst till medlemsgratis tjänster som gemini, deepseek, gpt-3.5-turbo eller claude-3-haiku"
+   },
+   "voice": {
+      "message": "Röst"
+   },
+   "voiceSettingsMismatch": {
+      "message": "Rösttyp och röstinställningar stämmer inte överens. Gå till inställningssidan för att välja om och spara röstinställningarna."
+   },
+   "voiceTypeTipText": {
+      "message": "ändra rösttypen till gratisversionen"
+   },
+   "voices": {
+      "message": "Röst:"
+   },
+   "voicesAndSubtitles": {
+      "message": "Röst & Undertexter"
+   },
+   "voicesAndSubtitlesTitle": {
+      "message": "Röst & Undertexter"
+   },
+   "voicesType": {
+      "message": "Rösttyp:"
+   },
+   "waitingForRecognition": {
+      "message": "Video uppladdad. AI-undertextigenkänning pågår. Du får ett e-postmeddelande när det är klart."
+   },
+   "woman": {
+      "message": "Kvinna"
+   },
+   "zoomRecordingDnrNotSupported": {
+      "message": "Din webbläsare stöder inte Zoom-inspelning uppladdningsigenkänning. Använd Chrome/Edge."
+   },
+   "zoomRecordingDownloadForbidden403": {
+      "message": "Zoom-inspelning nedladdning förbjöds (403). Vänligen spela/uppdatera sidan för verifiering och försök sedan igen."
+   }
+}

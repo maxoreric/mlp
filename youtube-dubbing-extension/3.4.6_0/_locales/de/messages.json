@@ -1,0 +1,470 @@
+{
+   "accountBalance": {
+      "message": "Kontostand:"
+   },
+   "advancedSettings": {
+      "message": "Erweiterte Einstellungen"
+   },
+   "aiSubtitlesRecognitionInBackground": {
+      "message": "Für dieses Video sind derzeit keine AI-Untertitel verfügbar. Die Erkennung wurde im Hintergrund gestartet. Sobald Sie den ersten vertonten Satz hören, können Sie die Seite schließen und auf die E-Mail-Benachrichtigung warten. Wenn alles bereit ist, wird die Dubbing-Schaltfläche grün und die Übersetzungsqualität ist besser."
+   },
+   "back": {
+      "message": "Zurück"
+   },
+   "backToSettings": {
+      "message": "Zu Einstellungen"
+   },
+   "backgroundAudio": {
+      "message": "Hintergrundton"
+   },
+   "balanceRequiredText": {
+      "message": "Guthaben reicht nicht, bitte aufladen für Funktion"
+   },
+   "balanceRequiredTitle": {
+      "message": "Guthaben nötig"
+   },
+   "balanceRunningLow": {
+      "message": "Guthaben fast aufgebraucht, bitte aufladen für unterbrechungsfreies Erlebnis."
+   },
+   "browserShortcutSettingsTip": {
+      "message": "Tastenkürzel in Browser-Erweiterung einstellen"
+   },
+   "cancel": {
+      "message": "Abbrechen"
+   },
+   "cancelButton": {
+      "message": "Abbrechen"
+   },
+   "completing": {
+      "message": "Abschließen"
+   },
+   "confirmButton": {
+      "message": "Fortfahren speichern"
+   },
+   "confirmDeleteSpeaker": {
+      "message": "Sind Sie sicher, dass Sie diesen Sprecher löschen möchten?"
+   },
+   "contentMenusTitle": {
+      "message": "Vertonung starten"
+   },
+   "corsNotSupported": {
+      "message": "Diese Website erlaubt das Herunterladen von Mediendateien nicht. Universal Dubbing wird nicht unterstützt."
+   },
+   "debugInfo": {
+      "message": "Debug-Informationen"
+   },
+   "delete": {
+      "message": "Löschen"
+   },
+   "deleteSpeaker": {
+      "message": "Löschen"
+   },
+   "description": {
+      "message": "Videos mit einem Klick übersetzen & vertonen, Fremdsprachen sofort verstehen, globales Wissen erschließen"
+   },
+   "disableGlobally": {
+      "message": "Global deaktivieren"
+   },
+   "doNotClosePage": {
+      "message": "Bitte schließen oder aktualisieren Sie diese Seite während des Uploads nicht, sonst wird der Upload unterbrochen."
+   },
+   "downloading": {
+      "message": "Herunterladen"
+   },
+   "dropboxClickCcToTranscribe": {
+      "message": "Dieses Video wurde noch nicht transkribiert. Bitte klicken Sie unten im Dropbox-Video auf die CC-Schaltfläche, um Untertitel zu erstellen. Nach Abschluss der Transkription klicken Sie auf die Vertonungs-Schaltfläche der Erweiterung, um zu übersetzen und zu vertonen."
+   },
+   "dropdownNoOptions": {
+      "message": "Keine Optionen verfügbar"
+   },
+   "dropdownPlaceholder": {
+      "message": "Bitte wählen"
+   },
+   "dropdownSearch": {
+      "message": "Suchen..."
+   },
+   "dubbingSettings": {
+      "message": "Vertonungseinstellungen"
+   },
+   "edgeShortcutSettingsTip": {
+      "message": "Öffne Edge-Erweiterungs-Tastenkürzel-Seite für dich"
+   },
+   "edit": {
+      "message": "Bearbeiten"
+   },
+   "editSpeaker": {
+      "message": "Sprecher bearbeiten"
+   },
+   "enterSpeakerName": {
+      "message": "Sprechername eingeben"
+   },
+   "enterVoice": {
+      "message": "Stimmname eingeben"
+   },
+   "error": {
+      "message": "Fehler"
+   },
+   "female": {
+      "message": "Weiblich"
+   },
+   "firefoxShortcutSettingsTip": {
+      "message": "Öffne Firefox-Add-ons-Seite, unter 'Erweiterungen' Tastenkürzel setzen"
+   },
+   "free": {
+      "message": "Kostenlos"
+   },
+   "freeForVip": {
+      "message": "Kostenlos für Mitglieder"
+   },
+   "freeOptionTipText": {
+      "message": "Ohne Aufladen kostenlose Option wählen,"
+   },
+   "freeUserDailyLimit": {
+      "message": "Kostenlose Benutzer können täglich bis zu 5 Videos über das Plugin ansehen. Upgraden Sie auf eine Mitgliedschaft, um unbegrenzte Anzeigevorteile freizuschalten."
+   },
+   "freeUserNoSubtitles": {
+      "message": "Dieses Video hat keine eingebauten Untertitel. Bitte abonnieren Sie die Plugin-Mitgliedschaft für Untertitelerkennung und genießen Sie Übersetzungs- und Vertonungsfunktionen."
+   },
+   "gender": {
+      "message": "Geschlecht"
+   },
+   "hideUntilNextVisit": {
+      "message": "Bis zum nächsten Besuch ausblenden"
+   },
+   "insufficientBalance": {
+      "message": "Guthaben reicht nicht, auf Google Übersetzung herabgestuft. Für AI aufladen."
+   },
+   "insufficientBalanceAlertMsg": {
+      "message": "Guthaben reicht nicht, bitte aufladen für AI-Übersetzung und Azure TTS oder Google/free nutzen."
+   },
+   "insufficientBalanceAndMembership": {
+      "message": "Laden Sie Mitgliedschaft und Guthaben auf, bevor Sie KI-Übersetzung und Azure TTS verwenden. Wenn Sie nicht aufladen möchten, können Sie Google Translate und kostenlose Stimmtypen wählen."
+   },
+   "insufficientMembership": {
+      "message": "Ihre Mitgliedschaft ist abgelaufen. Laden Sie Ihre Mitgliedschaft auf, bevor Sie KI-Übersetzung und Azure TTS verwenden. Wenn Sie nicht aufladen möchten, können Sie Google Translate und kostenlose Stimmtypen wählen."
+   },
+   "iosInterceptorConflictMessage": {
+      "message": "Eine andere Browser-Erweiterung blockiert das Abfangen von Untertitelanfragen. Deaktivieren Sie die konfliktverursachenden Erweiterungen, aktualisieren Sie die Seite und versuchen Sie es erneut."
+   },
+   "iosInterceptorConflictTitle": {
+      "message": "Erweiterungskonflikt erkannt"
+   },
+   "iosOpenOriginVolume": {
+      "message": "Originalton ein:"
+   },
+   "iosUniversalDubbingNotSupported": {
+      "message": "Universal Dubbing wird auf iOS-Geräten nicht unterstützt. Bitte verwenden Sie einen Desktop-Browser."
+   },
+   "liveStreamNotSupported": {
+      "message": "Live-Streams werden für Universal Dubbing nicht unterstützt."
+   },
+   "liveVideoNotSupported": {
+      "message": "Live-Video nicht unterstützt"
+   },
+   "loading": {
+      "message": "Laden"
+   },
+   "login": {
+      "message": "Login"
+   },
+   "loginAndUsePlugin": {
+      "message": "Bitte klicken Sie zuerst auf das Plugin-Icon zum Einloggen, dann nutzen Sie das Plugin für die Vertonung."
+   },
+   "logout": {
+      "message": "Abmelden"
+   },
+   "lowBalanceText": {
+      "message": "Guthaben unter 1$, bald aufladen für normale Nutzung"
+   },
+   "lowBalanceTitle": {
+      "message": "Wenig Guthaben"
+   },
+   "male": {
+      "message": "Männlich"
+   },
+   "man": {
+      "message": "Mann"
+   },
+   "mediaSourceNotDetected": {
+      "message": "Videoquelle konnte nicht erkannt werden. Diese Website wird möglicherweise nicht unterstützt."
+   },
+   "memberUser": {
+      "message": "PRO"
+   },
+   "membershipExpires": {
+      "message": "Läuft ab"
+   },
+   "membershipIcon": {
+      "message": "Mitglieds-Icon"
+   },
+   "membershipRequired": {
+      "message": "Vor OpenAI-Nutzung bitte Mitglied werden."
+   },
+   "membershipRequiredForAI": {
+      "message": "Laden Sie Ihre Mitgliedschaft auf, bevor Sie KI-Übersetzung verwenden. Wenn Sie nicht aufladen möchten, können Sie Google Translate wählen."
+   },
+   "membershipRequiredTitle": {
+      "message": "Mitgliedschaft erforderlich"
+   },
+   "metadataNotFound": {
+      "message": "Video-Metadaten nicht gefunden, bitte aktualisieren Sie die Seite und versuchen Sie es erneut"
+   },
+   "multiVideoNotSupported": {
+      "message": "Diese Seite enthält mehrere Videos. Universal Dubbing unterstützt bei HLS-Streams nur Seiten mit einem einzelnen Video."
+   },
+   "name": {
+      "message": "YouTube Dubbing – KI-Übersetzung und Vertonung von Untertiteln | Translate"
+   },
+   "noAudioTrackFound": {
+      "message": "Keine Audiospur erkannt. Dieses Video scheint nur Video ohne Audio zu sein und kann nicht für die Synchronisierungserkennung verwendet werden."
+   },
+   "noSpeakers": {
+      "message": "Keine Sprecher"
+   },
+   "noSubtitlesFound": {
+      "message": "Dieses Video hat keine Untertitel und unterstützt keine Übersetzung und Vertonung"
+   },
+   "noSubtitlesWaitOptimization": {
+      "message": "Keine Untertitel verfügbar. Bitte warten Sie, während das Plugin die Untertitel für dieses Video erkennt. Sie erhalten eine E-Mail-Benachrichtigung an Ihre registrierte E-Mail-Adresse, sobald die Erkennung abgeschlossen ist."
+   },
+   "notSupported": {
+      "message": "Nicht unterstützt"
+   },
+   "originalAudio": {
+      "message": "Original"
+   },
+   "pauseVideo": {
+      "message": "Video pausieren"
+   },
+   "pay": {
+      "message": "Bezahlen"
+   },
+   "postLoginTranslationSettings": {
+      "message": "Login erfolgreich, klick Plugin-Icon für Sprache und Stimmen."
+   },
+   "premiumMemberDurationLimit": {
+      "message": "Dieses Video hat keine Untertitel und die Videodauer überschreitet 3 Stunden, Übersetzung und Vertonung werden nicht unterstützt. Bitte wählen Sie ein kürzeres Video oder ein Video mit Untertiteln."
+   },
+   "rechargeLimit": {
+      "message": "Guthaben & Mitgliedschaft"
+   },
+   "safariShortcutSettingsTip": {
+      "message": "Tastenkürzel in Safari unter 'Menü > Einstellungen > Erweiterungen' setzen"
+   },
+   "save": {
+      "message": "Speichern"
+   },
+   "saveFailedText": {
+      "message": "Einstellungen speichern fehlgeschlagen, erneut versuchen"
+   },
+   "saveFailedTitle": {
+      "message": "Speichern fehlgeschlagen"
+   },
+   "saveSuccessText": {
+      "message": "Einstellungen wurden gespeichert"
+   },
+   "saveSuccessTitle": {
+      "message": "Erfolgreich gespeichert"
+   },
+   "save_settings": {
+      "message": "Speichern"
+   },
+   "saving": {
+      "message": "Speichern..."
+   },
+   "searchSourceLanguage": {
+      "message": "Quellsprache suchen..."
+   },
+   "searchTargetLanguage": {
+      "message": "Zielsprache suchen..."
+   },
+   "selectSourceLanguage": {
+      "message": "Quellsprache wählen"
+   },
+   "selectSpeaker": {
+      "message": "Wählen"
+   },
+   "selectTargetLanguage": {
+      "message": "Zielsprache wählen"
+   },
+   "sex": {
+      "message": "Geschlecht:"
+   },
+   "shortcutSettings": {
+      "message": "Tastenkürzel"
+   },
+   "showSubtitle": {
+      "message": "Untertitel zeigen:"
+   },
+   "sourceLanguage": {
+      "message": "Quellsprache"
+   },
+   "source_languages": {
+      "message": "Quellsprache:"
+   },
+   "speaker": {
+      "message": "Sprecher"
+   },
+   "speakerList": {
+      "message": "Sprecherliste"
+   },
+   "speakerName": {
+      "message": "Sprechername"
+   },
+   "speakersTitle": {
+      "message": "Sprecher"
+   },
+   "startUpload": {
+      "message": "Upload starten"
+   },
+   "subscribe": {
+      "message": "Abonnieren"
+   },
+   "subscriptionRecharge": {
+      "message": "Abo & Aufladen"
+   },
+   "subtitleSize": {
+      "message": "Größe"
+   },
+   "subtitles": {
+      "message": "Untertitel"
+   },
+   "subtitlesRateLimitedByYouTube": {
+      "message": "Die Untertitel dieses Videos werden derzeit von YouTube gedrosselt. Bitte versuchen Sie es später erneut."
+   },
+   "swapVolumeSettingsCommand": {
+      "message": "Lautstärkeeinstellungen zwischen Original- und Synchronaudio umschalten"
+   },
+   "switchModelWarning": {
+      "message": "Video läuft, Modellwechsel kostet extra. Nächstes Video wechseln oder fortfahren klicken."
+   },
+   "targetLanguage": {
+      "message": "Zielsprache"
+   },
+   "target_languages": {
+      "message": "Zielsprache:"
+   },
+   "taskAlreadySubmitted": {
+      "message": "Dieses Video wird bereits für die KI-Untertitelerkennung verarbeitet. Bitte warten Sie auf die E-Mail-Benachrichtigung."
+   },
+   "textToSpeech": {
+      "message": "Textsynchron:"
+   },
+   "textToSpeechToggle": {
+      "message": "Schwebender Ball"
+   },
+   "toggleSubtitles": {
+      "message": "Untertitel ein/aus"
+   },
+   "tooExpensive": {
+      "message": "Teuer"
+   },
+   "translateEngineTipText": {
+      "message": "Übersetzung auf Google ändern"
+   },
+   "translateService": {
+      "message": "Übersetzungsdienst:"
+   },
+   "translatedAudio": {
+      "message": "Übersetzt"
+   },
+   "translationEngine": {
+      "message": "Übersetzungsmaschine"
+   },
+   "translationService": {
+      "message": "Übersetzungsdienst"
+   },
+   "translationServiceTitle": {
+      "message": "Übersetzungsdienst"
+   },
+   "trialMemberDurationLimit": {
+      "message": "Dieses Video hat keine Untertitel. Da Sie ein Testmitglied sind, werden derzeit nur Videos unter 15 Minuten für die Untertitelerkennung unterstützt. Premium-Mitglieder unterstützen Videos unter 3 Stunden."
+   },
+   "trialMemberModelLimit": {
+      "message": "Als Testmitglied können Sie nur Gemini und Google Translate nutzen. Für andere Modelle abonnieren Sie bitte unsere Mitgliedschaft."
+   },
+   "universalDubbingMemberOnly": {
+      "message": "Universal Dubbing erfordert Cloud-GPU-Rechenleistung (hohe Kosten), nur für VIP."
+   },
+   "universalDubbingNotSupported": {
+      "message": "Die universelle Vertonung wird für dieses Video in der aktuellen Version nicht unterstützt. Die Unterstützung ist für die nächste Version geplant. Bitte wenden Sie sich für Details an den Kundendienst."
+   },
+   "unknownError": {
+      "message": "Ein unbekannter Fehler ist aufgetreten. Bitte versuchen Sie es erneut."
+   },
+   "upgradeMembershipForBackgroundRecognition": {
+      "message": "Upgraden Sie auf eine Mitgliedschaft, und das Plugin erkennt AI-Untertitel im Hintergrund. Nach Erhalt der E-Mail-Benachrichtigung kehren Sie zurück, um weiterzuschauen; dann wird die Dubbing-Schaltfläche grün und die Übersetzungen sind genauer."
+   },
+   "uploadComplete": {
+      "message": "Upload abgeschlossen"
+   },
+   "uploadFailed": {
+      "message": "Upload fehlgeschlagen"
+   },
+   "uploadMediaForRecognition": {
+      "message": "Keine Untertitel gefunden. Möchten Sie das Video für die KI-Untertitelerkennung hochladen?"
+   },
+   "uploading": {
+      "message": "Hochladen"
+   },
+   "uploadingMedia": {
+      "message": "Medien werden hochgeladen..."
+   },
+   "videoDrmProtected": {
+      "message": "Dieses Video ist durch DRM geschützt und kann nicht für die Synchronisation verwendet werden."
+   },
+   "videoDurationExceedsLimit": {
+      "message": "Dieses Video ist länger als 3 Stunden. Universal Dubbing wird derzeit nicht für Videos unterstützt, die länger als 3 Stunden sind."
+   },
+   "vipAndBalanceRequiredText": {
+      "message": "Mitgliedschaft und Guthaben für diese Funktion nötig"
+   },
+   "vipAndBalanceRequiredTitle": {
+      "message": "Mitglied+Guthaben nötig"
+   },
+   "vipFreeOptionTipText": {
+      "message": "Als Mitglied folgende Übersetzung frei nutzen"
+   },
+   "vipRequiredText": {
+      "message": "Mitgliedschaft für diese Funktion erforderlich"
+   },
+   "vipRequiredTitle": {
+      "message": "Mitglied nötig"
+   },
+   "vipTranslateEngineTipText": {
+      "message": "Übersetzung auf gemini, deepseek, gpt-3.5 oder claude-3 ändern"
+   },
+   "voice": {
+      "message": "Stimme"
+   },
+   "voiceSettingsMismatch": {
+      "message": "Stimmtyp und Stimmeinstellungen stimmen nicht überein. Bitte gehen Sie zur Einstellungsseite, um die Stimmeinstellungen erneut auszuwählen und zu speichern."
+   },
+   "voiceTypeTipText": {
+      "message": "Stimmtyp auf kostenlos ändern"
+   },
+   "voices": {
+      "message": "Stimme:"
+   },
+   "voicesAndSubtitles": {
+      "message": "Stimme & Untertitel"
+   },
+   "voicesAndSubtitlesTitle": {
+      "message": "Stimme & Untertitel"
+   },
+   "voicesType": {
+      "message": "Stimmtyp:"
+   },
+   "waitingForRecognition": {
+      "message": "Video erfolgreich hochgeladen. Die KI-Untertitelerkennung läuft. Sie erhalten eine E-Mail-Benachrichtigung, wenn sie fertig ist."
+   },
+   "woman": {
+      "message": "Frau"
+   },
+   "zoomRecordingDnrNotSupported": {
+      "message": "Ihr Browser unterstützt die Zoom-Aufnahme-Upload-Erkennung nicht. Bitte verwenden Sie Chrome/Edge."
+   },
+   "zoomRecordingDownloadForbidden403": {
+      "message": "Zoom-Aufnahme-Download wurde verboten (403). Bitte spielen/aktualisieren Sie die Seite zur Verifizierung und versuchen Sie es erneut."
+   }
+}

@@ -1,0 +1,470 @@
+{
+   "accountBalance": {
+      "message": "खाते शिल्लक:"
+   },
+   "advancedSettings": {
+      "message": "प्रगत सेटिंग्ज"
+   },
+   "aiSubtitlesRecognitionInBackground": {
+      "message": "AI उपशीर्षके अद्याप उपलब्ध नाहीत. प्लगइनने पार्श्वभूमीत त्यांना ओळखण्यास सुरुवात केली आहे. तुम्ही पहिले डब केलेले वाक्य ऐकल्यानंतर, तुम्ही पृष्ठ बंद करू शकता आणि ईमेल सूचनेची प्रतीक्षा करू शकता; जेव्हा ते तयार होईल, तेव्हा डबिंग बटण हिरवे होईल आणि भाषांतर गुणवत्ता चांगली होईल."
+   },
+   "back": {
+      "message": "परत"
+   },
+   "backToSettings": {
+      "message": "सेटिंग्जवर परत"
+   },
+   "backgroundAudio": {
+      "message": "BGM"
+   },
+   "balanceRequiredText": {
+      "message": "तुमची खाते शिल्लक अपुरी आहे. हे वैशिष्ट्य वापरण्यासाठी कृपया रिचार्ज करा"
+   },
+   "balanceRequiredTitle": {
+      "message": "शिल्लक आवश्यक"
+   },
+   "balanceRunningLow": {
+      "message": "तुमची शिल्लक संपत आहे. खराब पाहण्याच्या अनुभवाला टाळण्यासाठी, आगाऊ रिचार्ज करण्याची शिफारस केली जाते."
+   },
+   "browserShortcutSettingsTip": {
+      "message": "कृपया ब्राउझर एक्सटेंशन सेटिंग्जमध्ये शॉर्टकट कॉन्फिगर करा"
+   },
+   "cancel": {
+      "message": "रद्द करा"
+   },
+   "cancelButton": {
+      "message": "रद्द करा"
+   },
+   "completing": {
+      "message": "पूर्ण होत आहे"
+   },
+   "confirmButton": {
+      "message": "चालू ठेवा आणि जतन करा"
+   },
+   "confirmDeleteSpeaker": {
+      "message": "तुम्हाला खात्री आहे की तुम्ही हा वक्ता हटवू इच्छिता?"
+   },
+   "contentMenusTitle": {
+      "message": "व्हॉइसओव्हर प्लेबॅक सुरू करा"
+   },
+   "corsNotSupported": {
+      "message": "ही वेबसाइट मीडिया फाइल्स डाउनलोड करण्याची परवानगी देत नाही. युनिव्हर्सल डबिंग समर्थित नाही."
+   },
+   "debugInfo": {
+      "message": "डीबग माहिती"
+   },
+   "delete": {
+      "message": "हटवा"
+   },
+   "deleteSpeaker": {
+      "message": "हटवा"
+   },
+   "description": {
+      "message": "एका क्लिकमध्ये व्हिडिओ भाषांतर आणि डबिंग—परदेशी भाषा त्वरित समजा, जागतिक ज्ञान मिळवा"
+   },
+   "disableGlobally": {
+      "message": "जागतिक स्तरावर अक्षम करा"
+   },
+   "doNotClosePage": {
+      "message": "अपलोड दरम्यान कृपया हे पृष्ठ बंद किंवा रिफ्रेश करू नका, अन्यथा अपलोड व्यत्यय येईल."
+   },
+   "downloading": {
+      "message": "डाउनलोड होत आहे"
+   },
+   "dropboxClickCcToTranscribe": {
+      "message": "या व्हिडिओचे अद्याप लिप्यंतरण केले गेले नाही. उपशीर्षके लिप्यंतरित करण्यासाठी कृपया Dropbox व्हिडिओच्या तळाशी CC बटणावर क्लिक करा. लिप्यंतरण पूर्ण झाल्यानंतर, भाषांतर आणि डब करण्यासाठी प्लगइनच्या डबिंग बटणावर क्लिक करा."
+   },
+   "dropdownNoOptions": {
+      "message": "कोणतेही पर्याय उपलब्ध नाहीत"
+   },
+   "dropdownPlaceholder": {
+      "message": "कृपया निवडा"
+   },
+   "dropdownSearch": {
+      "message": "शोधा..."
+   },
+   "dubbingSettings": {
+      "message": "डबिंग सेटिंग्ज"
+   },
+   "edgeShortcutSettingsTip": {
+      "message": "Edge एक्सटेंशन शॉर्टकट सेटिंग्ज पृष्ठ उघडत आहे"
+   },
+   "edit": {
+      "message": "संपादित करा"
+   },
+   "editSpeaker": {
+      "message": "संपादित करा"
+   },
+   "enterSpeakerName": {
+      "message": "वक्ता नाव प्रविष्ट करा"
+   },
+   "enterVoice": {
+      "message": "आवाज नाव प्रविष्ट करा"
+   },
+   "error": {
+      "message": "त्रुटी"
+   },
+   "female": {
+      "message": "स्त्री"
+   },
+   "firefoxShortcutSettingsTip": {
+      "message": "Firefox अॅड-ऑन पृष्ठ उघडत आहे, कृपया एक्सटेंशन आणि थीममध्ये शॉर्टकट सेट करा"
+   },
+   "free": {
+      "message": "विनामूल्य"
+   },
+   "freeForVip": {
+      "message": "VIP विनामूल्य"
+   },
+   "freeOptionTipText": {
+      "message": "तुम्हाला रिचार्ज करायचे नसल्यास, तुम्ही विनामूल्य पर्याय निवडू शकता, "
+   },
+   "freeUserDailyLimit": {
+      "message": "विनामूल्य वापरकर्ते प्लगइनद्वारे दररोज 5 व्हिडिओ पाहू शकतात. अमर्यादित पाहण्याचे फायदे अनलॉक करण्यासाठी सदस्यतेमध्ये अपग्रेड करा."
+   },
+   "freeUserNoSubtitles": {
+      "message": "या व्हिडिओमध्ये अंतर्भूत उपशीर्षके नाहीत. उपशीर्षक ओळखीसाठी आणि भाषांतर डबिंग वैशिष्ट्यांचा आनंद घेण्यासाठी कृपया प्लगइन सदस्यता घ्या."
+   },
+   "gender": {
+      "message": "लिंग"
+   },
+   "hideUntilNextVisit": {
+      "message": "पुढील भेटीपर्यंत लपवा"
+   },
+   "insufficientBalance": {
+      "message": "अपुऱ्या शिल्लकमुळे, सेवा Google Translate मध्ये डाउनग्रेड केली गेली आहे. AI भाषांतर वापरण्यासाठी, कृपया तुमचे क्रेडिट रिचार्ज करा."
+   },
+   "insufficientBalanceAlertMsg": {
+      "message": "तुमची शिल्लक अपुरी आहे. AI भाषांतर आणि Azure TTS वापरण्यापूर्वी कृपया तुमची शिल्लक रिचार्ज करा. तुम्हाला रिचार्ज करायचे नसल्यास, तुम्ही Google Translate आणि विनामूल्य आवाज प्रकारांवर परत स्विच करू शकता."
+   },
+   "insufficientBalanceAndMembership": {
+      "message": "कृपया AI भाषांतर आणि Azure TTS वापरण्यापूर्वी तुमची सदस्यता आणि शिल्लक रिचार्ज करा. तुम्हाला रिचार्ज करायचे नसल्यास, तुम्ही Google Translate आणि विनामूल्य आवाज प्रकार देखील निवडू शकता."
+   },
+   "insufficientMembership": {
+      "message": "तुमची सदस्यता कालबाह्य झाली आहे. AI भाषांतर आणि Azure TTS वापरण्यापूर्वी कृपया तुमची सदस्यता रिचार्ज करा. तुम्हाला रिचार्ज करायचे नसल्यास, तुम्ही Google Translate आणि विनामूल्य आवाज प्रकार देखील निवडू शकता."
+   },
+   "iosInterceptorConflictMessage": {
+      "message": "दुसरा ब्राउझर विस्तार उपशीर्षक विनंती व्यत्यय अवरोधित करत आहे. विरोधाभासी विस्तार अक्षम करा, पृष्ठ रिफ्रेश करा, नंतर पुन्हा प्रयत्न करा."
+   },
+   "iosInterceptorConflictTitle": {
+      "message": "विस्तार संघर्ष आढळला"
+   },
+   "iosOpenOriginVolume": {
+      "message": "मूळ ऑडिओ चालू करा"
+   },
+   "iosUniversalDubbingNotSupported": {
+      "message": "iOS उपकरणांवर युनिव्हर्सल डबिंग समर्थित नाही. कृपया डेस्कटॉप ब्राउझर वापरा."
+   },
+   "liveStreamNotSupported": {
+      "message": "लाइव्ह स्ट्रीम युनिव्हर्सल डबिंगसाठी समर्थित नाहीत."
+   },
+   "liveVideoNotSupported": {
+      "message": "सध्या थेट व्हिडिओंसाठी डबिंग समर्थित नाही"
+   },
+   "loading": {
+      "message": "लोड करत आहे"
+   },
+   "login": {
+      "message": "लॉग इन"
+   },
+   "loginAndUsePlugin": {
+      "message": "कृपया प्रथम लॉग इन करण्यासाठी प्लगइन आयकॉनवर क्लिक करा, नंतर व्हॉइसओव्हर प्लेबॅकसाठी प्लगइन वापरा."
+   },
+   "logout": {
+      "message": "बाहेर पडा"
+   },
+   "lowBalanceText": {
+      "message": "तुमची खाते शिल्लक $$1 पेक्षा कमी आहे. अखंड सेवा सुनिश्चित करण्यासाठी लवकरच रिचार्ज करण्याची आम्ही शिफारस करतो"
+   },
+   "lowBalanceTitle": {
+      "message": "कमी शिल्लक सतर्कता"
+   },
+   "male": {
+      "message": "पुरुष"
+   },
+   "man": {
+      "message": "पुरुष"
+   },
+   "mediaSourceNotDetected": {
+      "message": "व्हिडिओ स्त्रोत शोधता आला नाही. ही वेबसाइट समर्थित नसू शकते."
+   },
+   "memberUser": {
+      "message": "सदस्य"
+   },
+   "membershipExpires": {
+      "message": "सदस्यता समाप्ती:"
+   },
+   "membershipIcon": {
+      "message": "सदस्यता आयकॉन"
+   },
+   "membershipRequired": {
+      "message": "कृपया OpenAI भाषांतर वापरण्यापूर्वी सदस्यतेमध्ये अपग्रेड करा."
+   },
+   "membershipRequiredForAI": {
+      "message": "कृपया AI भाषांतर वापरण्यापूर्वी तुमची सदस्यता रिचार्ज करा. तुम्हाला रिचार्ज करायचे नसल्यास, तुम्ही Google Translate देखील निवडू शकता."
+   },
+   "membershipRequiredTitle": {
+      "message": "सदस्यता आवश्यक"
+   },
+   "metadataNotFound": {
+      "message": "व्हिडिओ मेटाडेटा सापडला नाही, कृपया रिफ्रेश करा आणि पुन्हा प्रयत्न करा"
+   },
+   "multiVideoNotSupported": {
+      "message": "या पृष्ठावर अनेक व्हिडिओ आहेत. HLS स्ट्रीम वापरताना युनिव्हर्सल डबिंग फक्त एका व्हिडिओ असलेल्या पृष्ठांना समर्थन करते."
+   },
+   "name": {
+      "message": "YouTube डबिंग – भाषांतर आणि डबिंग | Translate & Dub"
+   },
+   "noAudioTrackFound": {
+      "message": "कोणताही ऑडिओ ट्रॅक आढळला नाही. हा व्हिडिओ ऑडिओशिवाय केवळ व्हिडिओ असल्याचे दिसते आणि डबिंग ओळखीसाठी वापरता येत नाही."
+   },
+   "noSpeakers": {
+      "message": "कोणतेही वक्ता नाहीत"
+   },
+   "noSubtitlesFound": {
+      "message": "या व्हिडिओमध्ये उपशीर्षके नाहीत आणि भाषांतर आणि डबिंग समर्थित नाही"
+   },
+   "noSubtitlesWaitOptimization": {
+      "message": "उपशीर्षके उपलब्ध नाहीत. कृपया प्लगइन या व्हिडिओसाठी उपशीर्षके ओळखण्याची प्रतीक्षा करा. ओळख पूर्ण झाल्यावर तुम्हाला तुमच्या नोंदणीकृत ईमेल पत्त्यावर सूचना मिळेल."
+   },
+   "notSupported": {
+      "message": "समर्थित नाही"
+   },
+   "originalAudio": {
+      "message": "मूळ"
+   },
+   "pauseVideo": {
+      "message": "व्हिडिओ विराम द्या"
+   },
+   "pay": {
+      "message": "पैसे भरा"
+   },
+   "postLoginTranslationSettings": {
+      "message": "लॉगिन यशस्वी. भाषांतर भाषा आणि आवाज यादी निवडण्यासाठी प्लगइन आयकॉनवर क्लिक करा."
+   },
+   "premiumMemberDurationLimit": {
+      "message": "या व्हिडिओमध्ये उपशीर्षके नाहीत आणि व्हिडिओ कालावधी 3 तासांपेक्षा जास्त आहे, भाषांतर आणि डबिंग समर्थित नाही. कृपया लहान व्हिडिओ किंवा उपशीर्षक असलेला व्हिडिओ निवडा."
+   },
+   "rechargeLimit": {
+      "message": "क्रेडिट+सदस्य"
+   },
+   "safariShortcutSettingsTip": {
+      "message": "कृपया Safari > प्राधान्ये > एक्सटेंशन मध्ये शॉर्टकट सेट करा"
+   },
+   "save": {
+      "message": "जतन करा"
+   },
+   "saveFailedText": {
+      "message": "सेटिंग्ज जतन करण्यात अयशस्वी, कृपया पुन्हा प्रयत्न करा"
+   },
+   "saveFailedTitle": {
+      "message": "जतन अयशस्वी"
+   },
+   "saveSuccessText": {
+      "message": "सेटिंग्ज यशस्वीरित्या जतन केल्या"
+   },
+   "saveSuccessTitle": {
+      "message": "जतन यशस्वी"
+   },
+   "save_settings": {
+      "message": "सेटिंग्ज जतन करा"
+   },
+   "saving": {
+      "message": "जतन करत आहे..."
+   },
+   "searchSourceLanguage": {
+      "message": "स्रोत भाषा शोधा..."
+   },
+   "searchTargetLanguage": {
+      "message": "लक्ष्य भाषा शोधा..."
+   },
+   "selectSourceLanguage": {
+      "message": "स्रोत भाषा निवडा"
+   },
+   "selectSpeaker": {
+      "message": "निवडा"
+   },
+   "selectTargetLanguage": {
+      "message": "लक्ष्य भाषा निवडा"
+   },
+   "sex": {
+      "message": "लिंग:"
+   },
+   "shortcutSettings": {
+      "message": "शॉर्टकट सेटिंग्ज"
+   },
+   "showSubtitle": {
+      "message": "उपशीर्षके:"
+   },
+   "sourceLanguage": {
+      "message": "स्रोत भाषा"
+   },
+   "source_languages": {
+      "message": "स्रोत भाषा:"
+   },
+   "speaker": {
+      "message": "वक्ता"
+   },
+   "speakerList": {
+      "message": "वक्ता यादी"
+   },
+   "speakerName": {
+      "message": "वक्ता नाव"
+   },
+   "speakersTitle": {
+      "message": "वक्ता"
+   },
+   "startUpload": {
+      "message": "अपलोड सुरू करा"
+   },
+   "subscribe": {
+      "message": "सदस्यता घ्या"
+   },
+   "subscriptionRecharge": {
+      "message": "सदस्यता व रिचार्ज"
+   },
+   "subtitleSize": {
+      "message": "आकार"
+   },
+   "subtitles": {
+      "message": "उपशीर्षके"
+   },
+   "subtitlesRateLimitedByYouTube": {
+      "message": "या व्हिडिओसाठी उपशीर्षके सध्या YouTube द्वारे दर-मर्यादित आहेत. कृपया नंतर पुन्हा प्रयत्न करा."
+   },
+   "swapVolumeSettingsCommand": {
+      "message": "मूळ आणि डब केलेल्या ऑडिओ दरम्यान व्हॉल्यूम सेटिंग्ज टॉगल करा"
+   },
+   "switchModelWarning": {
+      "message": "व्हिडिओ प्लेबॅक दरम्यान आवाज किंवा भाषांतर मॉडेल स्विच केल्याने वाया गेलेल्या संसाधनांमुळे अतिरिक्त शुल्क आकारले जाईल. आम्ही पुढील व्हिडिओमध्ये स्विच करण्याची शिफारस करतो. तरीही पुढे जाण्यासाठी, चालू ठेवा आणि जतन करा वर क्लिक करा."
+   },
+   "targetLanguage": {
+      "message": "लक्ष्य भाषा"
+   },
+   "target_languages": {
+      "message": "लक्ष्य भाषा:"
+   },
+   "taskAlreadySubmitted": {
+      "message": "हा व्हिडिओ आधीपासून AI उपशीर्षक ओळखण्यासाठी प्रक्रियेत आहे. कृपया ईमेल सूचनेची प्रतीक्षा करा."
+   },
+   "textToSpeech": {
+      "message": "टेक्स्ट टू स्पीच:"
+   },
+   "textToSpeechToggle": {
+      "message": "फ्लोटिंग बटण"
+   },
+   "toggleSubtitles": {
+      "message": "उपशीर्षके टॉगल करा"
+   },
+   "tooExpensive": {
+      "message": "खूप महाग"
+   },
+   "translateEngineTipText": {
+      "message": "भाषांतर सेवा Google मध्ये बदला"
+   },
+   "translateService": {
+      "message": "भाषांतर:"
+   },
+   "translatedAudio": {
+      "message": "भाषांतरित"
+   },
+   "translationEngine": {
+      "message": "भाषांतर इंजिन"
+   },
+   "translationService": {
+      "message": "भाषांतर सेवा"
+   },
+   "translationServiceTitle": {
+      "message": "भाषांतर सेवा"
+   },
+   "trialMemberDurationLimit": {
+      "message": "या व्हिडिओमध्ये उपशीर्षके नाहीत. चाचणी सदस्य म्हणून, सध्या फक्त 15 मिनिटांपेक्षा कमी व्हिडिओंसाठी उपशीर्षक ओळख समर्थित आहे. प्रीमियम सदस्य 3 तासांपेक्षा कमी व्हिडिओंना समर्थन देतात."
+   },
+   "trialMemberModelLimit": {
+      "message": "चाचणी सदस्य फक्त Gemini आणि Google Translate वापरू शकतात. इतर मॉडेल्स वापरण्यासाठी, कृपया आमची सदस्यता घ्या."
+   },
+   "universalDubbingMemberOnly": {
+      "message": "युनिव्हर्सल डबिंगसाठी क्लाउड GPU कंप्युटिंग पॉवर आवश्यक आहे (उच्च खर्च), फक्त VIP साठी."
+   },
+   "universalDubbingNotSupported": {
+      "message": "सध्याच्या आवृत्तीत या व्हिडिओसाठी युनिव्हर्सल डबिंग समर्थित नाही. पुढील आवृत्तीमध्ये समर्थन नियोजित आहे. तपशीलासाठी कृपया ग्राहक सेवेशी संपर्क साधा."
+   },
+   "unknownError": {
+      "message": "अज्ञात त्रुटी आली. कृपया पुन्हा प्रयत्न करा."
+   },
+   "upgradeMembershipForBackgroundRecognition": {
+      "message": "सदस्यता अपग्रेड करा आणि प्लगइन पार्श्वभूमीत AI उपशीर्षके ओळखेल. तुम्हाला ईमेल सूचना मिळाल्यानंतर, परत येऊन पाहा; डबिंग बटण हिरवे होईल आणि भाषांतर अधिक अचूक होईल."
+   },
+   "uploadComplete": {
+      "message": "अपलोड पूर्ण"
+   },
+   "uploadFailed": {
+      "message": "अपलोड अयशस्वी"
+   },
+   "uploadMediaForRecognition": {
+      "message": "कोणतेही उपशीर्षक आढळले नाहीत. AI उपशीर्षक ओळखीसाठी व्हिडिओ अपलोड करायचा आहे का?"
+   },
+   "uploading": {
+      "message": "अपलोड होत आहे"
+   },
+   "uploadingMedia": {
+      "message": "मीडिया अपलोड होत आहे..."
+   },
+   "videoDrmProtected": {
+      "message": "हा व्हिडिओ DRM द्वारे संरक्षित आहे आणि डबिंगसाठी वापरला जाऊ शकत नाही."
+   },
+   "videoDurationExceedsLimit": {
+      "message": "हा व्हिडिओ 3 तासांपेक्षा जास्त आहे. 3 तासांपेक्षा जास्त व्हिडिओंसाठी सध्या युनिव्हर्सल डबिंग समर्थित नाही."
+   },
+   "vipAndBalanceRequiredText": {
+      "message": "हे वैशिष्ट्य वापरण्यासाठी तुम्हाला सदस्य असणे आणि पुरेशी शिल्लक असणे आवश्यक आहे"
+   },
+   "vipAndBalanceRequiredTitle": {
+      "message": "सदस्यता आणि शिल्लक आवश्यक"
+   },
+   "vipFreeOptionTipText": {
+      "message": "सदस्य म्हणून, तुम्ही खालील भाषांतर सेवा विनामूल्य वापरू शकता"
+   },
+   "vipRequiredText": {
+      "message": "हे वैशिष्ट्य वापरण्यासाठी तुम्हाला सदस्य असणे आवश्यक आहे"
+   },
+   "vipRequiredTitle": {
+      "message": "सदस्यता आवश्यक"
+   },
+   "vipTranslateEngineTipText": {
+      "message": "भाषांतर सेवा gemini, deepseek, gpt-3.5-turbo किंवा claude-3-haiku सारख्या सदस्य-विनामूल्य सेवांमध्ये बदला"
+   },
+   "voice": {
+      "message": "आवाज"
+   },
+   "voiceSettingsMismatch": {
+      "message": "आवाज प्रकार आणि आवाज सेटिंग्ज जुळत नाहीत. कृपया सेटिंग्ज पृष्ठावर जा आणि आवाज सेटिंग्ज पुन्हा निवडा आणि जतन करा."
+   },
+   "voiceTypeTipText": {
+      "message": "आवाज प्रकार विनामूल्य आवृत्तीमध्ये बदला"
+   },
+   "voices": {
+      "message": "आवाज:"
+   },
+   "voicesAndSubtitles": {
+      "message": "आवाज आणि उपशीर्षके"
+   },
+   "voicesAndSubtitlesTitle": {
+      "message": "आवाज आणि उपशीर्षके"
+   },
+   "voicesType": {
+      "message": "आवाज प्रकार:"
+   },
+   "waitingForRecognition": {
+      "message": "व्हिडिओ यशस्वीरित्या अपलोड झाला. AI उपशीर्षक ओळख सुरू आहे. तयार झाल्यावर तुम्हाला ईमेल सूचना मिळेल."
+   },
+   "woman": {
+      "message": "स्त्री"
+   },
+   "zoomRecordingDnrNotSupported": {
+      "message": "तुमचा ब्राउझर Zoom रेकॉर्डिंग अपलोड ओळख समर्थन करत नाही. कृपया Chrome/Edge वापरा."
+   },
+   "zoomRecordingDownloadForbidden403": {
+      "message": "Zoom रेकॉर्डिंग डाउनलोड प्रतिबंधित केले (403). कृपया पडताळणी पार करण्यासाठी पेज प्ले/रिफ्रेश करा, नंतर पुन्हा अपलोड करा."
+   }
+}

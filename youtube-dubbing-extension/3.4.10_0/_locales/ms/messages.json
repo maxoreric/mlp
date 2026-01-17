@@ -1,0 +1,482 @@
+{
+   "accountBalance": {
+      "message": "Baki Akaun:"
+   },
+   "advancedSettings": {
+      "message": "Tetapan Lanjutan"
+   },
+   "aiSubtitlesRecognitionInBackground": {
+      "message": "Sari kata AI belum tersedia. Pemalam telah mula mengenalinya di latar belakang. Selepas anda mendengar ayat sulih suara pertama, anda boleh menutup halaman dan menunggu pemberitahuan e-mel; apabila sedia, butang sulih suara akan bertukar hijau dan kualiti terjemahan akan lebih baik."
+   },
+   "back": {
+      "message": "Kembali"
+   },
+   "backToSettings": {
+      "message": "Kembali ke tetapan"
+   },
+   "backgroundAudio": {
+      "message": "Bunyi Latar"
+   },
+   "balanceRequiredText": {
+      "message": "Baki akaun anda tidak mencukupi. Sila cas semula untuk menggunakan ciri ini"
+   },
+   "balanceRequiredTitle": {
+      "message": "Baki Diperlukan"
+   },
+   "balanceRunningLow": {
+      "message": "Baki anda semakin habis. Untuk mengelakkan pengalaman tontonan yang buruk, adalah disyorkan untuk cas semula terlebih dahulu."
+   },
+   "browserShortcutSettingsTip": {
+      "message": "Sila konfigurasikan pintasan dalam tetapan sambungan penyemak imbas"
+   },
+   "cancel": {
+      "message": "Batal"
+   },
+   "cancelButton": {
+      "message": "Batal"
+   },
+   "completing": {
+      "message": "Melengkapkan"
+   },
+   "confirmButton": {
+      "message": "Teruskan dan Simpan"
+   },
+   "confirmDeleteSpeaker": {
+      "message": "Adakah anda pasti mahu memadam penutur ini?"
+   },
+   "contentMenusTitle": {
+      "message": "Mula Main Balik Sulih Suara"
+   },
+   "corsNotSupported": {
+      "message": "Laman web ini tidak membenarkan memuat turun fail media. Alih suara universal tidak disokong."
+   },
+   "debugInfo": {
+      "message": "Maklumat Nyahpepijat"
+   },
+   "delete": {
+      "message": "Padam"
+   },
+   "deleteSpeaker": {
+      "message": "Padam"
+   },
+   "description": {
+      "message": "Terjemahan & sulih suara video sekali klik—fahami bahasa asing dengan serta-merta, akses pengetahuan global"
+   },
+   "disableGlobally": {
+      "message": "Lumpuhkan secara global"
+   },
+   "doNotClosePage": {
+      "message": "Sila jangan tutup atau muat semula halaman ini semasa muat naik, jika tidak muat naik akan terganggu."
+   },
+   "downloading": {
+      "message": "Memuat turun"
+   },
+   "dropboxClickCcToTranscribe": {
+      "message": "Video ini belum ditranskrip. Sila klik butang CC di bahagian bawah video Dropbox untuk mentranskrip sari kata. Selepas transkripsi selesai, klik butang sulih suara pemalam untuk menterjemah dan sulih suara."
+   },
+   "dropdownNoOptions": {
+      "message": "Tiada pilihan tersedia"
+   },
+   "dropdownPlaceholder": {
+      "message": "Sila pilih"
+   },
+   "dropdownSearch": {
+      "message": "Cari..."
+   },
+   "dubbingSettings": {
+      "message": "Tetapan Sulih Suara"
+   },
+   "edgeShortcutSettingsTip": {
+      "message": "Membuka halaman tetapan pintasan sambungan Edge"
+   },
+   "edit": {
+      "message": "Edit"
+   },
+   "editSpeaker": {
+      "message": "Edit"
+   },
+   "enterSpeakerName": {
+      "message": "Masukkan nama penutur"
+   },
+   "enterVoice": {
+      "message": "Masukkan nama suara"
+   },
+   "error": {
+      "message": "Ralat"
+   },
+   "female": {
+      "message": "Perempuan"
+   },
+   "firefoxShortcutSettingsTip": {
+      "message": "Membuka halaman add-on Firefox, sila tetapkan pintasan dalam Sambungan dan Tema"
+   },
+   "free": {
+      "message": "Percuma"
+   },
+   "freeForVip": {
+      "message": "Percuma VIP"
+   },
+   "freeOptionTipText": {
+      "message": "Jika anda tidak mahu cas semula, anda boleh memilih pilihan percuma, "
+   },
+   "freeUserDailyLimit": {
+      "message": "Pengguna percuma boleh menonton sehingga 5 video sehari melalui pemalam. Naik taraf kepada keahlian untuk membuka manfaat tontonan tanpa had."
+   },
+   "freeUserNoSubtitles": {
+      "message": "Video ini tidak mempunyai sari kata terbina dalam. Sila langgan keahlian pemalam untuk pengecaman sari kata dan nikmati ciri terjemahan dan sulih suara."
+   },
+   "gender": {
+      "message": "Jantina"
+   },
+   "hideUntilNextVisit": {
+      "message": "Sembunyikan sehingga lawatan seterusnya"
+   },
+   "hlsDecryptionFailed": {
+      "message": "Gagal menyahsulit kandungan video. Kunci penyulitan mungkin salah atau format video tidak serasi."
+   },
+   "hlsKeyFetchFailed": {
+      "message": "Gagal mendapatkan kunci penyahsulitan untuk video ini. Video mungkin dilindungi atau pelayan kunci tidak tersedia."
+   },
+   "insufficientBalance": {
+      "message": "Disebabkan baki tidak mencukupi, perkhidmatan telah diturunkan taraf kepada Google Translate. Untuk menggunakan terjemahan AI, sila cas semula kredit anda."
+   },
+   "insufficientBalanceAlertMsg": {
+      "message": "Baki anda tidak mencukupi. Sila cas semula baki anda sebelum menggunakan terjemahan AI dan Azure TTS. Jika anda tidak mahu cas semula, anda boleh beralih kembali ke Google Translate dan jenis suara percuma."
+   },
+   "insufficientBalanceAndMembership": {
+      "message": "Sila langgan keahlian dan tambah baki anda sebelum menggunakan terjemahan AI dan Azure TTS. Jika anda tidak mahu langgan atau tambah baki, anda juga boleh memilih Google Translate dan jenis suara percuma."
+   },
+   "insufficientMembership": {
+      "message": "Keahlian anda telah tamat tempoh. Sila perbaharui keahlian anda sebelum menggunakan terjemahan AI dan Azure TTS. Jika anda tidak mahu perbaharui, anda juga boleh memilih Google Translate dan jenis suara percuma."
+   },
+   "iosInterceptorConflictMessage": {
+      "message": "Sambungan penyemak imbas lain menghalang pemintasan permintaan sari kata. Lumpuhkan sambungan yang berkonflik, muat semula halaman, kemudian cuba lagi."
+   },
+   "iosInterceptorConflictTitle": {
+      "message": "Konflik sambungan dikesan"
+   },
+   "iosOpenOriginVolume": {
+      "message": "Hidupkan audio asal"
+   },
+   "iosUniversalDubbingNotSupported": {
+      "message": "Alih suara universal tidak disokong pada peranti iOS. Sila gunakan pelayar desktop."
+   },
+   "liveStreamNotSupported": {
+      "message": "Siaran langsung tidak disokong untuk alih suara universal."
+   },
+   "liveVideoNotSupported": {
+      "message": "Video langsung pada masa ini tidak disokong untuk sulih suara"
+   },
+   "loading": {
+      "message": "memuatkan"
+   },
+   "login": {
+      "message": "Masuk"
+   },
+   "loginAndUsePlugin": {
+      "message": "Sila klik pada ikon pemalam untuk log masuk terlebih dahulu, kemudian gunakan pemalam untuk main balik sulih suara."
+   },
+   "logout": {
+      "message": "Log Keluar"
+   },
+   "lowBalanceText": {
+      "message": "Baki akaun anda di bawah $1. Kami cadangkan cas semula tidak lama lagi untuk memastikan perkhidmatan berterusan"
+   },
+   "lowBalanceTitle": {
+      "message": "Amaran Baki Rendah"
+   },
+   "male": {
+      "message": "Lelaki"
+   },
+   "man": {
+      "message": "Lelaki"
+   },
+   "mediaSourceNotDetected": {
+      "message": "Tidak dapat mengesan sumber video. Laman web ini mungkin tidak disokong."
+   },
+   "memberUser": {
+      "message": "PRO"
+   },
+   "membershipExpires": {
+      "message": "Tamat pada"
+   },
+   "membershipIcon": {
+      "message": "Ikon Keahlian"
+   },
+   "membershipRequired": {
+      "message": "Sila langgan keahlian sebelum menggunakan terjemahan OpenAI."
+   },
+   "membershipRequiredForAI": {
+      "message": "Sila langgan keahlian sebelum menggunakan terjemahan AI. Jika anda tidak mahu langgan, anda juga boleh memilih Google Translate."
+   },
+   "membershipRequiredTitle": {
+      "message": "Keahlian diperlukan"
+   },
+   "metadataNotFound": {
+      "message": "Metadata video tidak ditemui, sila muat semula dan cuba lagi"
+   },
+   "multiVideoNotSupported": {
+      "message": "Halaman ini mempunyai berbilang video. Alih suara universal hanya menyokong halaman dengan satu video apabila menggunakan strim HLS."
+   },
+   "name": {
+      "message": "YouTube Dubbing – Translate & Dub"
+   },
+   "noAudioTrackFound": {
+      "message": "Tiada trek audio dikesan. Video ini kelihatan seperti video sahaja tanpa audio dan tidak boleh digunakan untuk pengecaman alih suara."
+   },
+   "noSpeakers": {
+      "message": "Tiada penutur"
+   },
+   "noSubtitlesFound": {
+      "message": "Video ini tidak mempunyai sari kata dan tidak menyokong terjemahan dan sulih suara"
+   },
+   "noSubtitlesWaitOptimization": {
+      "message": "Tiada sari kata tersedia. Sila tunggu pemalam mengenali sari kata untuk video ini. Anda akan menerima pemberitahuan e-mel di alamat e-mel berdaftar anda setelah pengecaman selesai."
+   },
+   "notSupported": {
+      "message": "Tidak disokong"
+   },
+   "originalAudio": {
+      "message": "Asal"
+   },
+   "pauseVideo": {
+      "message": "Jeda Video"
+   },
+   "pay": {
+      "message": "bayar"
+   },
+   "pleaseClickVideoToPlay": {
+      "message": "Sila klik pada video untuk membukanya, kemudian gunakan ciri alih suara."
+   },
+   "postLoginTranslationSettings": {
+      "message": "Log masuk berjaya. Klik IKON pemalam untuk memilih bahasa terjemahan dan senarai suara."
+   },
+   "premiumMemberDurationLimit": {
+      "message": "Video ini tidak mempunyai sari kata dan tempoh video melebihi 3 jam, terjemahan dan sulih suara tidak disokong. Sila pilih video yang lebih pendek atau video dengan sari kata."
+   },
+   "rechargeLimit": {
+      "message": "Kredit+Ahli"
+   },
+   "safariShortcutSettingsTip": {
+      "message": "Sila tetapkan pintasan dalam Safari > Keutamaan > Sambungan"
+   },
+   "sampleAesNotSupported": {
+      "message": "Video ini menggunakan penyulitan SAMPLE-AES yang tidak disokong untuk muat turun pada masa ini."
+   },
+   "save": {
+      "message": "Simpan"
+   },
+   "saveFailedText": {
+      "message": "Gagal menyimpan tetapan, sila cuba lagi"
+   },
+   "saveFailedTitle": {
+      "message": "Simpan Gagal"
+   },
+   "saveSuccessText": {
+      "message": "Tetapan disimpan dengan jayanya"
+   },
+   "saveSuccessTitle": {
+      "message": "Simpan Berjaya"
+   },
+   "save_settings": {
+      "message": "Simpan Tetapan"
+   },
+   "saving": {
+      "message": "Menyimpan..."
+   },
+   "searchSourceLanguage": {
+      "message": "Cari bahasa sumber..."
+   },
+   "searchTargetLanguage": {
+      "message": "Cari bahasa sasaran..."
+   },
+   "selectSourceLanguage": {
+      "message": "Pilih bahasa sumber"
+   },
+   "selectSpeaker": {
+      "message": "Pilih"
+   },
+   "selectTargetLanguage": {
+      "message": "Pilih bahasa sasaran"
+   },
+   "sex": {
+      "message": "Jantina:"
+   },
+   "shortcutSettings": {
+      "message": "Tetapan Pintasan"
+   },
+   "showSubtitle": {
+      "message": "sari kata:"
+   },
+   "sourceLanguage": {
+      "message": "Bahasa Sumber"
+   },
+   "source_languages": {
+      "message": "Bahasa Sumber:"
+   },
+   "speaker": {
+      "message": "Penutur"
+   },
+   "speakerList": {
+      "message": "Senarai Penutur"
+   },
+   "speakerName": {
+      "message": "Nama Penutur"
+   },
+   "speakersTitle": {
+      "message": "Penutur"
+   },
+   "startUpload": {
+      "message": "Mula muat naik"
+   },
+   "subscribe": {
+      "message": "Langgan PRO"
+   },
+   "subscriptionRecharge": {
+      "message": "Langgan & Tambah Nilai"
+   },
+   "subtitleSize": {
+      "message": "Saiz"
+   },
+   "subtitles": {
+      "message": "Sari Kata"
+   },
+   "subtitlesRateLimitedByYouTube": {
+      "message": "Sari kata untuk video ini pada masa ini dihadkan kadar oleh YouTube. Sila cuba lagi kemudian."
+   },
+   "swapVolumeSettingsCommand": {
+      "message": "Togol tetapan volum antara audio asal dan sulih suara"
+   },
+   "switchModelWarning": {
+      "message": "Menukar suara atau model terjemahan semasa main balik video akan dikenakan caj tambahan kerana sumber yang dibazirkan. Kami cadangkan menukar dalam video seterusnya. Untuk meneruskan, klik Teruskan dan Simpan."
+   },
+   "targetLanguage": {
+      "message": "Bahasa Sasaran"
+   },
+   "target_languages": {
+      "message": "Bahasa Sasaran:"
+   },
+   "taskAlreadySubmitted": {
+      "message": "Video ini sudah dalam pemprosesan untuk pengecaman sari kata AI. Sila tunggu pemberitahuan e-mel."
+   },
+   "textToSpeech": {
+      "message": "Teks ke Pertuturan:"
+   },
+   "textToSpeechToggle": {
+      "message": "Butang Terapung"
+   },
+   "toggleSubtitles": {
+      "message": "Togol sari kata"
+   },
+   "tooExpensive": {
+      "message": "Terlalu mahal"
+   },
+   "translateEngineTipText": {
+      "message": "tukar perkhidmatan terjemahan kepada Google"
+   },
+   "translateService": {
+      "message": "Terjemah:"
+   },
+   "translatedAudio": {
+      "message": "Terjemah"
+   },
+   "translationEngine": {
+      "message": "Enjin Terjemahan"
+   },
+   "translationService": {
+      "message": "Perkhidmatan Terjemahan"
+   },
+   "translationServiceTitle": {
+      "message": "Perkhidmatan Terjemahan"
+   },
+   "trialMemberDurationLimit": {
+      "message": "Video ini tidak mempunyai sari kata. Sebagai ahli percubaan, hanya video di bawah 15 minit yang disokong untuk pengecaman sari kata. Ahli premium menyokong video di bawah 3 jam."
+   },
+   "trialMemberModelLimit": {
+      "message": "Ahli percubaan hanya boleh menggunakan Gemini dan Google Translate. Untuk menggunakan model lain, sila langgan keahlian kami."
+   },
+   "universalDubbingMemberOnly": {
+      "message": "Alih suara universal memerlukan kuasa pengkomputeran GPU awan (kos tinggi), hanya untuk VIP."
+   },
+   "universalDubbingNotSupported": {
+      "message": "Sulih suara universal tidak disokong untuk video ini dalam versi semasa. Sokongan dirancang untuk versi seterusnya. Sila hubungi perkhidmatan pelanggan untuk maklumat lanjut."
+   },
+   "unknownError": {
+      "message": "Ralat tidak diketahui berlaku. Sila cuba lagi."
+   },
+   "upgradeMembershipForBackgroundRecognition": {
+      "message": "Naik taraf kepada keahlian dan pemalam akan mengenali sari kata AI di latar belakang. Selepas anda menerima pemberitahuan e-mel, kembali untuk menonton; butang sulih suara akan bertukar hijau dan terjemahan lebih tepat."
+   },
+   "uploadComplete": {
+      "message": "Muat naik selesai"
+   },
+   "uploadFailed": {
+      "message": "Muat naik gagal"
+   },
+   "uploadMediaForRecognition": {
+      "message": "Tiada sarikata ditemui. Adakah anda ingin memuat naik video untuk pengecaman sarikata AI?"
+   },
+   "uploading": {
+      "message": "Memuat naik"
+   },
+   "uploadingMedia": {
+      "message": "Memuat naik media..."
+   },
+   "videoDrmProtected": {
+      "message": "Video ini dilindungi oleh DRM dan tidak boleh digunakan untuk alih suara."
+   },
+   "videoDurationExceedsLimit": {
+      "message": "Video ini melebihi 3 jam. Alih suara universal tidak disokong untuk video yang lebih daripada 3 jam."
+   },
+   "vipAndBalanceRequiredText": {
+      "message": "Anda perlu menjadi ahli dan mempunyai baki yang mencukupi untuk menggunakan ciri ini"
+   },
+   "vipAndBalanceRequiredTitle": {
+      "message": "Keahlian dan Baki Diperlukan"
+   },
+   "vipFreeOptionTipText": {
+      "message": "Sebagai ahli, anda boleh menggunakan perkhidmatan terjemahan berikut secara percuma"
+   },
+   "vipRequiredText": {
+      "message": "Anda perlu menjadi ahli untuk menggunakan ciri ini"
+   },
+   "vipRequiredTitle": {
+      "message": "Keahlian Diperlukan"
+   },
+   "vipTranslateEngineTipText": {
+      "message": "Tukar perkhidmatan terjemahan kepada perkhidmatan percuma ahli seperti gemini, deepseek, gpt-3.5-turbo, atau claude-3-haiku"
+   },
+   "voice": {
+      "message": "Suara"
+   },
+   "voiceSettingsMismatch": {
+      "message": "Jenis suara dan tetapan suara tidak sepadan. Sila pergi ke halaman tetapan untuk memilih semula dan simpan tetapan suara."
+   },
+   "voiceTypeTipText": {
+      "message": "tukar jenis suara kepada versi percuma"
+   },
+   "voices": {
+      "message": "Suara:"
+   },
+   "voicesAndSubtitles": {
+      "message": "Suara & Sari Kata"
+   },
+   "voicesAndSubtitlesTitle": {
+      "message": "Suara & Sari Kata"
+   },
+   "voicesType": {
+      "message": "Jenis Suara:"
+   },
+   "waitingForRecognition": {
+      "message": "Video berjaya dimuat naik. Pengecaman sarikata AI sedang berlangsung. Anda akan menerima pemberitahuan e-mel apabila siap."
+   },
+   "woman": {
+      "message": "Perempuan"
+   },
+   "zoomRecordingDnrNotSupported": {
+      "message": "Pelayar anda tidak menyokong pengecaman muat naik rakaman Zoom. Sila gunakan Chrome/Edge."
+   },
+   "zoomRecordingDownloadForbidden403": {
+      "message": "Muat turun rakaman Zoom dilarang (403). Sila main/muat semula halaman untuk lulus pengesahan, kemudian cuba muat naik semula."
+   }
+}

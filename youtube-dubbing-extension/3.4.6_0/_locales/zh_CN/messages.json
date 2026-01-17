@@ -1,0 +1,470 @@
+{
+   "accountBalance": {
+      "message": "账户余额:"
+   },
+   "advancedSettings": {
+      "message": "高级设置"
+   },
+   "aiSubtitlesRecognitionInBackground": {
+      "message": "当前视频暂无 AI 字幕。插件已在后台为您识别。听到第一句配音后可关闭网页，待收到邮件通知再回来观看；届时配音按钮会变为绿色，翻译效果更佳。"
+   },
+   "back": {
+      "message": "返回"
+   },
+   "backToSettings": {
+      "message": "返回设置"
+   },
+   "backgroundAudio": {
+      "message": "背景音"
+   },
+   "balanceRequiredText": {
+      "message": "您的账户余额不足，请充值后再使用此功能"
+   },
+   "balanceRequiredTitle": {
+      "message": "需要额度"
+   },
+   "balanceRunningLow": {
+      "message": "您的额度即将用完, 为避免在观看过程中有不好的体验，建议提前进行充值。"
+   },
+   "browserShortcutSettingsTip": {
+      "message": "请在浏览器扩展设置中配置快捷键"
+   },
+   "cancel": {
+      "message": "取消"
+   },
+   "cancelButton": {
+      "message": "取消"
+   },
+   "completing": {
+      "message": "完成中"
+   },
+   "confirmButton": {
+      "message": "继续保存"
+   },
+   "confirmDeleteSpeaker": {
+      "message": "确定要删除这个说话人吗？"
+   },
+   "contentMenusTitle": {
+      "message": "开始配音播放"
+   },
+   "corsNotSupported": {
+      "message": "该网站不允许下载媒体文件，无法使用通用配音功能。"
+   },
+   "debugInfo": {
+      "message": "调试信息"
+   },
+   "delete": {
+      "message": "删除"
+   },
+   "deleteSpeaker": {
+      "message": "删除"
+   },
+   "description": {
+      "message": "一键在线翻译配音视频，外语秒懂，全球知识轻松掌握"
+   },
+   "disableGlobally": {
+      "message": "全局禁用"
+   },
+   "doNotClosePage": {
+      "message": "请不要关闭或刷新页面，否则上传将会中断。"
+   },
+   "downloading": {
+      "message": "下载中"
+   },
+   "dropboxClickCcToTranscribe": {
+      "message": "当前视频还没有进行字幕转录，请先点击 Dropbox 视频底部的 CC 按钮进行字幕转录；转录完成后，再点击插件的配音按钮进行翻译与配音。"
+   },
+   "dropdownNoOptions": {
+      "message": "没有可用选项"
+   },
+   "dropdownPlaceholder": {
+      "message": "请选择"
+   },
+   "dropdownSearch": {
+      "message": "搜索..."
+   },
+   "dubbingSettings": {
+      "message": "配音设置"
+   },
+   "edgeShortcutSettingsTip": {
+      "message": "正在为您打开Edge扩展快捷键设置页面"
+   },
+   "edit": {
+      "message": "编辑"
+   },
+   "editSpeaker": {
+      "message": "编辑说话人"
+   },
+   "enterSpeakerName": {
+      "message": "请输入说话人姓名"
+   },
+   "enterVoice": {
+      "message": "请输入声音名称"
+   },
+   "error": {
+      "message": "错误"
+   },
+   "female": {
+      "message": "女"
+   },
+   "firefoxShortcutSettingsTip": {
+      "message": "正在为您打开Firefox附加组件页面，请在'扩展和主题'中设置快捷键"
+   },
+   "free": {
+      "message": "免费"
+   },
+   "freeForVip": {
+      "message": "会员免费"
+   },
+   "freeOptionTipText": {
+      "message": "如果不想充值，您可以选择免费选项，"
+   },
+   "freeUserDailyLimit": {
+      "message": "免费用户每天最多可通过插件观看5个视频，升级会员即可解锁无限观影权益。"
+   },
+   "freeUserNoSubtitles": {
+      "message": "当前视频无自带字幕，请订阅插件会员进行字幕识别，享受翻译配音功能。"
+   },
+   "gender": {
+      "message": "性别"
+   },
+   "hideUntilNextVisit": {
+      "message": "隐藏直到下一次访问"
+   },
+   "insufficientBalance": {
+      "message": "您的余额不足,已降级为Google翻译,如需使用AI翻译,请先充值额度。"
+   },
+   "insufficientBalanceAlertMsg": {
+      "message": "您的额度不足，请先充值额度，在使用AI翻译和Azure TTS。如果不想充值，也可以切换回谷歌翻译和免费的声音类型。"
+   },
+   "insufficientBalanceAndMembership": {
+      "message": "请先充值会员和额度后才能使用AI翻译和Azure TTS。如果您不想充值，也可以选择谷歌翻译和免费的声音类型。"
+   },
+   "insufficientMembership": {
+      "message": "您的会员到期了。请先充值会员才能使用AI翻译和Azure TTS。如果您不想充值，也可以选择谷歌翻译和免费的声音类型。"
+   },
+   "iosInterceptorConflictMessage": {
+      "message": "其他浏览器扩展正在阻止字幕请求拦截。请禁用冲突扩展，刷新页面后再试一次。"
+   },
+   "iosInterceptorConflictTitle": {
+      "message": "检测到扩展冲突"
+   },
+   "iosOpenOriginVolume": {
+      "message": "开启原声:"
+   },
+   "iosUniversalDubbingNotSupported": {
+      "message": "iOS 设备不支持通用配音功能，请使用桌面浏览器。"
+   },
+   "liveStreamNotSupported": {
+      "message": "直播流不支持通用配音。"
+   },
+   "liveVideoNotSupported": {
+      "message": "直播视频暂不支持配音"
+   },
+   "loading": {
+      "message": "加载中"
+   },
+   "login": {
+      "message": "登录"
+   },
+   "loginAndUsePlugin": {
+      "message": "请先点击插件icon进行登录，然后再使用插件进行配音播放。"
+   },
+   "logout": {
+      "message": "退出登录"
+   },
+   "lowBalanceText": {
+      "message": "您的账户余额低于1美元，建议尽快充值以确保服务正常使用"
+   },
+   "lowBalanceTitle": {
+      "message": "余额不足提醒"
+   },
+   "male": {
+      "message": "男"
+   },
+   "man": {
+      "message": "男"
+   },
+   "mediaSourceNotDetected": {
+      "message": "无法检测到视频源，该网站可能不支持通用配音。"
+   },
+   "memberUser": {
+      "message": "会员用户"
+   },
+   "membershipExpires": {
+      "message": "会员到期"
+   },
+   "membershipIcon": {
+      "message": "会员图标"
+   },
+   "membershipRequired": {
+      "message": "在使用OpenAI翻译之前,请先充值为会员。"
+   },
+   "membershipRequiredForAI": {
+      "message": "请先充值会员后才能使用AI翻译。如果您不想充值，也可以选择谷歌翻译。"
+   },
+   "membershipRequiredTitle": {
+      "message": "需要会员权限"
+   },
+   "metadataNotFound": {
+      "message": "未获取到视频元数据，请刷新重试"
+   },
+   "multiVideoNotSupported": {
+      "message": "检测到页面有多个视频，通用配音功能在HLS流模式下仅支持单视频页面。"
+   },
+   "name": {
+      "message": "YouTube中文配音 – AI字幕翻译与配音 | Translate & Dub"
+   },
+   "noAudioTrackFound": {
+      "message": "未检测到音频轨道，该视频可能是纯视频无声音文件，无法用于配音识别。"
+   },
+   "noSpeakers": {
+      "message": "暂无说话人"
+   },
+   "noSubtitlesFound": {
+      "message": "当前视频没有字幕,不支持进行翻译配音"
+   },
+   "noSubtitlesWaitOptimization": {
+      "message": "没有可用的字幕。请等待插件为此视频识别字幕。识别完成后会向您注册邮箱发送邮件通知。"
+   },
+   "notSupported": {
+      "message": "不支持"
+   },
+   "originalAudio": {
+      "message": "原声"
+   },
+   "pauseVideo": {
+      "message": "暂停视频"
+   },
+   "pay": {
+      "message": "支付"
+   },
+   "postLoginTranslationSettings": {
+      "message": "登录成功，点击插件ICON，可以选择翻译语言和声音列表。"
+   },
+   "premiumMemberDurationLimit": {
+      "message": "该视频无字幕，且视频时长超过3小时，暂不支持翻译与配音。请选择较短的视频或有字幕的视频。"
+   },
+   "rechargeLimit": {
+      "message": "额度+会员"
+   },
+   "safariShortcutSettingsTip": {
+      "message": "请在Safari浏览器的'Safari菜单 > 偏好设置 > 扩展'中设置快捷键"
+   },
+   "save": {
+      "message": "保存"
+   },
+   "saveFailedText": {
+      "message": "设置保存失败，请重试"
+   },
+   "saveFailedTitle": {
+      "message": "保存失败"
+   },
+   "saveSuccessText": {
+      "message": "设置已保存"
+   },
+   "saveSuccessTitle": {
+      "message": "保存成功"
+   },
+   "save_settings": {
+      "message": "保存设置"
+   },
+   "saving": {
+      "message": "保存中..."
+   },
+   "searchSourceLanguage": {
+      "message": "搜索源语言..."
+   },
+   "searchTargetLanguage": {
+      "message": "搜索目标语言..."
+   },
+   "selectSourceLanguage": {
+      "message": "选择源语言"
+   },
+   "selectSpeaker": {
+      "message": "选择"
+   },
+   "selectTargetLanguage": {
+      "message": "选择目标语言"
+   },
+   "sex": {
+      "message": "性别:"
+   },
+   "shortcutSettings": {
+      "message": "快捷键设置"
+   },
+   "showSubtitle": {
+      "message": "显示字幕:"
+   },
+   "sourceLanguage": {
+      "message": "源语言"
+   },
+   "source_languages": {
+      "message": "源语言:"
+   },
+   "speaker": {
+      "message": "说话人"
+   },
+   "speakerList": {
+      "message": "说话人列表"
+   },
+   "speakerName": {
+      "message": "说话人姓名"
+   },
+   "speakersTitle": {
+      "message": "说话人"
+   },
+   "startUpload": {
+      "message": "开始上传"
+   },
+   "subscribe": {
+      "message": "订阅会员"
+   },
+   "subscriptionRecharge": {
+      "message": "订阅 & 充值"
+   },
+   "subtitleSize": {
+      "message": "大小"
+   },
+   "subtitles": {
+      "message": "字幕"
+   },
+   "subtitlesRateLimitedByYouTube": {
+      "message": "当前视频字幕被 YouTube 官方限流了，请您稍后再试。"
+   },
+   "swapVolumeSettingsCommand": {
+      "message": "在原音与配音之间切换音量设置"
+   },
+   "switchModelWarning": {
+      "message": "您正在播放视频,切换语音或翻译模型会导致额外扣费,因为已加载的资源将被浪费,建议下1个视频在切换。如仍要继续,请点击继续保存。"
+   },
+   "targetLanguage": {
+      "message": "目标语言"
+   },
+   "target_languages": {
+      "message": "目标语言:"
+   },
+   "taskAlreadySubmitted": {
+      "message": "该视频的AI字幕识别任务已在处理中，请耐心等待邮件通知。"
+   },
+   "textToSpeech": {
+      "message": "文本配音:"
+   },
+   "textToSpeechToggle": {
+      "message": "悬浮球"
+   },
+   "toggleSubtitles": {
+      "message": "开关字幕"
+   },
+   "tooExpensive": {
+      "message": "贵"
+   },
+   "translateEngineTipText": {
+      "message": "将翻译服务改为 Google"
+   },
+   "translateService": {
+      "message": "翻译服务:"
+   },
+   "translatedAudio": {
+      "message": "翻译声"
+   },
+   "translationEngine": {
+      "message": "翻译引擎"
+   },
+   "translationService": {
+      "message": "翻译服务"
+   },
+   "translationServiceTitle": {
+      "message": "翻译服务"
+   },
+   "trialMemberDurationLimit": {
+      "message": "当前视频无字幕,由于您是试用期会员，目前只支持15分钟以内的视频进行字幕识别，正式版会员支持3小时以内的视频"
+   },
+   "trialMemberModelLimit": {
+      "message": "试用期会员仅支持使用 Gemini 和 Google 翻译，如需其他模型，请订阅我们的会员。"
+   },
+   "universalDubbingMemberOnly": {
+      "message": "通用配音需消耗云端GPU算力（成本较高），仅限VIP使用。"
+   },
+   "universalDubbingNotSupported": {
+      "message": "当前版本通用配音暂不支持该视频，计划在下个版本中会支持，详情可以咨询客服"
+   },
+   "unknownError": {
+      "message": "发生未知错误，请重试。"
+   },
+   "upgradeMembershipForBackgroundRecognition": {
+      "message": "升级会员后，插件会在后台为您识别 AI 字幕。收到邮件通知后再回来观看；届时配音按钮会变为绿色，翻译更精准。"
+   },
+   "uploadComplete": {
+      "message": "上传完成"
+   },
+   "uploadFailed": {
+      "message": "上传失败"
+   },
+   "uploadMediaForRecognition": {
+      "message": "未找到字幕，是否上传视频进行AI字幕识别？"
+   },
+   "uploading": {
+      "message": "上传中"
+   },
+   "uploadingMedia": {
+      "message": "正在上传媒体..."
+   },
+   "videoDrmProtected": {
+      "message": "该视频受 DRM 保护，无法使用配音功能。"
+   },
+   "videoDurationExceedsLimit": {
+      "message": "该视频时长超过3小时，通用配音功能暂不支持超过3小时的视频。"
+   },
+   "vipAndBalanceRequiredText": {
+      "message": "您需要成为会员并充值额度才能使用此功能"
+   },
+   "vipAndBalanceRequiredTitle": {
+      "message": "需要会员和额度"
+   },
+   "vipFreeOptionTipText": {
+      "message": "作为会员，您可以免费使用以下翻译服务"
+   },
+   "vipRequiredText": {
+      "message": "您需要成为会员才能使用此功能"
+   },
+   "vipRequiredTitle": {
+      "message": "需要会员"
+   },
+   "vipTranslateEngineTipText": {
+      "message": "更改翻译服务为gemini, deepseek, gpt-3.5-turbo或claude-3-haiku等会员免费服务"
+   },
+   "voice": {
+      "message": "声音"
+   },
+   "voiceSettingsMismatch": {
+      "message": "声音类型和声音角色设置不匹配,请前往设置页重新选择并保存声音设置后再试。"
+   },
+   "voiceTypeTipText": {
+      "message": "将语音类型改为免费版本"
+   },
+   "voices": {
+      "message": "声音:"
+   },
+   "voicesAndSubtitles": {
+      "message": "声音与字幕"
+   },
+   "voicesAndSubtitlesTitle": {
+      "message": "声音与字幕"
+   },
+   "voicesType": {
+      "message": "声音类型:"
+   },
+   "waitingForRecognition": {
+      "message": "视频上传成功，AI字幕识别正在进行中，完成后会发送邮件通知您。"
+   },
+   "woman": {
+      "message": "女"
+   },
+   "zoomRecordingDnrNotSupported": {
+      "message": "当前浏览器不支持 Zoom 录播上传识别，请使用 Chrome/Edge。"
+   },
+   "zoomRecordingDownloadForbidden403": {
+      "message": "Zoom 录播下载被拒绝（403）。请先在页面正常播放/刷新以通过校验，然后重试上传。"
+   }
+}

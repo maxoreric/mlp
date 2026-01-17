@@ -1,0 +1,482 @@
+{
+   "accountBalance": {
+      "message": "Sold cont:"
+   },
+   "advancedSettings": {
+      "message": "Setări avansate"
+   },
+   "aiSubtitlesRecognitionInBackground": {
+      "message": "Subtitrările AI nu sunt încă disponibile. Extensia a început să le recunoască în fundal. După ce auziți prima propoziție dublată, puteți închide pagina și aștepta notificarea prin e-mail; când va fi gata, butonul de dublare va deveni verde și calitatea traducerii va fi mai bună."
+   },
+   "back": {
+      "message": "Înapoi"
+   },
+   "backToSettings": {
+      "message": "Înapoi la setări"
+   },
+   "backgroundAudio": {
+      "message": "Fundal"
+   },
+   "balanceRequiredText": {
+      "message": "Soldul contului dvs. este insuficient. Vă rugăm să reîncărcați pentru a utiliza această funcție"
+   },
+   "balanceRequiredTitle": {
+      "message": "Sold necesar"
+   },
+   "balanceRunningLow": {
+      "message": "Soldul dvs. se epuizează. Pentru a evita o experiență de vizionare slabă, se recomandă reîncărcarea în avans."
+   },
+   "browserShortcutSettingsTip": {
+      "message": "Vă rugăm să configurați comenzile rapide în setările extensiei browser"
+   },
+   "cancel": {
+      "message": "Anulare"
+   },
+   "cancelButton": {
+      "message": "Anulare"
+   },
+   "completing": {
+      "message": "Se finalizează"
+   },
+   "confirmButton": {
+      "message": "Continuă"
+   },
+   "confirmDeleteSpeaker": {
+      "message": "Sigur doriți să ștergeți acest vorbitor?"
+   },
+   "contentMenusTitle": {
+      "message": "Începeți redarea cu dublaj"
+   },
+   "corsNotSupported": {
+      "message": "Acest site web nu permite descărcarea fișierelor media. Dublarea universală nu este acceptată."
+   },
+   "debugInfo": {
+      "message": "Informații depanare"
+   },
+   "delete": {
+      "message": "Ștergere"
+   },
+   "deleteSpeaker": {
+      "message": "Ștergere"
+   },
+   "description": {
+      "message": "Traducere și dublare video cu un singur clic—înțelege limbi străine instantaneu, accesează cunoștințe globale"
+   },
+   "disableGlobally": {
+      "message": "Dezactivează global"
+   },
+   "doNotClosePage": {
+      "message": "Vă rugăm să nu închideți sau să nu reîmprospătați această pagină în timpul încărcării, altfel încărcarea va fi întreruptă."
+   },
+   "downloading": {
+      "message": "Se descarcă"
+   },
+   "dropboxClickCcToTranscribe": {
+      "message": "Acest video nu a fost încă transcris. Vă rugăm să faceți clic pe butonul CC în partea de jos a video-ului Dropbox pentru a transcrie subtitrările. După finalizarea transcrierii, faceți clic pe butonul de dublare al extensiei pentru a traduce și dubla."
+   },
+   "dropdownNoOptions": {
+      "message": "Nu există opțiuni disponibile"
+   },
+   "dropdownPlaceholder": {
+      "message": "Vă rugăm să selectați"
+   },
+   "dropdownSearch": {
+      "message": "Căutare..."
+   },
+   "dubbingSettings": {
+      "message": "Setări dublare"
+   },
+   "edgeShortcutSettingsTip": {
+      "message": "Se deschide pagina de setări pentru comenzile rapide ale extensiei Edge"
+   },
+   "edit": {
+      "message": "Editare"
+   },
+   "editSpeaker": {
+      "message": "Editare"
+   },
+   "enterSpeakerName": {
+      "message": "Introduceți numele vorbitorului"
+   },
+   "enterVoice": {
+      "message": "Introduceți numele vocii"
+   },
+   "error": {
+      "message": "Eroare"
+   },
+   "female": {
+      "message": "Femeie"
+   },
+   "firefoxShortcutSettingsTip": {
+      "message": "Se deschide pagina de add-on-uri Firefox, vă rugăm să setați comenzile rapide în Extensii și Teme"
+   },
+   "free": {
+      "message": "gratuit"
+   },
+   "freeForVip": {
+      "message": "Gratuit VIP"
+   },
+   "freeOptionTipText": {
+      "message": "Dacă nu doriți să reîncărcați, puteți alege opțiunea gratuită, "
+   },
+   "freeUserDailyLimit": {
+      "message": "Utilizatorii gratuiți pot viziona până la 5 videoclipuri pe zi prin extensie. Faceți upgrade la membership pentru a debloca vizionare nelimitată."
+   },
+   "freeUserNoSubtitles": {
+      "message": "Acest video nu are subtitrări încorporate. Vă rugăm să vă abonați la membership pentru recunoașterea subtitrărilor și pentru a beneficia de funcțiile de traducere și dublare."
+   },
+   "gender": {
+      "message": "Gen"
+   },
+   "hideUntilNextVisit": {
+      "message": "Ascunde până la următoarea vizită"
+   },
+   "hlsDecryptionFailed": {
+      "message": "Nu s-a putut decripta conținutul video. Cheia de criptare poate fi incorectă sau formatul video nu este compatibil."
+   },
+   "hlsKeyFetchFailed": {
+      "message": "Nu s-a putut obține cheia de decriptare pentru acest videoclip. Videoclipul poate fi protejat sau serverul de chei nu este disponibil."
+   },
+   "insufficientBalance": {
+      "message": "Din cauza soldului insuficient, serviciul a fost retrogradat la Google Translate. Pentru a utiliza traducerea AI, vă rugăm să reîncărcați creditul."
+   },
+   "insufficientBalanceAlertMsg": {
+      "message": "Soldul dvs. este insuficient. Vă rugăm să reîncărcați soldul înainte de a utiliza traducerea AI și Azure TTS. Dacă nu doriți să reîncărcați, puteți reveni la Google Translate și tipuri de voce gratuite."
+   },
+   "insufficientBalanceAndMembership": {
+      "message": "Vă rugăm să reîncărcați membership-ul și soldul înainte de a utiliza traducerea AI și Azure TTS. Dacă nu doriți să reîncărcați, puteți alege Google Translate și tipuri de voce gratuite."
+   },
+   "insufficientMembership": {
+      "message": "Membership-ul dvs. a expirat. Vă rugăm să reîncărcați membership-ul înainte de a utiliza traducerea AI și Azure TTS. Dacă nu doriți să reîncărcați, puteți alege Google Translate și tipuri de voce gratuite."
+   },
+   "iosInterceptorConflictMessage": {
+      "message": "O altă extensie de browser blochează interceptarea cererilor de subtitrare. Dezactivați extensiile conflictuale, reîmprospătați pagina, apoi încercați din nou."
+   },
+   "iosInterceptorConflictTitle": {
+      "message": "Conflict de extensie detectat"
+   },
+   "iosOpenOriginVolume": {
+      "message": "Activați audio original"
+   },
+   "iosUniversalDubbingNotSupported": {
+      "message": "Dublarea universală nu este suportată pe dispozitivele iOS. Vă rugăm să utilizați un browser desktop."
+   },
+   "liveStreamNotSupported": {
+      "message": "Transmisiunile live nu sunt acceptate pentru dublarea universală."
+   },
+   "liveVideoNotSupported": {
+      "message": "Videoclipurile live nu sunt acceptate în prezent pentru dublare"
+   },
+   "loading": {
+      "message": "se încarcă"
+   },
+   "login": {
+      "message": "Conectare"
+   },
+   "loginAndUsePlugin": {
+      "message": "Vă rugăm să faceți clic pe pictograma extensiei pentru a vă conecta mai întâi, apoi folosiți extensia pentru redarea cu dublaj."
+   },
+   "logout": {
+      "message": "Deconectare"
+   },
+   "lowBalanceText": {
+      "message": "Soldul contului dvs. este sub $1. Recomandăm reîncărcarea în curând pentru a asigura serviciul neîntrerupt"
+   },
+   "lowBalanceTitle": {
+      "message": "Alertă sold scăzut"
+   },
+   "male": {
+      "message": "Bărbat"
+   },
+   "man": {
+      "message": "Bărbat"
+   },
+   "mediaSourceNotDetected": {
+      "message": "Nu s-a putut detecta sursa video. Acest site web poate să nu fie acceptat."
+   },
+   "memberUser": {
+      "message": "PRO"
+   },
+   "membershipExpires": {
+      "message": "Până la"
+   },
+   "membershipIcon": {
+      "message": "Pictogramă membership"
+   },
+   "membershipRequired": {
+      "message": "Vă rugăm să faceți upgrade la membership înainte de a utiliza traducerea OpenAI."
+   },
+   "membershipRequiredForAI": {
+      "message": "Vă rugăm să reîncărcați membership-ul înainte de a utiliza traducerea AI. Dacă nu doriți să reîncărcați, puteți alege Google Translate."
+   },
+   "membershipRequiredTitle": {
+      "message": "Abonament necesar"
+   },
+   "metadataNotFound": {
+      "message": "Metadatele video nu au fost găsite, vă rugăm să reîmprospătați și să încercați din nou"
+   },
+   "multiVideoNotSupported": {
+      "message": "Această pagină are mai multe videoclipuri. Dublarea universală acceptă doar pagini cu un singur video când se utilizează fluxuri HLS."
+   },
+   "name": {
+      "message": "YouTube Dubbing – Translate & Dub"
+   },
+   "noAudioTrackFound": {
+      "message": "Nu s-a detectat nicio pistă audio. Acest videoclip pare a fi doar video fără audio și nu poate fi folosit pentru recunoașterea dublajului."
+   },
+   "noSpeakers": {
+      "message": "Niciun vorbitor"
+   },
+   "noSubtitlesFound": {
+      "message": "Acest video nu are subtitrări și nu suportă traducere și dublare"
+   },
+   "noSubtitlesWaitOptimization": {
+      "message": "Nu sunt disponibile subtitrări. Vă rugăm să așteptați ca extensia să recunoască subtitrările pentru acest video. Veți primi o notificare prin e-mail la adresa înregistrată odată ce recunoașterea este finalizată."
+   },
+   "notSupported": {
+      "message": "Neacceptat"
+   },
+   "originalAudio": {
+      "message": "Original"
+   },
+   "pauseVideo": {
+      "message": "Pauză video"
+   },
+   "pay": {
+      "message": "plată"
+   },
+   "pleaseClickVideoToPlay": {
+      "message": "Faceți clic pe videoclip pentru a-l deschide, apoi utilizați funcția de dublare."
+   },
+   "postLoginTranslationSettings": {
+      "message": "Conectare reușită. Faceți clic pe pictograma extensiei pentru a selecta limba de traducere și lista de voci."
+   },
+   "premiumMemberDurationLimit": {
+      "message": "Acest video nu are subtitrări și durata video depășește 3 ore, traducerea și dublarea nu sunt acceptate. Vă rugăm să selectați un video mai scurt sau un video cu subtitrări."
+   },
+   "rechargeLimit": {
+      "message": "Credit+Membru"
+   },
+   "safariShortcutSettingsTip": {
+      "message": "Vă rugăm să setați comenzile rapide în Safari > Preferințe > Extensii"
+   },
+   "sampleAesNotSupported": {
+      "message": "Acest videoclip folosește criptare SAMPLE-AES care nu este acceptată în prezent pentru descărcare."
+   },
+   "save": {
+      "message": "Salvare"
+   },
+   "saveFailedText": {
+      "message": "Salvarea setărilor a eșuat, vă rugăm să încercați din nou"
+   },
+   "saveFailedTitle": {
+      "message": "Salvare eșuată"
+   },
+   "saveSuccessText": {
+      "message": "Setările au fost salvate cu succes"
+   },
+   "saveSuccessTitle": {
+      "message": "Salvare reușită"
+   },
+   "save_settings": {
+      "message": "Salvare setări"
+   },
+   "saving": {
+      "message": "Se salvează..."
+   },
+   "searchSourceLanguage": {
+      "message": "Căutați limba sursă..."
+   },
+   "searchTargetLanguage": {
+      "message": "Căutați limba țintă..."
+   },
+   "selectSourceLanguage": {
+      "message": "Selectați limba sursă"
+   },
+   "selectSpeaker": {
+      "message": "Selectare"
+   },
+   "selectTargetLanguage": {
+      "message": "Selectați limba țintă"
+   },
+   "sex": {
+      "message": "Gen:"
+   },
+   "shortcutSettings": {
+      "message": "Comenzi rapide"
+   },
+   "showSubtitle": {
+      "message": "subtitrări:"
+   },
+   "sourceLanguage": {
+      "message": "Limba sursă"
+   },
+   "source_languages": {
+      "message": "Limba sursă:"
+   },
+   "speaker": {
+      "message": "Vorbitor"
+   },
+   "speakerList": {
+      "message": "Lista vorbitorilor"
+   },
+   "speakerName": {
+      "message": "Nume vorbitor"
+   },
+   "speakersTitle": {
+      "message": "Vorbitori"
+   },
+   "startUpload": {
+      "message": "Începe încărcarea"
+   },
+   "subscribe": {
+      "message": "Abonare"
+   },
+   "subscriptionRecharge": {
+      "message": "Abonare & Reîncarcare"
+   },
+   "subtitleSize": {
+      "message": "Dimensiune"
+   },
+   "subtitles": {
+      "message": "Subtitrări"
+   },
+   "subtitlesRateLimitedByYouTube": {
+      "message": "Subtitrările pentru acest video sunt în prezent limitate de YouTube. Vă rugăm să încercați din nou mai târziu."
+   },
+   "swapVolumeSettingsCommand": {
+      "message": "Comutare setări volum între audio original și dublu"
+   },
+   "switchModelWarning": {
+      "message": "Schimbarea vocii sau modelului de traducere în timpul redării video va genera taxe suplimentare din cauza resurselor irosite. Recomandăm schimbarea în videoclipul următor. Pentru a continua oricum, faceți clic pe Continuați și salvați."
+   },
+   "targetLanguage": {
+      "message": "Limba țintă"
+   },
+   "target_languages": {
+      "message": "Limba țintă:"
+   },
+   "taskAlreadySubmitted": {
+      "message": "Acest videoclip este deja în curs de procesare pentru recunoașterea subtitrărilor AI. Vă rugăm să așteptați notificarea prin e-mail."
+   },
+   "textToSpeech": {
+      "message": "Text în vorbire:"
+   },
+   "textToSpeechToggle": {
+      "message": "Minge flotantă"
+   },
+   "toggleSubtitles": {
+      "message": "Comutare subtitrări"
+   },
+   "tooExpensive": {
+      "message": "Scump"
+   },
+   "translateEngineTipText": {
+      "message": "schimbați serviciul de traducere la Google"
+   },
+   "translateService": {
+      "message": "Traducere:"
+   },
+   "translatedAudio": {
+      "message": "Tradus"
+   },
+   "translationEngine": {
+      "message": "Motor de traducere"
+   },
+   "translationService": {
+      "message": "Serviciu de traducere"
+   },
+   "translationServiceTitle": {
+      "message": "Serviciu de traducere"
+   },
+   "trialMemberDurationLimit": {
+      "message": "Acest video nu are subtitrări. Ca membru de probă, doar videoclipurile sub 15 minute sunt acceptate pentru recunoașterea subtitrărilor. Membrii premium suportă videoclipuri sub 3 ore."
+   },
+   "trialMemberModelLimit": {
+      "message": "Membrii de probă pot utiliza doar Gemini și Google Translate. Pentru a utiliza alte modele, vă rugăm să vă abonați la membership-ul nostru."
+   },
+   "universalDubbingMemberOnly": {
+      "message": "Dublarea universală necesită putere de calcul GPU în cloud (cost ridicat), doar pentru VIP."
+   },
+   "universalDubbingNotSupported": {
+      "message": "Dublarea universală nu este acceptată pentru acest video în versiunea curentă. Suportul este planificat pentru versiunea următoare. Vă rugăm să contactați serviciul clienți pentru detalii."
+   },
+   "unknownError": {
+      "message": "A apărut o eroare necunoscută. Vă rugăm să încercați din nou."
+   },
+   "upgradeMembershipForBackgroundRecognition": {
+      "message": "Faceți upgrade la membership și extensia va recunoaște subtitrările AI în fundal. După ce primiți notificarea prin e-mail, reveniți pentru a viziona; butonul de dublare va deveni verde și traducerile vor fi mai precise."
+   },
+   "uploadComplete": {
+      "message": "Încărcare completă"
+   },
+   "uploadFailed": {
+      "message": "Încărcarea a eșuat"
+   },
+   "uploadMediaForRecognition": {
+      "message": "Nu s-au găsit subtitrări. Doriți să încărcați videoclipul pentru recunoașterea subtitrărilor AI?"
+   },
+   "uploading": {
+      "message": "Se încarcă"
+   },
+   "uploadingMedia": {
+      "message": "Se încarcă media..."
+   },
+   "videoDrmProtected": {
+      "message": "Acest videoclip este protejat prin DRM și nu poate fi utilizat pentru dublare."
+   },
+   "videoDurationExceedsLimit": {
+      "message": "Acest videoclip depășește 3 ore. Dublarea universală nu este acceptată în prezent pentru videoclipuri mai lungi de 3 ore."
+   },
+   "vipAndBalanceRequiredText": {
+      "message": "Trebuie să fiți membru și să aveți sold suficient pentru a utiliza această funcție"
+   },
+   "vipAndBalanceRequiredTitle": {
+      "message": "Membership și sold necesare"
+   },
+   "vipFreeOptionTipText": {
+      "message": "Ca membru, puteți utiliza gratuit următoarele servicii de traducere"
+   },
+   "vipRequiredText": {
+      "message": "Trebuie să fiți membru pentru a utiliza această funcție"
+   },
+   "vipRequiredTitle": {
+      "message": "Membership necesar"
+   },
+   "vipTranslateEngineTipText": {
+      "message": "Schimbați serviciul de traducere la servicii gratuite pentru membri precum gemini, deepseek, gpt-3.5-turbo sau claude-3-haiku"
+   },
+   "voice": {
+      "message": "Voce"
+   },
+   "voiceSettingsMismatch": {
+      "message": "Tipul de voce și setările vocii nu se potrivesc. Accesați pagina de setări pentru a selecta din nou și salva setările vocii."
+   },
+   "voiceTypeTipText": {
+      "message": "schimbați tipul de voce la versiunea gratuită"
+   },
+   "voices": {
+      "message": "Voce:"
+   },
+   "voicesAndSubtitles": {
+      "message": "Voce și subtitrări"
+   },
+   "voicesAndSubtitlesTitle": {
+      "message": "Voce și subtitrări"
+   },
+   "voicesType": {
+      "message": "Tip voce:"
+   },
+   "waitingForRecognition": {
+      "message": "Video încărcat cu succes. Recunoașterea subtitrărilor AI este în curs. Veți primi o notificare prin e-mail când este gata."
+   },
+   "woman": {
+      "message": "Femeie"
+   },
+   "zoomRecordingDnrNotSupported": {
+      "message": "Browserul dvs. nu acceptă recunoașterea încărcării înregistrărilor Zoom. Vă rugăm să utilizați Chrome/Edge."
+   },
+   "zoomRecordingDownloadForbidden403": {
+      "message": "Descărcarea înregistrării Zoom a fost interzisă (403). Vă rugăm să redați/reîmprospătați pagina pentru verificare, apoi încercați din nou."
+   }
+}

@@ -1,0 +1,482 @@
+{
+   "accountBalance": {
+      "message": "Konta atlikums:"
+   },
+   "advancedSettings": {
+      "message": "Papildu iestatījumi"
+   },
+   "aiSubtitlesRecognitionInBackground": {
+      "message": "AI subtitri vēl nav pieejami. Spraudnis ir sācis tos atpazīt fonā. Pēc pirmā dublētā teikuma dzirdēšanas varat aizvērt lapu un gaidīt e-pasta paziņojumu; kad būs gatavs, dublēšanas poga kļūs zaļa un tulkošanas kvalitāte būs labāka."
+   },
+   "back": {
+      "message": "Atpakaļ"
+   },
+   "backToSettings": {
+      "message": "Atgriezties iestatījumos"
+   },
+   "backgroundAudio": {
+      "message": "Fona skaņa"
+   },
+   "balanceRequiredText": {
+      "message": "Jūsu konta atlikums ir nepietiekams. Lūdzu, papildiniet, lai izmantotu šo funkciju"
+   },
+   "balanceRequiredTitle": {
+      "message": "Nepieciešams atlikums"
+   },
+   "balanceRunningLow": {
+      "message": "Jūsu atlikums beidzas. Lai izvairītos no sliktas skatīšanās pieredzes, ieteicams papildināt iepriekš."
+   },
+   "browserShortcutSettingsTip": {
+      "message": "Lūdzu, konfigurējiet īsceļus pārlūkprogrammas paplašinājuma iestatījumos"
+   },
+   "cancel": {
+      "message": "Atcelt"
+   },
+   "cancelButton": {
+      "message": "Atcelt"
+   },
+   "completing": {
+      "message": "Pabeigšana"
+   },
+   "confirmButton": {
+      "message": "Turpināt un saglabāt"
+   },
+   "confirmDeleteSpeaker": {
+      "message": "Vai tiešām vēlaties dzēst šo runātāju?"
+   },
+   "contentMenusTitle": {
+      "message": "Sākt balss ieraksta atskaņošanu"
+   },
+   "corsNotSupported": {
+      "message": "Šī vietne neļauj lejupielādēt multivides failus. Universālā dublēšana nav atbalstīta."
+   },
+   "debugInfo": {
+      "message": "Atkļūdošanas informācija"
+   },
+   "delete": {
+      "message": "Dzēst"
+   },
+   "deleteSpeaker": {
+      "message": "Dzēst"
+   },
+   "description": {
+      "message": "Viena klikšķa video tulkošana un dublēšana – uzreiz saprotiet svešvalodas"
+   },
+   "disableGlobally": {
+      "message": "Atspējot globāli"
+   },
+   "doNotClosePage": {
+      "message": "Lūdzu, neaizveriet un neatjauniniet šo lapu augšupielādes laikā, pretējā gadījumā augšupielāde tiks pārtraukta."
+   },
+   "downloading": {
+      "message": "Lejupielādē"
+   },
+   "dropboxClickCcToTranscribe": {
+      "message": "Šis video vēl nav transkribēts. Lūdzu, noklikšķiniet uz CC pogas Dropbox video apakšā, lai transkribētu subtitrus. Pēc transkribēšanas pabeigšanas noklikšķiniet uz spraudņa dublēšanas pogas, lai tulkotu un dublētu."
+   },
+   "dropdownNoOptions": {
+      "message": "Nav pieejamu opciju"
+   },
+   "dropdownPlaceholder": {
+      "message": "Lūdzu, izvēlieties"
+   },
+   "dropdownSearch": {
+      "message": "Meklēt..."
+   },
+   "dubbingSettings": {
+      "message": "Dublēšanas iestatījumi"
+   },
+   "edgeShortcutSettingsTip": {
+      "message": "Atver Edge paplašinājuma īsceļu iestatījumu lapu"
+   },
+   "edit": {
+      "message": "Rediģēt"
+   },
+   "editSpeaker": {
+      "message": "Rediģēt"
+   },
+   "enterSpeakerName": {
+      "message": "Ievadiet runātāja vārdu"
+   },
+   "enterVoice": {
+      "message": "Ievadiet balss nosaukumu"
+   },
+   "error": {
+      "message": "Kļūda"
+   },
+   "female": {
+      "message": "Sieviete"
+   },
+   "firefoxShortcutSettingsTip": {
+      "message": "Atver Firefox papildinājumu lapu, lūdzu, iestatiet īsceļus paplašinājumos un tēmās"
+   },
+   "free": {
+      "message": "Bezmaksas"
+   },
+   "freeForVip": {
+      "message": "VIP bezmaksas"
+   },
+   "freeOptionTipText": {
+      "message": "Ja nevēlaties papildināt, varat izvēlēties bezmaksas variantu, "
+   },
+   "freeUserDailyLimit": {
+      "message": "Bezmaksas lietotāji var skatīties līdz 5 video dienā caur spraudni. Jauniniet uz dalību, lai atbloķētu neierobežotu skatīšanos."
+   },
+   "freeUserNoSubtitles": {
+      "message": "Šim video nav iebūvētu subtitru. Lūdzu, abonējiet spraudņa dalību, lai atpazītu subtitrus un baudītu tulkošanas un dublēšanas funkcijas."
+   },
+   "gender": {
+      "message": "Dzimums"
+   },
+   "hideUntilNextVisit": {
+      "message": "Paslēpt līdz nākamajai vizītei"
+   },
+   "hlsDecryptionFailed": {
+      "message": "Neizdevās atšifrēt video saturu. Šifrēšanas atslēga var būt nepareiza vai video formāts nav saderīgs."
+   },
+   "hlsKeyFetchFailed": {
+      "message": "Neizdevās iegūt šī video atšifrēšanas atslēgu. Video var būt aizsargāts vai atslēgu serveris nav pieejams."
+   },
+   "insufficientBalance": {
+      "message": "Nepietiekama atlikuma dēļ pakalpojums ir pazemināts uz Google Translate. Lai izmantotu AI tulkošanu, lūdzu, papildiniet savu kredītu."
+   },
+   "insufficientBalanceAlertMsg": {
+      "message": "Jūsu atlikums ir nepietiekams. Lūdzu, papildiniet savu atlikumu pirms AI tulkošanas un Azure TTS izmantošanas. Ja nevēlaties papildināt, varat pārslēgties atpakaļ uz Google Translate un bezmaksas balss veidiem."
+   },
+   "insufficientBalanceAndMembership": {
+      "message": "Lūdzu, papildiniet savu dalību un atlikumu pirms AI tulkošanas un Azure TTS izmantošanas. Ja nevēlaties papildināt, varat arī izvēlēties Google Translate un bezmaksas balss veidus."
+   },
+   "insufficientMembership": {
+      "message": "Jūsu dalība ir beigusies. Lūdzu, papildiniet savu dalību pirms AI tulkošanas un Azure TTS izmantošanas. Ja nevēlaties papildināt, varat arī izvēlēties Google Translate un bezmaksas balss veidus."
+   },
+   "iosInterceptorConflictMessage": {
+      "message": "Cits pārlūkprogrammas paplašinājums bloķē subtitru pieprasījumu pārtvēršanu. Atspējojiet konfliktējošos paplašinājumus, atsvaidziniet lapu un mēģiniet vēlreiz."
+   },
+   "iosInterceptorConflictTitle": {
+      "message": "Konstatēts paplašinājuma konflikts"
+   },
+   "iosOpenOriginVolume": {
+      "message": "Ieslēgt oriģinālo audio"
+   },
+   "iosUniversalDubbingNotSupported": {
+      "message": "Universālā dublēšana nav atbalstīta iOS ierīcēs. Lūdzu, izmantojiet darbvirsmas pārlūkprogrammu."
+   },
+   "liveStreamNotSupported": {
+      "message": "Tiešraides nav atbalstītas universālajai dublēšanai."
+   },
+   "liveVideoNotSupported": {
+      "message": "Tiešraides video pašlaik neatbalsta dublēšanu"
+   },
+   "loading": {
+      "message": "ielādē"
+   },
+   "login": {
+      "message": "Ienākt"
+   },
+   "loginAndUsePlugin": {
+      "message": "Lūdzu, vispirms noklikšķiniet uz spraudņa ikonas, lai pieteiktos, pēc tam izmantojiet spraudni balss ieraksta atskaņošanai."
+   },
+   "logout": {
+      "message": "Izrakstīties"
+   },
+   "lowBalanceText": {
+      "message": "Jūsu konta atlikums ir zem $1. Iesakām drīz papildināt, lai nodrošinātu nepārtrauktu pakalpojumu"
+   },
+   "lowBalanceTitle": {
+      "message": "Zema atlikuma brīdinājums"
+   },
+   "male": {
+      "message": "Vīrietis"
+   },
+   "man": {
+      "message": "Vīrietis"
+   },
+   "mediaSourceNotDetected": {
+      "message": "Nevar noteikt video avotu. Šī vietne var nebūt atbalstīta."
+   },
+   "memberUser": {
+      "message": "PRO"
+   },
+   "membershipExpires": {
+      "message": "Beidzas"
+   },
+   "membershipIcon": {
+      "message": "Dalības ikona"
+   },
+   "membershipRequired": {
+      "message": "Lūdzu, jauniniet uz dalību pirms OpenAI tulkošanas izmantošanas."
+   },
+   "membershipRequiredForAI": {
+      "message": "Lūdzu, papildiniet savu dalību pirms AI tulkošanas izmantošanas. Ja nevēlaties papildināt, varat arī izvēlēties Google Translate."
+   },
+   "membershipRequiredTitle": {
+      "message": "Nepieciešama dalība"
+   },
+   "metadataNotFound": {
+      "message": "Video metadati nav atrasti, lūdzu, atsvaidziniet un mēģiniet vēlreiz"
+   },
+   "multiVideoNotSupported": {
+      "message": "Šajā lapā ir vairāki video. Universālā dublēšana atbalsta tikai lapas ar vienu video, izmantojot HLS straumēšanu."
+   },
+   "name": {
+      "message": "YouTube Dubbing – Tulkot un Dublēt"
+   },
+   "noAudioTrackFound": {
+      "message": "Audio celiņš nav atrasts. Šis video šķiet tikai video bez audio un to nevar izmantot dubbinga atpazīšanai."
+   },
+   "noSpeakers": {
+      "message": "Nav runātāju"
+   },
+   "noSubtitlesFound": {
+      "message": "Šim video nav subtitru un tas neatbalsta tulkošanu un dublēšanu"
+   },
+   "noSubtitlesWaitOptimization": {
+      "message": "Subtitri nav pieejami. Lūdzu, uzgaidiet, kamēr spraudnis atpazīs šī video subtitrus. Jūs saņemsiet e-pasta paziņojumu uz savu reģistrēto e-pasta adresi, kad atpazīšana būs pabeigta."
+   },
+   "notSupported": {
+      "message": "Nav atbalstīts"
+   },
+   "originalAudio": {
+      "message": "Oriģināls"
+   },
+   "pauseVideo": {
+      "message": "Apturēt video"
+   },
+   "pay": {
+      "message": "maksāt"
+   },
+   "pleaseClickVideoToPlay": {
+      "message": "Noklikšķiniet uz video, lai to atvērtu, un pēc tam izmantojiet dublēšanas funkciju."
+   },
+   "postLoginTranslationSettings": {
+      "message": "Pieteikšanās veiksmīga. Noklikšķiniet uz spraudņa ikonas, lai izvēlētos tulkošanas valodu un balsu sarakstu."
+   },
+   "premiumMemberDurationLimit": {
+      "message": "Šim video nav subtitru un video ilgums pārsniedz 3 stundas, tulkošana un dublēšana netiek atbalstīta. Lūdzu, izvēlieties īsāku video vai video ar subtitriem."
+   },
+   "rechargeLimit": {
+      "message": "Kredīts+Dalībnieks"
+   },
+   "safariShortcutSettingsTip": {
+      "message": "Lūdzu, iestatiet īsceļus Safari > Preferences > Extensions"
+   },
+   "sampleAesNotSupported": {
+      "message": "Šis video izmanto SAMPLE-AES šifrēšanu, kas pašlaik netiek atbalstīta lejupielādei."
+   },
+   "save": {
+      "message": "Saglabāt"
+   },
+   "saveFailedText": {
+      "message": "Neizdevās saglabāt iestatījumus, lūdzu, mēģiniet vēlreiz"
+   },
+   "saveFailedTitle": {
+      "message": "Saglabāšana neizdevās"
+   },
+   "saveSuccessText": {
+      "message": "Iestatījumi saglabāti veiksmīgi"
+   },
+   "saveSuccessTitle": {
+      "message": "Saglabāts veiksmīgi"
+   },
+   "save_settings": {
+      "message": "Saglabāt iestatījumus"
+   },
+   "saving": {
+      "message": "Saglabā..."
+   },
+   "searchSourceLanguage": {
+      "message": "Meklēt avota valodu..."
+   },
+   "searchTargetLanguage": {
+      "message": "Meklēt mērķa valodu..."
+   },
+   "selectSourceLanguage": {
+      "message": "Izvēlieties avota valodu"
+   },
+   "selectSpeaker": {
+      "message": "Izvēlēties"
+   },
+   "selectTargetLanguage": {
+      "message": "Izvēlieties mērķa valodu"
+   },
+   "sex": {
+      "message": "Dzimums:"
+   },
+   "shortcutSettings": {
+      "message": "Tastatūras īsceļi"
+   },
+   "showSubtitle": {
+      "message": "subtitri:"
+   },
+   "sourceLanguage": {
+      "message": "Avota valoda"
+   },
+   "source_languages": {
+      "message": "Avota valoda:"
+   },
+   "speaker": {
+      "message": "Runātājs"
+   },
+   "speakerList": {
+      "message": "Runātāju saraksts"
+   },
+   "speakerName": {
+      "message": "Runātāja vārds"
+   },
+   "speakersTitle": {
+      "message": "Runātāji"
+   },
+   "startUpload": {
+      "message": "Sākt augšupielādi"
+   },
+   "subscribe": {
+      "message": "Abonēt"
+   },
+   "subscriptionRecharge": {
+      "message": "Abonēt un papildināt"
+   },
+   "subtitleSize": {
+      "message": "Izmērs"
+   },
+   "subtitles": {
+      "message": "Subtitri"
+   },
+   "subtitlesRateLimitedByYouTube": {
+      "message": "Šī video subtitri pašlaik ir ierobežoti ar YouTube. Lūdzu, mēģiniet vēlāk."
+   },
+   "swapVolumeSettingsCommand": {
+      "message": "Pārslēgt skaļuma iestatījumus starp oriģinālo un dublēto audio"
+   },
+   "switchModelWarning": {
+      "message": "Pārslēdzot balsi vai tulkošanas modeli video atskaņošanas laikā, tiks piemērota papildu maksa izšķiesto resursu dēļ. Iesakām pārslēgties nākamajā video. Lai turpinātu, noklikšķiniet uz Turpināt un saglabāt."
+   },
+   "targetLanguage": {
+      "message": "Mērķa valoda"
+   },
+   "target_languages": {
+      "message": "Mērķa valoda:"
+   },
+   "taskAlreadySubmitted": {
+      "message": "Šis video jau tiek apstrādāts AI subtitru atpazīšanai. Lūdzu, gaidiet e-pasta paziņojumu."
+   },
+   "textToSpeech": {
+      "message": "Teksts uz runu:"
+   },
+   "textToSpeechToggle": {
+      "message": "Peldošā poga"
+   },
+   "toggleSubtitles": {
+      "message": "Pārslēgt subtitrus"
+   },
+   "tooExpensive": {
+      "message": "Pārāk dārgs"
+   },
+   "translateEngineTipText": {
+      "message": "mainīt tulkošanas pakalpojumu uz Google"
+   },
+   "translateService": {
+      "message": "Tulkot:"
+   },
+   "translatedAudio": {
+      "message": "Dublējums"
+   },
+   "translationEngine": {
+      "message": "Tulkošanas dzinējs"
+   },
+   "translationService": {
+      "message": "Tulkošanas pakalpojums"
+   },
+   "translationServiceTitle": {
+      "message": "Tulkošanas pakalpojums"
+   },
+   "trialMemberDurationLimit": {
+      "message": "Šim video nav subtitru. Kā izmēģinājuma lietotājam pašlaik tiek atbalstīti tikai video līdz 15 minūtēm subtitru atpazīšanai. Pilntiesīgie lietotāji atbalsta video līdz 3 stundām."
+   },
+   "trialMemberModelLimit": {
+      "message": "Izmēģinājuma dalībnieki var izmantot tikai Gemini un Google Translate. Lai izmantotu citus modeļus, lūdzu, abonējiet mūsu dalību."
+   },
+   "universalDubbingMemberOnly": {
+      "message": "Universālajai dublēšanai nepieciešama mākoņa GPU skaitļošanas jauda (augstas izmaksas), tikai VIP."
+   },
+   "universalDubbingNotSupported": {
+      "message": "Universālā dublēšana šim video pašreizējā versijā netiek atbalstīta. Atbalsts ir plānots nākamajā versijā. Lūdzu, sazinieties ar klientu apkalpošanu, lai iegūtu sīkāku informāciju."
+   },
+   "unknownError": {
+      "message": "Radās nezināma kļūda. Lūdzu, mēģiniet vēlreiz."
+   },
+   "upgradeMembershipForBackgroundRecognition": {
+      "message": "Jauniniet uz dalību un spraudnis atpazīs AI subtitrus fonā. Pēc e-pasta paziņojuma saņemšanas atgriezieties skatīties; dublēšanas poga kļūs zaļa un tulkojumi būs precīzāki."
+   },
+   "uploadComplete": {
+      "message": "Augšupielāde pabeigta"
+   },
+   "uploadFailed": {
+      "message": "Augšupielāde neizdevās"
+   },
+   "uploadMediaForRecognition": {
+      "message": "Subtitri nav atrasti. Vai vēlaties augšupielādēt video AI subtitru atpazīšanai?"
+   },
+   "uploading": {
+      "message": "Augšupielāde"
+   },
+   "uploadingMedia": {
+      "message": "Augšupielādē multividi..."
+   },
+   "videoDrmProtected": {
+      "message": "Šis video ir aizsargāts ar DRM un to nevar izmantot dublēšanai."
+   },
+   "videoDurationExceedsLimit": {
+      "message": "Šis video pārsniedz 3 stundas. Universālā dublēšana pašlaik nav atbalstīta video, kas garāki par 3 stundām."
+   },
+   "vipAndBalanceRequiredText": {
+      "message": "Jums jābūt dalībniekam un jābūt pietiekamam atlikumam, lai izmantotu šo funkciju"
+   },
+   "vipAndBalanceRequiredTitle": {
+      "message": "Nepieciešama dalība un atlikums"
+   },
+   "vipFreeOptionTipText": {
+      "message": "Kā dalībnieks varat bez maksas izmantot šādus tulkošanas pakalpojumus"
+   },
+   "vipRequiredText": {
+      "message": "Jums jābūt dalībniekam, lai izmantotu šo funkciju"
+   },
+   "vipRequiredTitle": {
+      "message": "Nepieciešama dalība"
+   },
+   "vipTranslateEngineTipText": {
+      "message": "Mainīt tulkošanas pakalpojumu uz dalībniekiem bezmaksas pakalpojumiem, piemēram, gemini, deepseek, gpt-3.5-turbo vai claude-3-haiku"
+   },
+   "voice": {
+      "message": "Balss"
+   },
+   "voiceSettingsMismatch": {
+      "message": "Balss veids un balss iestatījumi nesakrīt. Lūdzu, dodieties uz iestatījumu lapu, lai atkārtoti izvēlētos un saglabātu balss iestatījumus."
+   },
+   "voiceTypeTipText": {
+      "message": "mainīt balss veidu uz bezmaksas versiju"
+   },
+   "voices": {
+      "message": "Balss:"
+   },
+   "voicesAndSubtitles": {
+      "message": "Balss un subtitri"
+   },
+   "voicesAndSubtitlesTitle": {
+      "message": "Balss un subtitri"
+   },
+   "voicesType": {
+      "message": "Balss tips:"
+   },
+   "waitingForRecognition": {
+      "message": "Video veiksmīgi augšupielādēts. AI subtitru atpazīšana notiek. Jūs saņemsiet e-pasta paziņojumu, kad tas būs gatavs."
+   },
+   "woman": {
+      "message": "Sieviete"
+   },
+   "zoomRecordingDnrNotSupported": {
+      "message": "Jūsu pārlūkprogramma neatbalsta Zoom ierakstu augšupielādes atpazīšanu. Lūdzu, izmantojiet Chrome/Edge."
+   },
+   "zoomRecordingDownloadForbidden403": {
+      "message": "Zoom ieraksta lejupielāde tika aizliegta (403). Lūdzu, atskaņojiet/atsvaidziniet lapu verifikācijai, pēc tam mēģiniet vēlreiz."
+   }
+}

@@ -1,0 +1,482 @@
+{
+   "accountBalance": {
+      "message": "Balanse:"
+   },
+   "advancedSettings": {
+      "message": "Advanced na Settings"
+   },
+   "aiSubtitlesRecognitionInBackground": {
+      "message": "Ang AI subtitles ay hindi pa available. Nagsimula nang kilalanin ang plugin sa background. Pagkatapos marinig ang unang dubbed sentence, maaari ninyong isara ang page at maghintay ng email notification; kapag handa na, ang dubbing button ay magiging berde at ang kalidad ng pagsasalin ay magiging mas maganda."
+   },
+   "back": {
+      "message": "Bumalik"
+   },
+   "backToSettings": {
+      "message": "Bumalik sa settings"
+   },
+   "backgroundAudio": {
+      "message": "BGM"
+   },
+   "balanceRequiredText": {
+      "message": "Kulang ang balanse ng inyong account. Mangyaring mag-recharge upang magamit ang feature na ito"
+   },
+   "balanceRequiredTitle": {
+      "message": "Kailangan ang Balance"
+   },
+   "balanceRunningLow": {
+      "message": "Nauubos na ang inyong balanse. Upang maiwasan ang hindi magandang karanasan sa panonood, inirerekomenda na mag-recharge nang maaga."
+   },
+   "browserShortcutSettingsTip": {
+      "message": "Mangyaring i-configure ang mga shortcut sa browser extension settings"
+   },
+   "cancel": {
+      "message": "Kanselahin"
+   },
+   "cancelButton": {
+      "message": "Kanselahin"
+   },
+   "completing": {
+      "message": "Tinatapusin"
+   },
+   "confirmButton": {
+      "message": "Magpatuloy at I-save"
+   },
+   "confirmDeleteSpeaker": {
+      "message": "Sigurado ka bang nais mong tanggalin ang magsasalita na ito?"
+   },
+   "contentMenusTitle": {
+      "message": "Simulan ang Voiceover Playback"
+   },
+   "corsNotSupported": {
+      "message": "Hindi pinapayagan ng website na ito ang pag-download ng media files. Hindi sinusuportahan ang universal dubbing."
+   },
+   "debugInfo": {
+      "message": "Debug Info"
+   },
+   "delete": {
+      "message": "Tanggalin"
+   },
+   "deleteSpeaker": {
+      "message": "Tanggalin"
+   },
+   "description": {
+      "message": "Pagsasalin at dubbing ng video—maintindihan ang mga wikang dayuhan, ma-access ang global na kaalaman"
+   },
+   "disableGlobally": {
+      "message": "I-disable nang pandaigdig"
+   },
+   "doNotClosePage": {
+      "message": "Mangyaring huwag isara o i-refresh ang pahinang ito habang nag-a-upload, kung hindi ang upload ay maaantala."
+   },
+   "downloading": {
+      "message": "Nagda-download"
+   },
+   "dropboxClickCcToTranscribe": {
+      "message": "Ang video na ito ay hindi pa na-transcribe. Mangyaring i-click ang CC button sa ibaba ng Dropbox video upang i-transcribe ang mga subtitle. Pagkatapos makumpleto ang transcription, i-click ang dubbing button ng plugin upang magsalin at mag-dub."
+   },
+   "dropdownNoOptions": {
+      "message": "Walang opsyon"
+   },
+   "dropdownPlaceholder": {
+      "message": "Pumili"
+   },
+   "dropdownSearch": {
+      "message": "Maghanap..."
+   },
+   "dubbingSettings": {
+      "message": "Mga Setting ng Dubbing"
+   },
+   "edgeShortcutSettingsTip": {
+      "message": "Binubuksan ang Edge extension shortcut settings page"
+   },
+   "edit": {
+      "message": "I-edit"
+   },
+   "editSpeaker": {
+      "message": "I-edit"
+   },
+   "enterSpeakerName": {
+      "message": "Ilagay ang pangalan ng magsasalita"
+   },
+   "enterVoice": {
+      "message": "Ilagay ang pangalan ng boses"
+   },
+   "error": {
+      "message": "Error"
+   },
+   "female": {
+      "message": "Babae"
+   },
+   "firefoxShortcutSettingsTip": {
+      "message": "Binubuksan ang Firefox add-ons page, mangyaring itakda ang mga shortcut sa Extensions at Themes"
+   },
+   "free": {
+      "message": "libre"
+   },
+   "freeForVip": {
+      "message": "Libre para sa VIP"
+   },
+   "freeOptionTipText": {
+      "message": "Kung ayaw ninyong mag-recharge, maaari kayong pumili ng libreng opsyon, "
+   },
+   "freeUserDailyLimit": {
+      "message": "Ang mga libreng user ay maaaring manonood ng hanggang 5 video bawat araw sa pamamagitan ng plugin. Mag-upgrade sa membership upang ma-unlock ang unlimited viewing benefits."
+   },
+   "freeUserNoSubtitles": {
+      "message": "Walang built-in subtitle ang video na ito. Mangyaring mag-subscribe sa plugin membership para sa pagkilala ng subtitle at mag-enjoy ng mga feature ng pagsasalin at dubbing."
+   },
+   "gender": {
+      "message": "Kasarian"
+   },
+   "hideUntilNextVisit": {
+      "message": "Itago hanggang sa susunod na pagbisita"
+   },
+   "hlsDecryptionFailed": {
+      "message": "Nabigong i-decrypt ang nilalaman ng video. Maaaring mali ang encryption key o hindi compatible ang format ng video."
+   },
+   "hlsKeyFetchFailed": {
+      "message": "Nabigong kunin ang decryption key para sa video na ito. Maaaring protektado ang video o hindi available ang key server."
+   },
+   "insufficientBalance": {
+      "message": "Dahil sa kulang na balanse, ang serbisyo ay na-downgrade sa Google Translate. Upang magamit ang AI translation, mangyaring mag-recharge ng inyong credit."
+   },
+   "insufficientBalanceAlertMsg": {
+      "message": "Kulang ang inyong balanse. Mangyaring mag-recharge ng inyong balanse bago gamitin ang AI translation at Azure TTS. Kung ayaw ninyong mag-recharge, maaari kayong bumalik sa Google Translate at mga libreng uri ng boses."
+   },
+   "insufficientBalanceAndMembership": {
+      "message": "Mangyaring mag-recharge ng inyong membership at balanse bago magamit ang AI translation at Azure TTS. Kung ayaw ninyong mag-recharge, maaari rin kayong pumili ng Google Translate at mga libreng uri ng boses."
+   },
+   "insufficientMembership": {
+      "message": "Nag-expire na ang inyong membership. Mangyaring mag-recharge ng inyong membership bago magamit ang AI translation at Azure TTS. Kung ayaw ninyong mag-recharge, maaari rin kayong pumili ng Google Translate at mga libreng uri ng boses."
+   },
+   "iosInterceptorConflictMessage": {
+      "message": "May ibang browser extension na humaharang sa subtitle request interception. I-disable ang mga conflicting extensions, i-refresh ang page, at subukan muli."
+   },
+   "iosInterceptorConflictTitle": {
+      "message": "May na-detect na conflict sa extension"
+   },
+   "iosOpenOriginVolume": {
+      "message": "I-on ang orihinal na audio"
+   },
+   "iosUniversalDubbingNotSupported": {
+      "message": "Hindi sinusuportahan ang universal dubbing sa mga iOS device. Mangyaring gumamit ng desktop browser."
+   },
+   "liveStreamNotSupported": {
+      "message": "Ang mga live stream ay hindi sinusuportahan para sa universal dubbing."
+   },
+   "liveVideoNotSupported": {
+      "message": "Ang mga live na video ay kasalukuyang hindi sumusuportado para sa dubbing"
+   },
+   "loading": {
+      "message": "nag-lo-load"
+   },
+   "login": {
+      "message": "Login"
+   },
+   "loginAndUsePlugin": {
+      "message": "Mangyaring i-click muna ang plugin icon upang mag-login, pagkatapos gamitin ang plugin para sa voiceover playback."
+   },
+   "logout": {
+      "message": "Mag-logout"
+   },
+   "lowBalanceText": {
+      "message": "Ang balanse ng inyong account ay mas mababa sa $1. Inirerekomenda naming mag-recharge kaagad upang masiguro ang walang-tigil na serbisyo"
+   },
+   "lowBalanceTitle": {
+      "message": "Alerto sa Mababang Balanse"
+   },
+   "male": {
+      "message": "Lalaki"
+   },
+   "man": {
+      "message": "Lalaki"
+   },
+   "mediaSourceNotDetected": {
+      "message": "Hindi matukoy ang pinagmulan ng video. Maaaring hindi suportado ang website na ito."
+   },
+   "memberUser": {
+      "message": "PRO"
+   },
+   "membershipExpires": {
+      "message": "Mag-e-expire:"
+   },
+   "membershipIcon": {
+      "message": "Icon ng Membership"
+   },
+   "membershipRequired": {
+      "message": "Mangyaring mag-upgrade sa membership bago gamitin ang OpenAI translation."
+   },
+   "membershipRequiredForAI": {
+      "message": "Mangyaring mag-recharge ng inyong membership bago magamit ang AI translation. Kung ayaw ninyong mag-recharge, maaari rin kayong pumili ng Google Translate."
+   },
+   "membershipRequiredTitle": {
+      "message": "Kailangan ng membership"
+   },
+   "metadataNotFound": {
+      "message": "Hindi natagpuan ang metadata ng video, mangyaring i-refresh at subukan muli"
+   },
+   "multiVideoNotSupported": {
+      "message": "Ang pahinang ito ay may maraming video. Ang universal dubbing ay sumusuporta lamang sa mga pahinang may isang video kapag gumagamit ng HLS streams."
+   },
+   "name": {
+      "message": "YouTube Dubbing – Translate & Dub"
+   },
+   "noAudioTrackFound": {
+      "message": "Walang nahanap na audio track. Ang video na ito ay mukhang video-only na walang audio at hindi magagamit para sa dubbing recognition."
+   },
+   "noSpeakers": {
+      "message": "Walang mga magsasalita"
+   },
+   "noSubtitlesFound": {
+      "message": "Walang subtitle ang video na ito at hindi sumusuporta sa pagsasalin at dubbing"
+   },
+   "noSubtitlesWaitOptimization": {
+      "message": "Walang available na subtitle. Mangyaring maghintay para kilalanin ng plugin ang mga subtitle para sa video na ito. Makakatanggap kayo ng email notification sa inyong nakarehistrong email address kapag nakumpleto na ang pagkilala."
+   },
+   "notSupported": {
+      "message": "Hindi sinusuportahan"
+   },
+   "originalAudio": {
+      "message": "Orihinal"
+   },
+   "pauseVideo": {
+      "message": "I-pause ang Video"
+   },
+   "pay": {
+      "message": "magbayad"
+   },
+   "pleaseClickVideoToPlay": {
+      "message": "I-click ang video para buksan ito at pagkatapos ay gamitin ang dubbing feature."
+   },
+   "postLoginTranslationSettings": {
+      "message": "Matagumpay ang pag-login. I-click ang plugin ICON upang pumili ng wika ng pagsasalin at listahan ng boses."
+   },
+   "premiumMemberDurationLimit": {
+      "message": "Walang subtitle ang video na ito at ang tagal ng video ay lumampas sa 3 oras, ang pagsasalin at dubbing ay hindi sumusuportado. Mangyaring pumili ng mas maikling video o video na may subtitle."
+   },
+   "rechargeLimit": {
+      "message": "Credit+Member"
+   },
+   "safariShortcutSettingsTip": {
+      "message": "Mangyaring itakda ang mga shortcut sa Safari > Preferences > Extensions"
+   },
+   "sampleAesNotSupported": {
+      "message": "Ang video na ito ay gumagamit ng SAMPLE-AES encryption na kasalukuyang hindi sinusuportahan para sa pag-download."
+   },
+   "save": {
+      "message": "I-save"
+   },
+   "saveFailedText": {
+      "message": "Nabigo ang pag-save ng mga setting, mangyaring subukan muli"
+   },
+   "saveFailedTitle": {
+      "message": "Nabigo ang Pag-save"
+   },
+   "saveSuccessText": {
+      "message": "Matagumpay na na-save ang mga setting"
+   },
+   "saveSuccessTitle": {
+      "message": "Matagumpay na Na-save"
+   },
+   "save_settings": {
+      "message": "I-save"
+   },
+   "saving": {
+      "message": "Nag-se-save..."
+   },
+   "searchSourceLanguage": {
+      "message": "Maghanap ng pinagmulang wika..."
+   },
+   "searchTargetLanguage": {
+      "message": "Maghanap ng target na wika..."
+   },
+   "selectSourceLanguage": {
+      "message": "Pumili ng pinagmulang wika"
+   },
+   "selectSpeaker": {
+      "message": "Pumili"
+   },
+   "selectTargetLanguage": {
+      "message": "Pumili ng target na wika"
+   },
+   "sex": {
+      "message": "Kasarian:"
+   },
+   "shortcutSettings": {
+      "message": "Mga Shortcut"
+   },
+   "showSubtitle": {
+      "message": "mga subtitle:"
+   },
+   "sourceLanguage": {
+      "message": "Pinagmulang Wika"
+   },
+   "source_languages": {
+      "message": "Pinagmulang Wika:"
+   },
+   "speaker": {
+      "message": "Magsasalita"
+   },
+   "speakerList": {
+      "message": "Listahan ng Magsasalita"
+   },
+   "speakerName": {
+      "message": "Pangalan ng Magsasalita"
+   },
+   "speakersTitle": {
+      "message": "Magsasalita"
+   },
+   "startUpload": {
+      "message": "Simulan ang upload"
+   },
+   "subscribe": {
+      "message": "Mag-member"
+   },
+   "subscriptionRecharge": {
+      "message": "Mag-subscribe & Top-up"
+   },
+   "subtitleSize": {
+      "message": "Laki"
+   },
+   "subtitles": {
+      "message": "Mga Subtitle"
+   },
+   "subtitlesRateLimitedByYouTube": {
+      "message": "Ang mga subtitle para sa video na ito ay kasalukuyang nililimitahan ng YouTube. Mangyaring subukan muli mamaya."
+   },
+   "swapVolumeSettingsCommand": {
+      "message": "I-toggle ang mga setting ng volume sa pagitan ng orihinal at dubbed audio"
+   },
+   "switchModelWarning": {
+      "message": "Ang pag-switch ng boses o translation model habang nagpe-play ang video ay mag-uudyok ng karagdagang bayad dahil sa nasayang na resources. Inirerekomenda naming mag-switch sa susunod na video. Upang magpatuloy pa rin, i-click ang Continue and Save."
+   },
+   "targetLanguage": {
+      "message": "Target na Wika"
+   },
+   "target_languages": {
+      "message": "Target na Wika:"
+   },
+   "taskAlreadySubmitted": {
+      "message": "Ang video na ito ay kasalukuyang pinoproseso para sa AI subtitle recognition. Mangyaring maghintay ng email notification."
+   },
+   "textToSpeech": {
+      "message": "Text to Speech:"
+   },
+   "textToSpeechToggle": {
+      "message": "Lumulutang na Bola"
+   },
+   "toggleSubtitles": {
+      "message": "I-toggle ang mga subtitle"
+   },
+   "tooExpensive": {
+      "message": "Masyadong mahal"
+   },
+   "translateEngineTipText": {
+      "message": "baguhin ang serbisyo ng pagsasalin sa Google"
+   },
+   "translateService": {
+      "message": "Pagsasalin:"
+   },
+   "translatedAudio": {
+      "message": "Isinalin"
+   },
+   "translationEngine": {
+      "message": "Translation Engine"
+   },
+   "translationService": {
+      "message": "Serbisyo ng Salin"
+   },
+   "translationServiceTitle": {
+      "message": "Serbisyo ng Salin"
+   },
+   "trialMemberDurationLimit": {
+      "message": "Walang subtitle ang video na ito. Bilang trial member, mga video lang na mas mababa sa 15 minuto ang kasalukuyang sumusuportado para sa pagkilala ng subtitle. Ang premium members ay sumusuporta sa mga video na hanggang 3 oras."
+   },
+   "trialMemberModelLimit": {
+      "message": "Ang mga trial member ay maaari lamang gumamit ng Gemini at Google Translate. Upang magamit ang iba pang mga modelo, mangyaring mag-subscribe sa aming membership."
+   },
+   "universalDubbingMemberOnly": {
+      "message": "Ang universal dubbing ay nangangailangan ng cloud GPU computing power (mataas na gastos), para sa VIP lamang."
+   },
+   "universalDubbingNotSupported": {
+      "message": "Ang universal dubbing ay hindi sumusuportado para sa video na ito sa kasalukuyang bersyon. Ang suporta ay nakaplanong maging available sa susunod na bersyon. Mangyaring makipag-ugnayan sa customer service para sa mga detalye."
+   },
+   "unknownError": {
+      "message": "May naganap na hindi kilalang error. Mangyaring subukan muli."
+   },
+   "upgradeMembershipForBackgroundRecognition": {
+      "message": "Mag-upgrade sa membership at kikilalaanin ng plugin ang AI subtitles sa background. Pagkatapos makatanggap ng email notification, bumalik upang manood; ang dubbing button ay magiging berde at ang mga pagsasalin ay magiging mas tumpak."
+   },
+   "uploadComplete": {
+      "message": "Tapos na ang upload"
+   },
+   "uploadFailed": {
+      "message": "Nabigo ang upload"
+   },
+   "uploadMediaForRecognition": {
+      "message": "Walang nakitang subtitle. Gusto mo bang i-upload ang video para sa AI subtitle recognition?"
+   },
+   "uploading": {
+      "message": "Nag-a-upload"
+   },
+   "uploadingMedia": {
+      "message": "Nag-a-upload ng media..."
+   },
+   "videoDrmProtected": {
+      "message": "Ang video na ito ay protektado ng DRM at hindi magagamit para sa dubbing."
+   },
+   "videoDurationExceedsLimit": {
+      "message": "Ang video na ito ay mahigit 3 oras ang haba. Ang universal dubbing ay kasalukuyang hindi sinusuportahan para sa mga video na mas mahaba sa 3 oras."
+   },
+   "vipAndBalanceRequiredText": {
+      "message": "Kailangan mong maging member at magkaroon ng sapat na balanse upang gamitin ang feature na ito"
+   },
+   "vipAndBalanceRequiredTitle": {
+      "message": "Kailangan ang Membership at Balance"
+   },
+   "vipFreeOptionTipText": {
+      "message": "Bilang member, maaari ninyong gamitin nang libre ang mga sumusunod na serbisyo ng pagsasalin"
+   },
+   "vipRequiredText": {
+      "message": "Kailangan mong maging member upang gamitin ang feature na ito"
+   },
+   "vipRequiredTitle": {
+      "message": "Kailangan ang Membership"
+   },
+   "vipTranslateEngineTipText": {
+      "message": "Baguhin ang serbisyo ng pagsasalin sa mga member-free na serbisyo tulad ng gemini, deepseek, gpt-3.5-turbo, o claude-3-haiku"
+   },
+   "voice": {
+      "message": "Boses"
+   },
+   "voiceSettingsMismatch": {
+      "message": "Hindi tumutugma ang uri ng boses at mga setting ng boses. Pumunta sa page ng mga setting upang muling pumili at i-save ang mga setting ng boses."
+   },
+   "voiceTypeTipText": {
+      "message": "baguhin ang uri ng boses sa libreng bersyon"
+   },
+   "voices": {
+      "message": "Boses:"
+   },
+   "voicesAndSubtitles": {
+      "message": "Boses & Subtitle"
+   },
+   "voicesAndSubtitlesTitle": {
+      "message": "Boses & Subtitle"
+   },
+   "voicesType": {
+      "message": "Uri ng Boses:"
+   },
+   "waitingForRecognition": {
+      "message": "Matagumpay na na-upload ang video. Nagpapatuloy ang AI subtitle recognition. Makakatanggap ka ng email notification kapag handa na."
+   },
+   "woman": {
+      "message": "Babae"
+   },
+   "zoomRecordingDnrNotSupported": {
+      "message": "Hindi sinusuportahan ng iyong browser ang Zoom recording upload recognition. Mangyaring gumamit ng Chrome/Edge."
+   },
+   "zoomRecordingDownloadForbidden403": {
+      "message": "Ang pag-download ng Zoom recording ay ipinagbawal (403). Mangyaring i-play/i-refresh ang pahina para pumasa sa verification, pagkatapos ay subukang muli."
+   }
+}

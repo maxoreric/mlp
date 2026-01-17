@@ -1,0 +1,482 @@
+{
+   "accountBalance": {
+      "message": "Egyenleg:"
+   },
+   "advancedSettings": {
+      "message": "Speciális beállítások"
+   },
+   "aiSubtitlesRecognitionInBackground": {
+      "message": "Az AI feliratok még nem elérhetők. A bővítmény elindította a háttérben való felismerést. Miután hallja az első szinkronizált mondatot, bezárhatja az oldalt és várhat az e-mail értesítésre; amikor készen áll, a szinkronizálási gomb zöldre vált és a fordítás minősége jobb lesz."
+   },
+   "back": {
+      "message": "Vissza"
+   },
+   "backToSettings": {
+      "message": "Vissza a beállításokhoz"
+   },
+   "backgroundAudio": {
+      "message": "Háttérhang"
+   },
+   "balanceRequiredText": {
+      "message": "A számlaegyenlege nem elegendő. Kérjük, töltse fel a használathoz"
+   },
+   "balanceRequiredTitle": {
+      "message": "Egyenleg szükséges"
+   },
+   "balanceRunningLow": {
+      "message": "Az egyenlege kifogy. A rossz nézési élmény elkerülése érdekében javasoljuk az előzetes feltöltést."
+   },
+   "browserShortcutSettingsTip": {
+      "message": "Kérjük, konfigurálja a gyorsbillentyűket a böngésző bővítmény beállításokban"
+   },
+   "cancel": {
+      "message": "Mégse"
+   },
+   "cancelButton": {
+      "message": "Mégse"
+   },
+   "completing": {
+      "message": "Befejezés"
+   },
+   "confirmButton": {
+      "message": "Folytatás"
+   },
+   "confirmDeleteSpeaker": {
+      "message": "Biztosan törli ezt a beszélőt?"
+   },
+   "contentMenusTitle": {
+      "message": "Szinkronizálás indítása"
+   },
+   "corsNotSupported": {
+      "message": "Ez a weboldal nem engedélyezi a médiafájlok letöltését. Az univerzális szinkronizálás nem támogatott."
+   },
+   "debugInfo": {
+      "message": "Hibakeresési információ"
+   },
+   "delete": {
+      "message": "Törlés"
+   },
+   "deleteSpeaker": {
+      "message": "Törlés"
+   },
+   "description": {
+      "message": "Videó fordítás és szinkronizálás—értsd a külföldi nyelveket, használd a globális tudást"
+   },
+   "disableGlobally": {
+      "message": "Globális letiltás"
+   },
+   "doNotClosePage": {
+      "message": "Kérjük, ne zárja be és ne frissítse ezt az oldalt feltöltés közben, különben a feltöltés megszakad."
+   },
+   "downloading": {
+      "message": "Letöltés"
+   },
+   "dropboxClickCcToTranscribe": {
+      "message": "Ez a videó még nem lett átírva. Kérjük, kattintson a Dropbox videó alján található CC gombra a feliratok átírásához. Az átírás befejeztével kattintson a bővítmény szinkronizálási gombjára a fordításhoz és szinkronizáláshoz."
+   },
+   "dropdownNoOptions": {
+      "message": "Nincsenek elérhető opciók"
+   },
+   "dropdownPlaceholder": {
+      "message": "Kérjük válasszon"
+   },
+   "dropdownSearch": {
+      "message": "Keresés..."
+   },
+   "dubbingSettings": {
+      "message": "Szinkronizálási beállítások"
+   },
+   "edgeShortcutSettingsTip": {
+      "message": "Az Edge bővítmény gyorsbillentyű beállítások oldal megnyitása"
+   },
+   "edit": {
+      "message": "Szerkesztés"
+   },
+   "editSpeaker": {
+      "message": "Szerkesztés"
+   },
+   "enterSpeakerName": {
+      "message": "Beszélő nevének megadása"
+   },
+   "enterVoice": {
+      "message": "Hang nevének megadása"
+   },
+   "error": {
+      "message": "Hiba"
+   },
+   "female": {
+      "message": "Nő"
+   },
+   "firefoxShortcutSettingsTip": {
+      "message": "A Firefox kiegészítők oldal megnyitása, kérjük állítsa be a gyorsbillentyűket a Bővítmények és témák menüpontban"
+   },
+   "free": {
+      "message": "Ingyenes"
+   },
+   "freeForVip": {
+      "message": "VIP ingyenes"
+   },
+   "freeOptionTipText": {
+      "message": "Ha nem szeretne feltölteni, választhatja az ingyenes opciót, "
+   },
+   "freeUserDailyLimit": {
+      "message": "Ingyenes felhasználók naponta legfeljebb 5 videót nézhetnek meg a bővítményen keresztül. Frissítsen tagságra a korlátlan nézési előnyök feloldásához."
+   },
+   "freeUserNoSubtitles": {
+      "message": "Ez a videó nem tartalmaz beépített feliratokat. Kérjük, iratkozzon fel a bővítmény tagságra a feliratfelismeréshez és élvezze a fordítási és szinkronizálási funkciókat."
+   },
+   "gender": {
+      "message": "Nem"
+   },
+   "hideUntilNextVisit": {
+      "message": "Elrejtés a következő látogatásig"
+   },
+   "hlsDecryptionFailed": {
+      "message": "Nem sikerült visszafejteni a videó tartalmát. A titkosítási kulcs hibás lehet, vagy a videó formátuma nem kompatibilis."
+   },
+   "hlsKeyFetchFailed": {
+      "message": "Nem sikerült lekérni a videó visszafejtési kulcsát. A videó védett lehet, vagy a kulcsszerver nem elérhető."
+   },
+   "insufficientBalance": {
+      "message": "Az elégtelen egyenleg miatt a szolgáltatás visszaminősült a Google Fordítóra. Az AI fordítás használatához kérjük, töltse fel a kreditjét."
+   },
+   "insufficientBalanceAlertMsg": {
+      "message": "Az egyenlege nem elegendő. Kérjük, töltse fel az egyenleget az AI fordítás és Azure TTS használata előtt. Ha nem szeretne feltölteni, visszaválthat a Google Fordítóra és az ingyenes hangtípusokra."
+   },
+   "insufficientBalanceAndMembership": {
+      "message": "Kérjük, töltse fel a tagságát és egyenlegét az AI fordítás és Azure TTS használata előtt. Ha nem szeretne feltölteni, választhatja a Google Fordítót és az ingyenes hangtípusokat is."
+   },
+   "insufficientMembership": {
+      "message": "A tagsága lejárt. Kérjük, töltse fel a tagságát az AI fordítás és Azure TTS használata előtt. Ha nem szeretne feltölteni, választhatja a Google Fordítót és az ingyenes hangtípusokat is."
+   },
+   "iosInterceptorConflictMessage": {
+      "message": "Egy másik böngésző bővítmény blokkolja a felirat kérés elfogását. Tiltsa le az ütköző bővítményeket, frissítse az oldalt, majd próbálja újra."
+   },
+   "iosInterceptorConflictTitle": {
+      "message": "Bővítmény konfliktus észlelve"
+   },
+   "iosOpenOriginVolume": {
+      "message": "Eredeti hang bekapcsolása"
+   },
+   "iosUniversalDubbingNotSupported": {
+      "message": "Az univerzális szinkronizálás nem támogatott iOS eszközökön. Kérjük, használjon asztali böngészőt."
+   },
+   "liveStreamNotSupported": {
+      "message": "Az élő közvetítések nem támogatottak az univerzális szinkronizáláshoz."
+   },
+   "liveVideoNotSupported": {
+      "message": "Az élő videók szinkronizálása jelenleg nem támogatott"
+   },
+   "loading": {
+      "message": "betöltés"
+   },
+   "login": {
+      "message": "Belépés"
+   },
+   "loginAndUsePlugin": {
+      "message": "Kérjük, kattintson a bővítmény ikonra először a bejelentkezéshez, majd használja a bővítményt a narrációs lejátszáshoz."
+   },
+   "logout": {
+      "message": "Kijelentkezés"
+   },
+   "lowBalanceText": {
+      "message": "A számlaegyenlege 1 dollár alatt van. Javasoljuk, hogy hamarosan töltse fel a zavartalan szolgáltatás biztosítása érdekében"
+   },
+   "lowBalanceTitle": {
+      "message": "Alacsony egyenleg figyelmeztetés"
+   },
+   "male": {
+      "message": "Férfi"
+   },
+   "man": {
+      "message": "Férfi"
+   },
+   "mediaSourceNotDetected": {
+      "message": "Nem sikerült felismerni a videó forrását. Ez a weboldal nem biztos, hogy támogatott."
+   },
+   "memberUser": {
+      "message": "PRO"
+   },
+   "membershipExpires": {
+      "message": "Lejárat"
+   },
+   "membershipIcon": {
+      "message": "Tagsági ikon"
+   },
+   "membershipRequired": {
+      "message": "Kérjük, frissítsen tagságra az OpenAI fordítás használata előtt."
+   },
+   "membershipRequiredForAI": {
+      "message": "Kérjük, töltse fel a tagságát az AI fordítás használata előtt. Ha nem szeretne feltölteni, választhatja a Google Fordítót is."
+   },
+   "membershipRequiredTitle": {
+      "message": "Tagság szükséges"
+   },
+   "metadataNotFound": {
+      "message": "Videó metaadatok nem találhatók, kérjük frissítse és próbálja újra"
+   },
+   "multiVideoNotSupported": {
+      "message": "Ez az oldal több videót tartalmaz. Az univerzális szinkronizálás HLS stream-ek használatakor csak egyetlen videót tartalmazó oldalakat támogat."
+   },
+   "name": {
+      "message": "YouTube Dubbing – Fordítás és Szinkron"
+   },
+   "noAudioTrackFound": {
+      "message": "Nem található hangsáv. Ez a videó csak videónak tűnik hang nélkül, és nem használható szinkronfelismeréshez."
+   },
+   "noSpeakers": {
+      "message": "Nincsenek beszélők"
+   },
+   "noSubtitlesFound": {
+      "message": "Ez a videó nem tartalmaz feliratokat és nem támogatja a fordítást és szinkronizálást"
+   },
+   "noSubtitlesWaitOptimization": {
+      "message": "Nincsenek elérhető feliratok. Kérjük, várja meg, amíg a bővítmény felismeri a videó feliratait. E-mail értesítést kap a regisztrált e-mail címére, amikor a felismerés befejeződött."
+   },
+   "notSupported": {
+      "message": "Nem támogatott"
+   },
+   "originalAudio": {
+      "message": "Eredeti"
+   },
+   "pauseVideo": {
+      "message": "Videó szüneteltetése"
+   },
+   "pay": {
+      "message": "fizetés"
+   },
+   "pleaseClickVideoToPlay": {
+      "message": "Kattintson a videóra a megnyitáshoz, majd használja a szinkronizálási funkciót."
+   },
+   "postLoginTranslationSettings": {
+      "message": "Sikeres bejelentkezés. Kattintson a bővítmény ikonjára a fordítási nyelv és a hanglista kiválasztásához."
+   },
+   "premiumMemberDurationLimit": {
+      "message": "Ez a videó nem tartalmaz feliratokat és a videó időtartama meghaladja a 3 órát, a fordítás és szinkronizálás nem támogatott. Kérjük, válasszon rövidebb videót vagy felirattal ellátott videót."
+   },
+   "rechargeLimit": {
+      "message": "Kredit+Tag"
+   },
+   "safariShortcutSettingsTip": {
+      "message": "Kérjük, állítsa be a gyorsbillentyűket a Safari > Beállítások > Bővítmények menüpontban"
+   },
+   "sampleAesNotSupported": {
+      "message": "Ez a videó SAMPLE-AES titkosítást használ, amely jelenleg nem támogatott a letöltéshez."
+   },
+   "save": {
+      "message": "Mentés"
+   },
+   "saveFailedText": {
+      "message": "A beállítások mentése sikertelen, kérjük próbálja újra"
+   },
+   "saveFailedTitle": {
+      "message": "Mentés sikertelen"
+   },
+   "saveSuccessText": {
+      "message": "Beállítások sikeresen mentve"
+   },
+   "saveSuccessTitle": {
+      "message": "Sikeres mentés"
+   },
+   "save_settings": {
+      "message": "Mentés"
+   },
+   "saving": {
+      "message": "Mentés..."
+   },
+   "searchSourceLanguage": {
+      "message": "Forrás nyelv keresése..."
+   },
+   "searchTargetLanguage": {
+      "message": "Cél nyelv keresése..."
+   },
+   "selectSourceLanguage": {
+      "message": "Forrás nyelv kiválasztása"
+   },
+   "selectSpeaker": {
+      "message": "Válassz"
+   },
+   "selectTargetLanguage": {
+      "message": "Cél nyelv kiválasztása"
+   },
+   "sex": {
+      "message": "Nem:"
+   },
+   "shortcutSettings": {
+      "message": "Gyorsbillentyűk"
+   },
+   "showSubtitle": {
+      "message": "feliratok:"
+   },
+   "sourceLanguage": {
+      "message": "Forrás nyelv"
+   },
+   "source_languages": {
+      "message": "Forrás nyelv:"
+   },
+   "speaker": {
+      "message": "Beszélő"
+   },
+   "speakerList": {
+      "message": "Beszélők listája"
+   },
+   "speakerName": {
+      "message": "Beszélő neve"
+   },
+   "speakersTitle": {
+      "message": "Beszélők"
+   },
+   "startUpload": {
+      "message": "Feltöltés indítása"
+   },
+   "subscribe": {
+      "message": "Előfizetés"
+   },
+   "subscriptionRecharge": {
+      "message": "Előfizetés & feltöltés"
+   },
+   "subtitleSize": {
+      "message": "Méret"
+   },
+   "subtitles": {
+      "message": "Felirat"
+   },
+   "subtitlesRateLimitedByYouTube": {
+      "message": "Ennek a videónak a feliratait jelenleg a YouTube korlátozza. Kérjük, próbálja újra később."
+   },
+   "swapVolumeSettingsCommand": {
+      "message": "Hangerő beállítások váltása az eredeti és szinkronizált hang között"
+   },
+   "switchModelWarning": {
+      "message": "A hang vagy fordítási modell váltása videólejátszás közben további költségeket von maga után az elpazarolt erőforrások miatt. Javasoljuk, hogy a következő videóban váltson. Ha mindenképpen folytatni szeretné, kattintson a Folytatás és mentés gombra."
+   },
+   "targetLanguage": {
+      "message": "Cél nyelv"
+   },
+   "target_languages": {
+      "message": "Cél nyelv:"
+   },
+   "taskAlreadySubmitted": {
+      "message": "Ez a videó már feldolgozás alatt áll az AI feliratozáshoz. Kérjük, várja az e-mail értesítést."
+   },
+   "textToSpeech": {
+      "message": "Szövegfelolvasás:"
+   },
+   "textToSpeechToggle": {
+      "message": "Lebegő gomb"
+   },
+   "toggleSubtitles": {
+      "message": "Feliratok váltása"
+   },
+   "tooExpensive": {
+      "message": "Túl drága"
+   },
+   "translateEngineTipText": {
+      "message": "váltsa a fordítási szolgáltatást Google-ra"
+   },
+   "translateService": {
+      "message": "Fordítás:"
+   },
+   "translatedAudio": {
+      "message": "Fordított"
+   },
+   "translationEngine": {
+      "message": "Fordítási motor"
+   },
+   "translationService": {
+      "message": "Fordítási szolgáltatás"
+   },
+   "translationServiceTitle": {
+      "message": "Fordítási szolgáltatás"
+   },
+   "trialMemberDurationLimit": {
+      "message": "Ez a videó nem tartalmaz feliratokat. Próbaidőszakos tagként jelenleg csak 15 perc alatti videók feliratfelismerése támogatott. Prémium tagok 3 óra alatti videókat támogatnak."
+   },
+   "trialMemberModelLimit": {
+      "message": "Próbaidőszakos tagok csak a Gemini-t és a Google Fordítót használhatják. Más modellek használatához kérjük, fizessen elő a tagságunkra."
+   },
+   "universalDubbingMemberOnly": {
+      "message": "Az univerzális szinkronizálás felhő GPU számítási kapacitást igényel (magas költség), csak VIP-eknek."
+   },
+   "universalDubbingNotSupported": {
+      "message": "Az univerzális szinkronizálás nem támogatott ennél a videónál a jelenlegi verzióban. A támogatás a következő verzióban tervezett. Kérjük, lépjen kapcsolatba az ügyfélszolgálattal a részletekért."
+   },
+   "unknownError": {
+      "message": "Ismeretlen hiba történt. Kérjük, próbálja újra."
+   },
+   "upgradeMembershipForBackgroundRecognition": {
+      "message": "Frissítsen tagságra és a bővítmény felismeri az AI feliratokat a háttérben. Miután megkapta az e-mail értesítést, jöjjön vissza nézni; a szinkronizálási gomb zöldre vált és a fordítások pontosabbak lesznek."
+   },
+   "uploadComplete": {
+      "message": "Feltöltés kész"
+   },
+   "uploadFailed": {
+      "message": "Feltöltés sikertelen"
+   },
+   "uploadMediaForRecognition": {
+      "message": "Nem találhatók feliratok. Szeretné feltölteni a videót AI feliratfelismeréshez?"
+   },
+   "uploading": {
+      "message": "Feltöltés"
+   },
+   "uploadingMedia": {
+      "message": "Média feltöltése..."
+   },
+   "videoDrmProtected": {
+      "message": "Ez a videó DRM-védett, és nem használható szinkronizáláshoz."
+   },
+   "videoDurationExceedsLimit": {
+      "message": "Ez a videó meghaladja a 3 órát. Az univerzális szinkronizálás jelenleg nem támogatott a 3 óránál hosszabb videókhoz."
+   },
+   "vipAndBalanceRequiredText": {
+      "message": "Tagságra és elegendő egyenlegre van szüksége ennek a funkciónak a használatához"
+   },
+   "vipAndBalanceRequiredTitle": {
+      "message": "Tagság és egyenleg szükséges"
+   },
+   "vipFreeOptionTipText": {
+      "message": "Tagként ingyenesen használhatja a következő fordítási szolgáltatásokat"
+   },
+   "vipRequiredText": {
+      "message": "Tagságra van szüksége ennek a funkciónak a használatához"
+   },
+   "vipRequiredTitle": {
+      "message": "Tagság szükséges"
+   },
+   "vipTranslateEngineTipText": {
+      "message": "Váltsa a fordítási szolgáltatást tag-ingyenes szolgáltatásokra, mint például gemini, deepseek, gpt-3.5-turbo vagy claude-3-haiku"
+   },
+   "voice": {
+      "message": "Hang"
+   },
+   "voiceSettingsMismatch": {
+      "message": "A hangtípus és a hangbeállítások nem egyeznek. Kérjük, lépjen a beállítások oldalra a hangbeállítások újraválasztásához és mentéséhez."
+   },
+   "voiceTypeTipText": {
+      "message": "váltsa a hangtípust az ingyenes verzióra"
+   },
+   "voices": {
+      "message": "Hang:"
+   },
+   "voicesAndSubtitles": {
+      "message": "Hang és feliratok"
+   },
+   "voicesAndSubtitlesTitle": {
+      "message": "Hang és feliratok"
+   },
+   "voicesType": {
+      "message": "Hang típus:"
+   },
+   "waitingForRecognition": {
+      "message": "A videó sikeresen feltöltve. Az AI feliratfelismerés folyamatban van. E-mail értesítést kap, amikor elkészül."
+   },
+   "woman": {
+      "message": "Nő"
+   },
+   "zoomRecordingDnrNotSupported": {
+      "message": "Böngészője nem támogatja a Zoom felvétel feltöltés felismerését. Kérjük, használja a Chrome/Edge böngészőt."
+   },
+   "zoomRecordingDownloadForbidden403": {
+      "message": "A Zoom felvétel letöltése tiltva lett (403). Kérjük, játssza le/frissítse az oldalt az ellenőrzéshez, majd próbálja újra."
+   }
+}

@@ -1,0 +1,482 @@
+{
+   "accountBalance": {
+      "message": "Saldo del compte:"
+   },
+   "advancedSettings": {
+      "message": "Configuració avançada"
+   },
+   "aiSubtitlesRecognitionInBackground": {
+      "message": "Els subtítols IA encara no estan disponibles. El complement ha començat a reconèixer-los en segon pla. Després d'escoltar la primera frase doblada, pots tancar la pàgina i esperar la notificació per correu electrònic; quan estigui llest, el botó de doblatge es tornarà verd i la qualitat de la traducció serà millor."
+   },
+   "back": {
+      "message": "Enrere"
+   },
+   "backToSettings": {
+      "message": "Tornar a configuració"
+   },
+   "backgroundAudio": {
+      "message": "So de fons"
+   },
+   "balanceRequiredText": {
+      "message": "El teu saldo del compte és insuficient. Si us plau, recarrega per utilitzar aquesta funció"
+   },
+   "balanceRequiredTitle": {
+      "message": "Es requereix saldo"
+   },
+   "balanceRunningLow": {
+      "message": "El teu saldo s'està esgotant. Per evitar una experiència de visualització pobra, es recomana recarregar per anticipat."
+   },
+   "browserShortcutSettingsTip": {
+      "message": "Si us plau, configura les dreceres a la configuració de l'extensió del navegador"
+   },
+   "cancel": {
+      "message": "Cancel·lar"
+   },
+   "cancelButton": {
+      "message": "Cancel·lar"
+   },
+   "completing": {
+      "message": "Completant"
+   },
+   "confirmButton": {
+      "message": "Continuar i desar"
+   },
+   "confirmDeleteSpeaker": {
+      "message": "Estàs segur que vols eliminar aquest parlant?"
+   },
+   "contentMenusTitle": {
+      "message": "Iniciar reproducció amb veu en off"
+   },
+   "corsNotSupported": {
+      "message": "Aquest lloc web no permet descarregar fitxers multimèdia. El doblatge universal no és compatible."
+   },
+   "debugInfo": {
+      "message": "Informació de depuració"
+   },
+   "delete": {
+      "message": "Eliminar"
+   },
+   "deleteSpeaker": {
+      "message": "Eliminar"
+   },
+   "description": {
+      "message": "Traducció i doblatge de vídeos amb un clic: entén idiomes estrangers a l'instant, accedeix al coneixement global"
+   },
+   "disableGlobally": {
+      "message": "Desactiva globalment"
+   },
+   "doNotClosePage": {
+      "message": "Si us plau, no tanqueu ni actualitzeu aquesta pàgina durant la càrrega, en cas contrari, la càrrega s'interromprà."
+   },
+   "downloading": {
+      "message": "Baixant"
+   },
+   "dropboxClickCcToTranscribe": {
+      "message": "Aquest vídeo encara no s'ha transcrit. Si us plau, fes clic al botó CC a la part inferior del vídeo de Dropbox per transcriure els subtítols. Un cop completada la transcripció, fes clic al botó de doblatge del complement per traduir i doblar."
+   },
+   "dropdownNoOptions": {
+      "message": "No hi ha opcions disponibles"
+   },
+   "dropdownPlaceholder": {
+      "message": "Si us plau, selecciona"
+   },
+   "dropdownSearch": {
+      "message": "Cerca..."
+   },
+   "dubbingSettings": {
+      "message": "Configuració de doblatge"
+   },
+   "edgeShortcutSettingsTip": {
+      "message": "Obrint la pàgina de configuració de dreceres de l'extensió d'Edge"
+   },
+   "edit": {
+      "message": "Editar"
+   },
+   "editSpeaker": {
+      "message": "Editar"
+   },
+   "enterSpeakerName": {
+      "message": "Introdueix el nom del parlant"
+   },
+   "enterVoice": {
+      "message": "Introdueix el nom de la veu"
+   },
+   "error": {
+      "message": "Error"
+   },
+   "female": {
+      "message": "Dona"
+   },
+   "firefoxShortcutSettingsTip": {
+      "message": "Obrint la pàgina de complements de Firefox, si us plau configura les dreceres a Extensions i Temes"
+   },
+   "free": {
+      "message": "gratuït"
+   },
+   "freeForVip": {
+      "message": "Gratuït per a VIP"
+   },
+   "freeOptionTipText": {
+      "message": "Si no vols recarregar, pots triar l'opció gratuïta, "
+   },
+   "freeUserDailyLimit": {
+      "message": "Els usuaris gratuïts poden veure fins a 5 vídeos al dia a través del complement. Actualitza a membresía per desbloquejar beneficis il·limitats de visualització."
+   },
+   "freeUserNoSubtitles": {
+      "message": "Aquest vídeo no té subtítols integrats. Si us plau, subscriu-te a la membresía del complement per al reconeixement de subtítols i gaudeix de les funcions de traducció i doblatge."
+   },
+   "gender": {
+      "message": "Gènere"
+   },
+   "hideUntilNextVisit": {
+      "message": "Amaga fins a la propera visita"
+   },
+   "hlsDecryptionFailed": {
+      "message": "No s'ha pogut desxifrar el contingut del vídeo. La clau de xifrat pot ser incorrecta o el format del vídeo no és compatible."
+   },
+   "hlsKeyFetchFailed": {
+      "message": "No s'ha pogut obtenir la clau de desxifrat d'aquest vídeo. El vídeo pot estar protegit o el servidor de claus no està disponible."
+   },
+   "insufficientBalance": {
+      "message": "A causa d'un saldo insuficient, el servei s'ha degradat a Google Translate. Per utilitzar la traducció IA, si us plau recarrega el teu crèdit."
+   },
+   "insufficientBalanceAlertMsg": {
+      "message": "El teu saldo és insuficient. Si us plau, recarrega el teu saldo abans d'utilitzar la traducció IA i Azure TTS. Si no vols recarregar, pots canviar a Google Translate i tipus de veu gratuïts."
+   },
+   "insufficientBalanceAndMembership": {
+      "message": "Si us plau, recarrega la teva membresía i saldo abans d'utilitzar la traducció IA i Azure TTS. Si no vols recarregar, també pots triar Google Translate i tipus de veu gratuïts."
+   },
+   "insufficientMembership": {
+      "message": "La teva membresía ha caducat. Si us plau, recarrega la teva membresía abans d'utilitzar la traducció IA i Azure TTS. Si no vols recarregar, també pots triar Google Translate i tipus de veu gratuïts."
+   },
+   "iosInterceptorConflictMessage": {
+      "message": "Una altra extensió del navegador està bloquejant la intercepció de sol·licituds de subtítols. Desactiva les extensions en conflicte, refresca la pàgina i torna-ho a provar."
+   },
+   "iosInterceptorConflictTitle": {
+      "message": "S'ha detectat un conflicte d'extensió"
+   },
+   "iosOpenOriginVolume": {
+      "message": "Activar àudio original"
+   },
+   "iosUniversalDubbingNotSupported": {
+      "message": "El doblatge universal no és compatible amb dispositius iOS. Si us plau, utilitzeu un navegador d'escriptori."
+   },
+   "liveStreamNotSupported": {
+      "message": "Les emissions en directe no són compatibles amb el doblatge universal."
+   },
+   "liveVideoNotSupported": {
+      "message": "Els vídeos en directe no són compatibles actualment amb el doblatge"
+   },
+   "loading": {
+      "message": "carregant"
+   },
+   "login": {
+      "message": "Entra"
+   },
+   "loginAndUsePlugin": {
+      "message": "Si us plau, fes clic a la icona del complement per iniciar sessió primer i després utilitza el complement per a la reproducció amb veu en off."
+   },
+   "logout": {
+      "message": "Tancar sessió"
+   },
+   "lowBalanceText": {
+      "message": "El teu saldo del compte està per sota de $1. Et recomanem recarregar aviat per assegurar un servei ininterromput"
+   },
+   "lowBalanceTitle": {
+      "message": "Alerta de saldo baix"
+   },
+   "male": {
+      "message": "Home"
+   },
+   "man": {
+      "message": "Home"
+   },
+   "mediaSourceNotDetected": {
+      "message": "No s'ha pogut detectar la font del vídeo. És possible que aquest lloc web no sigui compatible."
+   },
+   "memberUser": {
+      "message": "Membre"
+   },
+   "membershipExpires": {
+      "message": "Venç el"
+   },
+   "membershipIcon": {
+      "message": "Icona de membresía"
+   },
+   "membershipRequired": {
+      "message": "Si us plau, actualitza a membresía abans d'utilitzar la traducció d'OpenAI."
+   },
+   "membershipRequiredForAI": {
+      "message": "Si us plau, recarrega la teva membresía abans d'utilitzar la traducció IA. Si no vols recarregar, també pots triar Google Translate."
+   },
+   "membershipRequiredTitle": {
+      "message": "Es requereix subscripció"
+   },
+   "metadataNotFound": {
+      "message": "No s'han trobat les metadades del vídeo, si us plau refresca i torna-ho a provar"
+   },
+   "multiVideoNotSupported": {
+      "message": "Aquesta pàgina té diversos vídeos. El doblatge universal només admet pàgines amb un únic vídeo quan s'utilitzen fluxos HLS."
+   },
+   "name": {
+      "message": "YouTube Dubbing – Tradueix i Dobla"
+   },
+   "noAudioTrackFound": {
+      "message": "No s'ha detectat cap pista d'àudio. Aquest vídeo sembla ser només vídeo sense àudio i no es pot utilitzar per al reconeixement de doblatge."
+   },
+   "noSpeakers": {
+      "message": "Cap parlant"
+   },
+   "noSubtitlesFound": {
+      "message": "Aquest vídeo no té subtítols i no admet traducció ni doblatge"
+   },
+   "noSubtitlesWaitOptimization": {
+      "message": "No hi ha subtítols disponibles. Si us plau, espera que el complement reconegui els subtítols d'aquest vídeo. Rebràs una notificació per correu electrònic a la teva adreça registrada un cop es completi el reconeixement."
+   },
+   "notSupported": {
+      "message": "No compatible"
+   },
+   "originalAudio": {
+      "message": "Original"
+   },
+   "pauseVideo": {
+      "message": "Pausar vídeo"
+   },
+   "pay": {
+      "message": "pagar"
+   },
+   "pleaseClickVideoToPlay": {
+      "message": "Feu clic al vídeo per obrir-lo i després utilitzeu la funció de doblatge."
+   },
+   "postLoginTranslationSettings": {
+      "message": "Inici de sessió correcte. Fes clic a la icona del complement per seleccionar l'idioma de traducció i la llista de veus."
+   },
+   "premiumMemberDurationLimit": {
+      "message": "Aquest vídeo no té subtítols i la durada del vídeo supera les 3 hores, la traducció i el doblatge no són compatibles. Si us plau, selecciona un vídeo més curt o un vídeo amb subtítols."
+   },
+   "rechargeLimit": {
+      "message": "Crèdit+Membre"
+   },
+   "safariShortcutSettingsTip": {
+      "message": "Si us plau, configura les dreceres a Safari > Preferències > Extensions"
+   },
+   "sampleAesNotSupported": {
+      "message": "Aquest vídeo utilitza xifrat SAMPLE-AES que actualment no és compatible amb la descàrrega."
+   },
+   "save": {
+      "message": "Desar"
+   },
+   "saveFailedText": {
+      "message": "No s'ha pogut desar la configuració, si us plau torna-ho a provar"
+   },
+   "saveFailedTitle": {
+      "message": "Error en desar"
+   },
+   "saveSuccessText": {
+      "message": "Configuració desada correctament"
+   },
+   "saveSuccessTitle": {
+      "message": "Desat correctament"
+   },
+   "save_settings": {
+      "message": "Desar"
+   },
+   "saving": {
+      "message": "Desant..."
+   },
+   "searchSourceLanguage": {
+      "message": "Cerca idioma d'origen..."
+   },
+   "searchTargetLanguage": {
+      "message": "Cerca idioma de destí..."
+   },
+   "selectSourceLanguage": {
+      "message": "Selecciona l'idioma d'origen"
+   },
+   "selectSpeaker": {
+      "message": "Selecciona"
+   },
+   "selectTargetLanguage": {
+      "message": "Selecciona l'idioma de destí"
+   },
+   "sex": {
+      "message": "Gènere:"
+   },
+   "shortcutSettings": {
+      "message": "Configuració de dreceres"
+   },
+   "showSubtitle": {
+      "message": "subtítols:"
+   },
+   "sourceLanguage": {
+      "message": "Idioma d'origen"
+   },
+   "source_languages": {
+      "message": "Idioma d'origen:"
+   },
+   "speaker": {
+      "message": "Parlants"
+   },
+   "speakerList": {
+      "message": "Llista de parlants"
+   },
+   "speakerName": {
+      "message": "Nom del parlant"
+   },
+   "speakersTitle": {
+      "message": "Parlants"
+   },
+   "startUpload": {
+      "message": "Inicia la pujada"
+   },
+   "subscribe": {
+      "message": "Subscriu-te"
+   },
+   "subscriptionRecharge": {
+      "message": "Subscriu-te i recarrega"
+   },
+   "subtitleSize": {
+      "message": "Mida"
+   },
+   "subtitles": {
+      "message": "Subtítols"
+   },
+   "subtitlesRateLimitedByYouTube": {
+      "message": "Els subtítols d'aquest vídeo estan actualment limitats per YouTube. Si us plau, torna-ho a provar més tard."
+   },
+   "swapVolumeSettingsCommand": {
+      "message": "Commuta la configuració de volum entre àudio original i doblat"
+   },
+   "switchModelWarning": {
+      "message": "Canviar la veu o el model de traducció durant la reproducció del vídeo comportarà càrrecs addicionals a causa de recursos desaprofitats. Et recomanem canviar-lo al següent vídeo. Per continuar igualment, fes clic a Continuar i desar."
+   },
+   "targetLanguage": {
+      "message": "Idioma de destí"
+   },
+   "target_languages": {
+      "message": "Idioma de destí:"
+   },
+   "taskAlreadySubmitted": {
+      "message": "Aquest vídeo ja s'està processant per al reconeixement de subtítols amb IA. Si us plau, espereu la notificació per correu electrònic."
+   },
+   "textToSpeech": {
+      "message": "Text a veu:"
+   },
+   "textToSpeechToggle": {
+      "message": "Bola flotant"
+   },
+   "toggleSubtitles": {
+      "message": "Commuta els subtítols"
+   },
+   "tooExpensive": {
+      "message": "Massa car"
+   },
+   "translateEngineTipText": {
+      "message": "canvia el servei de traducció a Google"
+   },
+   "translateService": {
+      "message": "Traduir:"
+   },
+   "translatedAudio": {
+      "message": "Doblada"
+   },
+   "translationEngine": {
+      "message": "Motor de traducció"
+   },
+   "translationService": {
+      "message": "Servei de traducció"
+   },
+   "translationServiceTitle": {
+      "message": "Servei de traducció"
+   },
+   "trialMemberDurationLimit": {
+      "message": "Aquest vídeo no té subtítols. Com a membre de prova, només es poden reconèixer subtítols de vídeos de menys de 15 minuts. Els membres premium poden reconèixer vídeos de fins a 3 hores."
+   },
+   "trialMemberModelLimit": {
+      "message": "Els membres de prova només poden utilitzar Gemini i Google Translate. Per utilitzar altres models, si us plau subscriu-te a la nostra membresía."
+   },
+   "universalDubbingMemberOnly": {
+      "message": "El doblatge universal requereix potència de càlcul GPU al núvol (cost elevat), només per a VIP."
+   },
+   "universalDubbingNotSupported": {
+      "message": "El doblatge universal no és compatible amb aquest vídeo en la versió actual. El suport està previst per a la pròxima versió. Si us plau, contacta amb el servei d'atenció al client per obtenir més informació."
+   },
+   "unknownError": {
+      "message": "S'ha produït un error desconegut. Si us plau, torna-ho a provar."
+   },
+   "upgradeMembershipForBackgroundRecognition": {
+      "message": "Actualitza a membresía i el complement reconeixerà els subtítols IA en segon pla. Després de rebre la notificació per correu electrònic, torna a veure'l; el botó de doblatge es tornarà verd i les traduccions seran més precises."
+   },
+   "uploadComplete": {
+      "message": "Pujada completada"
+   },
+   "uploadFailed": {
+      "message": "Error en pujar"
+   },
+   "uploadMediaForRecognition": {
+      "message": "No s'han trobat subtítols. Vols pujar el vídeo per al reconeixement de subtítols amb IA?"
+   },
+   "uploading": {
+      "message": "Pujant"
+   },
+   "uploadingMedia": {
+      "message": "Pujant multimèdia..."
+   },
+   "videoDrmProtected": {
+      "message": "Aquest vídeo està protegit per DRM i no es pot utilitzar per al doblatge."
+   },
+   "videoDurationExceedsLimit": {
+      "message": "Aquest vídeo supera les 3 hores de durada. El doblatge universal no és compatible actualment amb vídeos de més de 3 hores."
+   },
+   "vipAndBalanceRequiredText": {
+      "message": "Necessites ser membre i tenir saldo suficient per utilitzar aquesta funció"
+   },
+   "vipAndBalanceRequiredTitle": {
+      "message": "Es requereix membresía i saldo"
+   },
+   "vipFreeOptionTipText": {
+      "message": "Com a membre, pots utilitzar els següents serveis de traducció gratuïtament"
+   },
+   "vipRequiredText": {
+      "message": "Necessites ser membre per utilitzar aquesta funció"
+   },
+   "vipRequiredTitle": {
+      "message": "Es requereix membresía"
+   },
+   "vipTranslateEngineTipText": {
+      "message": "Canvia el servei de traducció a serveis gratuïts per a membres com gemini, deepseek, gpt-3.5-turbo o claude-3-haiku"
+   },
+   "voice": {
+      "message": "Veu"
+   },
+   "voiceSettingsMismatch": {
+      "message": "El tipus de veu i la configuració de veu no coincideixen. Aneu a la pàgina de configuració per tornar a seleccionar i desar la configuració de veu."
+   },
+   "voiceTypeTipText": {
+      "message": "canvia el tipus de veu a la versió gratuïta"
+   },
+   "voices": {
+      "message": "Veu:"
+   },
+   "voicesAndSubtitles": {
+      "message": "Veu i subtítols"
+   },
+   "voicesAndSubtitlesTitle": {
+      "message": "Veu i subtítols"
+   },
+   "voicesType": {
+      "message": "Tipus de veu:"
+   },
+   "waitingForRecognition": {
+      "message": "Vídeo pujat amb èxit. El reconeixement de subtítols amb IA està en curs. Rebràs una notificació per correu electrònic quan estigui llest."
+   },
+   "woman": {
+      "message": "Dona"
+   },
+   "zoomRecordingDnrNotSupported": {
+      "message": "El vostre navegador no admet el reconeixement de càrrega de gravacions de Zoom. Si us plau, utilitzeu Chrome/Edge."
+   },
+   "zoomRecordingDownloadForbidden403": {
+      "message": "S'ha prohibit la descàrrega de la gravació de Zoom (403). Si us plau, reproduïu/actualitzeu la pàgina per passar la verificació i torneu a intentar-ho."
+   }
+}

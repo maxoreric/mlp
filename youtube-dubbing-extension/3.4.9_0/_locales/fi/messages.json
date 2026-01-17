@@ -1,0 +1,473 @@
+{
+   "accountBalance": {
+      "message": "Tilin saldo:"
+   },
+   "advancedSettings": {
+      "message": "Lisäasetukset"
+   },
+   "aiSubtitlesRecognitionInBackground": {
+      "message": "AI-tekstitykset eivät ole vielä saatavilla. Laajennus on aloittanut niiden tunnistamisen taustalla. Kuultuasi ensimmäisen dubatun lauseen voit sulkea sivun ja odottaa sähköposti-ilmoitusta; kun se on valmis, dubbaus-painike muuttuu vihreäksi ja käännöksen laatu paranee."
+   },
+   "back": {
+      "message": "Takaisin"
+   },
+   "backToSettings": {
+      "message": "Takaisin asetuksiin"
+   },
+   "backgroundAudio": {
+      "message": "Taustaääni"
+   },
+   "balanceRequiredText": {
+      "message": "Tilisi saldo ei riitä. Lataa saldoa käyttääksesi tätä ominaisuutta"
+   },
+   "balanceRequiredTitle": {
+      "message": "Saldo vaaditaan"
+   },
+   "balanceRunningLow": {
+      "message": "Saldosi on loppumassa. Huonon katselukokemuksen välttämiseksi suosittelemme lataamaan saldoa etukäteen."
+   },
+   "browserShortcutSettingsTip": {
+      "message": "Määritä pikanäppäimet selaimen laajennusasetuksista"
+   },
+   "cancel": {
+      "message": "Peruuta"
+   },
+   "cancelButton": {
+      "message": "Peruuta"
+   },
+   "completing": {
+      "message": "Viimeistellään"
+   },
+   "confirmButton": {
+      "message": "Jatka ja tallenna"
+   },
+   "confirmDeleteSpeaker": {
+      "message": "Haluatko varmasti poistaa tämän puhujan?"
+   },
+   "contentMenusTitle": {
+      "message": "Aloita dubbaustoisto"
+   },
+   "corsNotSupported": {
+      "message": "Tämä verkkosivusto ei salli mediatiedostojen lataamista. Universaali dubbing ei ole tuettu."
+   },
+   "debugInfo": {
+      "message": "Virheenkorjaustiedot"
+   },
+   "delete": {
+      "message": "Poista"
+   },
+   "deleteSpeaker": {
+      "message": "Poista"
+   },
+   "description": {
+      "message": "Käännä ja dubbaa videoita yhdellä klikkauksella – ymmärrä vieraat kielet välittömästi"
+   },
+   "disableGlobally": {
+      "message": "Poista käytöstä globaalisti"
+   },
+   "doNotClosePage": {
+      "message": "Älä sulje tai päivitä tätä sivua latauksen aikana, muuten lataus keskeytyy."
+   },
+   "downloading": {
+      "message": "Ladataan"
+   },
+   "dropboxClickCcToTranscribe": {
+      "message": "Tätä videota ei ole vielä litteroitu. Klikkaa CC-painiketta Dropbox-videon alareunassa litteroidaksesi tekstitykset. Litteroinnin valmistuttua klikkaa laajennuksen dubbaus-painiketta kääntääksesi ja dubbataksesi."
+   },
+   "dropdownNoOptions": {
+      "message": "Ei vaihtoehtoja saatavilla"
+   },
+   "dropdownPlaceholder": {
+      "message": "Valitse"
+   },
+   "dropdownSearch": {
+      "message": "Hae..."
+   },
+   "dubbingSettings": {
+      "message": "Dubbausasetukset"
+   },
+   "edgeShortcutSettingsTip": {
+      "message": "Avataan Edge-laajennuksen pikanäppäinasetusten sivu"
+   },
+   "edit": {
+      "message": "Muokkaa"
+   },
+   "editSpeaker": {
+      "message": "Muokkaa"
+   },
+   "enterSpeakerName": {
+      "message": "Anna puhujan nimi"
+   },
+   "enterVoice": {
+      "message": "Anna äänen nimi"
+   },
+   "error": {
+      "message": "Virhe"
+   },
+   "female": {
+      "message": "Nainen"
+   },
+   "firefoxShortcutSettingsTip": {
+      "message": "Avataan Firefox-lisäosien sivu, aseta pikanäppäimet kohdasta Laajennukset ja teemat"
+   },
+   "free": {
+      "message": "ilmainen"
+   },
+   "freeForVip": {
+      "message": "Ilmainen VIP:lle"
+   },
+   "freeOptionTipText": {
+      "message": "Jos et halua ladata saldoa, voit valita ilmaisvaihtoehdon, "
+   },
+   "freeUserDailyLimit": {
+      "message": "Ilmaiskäyttäjät voivat katsoa enintään 5 videota päivässä laajennuksen kautta. Päivitä jäsenyyteen avataksesi rajoittamaton katseluoikeus."
+   },
+   "freeUserNoSubtitles": {
+      "message": "Tässä videossa ei ole valmiita tekstityksiä. Tilaa laajennuksen jäsenyys tekstitysten tunnistusta varten ja nauti käännös- ja dubbausominaisuuksista."
+   },
+   "gender": {
+      "message": "Sukupuoli"
+   },
+   "hideUntilNextVisit": {
+      "message": "Piilota seuraavaan vierailuun asti"
+   },
+   "insufficientBalance": {
+      "message": "Riittämättömän saldon vuoksi palvelu on alennettu Google Translateksi. Käyttääksesi AI-käännöstä, lataa saldoa."
+   },
+   "insufficientBalanceAlertMsg": {
+      "message": "Saldosi ei riitä. Lataa saldoa ennen AI-käännöksen ja Azure TTS:n käyttöä. Jos et halua ladata saldoa, voit vaihtaa takaisin Google Translateen ja ilmaisiin äänityyppeihin."
+   },
+   "insufficientBalanceAndMembership": {
+      "message": "Lataa jäsenyys ja saldo ennen AI-käännöksen ja Azure TTS:n käyttöä. Jos et halua ladata, voit myös valita Google Translaten ja ilmaiset äänityypit."
+   },
+   "insufficientMembership": {
+      "message": "Jäsenyytesi on vanhentunut. Lataa jäsenyys ennen AI-käännöksen ja Azure TTS:n käyttöä. Jos et halua ladata, voit myös valita Google Translaten ja ilmaiset äänityypit."
+   },
+   "iosInterceptorConflictMessage": {
+      "message": "Toinen selainlaajennus estää tekstityspyyntöjen sieppauksen. Poista ristiriitaiset laajennukset käytöstä, päivitä sivu ja yritä uudelleen."
+   },
+   "iosInterceptorConflictTitle": {
+      "message": "Laajennusristiriita havaittu"
+   },
+   "iosOpenOriginVolume": {
+      "message": "Ota alkuperäinen ääni käyttöön"
+   },
+   "iosUniversalDubbingNotSupported": {
+      "message": "Universaali dubbaus ei ole tuettu iOS-laitteilla. Käytä työpöytäselainta."
+   },
+   "liveStreamNotSupported": {
+      "message": "Suoratoistoja ei tueta universaalissa dubbingissa."
+   },
+   "liveVideoNotSupported": {
+      "message": "Suoria lähetyksiä ei tällä hetkellä tueta dubbauksessa"
+   },
+   "loading": {
+      "message": "ladataan"
+   },
+   "login": {
+      "message": "Kirjaudu"
+   },
+   "loginAndUsePlugin": {
+      "message": "Klikkaa ensin laajennuksen kuvaketta kirjautuaksesi sisään, käytä sitten laajennusta dubbaustoistoon."
+   },
+   "logout": {
+      "message": "Kirjaudu ulos"
+   },
+   "lowBalanceText": {
+      "message": "Tilisi saldo on alle 1 $. Suosittelemme lataamaan saldoa pian palvelun keskeytyksettömän käytön varmistamiseksi"
+   },
+   "lowBalanceTitle": {
+      "message": "Matalan saldon hälytys"
+   },
+   "male": {
+      "message": "Mies"
+   },
+   "man": {
+      "message": "Mies"
+   },
+   "mediaSourceNotDetected": {
+      "message": "Videon lähdettä ei voitu tunnistaa. Tämä verkkosivusto ei ehkä ole tuettu."
+   },
+   "memberUser": {
+      "message": "PRO"
+   },
+   "membershipExpires": {
+      "message": "Päättyy"
+   },
+   "membershipIcon": {
+      "message": "Jäsenyyskuvake"
+   },
+   "membershipRequired": {
+      "message": "Päivitä jäsenyyteen ennen OpenAI-käännöksen käyttöä."
+   },
+   "membershipRequiredForAI": {
+      "message": "Lataa jäsenyys ennen AI-käännöksen käyttöä. Jos et halua ladata, voit myös valita Google Translaten."
+   },
+   "membershipRequiredTitle": {
+      "message": "Jäsenyys vaaditaan"
+   },
+   "metadataNotFound": {
+      "message": "Videon metatietoja ei löytynyt, päivitä sivu ja yritä uudelleen"
+   },
+   "multiVideoNotSupported": {
+      "message": "Tällä sivulla on useita videoita. Universaali dubbing tukee vain yhden videon sivuja HLS-virtoja käytettäessä."
+   },
+   "name": {
+      "message": "YouTube-dubbaaja – Käännä ja dubbaa"
+   },
+   "noAudioTrackFound": {
+      "message": "Ääniraitaa ei havaittu. Tämä video näyttää olevan pelkkä video ilman ääntä, eikä sitä voi käyttää dubbaustunnistukseen."
+   },
+   "noSpeakers": {
+      "message": "Ei puhujia"
+   },
+   "noSubtitlesFound": {
+      "message": "Tässä videossa ei ole tekstityksiä, käännös ja dubbaus ei ole mahdollista"
+   },
+   "noSubtitlesWaitOptimization": {
+      "message": "Tekstityksiä ei ole saatavilla. Odota, että laajennus tunnistaa tämän videon tekstitykset. Saat sähköposti-ilmoituksen rekisteröityyn osoitteeseesi, kun tunnistus on valmis."
+   },
+   "notSupported": {
+      "message": "Ei tuettu"
+   },
+   "originalAudio": {
+      "message": "Alkuääni"
+   },
+   "pauseVideo": {
+      "message": "Keskeytä video"
+   },
+   "pay": {
+      "message": "maksa"
+   },
+   "pleaseClickVideoToPlay": {
+      "message": "Napsauta videota avataksesi sen ja käytä sitten jälkiäänitysten ominaisuutta."
+   },
+   "postLoginTranslationSettings": {
+      "message": "Kirjautuminen onnistui. Klikkaa laajennuksen kuvaketta valitaksesi käännöskielen ja äänivalinnat."
+   },
+   "premiumMemberDurationLimit": {
+      "message": "Tässä videossa ei ole tekstityksiä ja videon kesto ylittää 3 tuntia, käännös ja dubbaus eivät ole mahdollisia. Valitse lyhyempi video tai video, jossa on tekstitykset."
+   },
+   "rechargeLimit": {
+      "message": "Saldo+Jäsenyys"
+   },
+   "safariShortcutSettingsTip": {
+      "message": "Aseta pikanäppäimet kohdasta Safari > Asetukset > Laajennukset"
+   },
+   "save": {
+      "message": "Tallenna"
+   },
+   "saveFailedText": {
+      "message": "Asetusten tallennus epäonnistui, yritä uudelleen"
+   },
+   "saveFailedTitle": {
+      "message": "Tallennus epäonnistui"
+   },
+   "saveSuccessText": {
+      "message": "Asetukset tallennettu"
+   },
+   "saveSuccessTitle": {
+      "message": "Tallennus onnistui"
+   },
+   "save_settings": {
+      "message": "Tallenna asetukset"
+   },
+   "saving": {
+      "message": "Tallennetaan..."
+   },
+   "searchSourceLanguage": {
+      "message": "Hae lähdekieltä..."
+   },
+   "searchTargetLanguage": {
+      "message": "Hae kohdekieltä..."
+   },
+   "selectSourceLanguage": {
+      "message": "Valitse lähdekieli"
+   },
+   "selectSpeaker": {
+      "message": "Valitse"
+   },
+   "selectTargetLanguage": {
+      "message": "Valitse kohdekieli"
+   },
+   "sex": {
+      "message": "Sukupuoli:"
+   },
+   "shortcutSettings": {
+      "message": "Pikanäppäimet"
+   },
+   "showSubtitle": {
+      "message": "tekstitykset:"
+   },
+   "sourceLanguage": {
+      "message": "Lähdekieli"
+   },
+   "source_languages": {
+      "message": "Lähdekieli:"
+   },
+   "speaker": {
+      "message": "Puhuja"
+   },
+   "speakerList": {
+      "message": "Puhujien luettelo"
+   },
+   "speakerName": {
+      "message": "Puhujan nimi"
+   },
+   "speakersTitle": {
+      "message": "Puhujat"
+   },
+   "startUpload": {
+      "message": "Aloita lataus"
+   },
+   "subscribe": {
+      "message": "Tilaa"
+   },
+   "subscriptionRecharge": {
+      "message": "Tilaa & lisää saldoa"
+   },
+   "subtitleSize": {
+      "message": "Koko"
+   },
+   "subtitles": {
+      "message": "Tekstitykset"
+   },
+   "subtitlesRateLimitedByYouTube": {
+      "message": "Tämän videon tekstitykset ovat tällä hetkellä YouTuben nopeusrajoituksen alaisia. Yritä myöhemmin uudelleen."
+   },
+   "swapVolumeSettingsCommand": {
+      "message": "Vaihda äänenvoimakkuusasetuksia alkuperäisen ja dubatun äänen välillä"
+   },
+   "switchModelWarning": {
+      "message": "Äänen tai käännösmallin vaihtaminen videon toiston aikana aiheuttaa lisämaksuja hukattujen resurssien vuoksi. Suosittelemme vaihtamista seuraavassa videossa. Jatkaaksesi silti, klikkaa Jatka ja tallenna."
+   },
+   "targetLanguage": {
+      "message": "Kohdekieli"
+   },
+   "target_languages": {
+      "message": "Kohdekieli:"
+   },
+   "taskAlreadySubmitted": {
+      "message": "Tätä videota käsitellään jo tekoälyn tekstitystunnistusta varten. Odota sähköposti-ilmoitusta."
+   },
+   "textToSpeech": {
+      "message": "Teksti puheeksi:"
+   },
+   "textToSpeechToggle": {
+      "message": "Kelluva pallo"
+   },
+   "toggleSubtitles": {
+      "message": "Vaihda tekstityksiä"
+   },
+   "tooExpensive": {
+      "message": "Liian kallis"
+   },
+   "translateEngineTipText": {
+      "message": "vaihda käännöspalveluksi Google"
+   },
+   "translateService": {
+      "message": "Käännös:"
+   },
+   "translatedAudio": {
+      "message": "Dubbiääni"
+   },
+   "translationEngine": {
+      "message": "Käännösmoottori"
+   },
+   "translationService": {
+      "message": "Käännöspalvelu"
+   },
+   "translationServiceTitle": {
+      "message": "Käännöspalvelu"
+   },
+   "trialMemberDurationLimit": {
+      "message": "Tässä videossa ei ole tekstityksiä. Kokeilujäsenenä tuetaan vain alle 15 minuutin videoita tekstitysten tunnistuksessa. Premium-jäsenet voivat käyttää alle 3 tunnin videoita."
+   },
+   "trialMemberModelLimit": {
+      "message": "Kokeilujäsenet voivat käyttää vain Geminiä ja Google Translatea. Muiden mallien käyttö vaatii jäsenyyden tilaamisen."
+   },
+   "universalDubbingMemberOnly": {
+      "message": "Universaali dubbing vaatii pilvi-GPU-laskentatehoa (korkea kustannus), vain VIP:lle."
+   },
+   "universalDubbingNotSupported": {
+      "message": "Universaali dubbaus ei tue tätä videota nykyisessä versiossa. Tuki on suunnitteilla seuraavaan versioon. Ota yhteyttä asiakaspalveluun lisätietoja varten."
+   },
+   "unknownError": {
+      "message": "Tapahtui tuntematon virhe. Yritä uudelleen."
+   },
+   "upgradeMembershipForBackgroundRecognition": {
+      "message": "Päivitä jäsenyyteen, niin laajennus tunnistaa AI-tekstitykset taustalla. Saatuasi sähköposti-ilmoituksen palaa katsomaan; dubbaus-painike muuttuu vihreäksi ja käännökset ovat tarkempia."
+   },
+   "uploadComplete": {
+      "message": "Lataus valmis"
+   },
+   "uploadFailed": {
+      "message": "Lataus epäonnistui"
+   },
+   "uploadMediaForRecognition": {
+      "message": "Tekstityksiä ei löytynyt. Haluatko ladata videon AI-tekstitystunnistusta varten?"
+   },
+   "uploading": {
+      "message": "Ladataan"
+   },
+   "uploadingMedia": {
+      "message": "Ladataan mediaa..."
+   },
+   "videoDrmProtected": {
+      "message": "Tämä video on DRM-suojattu eikä sitä voi käyttää dubbaukseen."
+   },
+   "videoDurationExceedsLimit": {
+      "message": "Tämä video on yli 3 tuntia pitkä. Universaali dubbing ei tällä hetkellä tue yli 3 tunnin mittaisia videoita."
+   },
+   "vipAndBalanceRequiredText": {
+      "message": "Tämän ominaisuuden käyttö vaatii jäsenyyden ja riittävän saldon"
+   },
+   "vipAndBalanceRequiredTitle": {
+      "message": "Jäsenyys ja saldo vaaditaan"
+   },
+   "vipFreeOptionTipText": {
+      "message": "Jäsenenä voit käyttää seuraavia käännöspalveluita ilmaiseksi"
+   },
+   "vipRequiredText": {
+      "message": "Tämän ominaisuuden käyttö vaatii jäsenyyden"
+   },
+   "vipRequiredTitle": {
+      "message": "Jäsenyys vaaditaan"
+   },
+   "vipTranslateEngineTipText": {
+      "message": "Vaihda käännöspalveluksi jäsenille ilmaiset palvelut kuten gemini, deepseek, gpt-3.5-turbo tai claude-3-haiku"
+   },
+   "voice": {
+      "message": "Ääni"
+   },
+   "voiceSettingsMismatch": {
+      "message": "Äänen tyyppi ja äänen asetukset eivät täsmää. Siirry asetussivulle valitaksesi uudelleen ja tallentaaksesi äänen asetukset."
+   },
+   "voiceTypeTipText": {
+      "message": "vaihda äänityypiksi ilmaisversio"
+   },
+   "voices": {
+      "message": "Ääni:"
+   },
+   "voicesAndSubtitles": {
+      "message": "Ääni ja tekstitykset"
+   },
+   "voicesAndSubtitlesTitle": {
+      "message": "Ääni ja tekstitykset"
+   },
+   "voicesType": {
+      "message": "Äänityyppi:"
+   },
+   "waitingForRecognition": {
+      "message": "Video ladattu onnistuneesti. Tekoäly-tekstityksen tunnistus on käynnissä. Saat sähköposti-ilmoituksen, kun se on valmis."
+   },
+   "woman": {
+      "message": "Nainen"
+   },
+   "zoomRecordingDnrNotSupported": {
+      "message": "Selaimesi ei tue Zoom-tallennuksen latauksen tunnistusta. Käytä Chrome/Edge-selainta."
+   },
+   "zoomRecordingDownloadForbidden403": {
+      "message": "Zoom-tallennuksen lataus estettiin (403). Toista/päivitä sivu vahvistusta varten ja yritä uudelleen."
+   }
+}

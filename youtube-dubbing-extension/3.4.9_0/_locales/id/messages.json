@@ -1,0 +1,473 @@
+{
+   "accountBalance": {
+      "message": "Saldo Akun:"
+   },
+   "advancedSettings": {
+      "message": "Pengaturan Lanjutan"
+   },
+   "aiSubtitlesRecognitionInBackground": {
+      "message": "Subtitle AI belum ada. Plugin mengenali di latar belakang. Setelah mendengar dubbing pertama, tutup halaman dan tunggu email. Tombol akan hijau saat siap."
+   },
+   "back": {
+      "message": "Kembali"
+   },
+   "backToSettings": {
+      "message": "Kembali ke pengaturan"
+   },
+   "backgroundAudio": {
+      "message": "BGM"
+   },
+   "balanceRequiredText": {
+      "message": "Saldo akun Anda tidak mencukupi. Silakan isi ulang untuk menggunakan fitur ini"
+   },
+   "balanceRequiredTitle": {
+      "message": "Saldo Diperlukan"
+   },
+   "balanceRunningLow": {
+      "message": "Saldo Anda hampir habis. Untuk menghindari pengalaman menonton yang buruk, disarankan untuk mengisi ulang sebelumnya."
+   },
+   "browserShortcutSettingsTip": {
+      "message": "Konfig pintasan di pengaturan ekstensi"
+   },
+   "cancel": {
+      "message": "Batal"
+   },
+   "cancelButton": {
+      "message": "Batal"
+   },
+   "completing": {
+      "message": "Menyelesaikan"
+   },
+   "confirmButton": {
+      "message": "Lanjutkan dan Simpan"
+   },
+   "confirmDeleteSpeaker": {
+      "message": "Yakin hapus pembicara ini?"
+   },
+   "contentMenusTitle": {
+      "message": "Mulai Pemutaran Sulih Suara"
+   },
+   "corsNotSupported": {
+      "message": "Situs web ini tidak mengizinkan pengunduhan file media. Dubbing universal tidak didukung."
+   },
+   "debugInfo": {
+      "message": "Info Debug"
+   },
+   "delete": {
+      "message": "Hapus"
+   },
+   "deleteSpeaker": {
+      "message": "Hapus"
+   },
+   "description": {
+      "message": "Terjemahkan video sekali klik—pahami bahasa asing dengan cepat, akses pengetahuan global"
+   },
+   "disableGlobally": {
+      "message": "Nonaktifkan secara global"
+   },
+   "doNotClosePage": {
+      "message": "Harap jangan tutup atau segarkan halaman ini selama pengunggahan, jika tidak pengunggahan akan terputus."
+   },
+   "downloading": {
+      "message": "Mengunduh"
+   },
+   "dropboxClickCcToTranscribe": {
+      "message": "Video belum ditranskrip. Klik tombol CC di bawah video Dropbox. Setelah selesai, klik tombol dubbing plugin."
+   },
+   "dropdownNoOptions": {
+      "message": "Tidak ada opsi tersedia"
+   },
+   "dropdownPlaceholder": {
+      "message": "Pilih"
+   },
+   "dropdownSearch": {
+      "message": "Cari..."
+   },
+   "dubbingSettings": {
+      "message": "Pengaturan Sulih Suara"
+   },
+   "edgeShortcutSettingsTip": {
+      "message": "Membuka halaman pengaturan pintasan ekstensi Edge"
+   },
+   "edit": {
+      "message": "Edit"
+   },
+   "editSpeaker": {
+      "message": "Edit"
+   },
+   "enterSpeakerName": {
+      "message": "Masukkan nama pembicara"
+   },
+   "enterVoice": {
+      "message": "Masukkan nama suara"
+   },
+   "error": {
+      "message": "Kesalahan"
+   },
+   "female": {
+      "message": "Wanita"
+   },
+   "firefoxShortcutSettingsTip": {
+      "message": "Membuka add-ons Firefox. Atur pintasan di Ekstensi dan Tema"
+   },
+   "free": {
+      "message": "Gratis"
+   },
+   "freeForVip": {
+      "message": "Gratis VIP"
+   },
+   "freeOptionTipText": {
+      "message": "Jika Anda tidak ingin mengisi ulang, Anda dapat memilih opsi gratis, "
+   },
+   "freeUserDailyLimit": {
+      "message": "Pengguna gratis dapat menonton hingga 5 video per hari melalui plugin. Upgrade ke keanggotaan untuk membuka manfaat menonton tanpa batas."
+   },
+   "freeUserNoSubtitles": {
+      "message": "Video tanpa subtitle. Berlangganan untuk pengenalan subtitle dan fitur dubbing."
+   },
+   "gender": {
+      "message": "Jenis Kelamin"
+   },
+   "hideUntilNextVisit": {
+      "message": "Sembunyikan hingga kunjungan berikutnya"
+   },
+   "insufficientBalance": {
+      "message": "Karena saldo tidak mencukupi, layanan telah diturunkan ke Google Translate. Untuk menggunakan terjemahan AI, silakan isi ulang kredit Anda."
+   },
+   "insufficientBalanceAlertMsg": {
+      "message": "Saldo tidak cukup. Isi ulang untuk AI dan Azure TTS, atau gunakan Google Translate dan suara gratis."
+   },
+   "insufficientBalanceAndMembership": {
+      "message": "Silakan isi ulang keanggotaan dan saldo Anda sebelum menggunakan terjemahan AI dan Azure TTS. Jika Anda tidak ingin mengisi ulang, Anda juga dapat memilih Google Translate dan jenis suara gratis."
+   },
+   "insufficientMembership": {
+      "message": "Keanggotaan Anda telah berakhir. Silakan isi ulang keanggotaan Anda sebelum menggunakan terjemahan AI dan Azure TTS. Jika Anda tidak ingin mengisi ulang, Anda juga dapat memilih Google Translate dan jenis suara gratis."
+   },
+   "iosInterceptorConflictMessage": {
+      "message": "Ekstensi browser lain memblokir intersepsi permintaan subtitle. Nonaktifkan ekstensi yang berkonflik, muat ulang halaman, lalu coba lagi."
+   },
+   "iosInterceptorConflictTitle": {
+      "message": "Konflik ekstensi terdeteksi"
+   },
+   "iosOpenOriginVolume": {
+      "message": "Aktifkan audio asli"
+   },
+   "iosUniversalDubbingNotSupported": {
+      "message": "Dubbing universal tidak didukung di perangkat iOS. Silakan gunakan browser desktop."
+   },
+   "liveStreamNotSupported": {
+      "message": "Siaran langsung tidak didukung untuk dubbing universal."
+   },
+   "liveVideoNotSupported": {
+      "message": "Video langsung belum didukung"
+   },
+   "loading": {
+      "message": "memuat"
+   },
+   "login": {
+      "message": "Login"
+   },
+   "loginAndUsePlugin": {
+      "message": "Silakan klik ikon plugin untuk login terlebih dahulu, lalu gunakan plugin untuk pemutaran sulih suara."
+   },
+   "logout": {
+      "message": "Keluar akun"
+   },
+   "lowBalanceText": {
+      "message": "Saldo di bawah $1. Isi ulang segera agar layanan tetap berjalan"
+   },
+   "lowBalanceTitle": {
+      "message": "Peringatan Saldo Rendah"
+   },
+   "male": {
+      "message": "Pria"
+   },
+   "man": {
+      "message": "Pria"
+   },
+   "mediaSourceNotDetected": {
+      "message": "Tidak dapat mendeteksi sumber video. Situs web ini mungkin tidak didukung."
+   },
+   "memberUser": {
+      "message": "PRO"
+   },
+   "membershipExpires": {
+      "message": "Hingga"
+   },
+   "membershipIcon": {
+      "message": "Ikon Keanggotaan"
+   },
+   "membershipRequired": {
+      "message": "Silakan upgrade ke keanggotaan sebelum menggunakan terjemahan OpenAI."
+   },
+   "membershipRequiredForAI": {
+      "message": "Silakan isi ulang keanggotaan Anda sebelum menggunakan terjemahan AI. Jika Anda tidak ingin mengisi ulang, Anda juga dapat memilih Google Translate."
+   },
+   "membershipRequiredTitle": {
+      "message": "Keanggotaan diperlukan"
+   },
+   "metadataNotFound": {
+      "message": "Metadata tidak ditemukan. Refresh dan coba lagi"
+   },
+   "multiVideoNotSupported": {
+      "message": "Halaman ini memiliki beberapa video. Dubbing universal hanya mendukung halaman dengan satu video saat menggunakan stream HLS."
+   },
+   "name": {
+      "message": "YouTube Dubbing – Terjemahan & Sulih Suara"
+   },
+   "noAudioTrackFound": {
+      "message": "Tidak ada trek audio yang terdeteksi. Video ini tampaknya hanya video tanpa audio dan tidak dapat digunakan untuk pengenalan dubbing."
+   },
+   "noSpeakers": {
+      "message": "Tidak ada pembicara"
+   },
+   "noSubtitlesFound": {
+      "message": "Video tanpa subtitle, tidak mendukung terjemahan dan dubbing"
+   },
+   "noSubtitlesWaitOptimization": {
+      "message": "Tidak ada subtitle yang tersedia. Silakan tunggu plugin mengenali subtitle untuk video ini. Anda akan menerima pemberitahuan email di alamat email terdaftar setelah pengenalan selesai."
+   },
+   "notSupported": {
+      "message": "Tidak didukung"
+   },
+   "originalAudio": {
+      "message": "Asli"
+   },
+   "pauseVideo": {
+      "message": "Jeda Video"
+   },
+   "pay": {
+      "message": "bayar"
+   },
+   "pleaseClickVideoToPlay": {
+      "message": "Silakan klik video untuk membukanya, lalu gunakan fitur dubbing."
+   },
+   "postLoginTranslationSettings": {
+      "message": "Login berhasil. Klik ikon plugin untuk pilih bahasa dan suara."
+   },
+   "premiumMemberDurationLimit": {
+      "message": "Video tanpa subtitle dan durasi >3 jam tidak didukung. Pilih video lebih pendek atau dengan subtitle."
+   },
+   "rechargeLimit": {
+      "message": "Kredit+VIP"
+   },
+   "safariShortcutSettingsTip": {
+      "message": "Silakan atur pintasan di Safari > Preferensi > Ekstensi"
+   },
+   "save": {
+      "message": "Simpan"
+   },
+   "saveFailedText": {
+      "message": "Gagal menyimpan pengaturan, silakan coba lagi"
+   },
+   "saveFailedTitle": {
+      "message": "Simpan Gagal"
+   },
+   "saveSuccessText": {
+      "message": "Pengaturan berhasil disimpan"
+   },
+   "saveSuccessTitle": {
+      "message": "Simpan Berhasil"
+   },
+   "save_settings": {
+      "message": "Simpan"
+   },
+   "saving": {
+      "message": "Menyimpan..."
+   },
+   "searchSourceLanguage": {
+      "message": "Cari bahasa sumber..."
+   },
+   "searchTargetLanguage": {
+      "message": "Cari bahasa target..."
+   },
+   "selectSourceLanguage": {
+      "message": "Pilih bahasa sumber"
+   },
+   "selectSpeaker": {
+      "message": "Pilih"
+   },
+   "selectTargetLanguage": {
+      "message": "Pilih bahasa target"
+   },
+   "sex": {
+      "message": "Jenis Kelamin:"
+   },
+   "shortcutSettings": {
+      "message": "Pintasan"
+   },
+   "showSubtitle": {
+      "message": "subtitle:"
+   },
+   "sourceLanguage": {
+      "message": "Bahasa Sumber"
+   },
+   "source_languages": {
+      "message": "Bahasa Sumber:"
+   },
+   "speaker": {
+      "message": "Pembicara"
+   },
+   "speakerList": {
+      "message": "Daftar Pembicara"
+   },
+   "speakerName": {
+      "message": "Nama Pembicara"
+   },
+   "speakersTitle": {
+      "message": "Pembicara"
+   },
+   "startUpload": {
+      "message": "Mulai unggah"
+   },
+   "subscribe": {
+      "message": "Langganan"
+   },
+   "subscriptionRecharge": {
+      "message": "Langganan & Isi Ulang"
+   },
+   "subtitleSize": {
+      "message": "Ukuran"
+   },
+   "subtitles": {
+      "message": "Subtitel"
+   },
+   "subtitlesRateLimitedByYouTube": {
+      "message": "Subtitle untuk video ini saat ini dibatasi oleh YouTube. Silakan coba lagi nanti."
+   },
+   "swapVolumeSettingsCommand": {
+      "message": "Alihkan pengaturan volume antara audio asli dan sulih suara"
+   },
+   "switchModelWarning": {
+      "message": "Mengganti suara/model saat memutar video akan dikenakan biaya tambahan. Disarankan ganti di video berikutnya. Untuk lanjut, klik Lanjutkan dan Simpan."
+   },
+   "targetLanguage": {
+      "message": "Bahasa Target"
+   },
+   "target_languages": {
+      "message": "Bahasa Target:"
+   },
+   "taskAlreadySubmitted": {
+      "message": "Video ini sudah dalam proses pengenalan subtitle AI. Silakan tunggu notifikasi email."
+   },
+   "textToSpeech": {
+      "message": "Teks ke Suara:"
+   },
+   "textToSpeechToggle": {
+      "message": "Bola"
+   },
+   "toggleSubtitles": {
+      "message": "Alihkan subtitel"
+   },
+   "tooExpensive": {
+      "message": "Mahal"
+   },
+   "translateEngineTipText": {
+      "message": "ubah layanan terjemahan ke Google"
+   },
+   "translateService": {
+      "message": "Terjemahan:"
+   },
+   "translatedAudio": {
+      "message": "Dubbing"
+   },
+   "translationEngine": {
+      "message": "Mesin Terjemahan"
+   },
+   "translationService": {
+      "message": "Layanan Terjemahan"
+   },
+   "translationServiceTitle": {
+      "message": "Layanan Terjemahan"
+   },
+   "trialMemberDurationLimit": {
+      "message": "Video tanpa subtitle. Anggota percobaan: video \u003C15 menit. Premium: \u003C3 jam."
+   },
+   "trialMemberModelLimit": {
+      "message": "Anggota percobaan hanya dapat menggunakan Gemini dan Google Translate. Untuk menggunakan model lain, silakan berlangganan keanggotaan kami."
+   },
+   "universalDubbingMemberOnly": {
+      "message": "Dubbing universal memerlukan daya komputasi GPU cloud (biaya tinggi), hanya untuk VIP."
+   },
+   "universalDubbingNotSupported": {
+      "message": "Dubbing universal belum didukung di versi ini. Akan didukung di versi berikutnya. Hubungi CS untuk info."
+   },
+   "unknownError": {
+      "message": "Terjadi kesalahan yang tidak diketahui. Silakan coba lagi."
+   },
+   "upgradeMembershipForBackgroundRecognition": {
+      "message": "Upgrade ke membership untuk pengenalan AI subtitle otomatis. Setelah email, tombol akan hijau dan terjemahan lebih akurat."
+   },
+   "uploadComplete": {
+      "message": "Unggahan selesai"
+   },
+   "uploadFailed": {
+      "message": "Unggahan gagal"
+   },
+   "uploadMediaForRecognition": {
+      "message": "Tidak ditemukan subtitle. Apakah Anda ingin mengunggah video untuk pengenalan subtitle AI?"
+   },
+   "uploading": {
+      "message": "Mengunggah"
+   },
+   "uploadingMedia": {
+      "message": "Mengunggah media..."
+   },
+   "videoDrmProtected": {
+      "message": "Video ini dilindungi oleh DRM dan tidak dapat digunakan untuk dubbing."
+   },
+   "videoDurationExceedsLimit": {
+      "message": "Video ini melebihi 3 jam. Dubbing universal saat ini tidak didukung untuk video yang lebih dari 3 jam."
+   },
+   "vipAndBalanceRequiredText": {
+      "message": "Anda perlu menjadi anggota dan memiliki saldo yang cukup untuk menggunakan fitur ini"
+   },
+   "vipAndBalanceRequiredTitle": {
+      "message": "Keanggotaan dan Saldo Diperlukan"
+   },
+   "vipFreeOptionTipText": {
+      "message": "Sebagai anggota, Anda dapat menggunakan layanan terjemahan berikut secara gratis"
+   },
+   "vipRequiredText": {
+      "message": "Anda perlu menjadi anggota untuk menggunakan fitur ini"
+   },
+   "vipRequiredTitle": {
+      "message": "Keanggotaan Diperlukan"
+   },
+   "vipTranslateEngineTipText": {
+      "message": "Ubah layanan terjemahan ke layanan gratis anggota seperti gemini, deepseek, gpt-3.5-turbo, atau claude-3-haiku"
+   },
+   "voice": {
+      "message": "Suara"
+   },
+   "voiceSettingsMismatch": {
+      "message": "Tipe suara dan pengaturan suara tidak cocok. Silakan buka halaman pengaturan untuk memilih ulang dan menyimpan pengaturan suara."
+   },
+   "voiceTypeTipText": {
+      "message": "ubah jenis suara ke versi gratis"
+   },
+   "voices": {
+      "message": "Suara:"
+   },
+   "voicesAndSubtitles": {
+      "message": "Suara & Subtitel"
+   },
+   "voicesAndSubtitlesTitle": {
+      "message": "Suara & Subtitel"
+   },
+   "voicesType": {
+      "message": "Jenis Suara:"
+   },
+   "waitingForRecognition": {
+      "message": "Video berhasil diunggah. Pengenalan subtitle AI sedang berlangsung. Anda akan menerima notifikasi email ketika sudah siap."
+   },
+   "woman": {
+      "message": "Wanita"
+   },
+   "zoomRecordingDnrNotSupported": {
+      "message": "Browser Anda tidak mendukung pengenalan unggahan rekaman Zoom. Silakan gunakan Chrome/Edge."
+   },
+   "zoomRecordingDownloadForbidden403": {
+      "message": "Unduhan rekaman Zoom dilarang (403). Silakan putar/segarkan halaman untuk melewati verifikasi, lalu coba unggah lagi."
+   }
+}

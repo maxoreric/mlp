@@ -1,0 +1,470 @@
+{
+   "accountBalance": {
+      "message": "Баланс на акаунта:"
+   },
+   "advancedSettings": {
+      "message": "Разширени настройки"
+   },
+   "aiSubtitlesRecognitionInBackground": {
+      "message": "AI субтитрите все още не са налични. Приставката започна да ги разпознава във фонов режим. След като чуете първото озвучено изречение, можете да затворите страницата и да изчакате имейл известието; когато е готово, бутонът за озвучаване ще стане зелен и качеството на превода ще бъде по-добро."
+   },
+   "back": {
+      "message": "Назад"
+   },
+   "backToSettings": {
+      "message": "Назад към настройките"
+   },
+   "backgroundAudio": {
+      "message": "Фонов звук"
+   },
+   "balanceRequiredText": {
+      "message": "Балансът на вашия акаунт е недостатъчен. Моля, заредете, за да използвате тази функция"
+   },
+   "balanceRequiredTitle": {
+      "message": "Изисква се баланс"
+   },
+   "balanceRunningLow": {
+      "message": "Балансът ви намалява. За да избегнете лошо изживяване при гледане, се препоръчва да заредите предварително."
+   },
+   "browserShortcutSettingsTip": {
+      "message": "Моля, конфигурирайте бързите клавиши в настройките на разширението на браузъра"
+   },
+   "cancel": {
+      "message": "Отказ"
+   },
+   "cancelButton": {
+      "message": "Отказ"
+   },
+   "completing": {
+      "message": "Завършване"
+   },
+   "confirmButton": {
+      "message": "Продължи и запази"
+   },
+   "confirmDeleteSpeaker": {
+      "message": "Сигурни ли сте, че искате да изтриете този говорител?"
+   },
+   "contentMenusTitle": {
+      "message": "Стартиране на възпроизвеждане с озвучаване"
+   },
+   "corsNotSupported": {
+      "message": "Този уебсайт не позволява изтегляне на медийни файлове. Универсалният дублаж не се поддържа."
+   },
+   "debugInfo": {
+      "message": "Информация за отстраняване на грешки"
+   },
+   "delete": {
+      "message": "Изтрий"
+   },
+   "deleteSpeaker": {
+      "message": "Изтрий"
+   },
+   "description": {
+      "message": "Превеждайте и озвучавайте видеоклипове с едно кликване - разбирайте чужди езици мигновено"
+   },
+   "disableGlobally": {
+      "message": "Деактивирай глобално"
+   },
+   "doNotClosePage": {
+      "message": "Моля, не затваряйте и не опреснявайте тази страница по време на качването, в противен случай качването ще бъде прекъснато."
+   },
+   "downloading": {
+      "message": "Изтегляне"
+   },
+   "dropboxClickCcToTranscribe": {
+      "message": "Това видео все още не е транскрибирано. Моля, кликнете върху бутона CC в долната част на видеото в Dropbox, за да транскрибирате субтитрите. След като транскрипцията приключи, кликнете върху бутона за озвучаване на приставката, за да преведете и озвучите."
+   },
+   "dropdownNoOptions": {
+      "message": "Няма налични опции"
+   },
+   "dropdownPlaceholder": {
+      "message": "Моля изберете"
+   },
+   "dropdownSearch": {
+      "message": "Търсене..."
+   },
+   "dubbingSettings": {
+      "message": "Настройки за озвучаване"
+   },
+   "edgeShortcutSettingsTip": {
+      "message": "Отваряне на страницата с настройки на бързите клавиши на разширението Edge"
+   },
+   "edit": {
+      "message": "Редактирай"
+   },
+   "editSpeaker": {
+      "message": "Редактирай"
+   },
+   "enterSpeakerName": {
+      "message": "Въведете име на говорител"
+   },
+   "enterVoice": {
+      "message": "Въведете име на глас"
+   },
+   "error": {
+      "message": "Грешка"
+   },
+   "female": {
+      "message": "Женски"
+   },
+   "firefoxShortcutSettingsTip": {
+      "message": "Отваряне на страницата с добавки на Firefox, моля задайте бързи клавиши в Разширения и теми"
+   },
+   "free": {
+      "message": "безплатно"
+   },
+   "freeForVip": {
+      "message": "Безплатно за VIP"
+   },
+   "freeOptionTipText": {
+      "message": "Ако не искате да зареждате, можете да изберете безплатната опция, "
+   },
+   "freeUserDailyLimit": {
+      "message": "Безплатните потребители могат да гледат до 5 видеоклипа дневно чрез приставката. Надградете до членство, за да отключите неограничено гледане."
+   },
+   "freeUserNoSubtitles": {
+      "message": "Това видео няма вградени субтитри. Моля, абонирайте се за членство в приставката за разпознаване на субтитри и се насладете на функциите за превод и озвучаване."
+   },
+   "gender": {
+      "message": "Пол"
+   },
+   "hideUntilNextVisit": {
+      "message": "Скрий до следващото посещение"
+   },
+   "insufficientBalance": {
+      "message": "Поради недостатъчен баланс, услугата е понижена до Google Translate. За да използвате AI превод, моля заредете кредита си."
+   },
+   "insufficientBalanceAlertMsg": {
+      "message": "Вашият баланс е недостатъчен. Моля, заредете баланса си преди да използвате AI превод и Azure TTS. Ако не искате да зареждате, можете да се върнете към Google Translate и безплатни типове гласове."
+   },
+   "insufficientBalanceAndMembership": {
+      "message": "Моля, заредете членството и баланса си преди да използвате AI превод и Azure TTS. Ако не искате да зареждате, можете също да изберете Google Translate и безплатни типове гласове."
+   },
+   "insufficientMembership": {
+      "message": "Членството ви е изтекло. Моля, заредете членството си преди да използвате AI превод и Azure TTS. Ако не искате да зареждате, можете също да изберете Google Translate и безплатни типове гласове."
+   },
+   "iosInterceptorConflictMessage": {
+      "message": "Друго разширение на браузъра блокира прихващането на заявки за субтитри. Деактивирайте конфликтните разширения, опреснете страницата и опитайте отново."
+   },
+   "iosInterceptorConflictTitle": {
+      "message": "Открит е конфликт с разширение"
+   },
+   "iosOpenOriginVolume": {
+      "message": "Оригинален звук:"
+   },
+   "iosUniversalDubbingNotSupported": {
+      "message": "Универсален дублаж не се поддържа на iOS устройства. Моля, използвайте настолен браузър."
+   },
+   "liveStreamNotSupported": {
+      "message": "Предаванията на живо не се поддържат за универсален дублаж."
+   },
+   "liveVideoNotSupported": {
+      "message": "Видеоклиповете на живо понастоящем не се поддържат за озвучаване"
+   },
+   "loading": {
+      "message": "зареждане"
+   },
+   "login": {
+      "message": "Вход"
+   },
+   "loginAndUsePlugin": {
+      "message": "Моля, кликнете върху иконата на приставката, за да влезете първо, след това използвайте приставката за възпроизвеждане на озвучаване."
+   },
+   "logout": {
+      "message": "Изход"
+   },
+   "lowBalanceText": {
+      "message": "Балансът на вашия акаунт е под $1. Препоръчваме скоро да заредите, за да осигурите непрекъсната услуга"
+   },
+   "lowBalanceTitle": {
+      "message": "Предупреждение за нисък баланс"
+   },
+   "male": {
+      "message": "Мъжки"
+   },
+   "man": {
+      "message": "Мъжки"
+   },
+   "mediaSourceNotDetected": {
+      "message": "Не може да се открие източникът на видеото. Този уебсайт може да не се поддържа."
+   },
+   "memberUser": {
+      "message": "VIP Член"
+   },
+   "membershipExpires": {
+      "message": "Валидно до"
+   },
+   "membershipIcon": {
+      "message": "Икона на членство"
+   },
+   "membershipRequired": {
+      "message": "Моля, надградете до членство преди да използвате превод на OpenAI."
+   },
+   "membershipRequiredForAI": {
+      "message": "Моля, заредете членството си преди да използвате AI превод. Ако не искате да зареждате, можете също да изберете Google Translate."
+   },
+   "membershipRequiredTitle": {
+      "message": "Изисква се членство"
+   },
+   "metadataNotFound": {
+      "message": "Метаданните на видеото не са намерени, моля опреснете и опитайте отново"
+   },
+   "multiVideoNotSupported": {
+      "message": "Тази страница има множество видеоклипове. Универсалният дублаж поддържа само страници с едно видео при използване на HLS потоци."
+   },
+   "name": {
+      "message": "YouTube Dubbing – Превод и озвучаване"
+   },
+   "noAudioTrackFound": {
+      "message": "Не е открита аудио пътечка. Това видео изглежда е само видео без аудио и не може да се използва за разпознаване на дублаж."
+   },
+   "noSpeakers": {
+      "message": "Няма говорители"
+   },
+   "noSubtitlesFound": {
+      "message": "Това видео няма субтитри и не поддържа превод и озвучаване"
+   },
+   "noSubtitlesWaitOptimization": {
+      "message": "Няма налични субтитри. Моля, изчакайте приставката да разпознае субтитрите за това видео. Ще получите имейл известие на регистрирания си имейл адрес, след като разпознаването приключи."
+   },
+   "notSupported": {
+      "message": "Не се поддържа"
+   },
+   "originalAudio": {
+      "message": "Оригинал"
+   },
+   "pauseVideo": {
+      "message": "Пауза на видеото"
+   },
+   "pay": {
+      "message": "плащане"
+   },
+   "postLoginTranslationSettings": {
+      "message": "Успешно влизане. Кликнете върху иконата на приставката, за да изберете език за превод и списък с гласове."
+   },
+   "premiumMemberDurationLimit": {
+      "message": "Това видео няма субтитри и продължителността надвишава 3 часа, преводът и озвучаването не се поддържат. Моля, изберете по-кратко видео или видео със субтитри."
+   },
+   "rechargeLimit": {
+      "message": "Кредит+Член"
+   },
+   "safariShortcutSettingsTip": {
+      "message": "Моля, задайте бързи клавиши в Safari > Настройки > Разширения"
+   },
+   "save": {
+      "message": "Запази"
+   },
+   "saveFailedText": {
+      "message": "Неуспешно запазване на настройките, моля опитайте отново"
+   },
+   "saveFailedTitle": {
+      "message": "Неуспешно запазване"
+   },
+   "saveSuccessText": {
+      "message": "Настройките са запазени успешно"
+   },
+   "saveSuccessTitle": {
+      "message": "Успешно запазване"
+   },
+   "save_settings": {
+      "message": "Запазване на настройките"
+   },
+   "saving": {
+      "message": "Запазване..."
+   },
+   "searchSourceLanguage": {
+      "message": "Търсене на изходен език..."
+   },
+   "searchTargetLanguage": {
+      "message": "Търсене на целеви език..."
+   },
+   "selectSourceLanguage": {
+      "message": "Изберете изходен език"
+   },
+   "selectSpeaker": {
+      "message": "Избери"
+   },
+   "selectTargetLanguage": {
+      "message": "Изберете целеви език"
+   },
+   "sex": {
+      "message": "Пол:"
+   },
+   "shortcutSettings": {
+      "message": "Настройки на бързи клавиши"
+   },
+   "showSubtitle": {
+      "message": "субтитри:"
+   },
+   "sourceLanguage": {
+      "message": "Изходен език"
+   },
+   "source_languages": {
+      "message": "Изходен език:"
+   },
+   "speaker": {
+      "message": "Говорител"
+   },
+   "speakerList": {
+      "message": "Списък с говорители"
+   },
+   "speakerName": {
+      "message": "Име на говорител"
+   },
+   "speakersTitle": {
+      "message": "Говорители"
+   },
+   "startUpload": {
+      "message": "Започни качване"
+   },
+   "subscribe": {
+      "message": "Абониране"
+   },
+   "subscriptionRecharge": {
+      "message": "Абонамент и презареждане"
+   },
+   "subtitleSize": {
+      "message": "Размер"
+   },
+   "subtitles": {
+      "message": "Субтитри"
+   },
+   "subtitlesRateLimitedByYouTube": {
+      "message": "Субтитрите за това видео понастоящем са ограничени от YouTube. Моля, опитайте отново по-късно."
+   },
+   "swapVolumeSettingsCommand": {
+      "message": "Превключване на настройките за сила на звука между оригинален и озвучен звук"
+   },
+   "switchModelWarning": {
+      "message": "Превключването на гласа или модела за превод по време на възпроизвеждане на видеото ще доведе до допълнителни такси поради загубени ресурси. Препоръчваме превключване при следващото видео. За да продължите въпреки това, кликнете Продължи и запази."
+   },
+   "targetLanguage": {
+      "message": "Целеви език"
+   },
+   "target_languages": {
+      "message": "Целеви език:"
+   },
+   "taskAlreadySubmitted": {
+      "message": "Това видео вече се обработва за AI разпознаване на субтитри. Моля, изчакайте известие по имейл."
+   },
+   "textToSpeech": {
+      "message": "Текст към реч:"
+   },
+   "textToSpeechToggle": {
+      "message": "Плаваща топка"
+   },
+   "toggleSubtitles": {
+      "message": "Превключване на субтитрите"
+   },
+   "tooExpensive": {
+      "message": "Скъпо"
+   },
+   "translateEngineTipText": {
+      "message": "променете услугата за превод на Google"
+   },
+   "translateService": {
+      "message": "Превод:"
+   },
+   "translatedAudio": {
+      "message": "Дублаж"
+   },
+   "translationEngine": {
+      "message": "Двигател за превод"
+   },
+   "translationService": {
+      "message": "Услуга за превод"
+   },
+   "translationServiceTitle": {
+      "message": "Услуга за превод"
+   },
+   "trialMemberDurationLimit": {
+      "message": "Това видео няма субтитри. Като пробен член се поддържат само видеоклипове под 15 минути за разпознаване на субтитри. Премиум членовете поддържат видеоклипове до 3 часа."
+   },
+   "trialMemberModelLimit": {
+      "message": "Пробните членове могат да използват само Gemini и Google Translate. За да използвате други модели, моля абонирайте се за нашето членство."
+   },
+   "universalDubbingMemberOnly": {
+      "message": "Универсалният дублаж изисква изчислителна мощност на облачен GPU (висока цена), само за VIP."
+   },
+   "universalDubbingNotSupported": {
+      "message": "Универсалното озвучаване не се поддържа за това видео в текущата версия. Поддръжката е планирана за следващата версия. Моля, свържете се с отдел обслужване на клиенти за подробности."
+   },
+   "unknownError": {
+      "message": "Възникна неизвестна грешка. Моля, опитайте отново."
+   },
+   "upgradeMembershipForBackgroundRecognition": {
+      "message": "Надградете до членство и приставката ще разпознава AI субтитри във фонов режим. След като получите имейл известието, се върнете да гледате; бутонът за озвучаване ще стане зелен и преводите ще бъдат по-точни."
+   },
+   "uploadComplete": {
+      "message": "Качването завърши"
+   },
+   "uploadFailed": {
+      "message": "Качването неуспешно"
+   },
+   "uploadMediaForRecognition": {
+      "message": "Не са намерени субтитри. Искате ли да качите видеото за AI разпознаване на субтитри?"
+   },
+   "uploading": {
+      "message": "Качване"
+   },
+   "uploadingMedia": {
+      "message": "Качване на медия..."
+   },
+   "videoDrmProtected": {
+      "message": "Това видео е защитено с DRM и не може да се използва за дублиране."
+   },
+   "videoDurationExceedsLimit": {
+      "message": "Това видео надвишава 3 часа. Универсалният дублаж в момента не се поддържа за видеа по-дълги от 3 часа."
+   },
+   "vipAndBalanceRequiredText": {
+      "message": "Трябва да бъдете член и да имате достатъчен баланс, за да използвате тази функция"
+   },
+   "vipAndBalanceRequiredTitle": {
+      "message": "Изисква се членство и баланс"
+   },
+   "vipFreeOptionTipText": {
+      "message": "Като член можете да използвате следните услуги за превод безплатно"
+   },
+   "vipRequiredText": {
+      "message": "Трябва да бъдете член, за да използвате тази функция"
+   },
+   "vipRequiredTitle": {
+      "message": "Изисква се членство"
+   },
+   "vipTranslateEngineTipText": {
+      "message": "Променете услугата за превод на безплатни услуги за членове като gemini, deepseek, gpt-3.5-turbo или claude-3-haiku"
+   },
+   "voice": {
+      "message": "Глас"
+   },
+   "voiceSettingsMismatch": {
+      "message": "Типът глас и настройките на гласа не съвпадат. Моля, отидете на страницата с настройки, за да изберете отново и да запазите настройките на гласа."
+   },
+   "voiceTypeTipText": {
+      "message": "променете типа глас на безплатната версия"
+   },
+   "voices": {
+      "message": "Глас:"
+   },
+   "voicesAndSubtitles": {
+      "message": "Глас и субтитри"
+   },
+   "voicesAndSubtitlesTitle": {
+      "message": "Глас и субтитри"
+   },
+   "voicesType": {
+      "message": "Тип глас:"
+   },
+   "waitingForRecognition": {
+      "message": "Видеото е качено успешно. Разпознаването на субтитри с AI е в процес. Ще получите имейл известие, когато е готово."
+   },
+   "woman": {
+      "message": "Женски"
+   },
+   "zoomRecordingDnrNotSupported": {
+      "message": "Браузърът ви не поддържа разпознаване на качване на Zoom записи. Моля, използвайте Chrome/Edge."
+   },
+   "zoomRecordingDownloadForbidden403": {
+      "message": "Изтеглянето на Zoom запис е забранено (403). Моля, пуснете/обновете страницата, за да преминете проверката, след това опитайте отново."
+   }
+}

@@ -1,0 +1,482 @@
+{
+   "accountBalance": {
+      "message": "የመለያ ቀሪ ብር:"
+   },
+   "advancedSettings": {
+      "message": "የላቀ ቅንብሮች"
+   },
+   "aiSubtitlesRecognitionInBackground": {
+      "message": "AI ንዑስ ርዕሶች ገና አይገኙም። ሰርጭቱ በበስተጀርባ መለየት ጀምሯል። የመጀመሪያውን የተደመጠ ዓረፍተ ነገር ከሰማችሁ በኋላ ገጹን መዝጋት እና የኢሜል ማሳወቂያውን መጠበቅ ይችላሉ፤ ዝግጁ ሲሆን የድምጽ አዝራሩ አረንጓዴ ይሆናል እና የትርጉም ጥራት የተሻለ ይሆናል።"
+   },
+   "back": {
+      "message": "ተመለስ"
+   },
+   "backToSettings": {
+      "message": "ወደ ቅንብሮች ተመለስ"
+   },
+   "backgroundAudio": {
+      "message": "የበስተጀርባ"
+   },
+   "balanceRequiredText": {
+      "message": "የእርስዎ የሂሳብ ቀሪ ሒሳብ በቂ አይደለም። እባክዎ ይህን ባህሪ ለመጠቀም ይሙሉ"
+   },
+   "balanceRequiredTitle": {
+      "message": "ቀሪ ሒሳብ ያስፈልጋል"
+   },
+   "balanceRunningLow": {
+      "message": "ቀሪ ሒሳብዎ ማለቁ ላይ ነው። መጥፎ የመመልከት ተሞክሮ ለማስወገድ፣ ቀደም ብሎ መሙላት ይመከራል።"
+   },
+   "browserShortcutSettingsTip": {
+      "message": "እባክዎ በአሳሽ ቅጥያ ቅንብሮች ውስጥ አቋራጮችን ያዋቅሩ"
+   },
+   "cancel": {
+      "message": "ሰርዝ"
+   },
+   "cancelButton": {
+      "message": "ሰርዝ"
+   },
+   "completing": {
+      "message": "በማጠናቀቅ ላይ"
+   },
+   "confirmButton": {
+      "message": "ቀጥል እና አስቀምጥ"
+   },
+   "confirmDeleteSpeaker": {
+      "message": "ይህን ተናጋሪ መሰረዝ እርግጠኛ ነዎት?"
+   },
+   "contentMenusTitle": {
+      "message": "የድምጽ ማጫወትን ጀምር"
+   },
+   "corsNotSupported": {
+      "message": "ይህ ድረ-ገጽ የሚዲያ ፋይሎችን ማውረድ አይፈቅድም። ዩኒቨርሳል ዳቢንግ አይደገፍም።"
+   },
+   "debugInfo": {
+      "message": "የማረም መረጃ"
+   },
+   "delete": {
+      "message": "ሰርዝ"
+   },
+   "deleteSpeaker": {
+      "message": "ሰርዝ"
+   },
+   "description": {
+      "message": "በአንድ ጠቅታ የቪድዮ ትርጉም እና ድምጽ - የውጭ ቋንቋዎችን ወዲያውኑ ይረዱ፣ ዓለም አቀፍ ዕውቀትን ያግኙ"
+   },
+   "disableGlobally": {
+      "message": "በዓለም አቀፍ ደረጃ አሰናክል"
+   },
+   "doNotClosePage": {
+      "message": "እባክዎ በመስቀል ወቅት ይህን ገጽ አይዝጉ ወይም አያድሱ፣ አለበለዚያ መስቀል ይቋረጣል።"
+   },
+   "downloading": {
+      "message": "በማውረድ ላይ"
+   },
+   "dropboxClickCcToTranscribe": {
+      "message": "ይህ ቪድዮ ገና አልተገለበጠም። እባክዎ ንዑስ ርዕሶቹን ለመገልበጥ በDropbox ቪድዮ ግርጌ ያለውን CC አዝራር ጠቅ ያድርጉ። ገለባው ሲጠናቀቅ፣ ለመተርጎም እና ለመድገም የሰርጭቱን የድምጽ አዝራር ጠቅ ያድርጉ።"
+   },
+   "dropdownNoOptions": {
+      "message": "ምንም አማራጮች አይገኙም"
+   },
+   "dropdownPlaceholder": {
+      "message": "እባክዎ ይምረጡ"
+   },
+   "dropdownSearch": {
+      "message": "ፈልግ..."
+   },
+   "dubbingSettings": {
+      "message": "የድምጽ ቅንብሮች"
+   },
+   "edgeShortcutSettingsTip": {
+      "message": "የEdge ቅጥያ አቋራጭ ቅንብሮች ገጽ በመክፈት ላይ"
+   },
+   "edit": {
+      "message": "አርትዕ"
+   },
+   "editSpeaker": {
+      "message": "አርትዕ"
+   },
+   "enterSpeakerName": {
+      "message": "የተናጋሪውን ስም ያስገቡ"
+   },
+   "enterVoice": {
+      "message": "የድምጽ ስም ያስገቡ"
+   },
+   "error": {
+      "message": "ስህተት"
+   },
+   "female": {
+      "message": "ሴት"
+   },
+   "firefoxShortcutSettingsTip": {
+      "message": "የFirefox አድኖች ገጽ በመክፈት ላይ፣ እባክዎ በቅጥያዎች እና ጭብጦች ውስጥ አቋራጮችን ያዘጋጁ"
+   },
+   "free": {
+      "message": "ነጻ"
+   },
+   "freeForVip": {
+      "message": "VIP ነጻ"
+   },
+   "freeOptionTipText": {
+      "message": "መሙላት ካልፈለጉ፣ ነጻ አማራጭን መምረጥ ይችላሉ፣ "
+   },
+   "freeUserDailyLimit": {
+      "message": "ነጻ ተጠቃሚዎች በቀን እስከ 5 ቪድዮዎች ድረስ በሰርጭቱ በኩል ማየት ይችላሉ። ያልተገደበ የመመልከት ጥቅሞችን ለመክፈት ወደ አባልነት ያሻሽሉ።"
+   },
+   "freeUserNoSubtitles": {
+      "message": "ይህ ቪድዮ አብሮ የተሰራ ንዑስ ርዕሶች የሉትም። እባክዎ ለንዑስ ርዕስ መለያ የሰርጭት አባልነት ይመዝገቡ እና የትርጉም እና ድምጽ ባህሪያትን ይደሰቱ።"
+   },
+   "gender": {
+      "message": "ፆታ"
+   },
+   "hideUntilNextVisit": {
+      "message": "እስከ ቀጣይ ጉብኝት ድረስ ደብቅ"
+   },
+   "hlsDecryptionFailed": {
+      "message": "የቪዲዮ ይዘትን መፍታት አልተቻለም። የምስጠራ ቁልፍ ትክክል ያልሆነ ሊሆን ይችላል ወይም የቪዲዮ ቅርጸት ተኳሃኝ አይደለም።"
+   },
+   "hlsKeyFetchFailed": {
+      "message": "ለዚህ ቪዲዮ የመፍታት ቁልፍ ማግኘት አልተቻለም። ቪዲዮው የተጠበቀ ሊሆን ይችላል ወይም የቁልፍ አገልጋይ አይገኝም።"
+   },
+   "insufficientBalance": {
+      "message": "በበቂ ያልሆነ ቀሪ ሒሳብ ምክንያት፣ አገልግሎቱ ወደ Google Translate ወርዷል። AI ትርጉምን ለመጠቀም፣ እባክዎ የእርስዎን ክሬዲት ይሙሉ።"
+   },
+   "insufficientBalanceAlertMsg": {
+      "message": "ቀሪ ሒሳብዎ በቂ አይደለም። እባክዎ AI ትርጉምን እና Azure TTS ከመጠቀምዎ በፊት ቀሪ ሒሳብዎን ይሙሉ። መሙላት ካልፈለጉ፣ ወደ Google Translate እና ነጻ የድምጽ ዓይነቶች መለወጥ ይችላሉ።"
+   },
+   "insufficientBalanceAndMembership": {
+      "message": "እባክዎ AI ትርጉምን እና Azure TTS ከመጠቀምዎ በፊት አባልነትዎን እና ቀሪ ሒሳብዎን ይሙሉ። መሙላት ካልፈለጉ፣ Google Translate እና ነጻ የድምጽ ዓይነቶችን መምረጥም ይችላሉ።"
+   },
+   "insufficientMembership": {
+      "message": "የእርስዎ አባልነት ጊዜው አልፏል። እባክዎ AI ትርጉምን እና Azure TTS ከመጠቀምዎ በፊት አባልነትዎን ይሙሉ። መሙላት ካልፈለጉ፣ Google Translate እና ነጻ የድምጽ ዓይነቶችን መምረጥም ይችላሉ።"
+   },
+   "iosInterceptorConflictMessage": {
+      "message": "ሌላ የአሳሽ ቅጥያ የንዑስ ርዕስ ጥያቄ መጥለፍን እየከለከለ ነው። የሚጋጩ ቅጥያዎችን ያሰናክሉ፣ ገጹን ያድሱ፣ ከዚያም እንደገና ይሞክሩ።"
+   },
+   "iosInterceptorConflictTitle": {
+      "message": "የቅጥያ ግጭት ተገኝቷል"
+   },
+   "iosOpenOriginVolume": {
+      "message": "ዋናውን ድምጽ አብራ"
+   },
+   "iosUniversalDubbingNotSupported": {
+      "message": "ዩኒቨርሳል ድምፅ ማስገባት በiOS መሳሪያዎች ላይ አይደገፍም። እባክዎ ዴስክቶፕ ብራውዘር ይጠቀሙ።"
+   },
+   "liveStreamNotSupported": {
+      "message": "የቀጥታ ስርጭቶች ለዩኒቨርሳል ዳቢንግ አይደገፉም።"
+   },
+   "liveVideoNotSupported": {
+      "message": "የቀጥታ ቪድዮዎች በአሁኑ ጊዜ ለድምጽ አይደገፉም"
+   },
+   "loading": {
+      "message": "በመጫን ላይ"
+   },
+   "login": {
+      "message": "ግባ"
+   },
+   "loginAndUsePlugin": {
+      "message": "እባክዎ መጀመሪያ ለመግባት የሰርጭት አዶውን ጠቅ ያድርጉ፣ ከዚያም ሰርጭቱን ለድምጽ ማጫወት ይጠቀሙ።"
+   },
+   "logout": {
+      "message": "ውጣ"
+   },
+   "lowBalanceText": {
+      "message": "የእርስዎ የሂሳብ ቀሪ ሒሳብ ከ$1 በታች ነው። አገልግሎቱ ያለመቋረጥ ለማረጋገጥ በቅርቡ መሙላት እንመክራለን"
+   },
+   "lowBalanceTitle": {
+      "message": "ዝቅተኛ ቀሪ ሒሳብ ማስጠንቀቂያ"
+   },
+   "male": {
+      "message": "ወንድ"
+   },
+   "man": {
+      "message": "ወንድ"
+   },
+   "mediaSourceNotDetected": {
+      "message": "የቪዲዮ ምንጭ ማወቅ አልተቻለም። ይህ ድረ-ገጽ ላይደገፍ ይችላል።"
+   },
+   "memberUser": {
+      "message": "PRO"
+   },
+   "membershipExpires": {
+      "message": "እስከ"
+   },
+   "membershipIcon": {
+      "message": "የአባልነት አዶ"
+   },
+   "membershipRequired": {
+      "message": "እባክዎ OpenAI ትርጉምን ከመጠቀምዎ በፊት ወደ አባልነት ያሻሽሉ።"
+   },
+   "membershipRequiredForAI": {
+      "message": "እባክዎ AI ትርጉምን ከመጠቀምዎ በፊት አባልነትዎን ይሙሉ። መሙላት ካልፈለጉ፣ Google Translate መምረጥም ይችላሉ።"
+   },
+   "membershipRequiredTitle": {
+      "message": "አባልነት ያስፈልጋል"
+   },
+   "metadataNotFound": {
+      "message": "የቪድዮ መረጃ አልተገኘም፣ እባክዎ ያድሱ እና እንደገና ይሞክሩ"
+   },
+   "multiVideoNotSupported": {
+      "message": "ይህ ገጽ ብዙ ቪዲዮዎች አሉት። ዩኒቨርሳል ዳቢንግ HLS ዥረቶችን ሲጠቀም አንድ ቪዲዮ ያለው ገጾችን ብቻ ይደግፋል።"
+   },
+   "name": {
+      "message": "YouTube Dubbing – ትርጉም እና ድምጽ"
+   },
+   "noAudioTrackFound": {
+      "message": "የድምጽ ትራክ አልተገኘም። ይህ ቪዲዮ ድምጽ የሌለው ቪዲዮ-ብቻ ይመስላል እና ለዳቢንግ ማወቅ ሊጠቀምበት አይችልም።"
+   },
+   "noSpeakers": {
+      "message": "ምንም ተናጋሪዎች የሉም"
+   },
+   "noSubtitlesFound": {
+      "message": "ይህ ቪድዮ ምንም ንዑስ ርዕሶች የሉትም እና ትርጉም እና ድምጽን አይደግፍም"
+   },
+   "noSubtitlesWaitOptimization": {
+      "message": "ምንም ንዑስ ርዕሶች አይገኙም። እባክዎ ሰርጭቱ ለዚህ ቪድዮ ንዑስ ርዕሶችን እስከሚለይ ድረስ ይጠብቁ። መለያው ሲጠናቀቅ በተመዘገበው የኢሜል አድራሻዎ የኢሜል ማሳወቂያ ይደርስዎታል።"
+   },
+   "notSupported": {
+      "message": "አይደገፍም"
+   },
+   "originalAudio": {
+      "message": "ኦሪጂናል ድምፅ"
+   },
+   "pauseVideo": {
+      "message": "ቪድዮን ለአፍታ አቁም"
+   },
+   "pay": {
+      "message": "ክፈል"
+   },
+   "pleaseClickVideoToPlay": {
+      "message": "እባክዎ ቪዲዮውን ለመክፈት ጠቅ ያድርጉ፣ ከዚያ የድምጽ ቅጂ ባህሪውን ይጠቀሙ።"
+   },
+   "postLoginTranslationSettings": {
+      "message": "መግባት ተሳክቷል። የትርጉም ቋንቋ እና የድምጽ ዝርዝርን ለመምረጥ የሰርጭት መስኮቱን አዶ ጠቅ ያድርጉ።"
+   },
+   "premiumMemberDurationLimit": {
+      "message": "ይህ ቪድዮ ምንም ንዑስ ርዕሶች የሉትም እና የቪድዮው ጊዜ ከ3 ሰዓት በላይ ነው፣ ትርጉም እና ድምጽ አይደገፉም። እባክዎ አጭር ቪድዮ ወይም ንዑስ ርዕሶች ያለው ቪድዮ ይምረጡ።"
+   },
+   "rechargeLimit": {
+      "message": "ክሬዲት+አባል"
+   },
+   "safariShortcutSettingsTip": {
+      "message": "እባክዎ በSafari > ምርጫዎች > ቅጥያዎች ውስጥ አቋራጮችን ያዘጋጁ"
+   },
+   "sampleAesNotSupported": {
+      "message": "ይህ ቪዲዮ SAMPLE-AES ምስጠራ ይጠቀማል ይህም በአሁኑ ጊዜ ለማውረድ አይደገፍም።"
+   },
+   "save": {
+      "message": "አስቀምጥ"
+   },
+   "saveFailedText": {
+      "message": "ቅንብሮችን ማስቀመጥ አልተሳካም፣ እባክዎ እንደገና ይሞክሩ"
+   },
+   "saveFailedTitle": {
+      "message": "ማስቀመጥ አልተሳካም"
+   },
+   "saveSuccessText": {
+      "message": "ቅንብሮች በተሳካ ሁኔታ ተቀምጠዋል"
+   },
+   "saveSuccessTitle": {
+      "message": "በተሳካ ሁኔታ ተቀምጧል"
+   },
+   "save_settings": {
+      "message": "ቅንብሮችን አስቀምጥ"
+   },
+   "saving": {
+      "message": "በማስቀመጥ ላይ..."
+   },
+   "searchSourceLanguage": {
+      "message": "ምንጭ ቋንቋ ይፈልጉ..."
+   },
+   "searchTargetLanguage": {
+      "message": "ዒላማ ቋንቋ ይፈልጉ..."
+   },
+   "selectSourceLanguage": {
+      "message": "ምንጭ ቋንቋ ይምረጡ"
+   },
+   "selectSpeaker": {
+      "message": "ይምረጡ"
+   },
+   "selectTargetLanguage": {
+      "message": "ዒላማ ቋንቋ ይምረጡ"
+   },
+   "sex": {
+      "message": "ፆታ:"
+   },
+   "shortcutSettings": {
+      "message": "ፈጣን ቁልፎች"
+   },
+   "showSubtitle": {
+      "message": "ንዑስ ርዕሶች:"
+   },
+   "sourceLanguage": {
+      "message": "ምንጭ ቋንቋ"
+   },
+   "source_languages": {
+      "message": "ምንጭ ቋንቋ:"
+   },
+   "speaker": {
+      "message": "ተናጋሪ"
+   },
+   "speakerList": {
+      "message": "የተናጋሪዎች ዝርዝር"
+   },
+   "speakerName": {
+      "message": "የተናጋሪው ስም"
+   },
+   "speakersTitle": {
+      "message": "ተናጋሪዎች"
+   },
+   "startUpload": {
+      "message": "ስቀላ ጀምር"
+   },
+   "subscribe": {
+      "message": "አባል ይሁኑ"
+   },
+   "subscriptionRecharge": {
+      "message": "አባልነት እና ሙላ"
+   },
+   "subtitleSize": {
+      "message": "መጠን"
+   },
+   "subtitles": {
+      "message": "ንዑስ ርዕሶች"
+   },
+   "subtitlesRateLimitedByYouTube": {
+      "message": "ለዚህ ቪድዮ ንዑስ ርዕሶች በአሁኑ ጊዜ በYouTube የተገደቡ ናቸው። እባክዎ ቆይተው እንደገና ይሞክሩ።"
+   },
+   "swapVolumeSettingsCommand": {
+      "message": "በዋናው እና በተደመጠው ድምጽ መካከል የድምጽ ቅንብሮችን ቀያይር"
+   },
+   "switchModelWarning": {
+      "message": "በቪድዮ ማጫወት ወቅት የድምጽ ወይም የትርጉም ሞዴል መቀየር በመጥፋት ሀብቶች ምክንያት ተጨማሪ ክፍያዎችን ያስከትላል። በሚቀጥለው ቪድዮ ውስጥ መቀየር እንመክራለን። በማንኛውም መንገድ ለመቀጠል፣ ቀጥል እና አስቀምጥን ጠቅ ያድርጉ።"
+   },
+   "targetLanguage": {
+      "message": "ዒላማ ቋንቋ"
+   },
+   "target_languages": {
+      "message": "ዒላማ ቋንቋ:"
+   },
+   "taskAlreadySubmitted": {
+      "message": "ይህ ቪዲዮ ለ AI ንዑስ ርዕስ ማወቂያ በማስኬድ ላይ ነው። እባክዎ የኢሜይል ማሳወቂያ ይጠብቁ።"
+   },
+   "textToSpeech": {
+      "message": "ጽሑፍ ወደ ንግግር:"
+   },
+   "textToSpeechToggle": {
+      "message": "ተንሳፋፊ ኳስ"
+   },
+   "toggleSubtitles": {
+      "message": "ንዑስ ርዕሶችን ቀያይር"
+   },
+   "tooExpensive": {
+      "message": "በጣም ውድ"
+   },
+   "translateEngineTipText": {
+      "message": "የትርጉም አገልግሎቱን ወደ Google ይለውጡ"
+   },
+   "translateService": {
+      "message": "ትርጉም:"
+   },
+   "translatedAudio": {
+      "message": "ትርጉም ድምፅ"
+   },
+   "translationEngine": {
+      "message": "የትርጉም ሞተር"
+   },
+   "translationService": {
+      "message": "የትርጉም አገልግሎት"
+   },
+   "translationServiceTitle": {
+      "message": "የትርጉም አገልግሎት"
+   },
+   "trialMemberDurationLimit": {
+      "message": "ይህ ቪድዮ ምንም ንዑስ ርዕሶች የሉትም። እንደ ሙከራ አባል፣ ከ15 ደቂቃ በታች ያሉ ቪድዮዎች ብቻ በአሁኑ ጊዜ ለንዑስ ርዕስ መለያ ይደገፋሉ። ፕሪሚየም አባላት ከ3 ሰዓት በታች ቪድዮዎችን ይደግፋሉ።"
+   },
+   "trialMemberModelLimit": {
+      "message": "የሙከራ አባላት Gemini እና Google Translate ብቻ መጠቀም ይችላሉ። ሌሎች ሞዴሎችን ለመጠቀም፣ እባክዎ ለአባልነታችን ይመዝገቡ።"
+   },
+   "universalDubbingMemberOnly": {
+      "message": "ዩኒቨርሳል ዳቢንግ የደመና GPU ማስላት ኃይል ይፈልጋል (ከፍተኛ ወጪ)፣ ለ VIP ብቻ።"
+   },
+   "universalDubbingNotSupported": {
+      "message": "ሁሉንም አቀፍ ድምጽ በዚህ ቪድዮ ላይ በአሁኑ ስሪት አይደገፍም። ድጋፍ ለሚቀጥለው ስሪት ታቅዶ ነው። ለዝርዝሮች እባክዎ የደንበኞች አገልግሎትን ያነጋግሩ።"
+   },
+   "unknownError": {
+      "message": "ያልታወቀ ስህተት ተከስቷል። እባክዎ እንደገና ይሞክሩ።"
+   },
+   "upgradeMembershipForBackgroundRecognition": {
+      "message": "ወደ አባልነት ያሻሽሉ እና ሰርጭቱ በበስተጀርባ AI ንዑስ ርዕሶችን ይለያል። የኢሜል ማሳወቂያውን ከደረሰዎ በኋላ ለማየት ይመለሱ፤ ድምጹ አዝራሩ አረንጓዴ ይሆናል እና ትርጉሞቹ የበለጠ ትክክለኛ ይሆናሉ።"
+   },
+   "uploadComplete": {
+      "message": "ስቀላ ተጠናቋል"
+   },
+   "uploadFailed": {
+      "message": "ስቀላ አልተሳካም"
+   },
+   "uploadMediaForRecognition": {
+      "message": "ንዑስ ርዕስ አልተገኘም። ለ AI ንዑስ ርዕስ ማወቂያ ቪዲዮውን መስቀል ይፈልጋሉ?"
+   },
+   "uploading": {
+      "message": "በመስቀል ላይ"
+   },
+   "uploadingMedia": {
+      "message": "ሚዲያ በመስቀል ላይ..."
+   },
+   "videoDrmProtected": {
+      "message": "ይህ ቪዲዮ በDRM የተጠበቀ ስለሆነ ለድምፅ ማስቀመጫ ሊጠቀሙበት አይችሉም።"
+   },
+   "videoDurationExceedsLimit": {
+      "message": "ይህ ቪዲዮ ከ3 ሰዓት በላይ ይረዝማል። ከ3 ሰዓት በላይ ለሆኑ ቪዲዮዎች በአሁኑ ጊዜ ዩኒቨርሳል ዳቢንግ አይደገፍም።"
+   },
+   "vipAndBalanceRequiredText": {
+      "message": "ይህን ባህሪ ለመጠቀም አባል መሆን እና በቂ ቀሪ ሒሳብ ሊኖርዎት ይገባል"
+   },
+   "vipAndBalanceRequiredTitle": {
+      "message": "አባልነት እና ቀሪ ሒሳብ ያስፈልጋል"
+   },
+   "vipFreeOptionTipText": {
+      "message": "እንደ አባል፣ የሚከተሉትን የትርጉም አገልግሎቶች በነጻ መጠቀም ይችላሉ"
+   },
+   "vipRequiredText": {
+      "message": "ይህን ባህሪ ለመጠቀም አባል መሆን ያስፈልግዎታል"
+   },
+   "vipRequiredTitle": {
+      "message": "አባልነት ያስፈልጋል"
+   },
+   "vipTranslateEngineTipText": {
+      "message": "የትርጉም አገልግሎቱን ወደ አባል-ነጻ አገልግሎቶች እንደ gemini, deepseek, gpt-3.5-turbo, ወይም claude-3-haiku ይለውጡ"
+   },
+   "voice": {
+      "message": "ድምጽ"
+   },
+   "voiceSettingsMismatch": {
+      "message": "የድምፅ አይነት እና የድምፅ ቅንብሮች አይስማሙም። እባክዎን ወደ ቅንብሮች ገጽ በመሄድ የድምፅ ቅንብሮቹን እንደገና ይምረጡ እና ያስቀምጡ።"
+   },
+   "voiceTypeTipText": {
+      "message": "የድምጽ ዓይነቱን ወደ ነጻ ስሪት ይለውጡ"
+   },
+   "voices": {
+      "message": "ድምጽ:"
+   },
+   "voicesAndSubtitles": {
+      "message": "ድምጽ እና ንዑስ ርዕሶች"
+   },
+   "voicesAndSubtitlesTitle": {
+      "message": "ድምጽ እና ንዑስ ርዕሶች"
+   },
+   "voicesType": {
+      "message": "የድምጽ ዓይነት:"
+   },
+   "waitingForRecognition": {
+      "message": "ቪዲዮው በተሳካ ሁኔታ ተሰቅሏል። የ AI ንዑስ ርዕስ ማወቂያ በሂደት ላይ ነው። ዝግጁ ሲሆን የኢሜል ማሳወቂያ ይደርስዎታል።"
+   },
+   "woman": {
+      "message": "ሴት"
+   },
+   "zoomRecordingDnrNotSupported": {
+      "message": "አሳሽዎ Zoom ቀረጻ ሰቀላ ማወቅን አይደግፍም። እባክዎ Chrome/Edge ይጠቀሙ።"
+   },
+   "zoomRecordingDownloadForbidden403": {
+      "message": "Zoom ቀረጻ ማውረድ ተከልክሏል (403)። እባክዎ ማረጋገጫን ለማለፍ ገጹን ያጫውቱ/ያድሱ፣ ከዚያ እንደገና ይሞክሩ።"
+   }
+}

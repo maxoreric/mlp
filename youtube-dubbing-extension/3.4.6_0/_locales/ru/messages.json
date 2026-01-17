@@ -1,0 +1,470 @@
+{
+   "accountBalance": {
+      "message": "Баланс счета:"
+   },
+   "advancedSettings": {
+      "message": "Расширенные настройки"
+   },
+   "aiSubtitlesRecognitionInBackground": {
+      "message": "Для этого видео пока нет AI-субтитров. Распознавание запущено в фоновом режиме. Услышав первую озвученную фразу, вы можете закрыть страницу и ждать уведомление по электронной почте; когда всё будет готово, кнопка озвучки станет зелёной, а качество перевода улучшится."
+   },
+   "back": {
+      "message": "Назад"
+   },
+   "backToSettings": {
+      "message": "Вернуться к настройкам"
+   },
+   "backgroundAudio": {
+      "message": "Фон"
+   },
+   "balanceRequiredText": {
+      "message": "Недостаточно средств, пополните для функции"
+   },
+   "balanceRequiredTitle": {
+      "message": "Требуется лимит"
+   },
+   "balanceRunningLow": {
+      "message": "Лимит заканчивается, пополните для лучшего опыта."
+   },
+   "browserShortcutSettingsTip": {
+      "message": "Настройте сочетания клавиш в настройках расширения"
+   },
+   "cancel": {
+      "message": "Отмена"
+   },
+   "cancelButton": {
+      "message": "Отмена"
+   },
+   "completing": {
+      "message": "Завершение"
+   },
+   "confirmButton": {
+      "message": "Продолжить и сохранить"
+   },
+   "confirmDeleteSpeaker": {
+      "message": "Вы уверены, что хотите удалить этого говорящего?"
+   },
+   "contentMenusTitle": {
+      "message": "Начать воспроизведение озвучки"
+   },
+   "corsNotSupported": {
+      "message": "Этот сайт не позволяет скачивать медиафайлы. Универсальный дубляж не поддерживается."
+   },
+   "debugInfo": {
+      "message": "Отладочная информация"
+   },
+   "delete": {
+      "message": "Удалить"
+   },
+   "deleteSpeaker": {
+      "message": "Удалить"
+   },
+   "description": {
+      "message": "Перевод и озвучка видео в один клик: мгновенное понимание языков, доступ к мировым знаниям"
+   },
+   "disableGlobally": {
+      "message": "Отключить глобально"
+   },
+   "doNotClosePage": {
+      "message": "Пожалуйста, не закрывайте и не обновляйте эту страницу во время загрузки, иначе загрузка будет прервана."
+   },
+   "downloading": {
+      "message": "Скачивание"
+   },
+   "dropboxClickCcToTranscribe": {
+      "message": "Это видео ещё не было транскрибировано. Нажмите кнопку CC под видео Dropbox, чтобы создать субтитры. После завершения транскрибации нажмите кнопку озвучивания расширения, чтобы выполнить перевод и озвучку."
+   },
+   "dropdownNoOptions": {
+      "message": "Нет доступных опций"
+   },
+   "dropdownPlaceholder": {
+      "message": "Выберите"
+   },
+   "dropdownSearch": {
+      "message": "Поиск..."
+   },
+   "dubbingSettings": {
+      "message": "Настройки дубляжа"
+   },
+   "edgeShortcutSettingsTip": {
+      "message": "Открываю страницу настроек сочетаний клавиш Edge"
+   },
+   "edit": {
+      "message": "Редактировать"
+   },
+   "editSpeaker": {
+      "message": "Редактировать говорящего"
+   },
+   "enterSpeakerName": {
+      "message": "Введите имя говорящего"
+   },
+   "enterVoice": {
+      "message": "Введите название голоса"
+   },
+   "error": {
+      "message": "Ошибка"
+   },
+   "female": {
+      "message": "Женский"
+   },
+   "firefoxShortcutSettingsTip": {
+      "message": "Открываю Firefox, настройте в Расширениях"
+   },
+   "free": {
+      "message": "Free"
+   },
+   "freeForVip": {
+      "message": "Free для подписчиков"
+   },
+   "freeOptionTipText": {
+      "message": "Не пополнять? Выберите бесплатное,"
+   },
+   "freeUserDailyLimit": {
+      "message": "Бесплатные пользователи могут смотреть до 5 видео в день через плагин. Обновитесь до членства, чтобы разблокировать преимущества неограниченного просмотра."
+   },
+   "freeUserNoSubtitles": {
+      "message": "У этого видео нет встроенных субтитров. Пожалуйста, подпишитесь на членство в плагине для распознавания субтитров и наслаждайтесь функциями перевода и озвучки."
+   },
+   "gender": {
+      "message": "Пол"
+   },
+   "hideUntilNextVisit": {
+      "message": "Скрыть до следующего посещения"
+   },
+   "insufficientBalance": {
+      "message": "Недостаточно средств, переключено на Google. Пополните."
+   },
+   "insufficientBalanceAlertMsg": {
+      "message": "Лимит мал, пополните для AI и Azure TTS или используйте Google и бесплатный."
+   },
+   "insufficientBalanceAndMembership": {
+      "message": "Пополните членство и баланс перед использованием ИИ-перевода и Azure TTS. Если не хотите пополнять, можете выбрать Google Translate и бесплатные типы голоса."
+   },
+   "insufficientMembership": {
+      "message": "Ваше членство истекло. Пополните членство перед использованием ИИ-перевода и Azure TTS. Если не хотите пополнять, можете выбрать Google Translate и бесплатные типы голоса."
+   },
+   "iosInterceptorConflictMessage": {
+      "message": "Другое расширение браузера блокирует перехват запросов субтитров. Отключите конфликтующие расширения, обновите страницу и попробуйте снова."
+   },
+   "iosInterceptorConflictTitle": {
+      "message": "Обнаружен конфликт расширений"
+   },
+   "iosOpenOriginVolume": {
+      "message": "Включить оригинал:"
+   },
+   "iosUniversalDubbingNotSupported": {
+      "message": "Универсальный дубляж не поддерживается на устройствах iOS. Пожалуйста, используйте настольный браузер."
+   },
+   "liveStreamNotSupported": {
+      "message": "Прямые трансляции не поддерживаются для универсального дубляжа."
+   },
+   "liveVideoNotSupported": {
+      "message": "Прямой эфир не поддерживает озвучку"
+   },
+   "loading": {
+      "message": "Загрузка"
+   },
+   "login": {
+      "message": "Вход"
+   },
+   "loginAndUsePlugin": {
+      "message": "Кликните иконку для входа, затем используйте озвучку."
+   },
+   "logout": {
+      "message": "Выйти"
+   },
+   "lowBalanceText": {
+      "message": "Баланс \u003C1$, пополните для стабильной работы"
+   },
+   "lowBalanceTitle": {
+      "message": "Мало средств"
+   },
+   "male": {
+      "message": "Мужской"
+   },
+   "man": {
+      "message": "Муж."
+   },
+   "mediaSourceNotDetected": {
+      "message": "Не удалось определить источник видео. Этот сайт может не поддерживаться."
+   },
+   "memberUser": {
+      "message": "PRO"
+   },
+   "membershipExpires": {
+      "message": "До"
+   },
+   "membershipIcon": {
+      "message": "Иконка подписки"
+   },
+   "membershipRequired": {
+      "message": "Подпишитесь для OpenAI перевода."
+   },
+   "membershipRequiredForAI": {
+      "message": "Пополните членство перед использованием ИИ-перевода. Если не хотите пополнять, можете выбрать Google Translate."
+   },
+   "membershipRequiredTitle": {
+      "message": "Требуется подписка"
+   },
+   "metadataNotFound": {
+      "message": "Метаданные видео не найдены, пожалуйста, обновите страницу и попробуйте снова"
+   },
+   "multiVideoNotSupported": {
+      "message": "На этой странице несколько видео. Универсальный дубляж поддерживает только страницы с одним видео при использовании HLS-потоков."
+   },
+   "name": {
+      "message": "YouTube Dubbing – Перевод и озвучка субтитров ИИ | Translate & Dub"
+   },
+   "noAudioTrackFound": {
+      "message": "Аудиодорожка не обнаружена. Это видео, похоже, содержит только видео без звука и не может использоваться для распознавания дубляжа."
+   },
+   "noSpeakers": {
+      "message": "Нет говорящих"
+   },
+   "noSubtitlesFound": {
+      "message": "У этого видео нет субтитров и не поддерживается перевод и озвучка"
+   },
+   "noSubtitlesWaitOptimization": {
+      "message": "Субтитры недоступны. Пожалуйста, подождите, пока плагин распознает субтитры для этого видео. Вы получите уведомление по электронной почте на ваш зарегистрированный адрес после завершения распознавания."
+   },
+   "notSupported": {
+      "message": "Не поддерживается"
+   },
+   "originalAudio": {
+      "message": "Оригинал"
+   },
+   "pauseVideo": {
+      "message": "Приостановить видео"
+   },
+   "pay": {
+      "message": "Оплатить"
+   },
+   "postLoginTranslationSettings": {
+      "message": "Вход успешен, кликните иконку для выбора языка и голоса."
+   },
+   "premiumMemberDurationLimit": {
+      "message": "У этого видео нет субтитров, а продолжительность видео превышает 3 часа, перевод и озвучка не поддерживаются. Пожалуйста, выберите более короткое видео или видео с субтитрами."
+   },
+   "rechargeLimit": {
+      "message": "Лимит + подписка"
+   },
+   "safariShortcutSettingsTip": {
+      "message": "Настройте в Safari: Меню > Настройки > Расширения"
+   },
+   "save": {
+      "message": "Сохранить"
+   },
+   "saveFailedText": {
+      "message": "Не удалось сохранить, повторите"
+   },
+   "saveFailedTitle": {
+      "message": "Ошибка сохранения"
+   },
+   "saveSuccessText": {
+      "message": "Настройки сохранены"
+   },
+   "saveSuccessTitle": {
+      "message": "Успешно сохранено"
+   },
+   "save_settings": {
+      "message": "Сохранить"
+   },
+   "saving": {
+      "message": "Сохранение..."
+   },
+   "searchSourceLanguage": {
+      "message": "Поиск исходного языка..."
+   },
+   "searchTargetLanguage": {
+      "message": "Поиск целевого языка..."
+   },
+   "selectSourceLanguage": {
+      "message": "Выберите исходный язык"
+   },
+   "selectSpeaker": {
+      "message": "Выбрать"
+   },
+   "selectTargetLanguage": {
+      "message": "Выберите целевой язык"
+   },
+   "sex": {
+      "message": "Пол:"
+   },
+   "shortcutSettings": {
+      "message": "Настройки сочетаний клавиш"
+   },
+   "showSubtitle": {
+      "message": "Показать субтитры:"
+   },
+   "sourceLanguage": {
+      "message": "Исходный язык"
+   },
+   "source_languages": {
+      "message": "Исходный язык:"
+   },
+   "speaker": {
+      "message": "Говорящий"
+   },
+   "speakerList": {
+      "message": "Список говорящих"
+   },
+   "speakerName": {
+      "message": "Имя говорящего"
+   },
+   "speakersTitle": {
+      "message": "Говорящие"
+   },
+   "startUpload": {
+      "message": "Начать загрузку"
+   },
+   "subscribe": {
+      "message": "Подписка"
+   },
+   "subscriptionRecharge": {
+      "message": "Подписка и пополнение"
+   },
+   "subtitleSize": {
+      "message": "Размер"
+   },
+   "subtitles": {
+      "message": "Субтитры"
+   },
+   "subtitlesRateLimitedByYouTube": {
+      "message": "Субтитры для этого видео в настоящее время ограничены YouTube. Пожалуйста, попробуйте позже."
+   },
+   "swapVolumeSettingsCommand": {
+      "message": "Переключить настройки громкости между оригинальным и дублированным аудио"
+   },
+   "switchModelWarning": {
+      "message": "Смена голоса/модели увеличит расходы, лучше позже. Продолжить?"
+   },
+   "targetLanguage": {
+      "message": "Целевой язык"
+   },
+   "target_languages": {
+      "message": "Целевой язык:"
+   },
+   "taskAlreadySubmitted": {
+      "message": "Это видео уже обрабатывается для распознавания субтитров ИИ. Пожалуйста, дождитесь уведомления по электронной почте."
+   },
+   "textToSpeech": {
+      "message": "Озвучка текста:"
+   },
+   "textToSpeechToggle": {
+      "message": "Плавающий шар"
+   },
+   "toggleSubtitles": {
+      "message": "Вкл/выкл субтитры"
+   },
+   "tooExpensive": {
+      "message": "Дорого"
+   },
+   "translateEngineTipText": {
+      "message": "переключите на Google"
+   },
+   "translateService": {
+      "message": "Служба перевода:"
+   },
+   "translatedAudio": {
+      "message": "Перевод"
+   },
+   "translationEngine": {
+      "message": "Движок перевода"
+   },
+   "translationService": {
+      "message": "Служба перевода"
+   },
+   "translationServiceTitle": {
+      "message": "Служба перевода"
+   },
+   "trialMemberDurationLimit": {
+      "message": "У этого видео нет субтитров. Поскольку вы пробный участник, в настоящее время поддерживаются только видео продолжительностью менее 15 минут для распознавания субтитров. Премиум-участники поддерживают видео продолжительностью менее 3 часов."
+   },
+   "trialMemberModelLimit": {
+      "message": "Пробные пользователи могут использовать только Gemini и Google Переводчик. Чтобы использовать другие модели, оформите подписку."
+   },
+   "universalDubbingMemberOnly": {
+      "message": "Универсальный дубляж требует облачных GPU-вычислений (высокая стоимость), только для VIP."
+   },
+   "universalDubbingNotSupported": {
+      "message": "Универсальная озвучка не поддерживается для этого видео в текущей версии. Поддержка планируется в следующей версии. Пожалуйста, обратитесь в службу поддержки для получения подробной информации."
+   },
+   "unknownError": {
+      "message": "Произошла неизвестная ошибка. Пожалуйста, попробуйте ещё раз."
+   },
+   "upgradeMembershipForBackgroundRecognition": {
+      "message": "Перейдите на членство — плагин будет распознавать AI‑субтитры в фоновом режиме. Получив письмо-уведомление, вернитесь к просмотру; кнопка озвучки станет зелёной, а переводы — точнее."
+   },
+   "uploadComplete": {
+      "message": "Загрузка завершена"
+   },
+   "uploadFailed": {
+      "message": "Ошибка загрузки"
+   },
+   "uploadMediaForRecognition": {
+      "message": "Субтитры не найдены. Хотите загрузить видео для распознавания субтитров с помощью ИИ?"
+   },
+   "uploading": {
+      "message": "Загрузка"
+   },
+   "uploadingMedia": {
+      "message": "Загрузка медиа..."
+   },
+   "videoDrmProtected": {
+      "message": "Это видео защищено DRM и не может быть использовано для дубляжа."
+   },
+   "videoDurationExceedsLimit": {
+      "message": "Это видео превышает 3 часа. Универсальный дубляж в настоящее время не поддерживается для видео длиннее 3 часов."
+   },
+   "vipAndBalanceRequiredText": {
+      "message": "Подпишитесь и пополните лимит для этой функции"
+   },
+   "vipAndBalanceRequiredTitle": {
+      "message": "Нужна подписка и лимит"
+   },
+   "vipFreeOptionTipText": {
+      "message": "С подпиской бесплатные переводы"
+   },
+   "vipRequiredText": {
+      "message": "Подпишитесь для этой функции"
+   },
+   "vipRequiredTitle": {
+      "message": "Требуется подписка"
+   },
+   "vipTranslateEngineTipText": {
+      "message": "Смените на gemini, deepseek или gpt-3.5 бесплатно с подпиской"
+   },
+   "voice": {
+      "message": "Голос"
+   },
+   "voiceSettingsMismatch": {
+      "message": "Тип голоса и настройки голоса не совпадают. Перейдите на страницу настроек, чтобы повторно выбрать и сохранить настройки голоса."
+   },
+   "voiceTypeTipText": {
+      "message": "переключите голос на бесплатный"
+   },
+   "voices": {
+      "message": "Голос:"
+   },
+   "voicesAndSubtitles": {
+      "message": "Голос и субтитры"
+   },
+   "voicesAndSubtitlesTitle": {
+      "message": "Голос и субтитры"
+   },
+   "voicesType": {
+      "message": "Тип голоса:"
+   },
+   "waitingForRecognition": {
+      "message": "Видео успешно загружено. Идёт распознавание субтитров с помощью ИИ. Вы получите уведомление по электронной почте, когда всё будет готово."
+   },
+   "woman": {
+      "message": "Жен."
+   },
+   "zoomRecordingDnrNotSupported": {
+      "message": "Ваш браузер не поддерживает распознавание загрузки записей Zoom. Пожалуйста, используйте Chrome/Edge."
+   },
+   "zoomRecordingDownloadForbidden403": {
+      "message": "Загрузка записи Zoom запрещена (403). Пожалуйста, воспроизведите/обновите страницу для прохождения проверки, затем повторите попытку."
+   }
+}

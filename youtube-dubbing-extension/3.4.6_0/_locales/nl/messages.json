@@ -1,0 +1,470 @@
+{
+   "accountBalance": {
+      "message": "Accountsaldo:"
+   },
+   "advancedSettings": {
+      "message": "Geavanceerde instellingen"
+   },
+   "aiSubtitlesRecognitionInBackground": {
+      "message": "AI-ondertitels zijn nog niet beschikbaar. De plugin is begonnen met herkennen op de achtergrond. Nadat u de eerste nasynchronisatiezin hoort, kunt u de pagina sluiten en wachten op de e-mailmelding; wanneer deze klaar is, wordt de nasynchronisatieknop groen en is de vertaalkwaliteit beter."
+   },
+   "back": {
+      "message": "Terug"
+   },
+   "backToSettings": {
+      "message": "Terug naar instellingen"
+   },
+   "backgroundAudio": {
+      "message": "BGM"
+   },
+   "balanceRequiredText": {
+      "message": "Uw accountsaldo is ontoereikend. Laad op om deze functie te gebruiken"
+   },
+   "balanceRequiredTitle": {
+      "message": "Saldo vereist"
+   },
+   "balanceRunningLow": {
+      "message": "Uw saldo raakt op. Om een slechte kijkervaring te voorkomen, wordt aangeraden van tevoren op te laden."
+   },
+   "browserShortcutSettingsTip": {
+      "message": "Configureer sneltoetsen in browserextensie-instellingen"
+   },
+   "cancel": {
+      "message": "Annuleren"
+   },
+   "cancelButton": {
+      "message": "Annuleren"
+   },
+   "completing": {
+      "message": "Voltooien"
+   },
+   "confirmButton": {
+      "message": "Doorgaan"
+   },
+   "confirmDeleteSpeaker": {
+      "message": "Weet u zeker dat u deze spreker wilt verwijderen?"
+   },
+   "contentMenusTitle": {
+      "message": "Voice-over afspelen starten"
+   },
+   "corsNotSupported": {
+      "message": "Deze website staat het downloaden van mediabestanden niet toe. Universele nasynchronisatie wordt niet ondersteund."
+   },
+   "debugInfo": {
+      "message": "Debug-info"
+   },
+   "delete": {
+      "message": "Verwijderen"
+   },
+   "deleteSpeaker": {
+      "message": "Verwijderen"
+   },
+   "description": {
+      "message": "Videovertalingen en nasynchronisatie—begrijp vreemde talen, krijg toegang tot wereldwijde kennis"
+   },
+   "disableGlobally": {
+      "message": "Wereldwijd uitschakelen"
+   },
+   "doNotClosePage": {
+      "message": "Sluit of vernieuw deze pagina niet tijdens het uploaden, anders wordt de upload onderbroken."
+   },
+   "downloading": {
+      "message": "Downloaden"
+   },
+   "dropboxClickCcToTranscribe": {
+      "message": "Deze video is nog niet getranscribeerd. Klik op de CC-knop onderaan de Dropbox-video om de ondertitels te transcriberen. Nadat de transcriptie is voltooid, klikt u op de nasynchronisatieknop van de plugin om te vertalen en na te synchroniseren."
+   },
+   "dropdownNoOptions": {
+      "message": "Geen opties beschikbaar"
+   },
+   "dropdownPlaceholder": {
+      "message": "Kies"
+   },
+   "dropdownSearch": {
+      "message": "Zoeken..."
+   },
+   "dubbingSettings": {
+      "message": "Nasynchronisatie-instellingen"
+   },
+   "edgeShortcutSettingsTip": {
+      "message": "Edge-extensie sneltoetsinstellingenpagina openen"
+   },
+   "edit": {
+      "message": "Bewerken"
+   },
+   "editSpeaker": {
+      "message": "Bewerken"
+   },
+   "enterSpeakerName": {
+      "message": "Voer sprekernaam in"
+   },
+   "enterVoice": {
+      "message": "Voer stemnaam in"
+   },
+   "error": {
+      "message": "Fout"
+   },
+   "female": {
+      "message": "Vrouwelijk"
+   },
+   "firefoxShortcutSettingsTip": {
+      "message": "Firefox add-ons pagina openen, stel sneltoetsen in bij Extensies en Thema's"
+   },
+   "free": {
+      "message": "Gratis"
+   },
+   "freeForVip": {
+      "message": "VIP Gratis"
+   },
+   "freeOptionTipText": {
+      "message": "Als u niet wilt opladen, kunt u de gratis optie kiezen, "
+   },
+   "freeUserDailyLimit": {
+      "message": "Gratis gebruikers kunnen maximaal 5 video's per dag bekijken via de plugin. Upgrade naar lidmaatschap om onbeperkte kijkvoordelen te ontgrendelen."
+   },
+   "freeUserNoSubtitles": {
+      "message": "Deze video heeft geen ingebouwde ondertitels. Abonneer u op het plugin-lidmaatschap voor ondertitelherkenning en geniet van vertalings- en nasynchronisatiefuncties."
+   },
+   "gender": {
+      "message": "Geslacht"
+   },
+   "hideUntilNextVisit": {
+      "message": "Verbergen tot het volgende bezoek"
+   },
+   "insufficientBalance": {
+      "message": "Vanwege onvoldoende saldo is de service gedowngrade naar Google Translate. Om AI-vertaling te gebruiken, laadt u uw tegoed op."
+   },
+   "insufficientBalanceAlertMsg": {
+      "message": "Uw saldo is ontoereikend. Laad uw saldo op voordat u AI-vertaling en Azure TTS gebruikt. Als u niet wilt opladen, kunt u terugschakelen naar Google Translate en gratis stemtypen."
+   },
+   "insufficientBalanceAndMembership": {
+      "message": "Laad uw lidmaatschap en saldo op voordat u AI-vertaling en Azure TTS gebruikt. Als u niet wilt opladen, kunt u ook Google Translate en gratis stemtypen kiezen."
+   },
+   "insufficientMembership": {
+      "message": "Uw lidmaatschap is verlopen. Laad uw lidmaatschap op voordat u AI-vertaling en Azure TTS gebruikt. Als u niet wilt opladen, kunt u ook Google Translate en gratis stemtypen kiezen."
+   },
+   "iosInterceptorConflictMessage": {
+      "message": "Een andere browserextensie blokkeert ondertitelverzoekonderschepping. Schakel conflicterende extensies uit, ververs de pagina en probeer het opnieuw."
+   },
+   "iosInterceptorConflictTitle": {
+      "message": "Extensieconflict gedetecteerd"
+   },
+   "iosOpenOriginVolume": {
+      "message": "Originele audio inschakelen"
+   },
+   "iosUniversalDubbingNotSupported": {
+      "message": "Universele nasynchronisatie wordt niet ondersteund op iOS-apparaten. Gebruik een desktopbrowser."
+   },
+   "liveStreamNotSupported": {
+      "message": "Livestreams worden niet ondersteund voor universele nasynchronisatie."
+   },
+   "liveVideoNotSupported": {
+      "message": "Livestreams worden momenteel niet ondersteund voor nasynchronisatie"
+   },
+   "loading": {
+      "message": "laden"
+   },
+   "login": {
+      "message": "Inloggen"
+   },
+   "loginAndUsePlugin": {
+      "message": "Klik eerst op het plugin-pictogram om in te loggen, en gebruik dan de plugin voor voice-over afspelen."
+   },
+   "logout": {
+      "message": "Afmelden"
+   },
+   "lowBalanceText": {
+      "message": "Uw accountsaldo is lager dan $1. We raden aan binnenkort op te laden om ononderbroken service te garanderen"
+   },
+   "lowBalanceTitle": {
+      "message": "Waarschuwing laag saldo"
+   },
+   "male": {
+      "message": "Mannelijk"
+   },
+   "man": {
+      "message": "Man"
+   },
+   "mediaSourceNotDetected": {
+      "message": "Kan videobron niet detecteren. Deze website wordt mogelijk niet ondersteund."
+   },
+   "memberUser": {
+      "message": "Lid"
+   },
+   "membershipExpires": {
+      "message": "Geldig tot"
+   },
+   "membershipIcon": {
+      "message": "Lidmaatschapspictogram"
+   },
+   "membershipRequired": {
+      "message": "Upgrade naar een lidmaatschap voordat u OpenAI-vertaling gebruikt."
+   },
+   "membershipRequiredForAI": {
+      "message": "Laad uw lidmaatschap op voordat u AI-vertaling gebruikt. Als u niet wilt opladen, kunt u ook Google Translate kiezen."
+   },
+   "membershipRequiredTitle": {
+      "message": "Lidmaatschap vereist"
+   },
+   "metadataNotFound": {
+      "message": "Video-metadata niet gevonden, ververs de pagina en probeer opnieuw"
+   },
+   "multiVideoNotSupported": {
+      "message": "Deze pagina bevat meerdere video's. Universele nasynchronisatie ondersteunt alleen pagina's met één video bij het gebruik van HLS-streams."
+   },
+   "name": {
+      "message": "YouTube Dubbing – Vertalen & Nasynchroniseren"
+   },
+   "noAudioTrackFound": {
+      "message": "Geen audiospoor gedetecteerd. Deze video lijkt alleen video te zijn zonder audio en kan niet worden gebruikt voor nasynchronisatieherkenning."
+   },
+   "noSpeakers": {
+      "message": "Geen sprekers"
+   },
+   "noSubtitlesFound": {
+      "message": "Deze video heeft geen ondertitels en ondersteunt geen vertaling en nasynchronisatie"
+   },
+   "noSubtitlesWaitOptimization": {
+      "message": "Geen ondertitels beschikbaar. Wacht tot de plugin ondertitels herkent voor deze video. U ontvangt een e-mailmelding op uw geregistreerde e-mailadres zodra de herkenning is voltooid."
+   },
+   "notSupported": {
+      "message": "Niet ondersteund"
+   },
+   "originalAudio": {
+      "message": "Orig."
+   },
+   "pauseVideo": {
+      "message": "Video pauzeren"
+   },
+   "pay": {
+      "message": "Betalen"
+   },
+   "postLoginTranslationSettings": {
+      "message": "Aanmelden geslaagd. Klik op het plugin-icoon om de vertaaltaal en stemmenlijst te selecteren."
+   },
+   "premiumMemberDurationLimit": {
+      "message": "Deze video heeft geen ondertitels en de videoduur overschrijdt 3 uur, vertaling en nasynchronisatie worden niet ondersteund. Selecteer een kortere video of een video met ondertitels."
+   },
+   "rechargeLimit": {
+      "message": "Tegoed+Lid"
+   },
+   "safariShortcutSettingsTip": {
+      "message": "Stel sneltoetsen in via Safari > Voorkeuren > Extensies"
+   },
+   "save": {
+      "message": "Opslaan"
+   },
+   "saveFailedText": {
+      "message": "Instellingen opslaan mislukt, probeer het opnieuw"
+   },
+   "saveFailedTitle": {
+      "message": "Opslaan mislukt"
+   },
+   "saveSuccessText": {
+      "message": "Instellingen succesvol opgeslagen"
+   },
+   "saveSuccessTitle": {
+      "message": "Opslaan geslaagd"
+   },
+   "save_settings": {
+      "message": "Instellingen opslaan"
+   },
+   "saving": {
+      "message": "Opslaan..."
+   },
+   "searchSourceLanguage": {
+      "message": "Zoek brontaal..."
+   },
+   "searchTargetLanguage": {
+      "message": "Zoek doeltaal..."
+   },
+   "selectSourceLanguage": {
+      "message": "Kies brontaal"
+   },
+   "selectSpeaker": {
+      "message": "Kies"
+   },
+   "selectTargetLanguage": {
+      "message": "Kies doeltaal"
+   },
+   "sex": {
+      "message": "Geslacht:"
+   },
+   "shortcutSettings": {
+      "message": "Sneltoetsen"
+   },
+   "showSubtitle": {
+      "message": "Ondertitels:"
+   },
+   "sourceLanguage": {
+      "message": "Brontaal"
+   },
+   "source_languages": {
+      "message": "Brontaal:"
+   },
+   "speaker": {
+      "message": "Spreker"
+   },
+   "speakerList": {
+      "message": "Sprekerlijst"
+   },
+   "speakerName": {
+      "message": "Sprekernaam"
+   },
+   "speakersTitle": {
+      "message": "Sprekers"
+   },
+   "startUpload": {
+      "message": "Upload starten"
+   },
+   "subscribe": {
+      "message": "Word lid"
+   },
+   "subscriptionRecharge": {
+      "message": "Lid & Opladen"
+   },
+   "subtitleSize": {
+      "message": "Grootte"
+   },
+   "subtitles": {
+      "message": "Ondertitels"
+   },
+   "subtitlesRateLimitedByYouTube": {
+      "message": "Ondertitels voor deze video worden momenteel beperkt door YouTube. Probeer het later opnieuw."
+   },
+   "swapVolumeSettingsCommand": {
+      "message": "Schakel volume-instellingen tussen origineel en nasynchronisatie-audio"
+   },
+   "switchModelWarning": {
+      "message": "Het wisselen van het stem- of vertaalmodel tijdens het afspelen van video's leidt tot extra kosten vanwege verspilde bronnen. We raden aan om in de volgende video te wisselen. Om toch door te gaan, klikt u op Doorgaan en opslaan."
+   },
+   "targetLanguage": {
+      "message": "Doeltaal"
+   },
+   "target_languages": {
+      "message": "Doeltaal:"
+   },
+   "taskAlreadySubmitted": {
+      "message": "Deze video wordt al verwerkt voor AI-ondertitelherkenning. Wacht alstublieft op de e-mailmelding."
+   },
+   "textToSpeech": {
+      "message": "Tekst naar spraak:"
+   },
+   "textToSpeechToggle": {
+      "message": "Zweefknop"
+   },
+   "toggleSubtitles": {
+      "message": "Ondertitels schakelen"
+   },
+   "tooExpensive": {
+      "message": "Te duur"
+   },
+   "translateEngineTipText": {
+      "message": "wijzig de vertaalservice naar Google"
+   },
+   "translateService": {
+      "message": "Vertalen:"
+   },
+   "translatedAudio": {
+      "message": "Vertaald"
+   },
+   "translationEngine": {
+      "message": "Vertaalengine"
+   },
+   "translationService": {
+      "message": "Vertaalservice"
+   },
+   "translationServiceTitle": {
+      "message": "Vertaalservice"
+   },
+   "trialMemberDurationLimit": {
+      "message": "Deze video heeft geen ondertitels. Als proeflidmaat worden momenteel alleen video's onder 15 minuten ondersteund voor ondertitelherkenning. Premium-lidmaten ondersteunen video's tot 3 uur."
+   },
+   "trialMemberModelLimit": {
+      "message": "Proeflidmaten kunnen alleen Gemini en Google Translate gebruiken. Om andere modellen te gebruiken, abonneert u zich op ons lidmaatschap."
+   },
+   "universalDubbingMemberOnly": {
+      "message": "Universele nasynchronisatie vereist cloud GPU-rekenkracht (hoge kosten), alleen voor VIP."
+   },
+   "universalDubbingNotSupported": {
+      "message": "Universele nasynchronisatie wordt niet ondersteund voor deze video in de huidige versie. Ondersteuning is gepland voor de volgende versie. Neem contact op met klantenservice voor details."
+   },
+   "unknownError": {
+      "message": "Er is een onbekende fout opgetreden. Probeer het opnieuw."
+   },
+   "upgradeMembershipForBackgroundRecognition": {
+      "message": "Upgrade naar lidmaatschap en de plugin herkent AI-ondertitels op de achtergrond. Nadat u de e-mailmelding heeft ontvangen, kom dan terug om te kijken; de nasynchronisatieknop wordt groen en vertalingen zijn nauwkeuriger."
+   },
+   "uploadComplete": {
+      "message": "Upload voltooid"
+   },
+   "uploadFailed": {
+      "message": "Upload mislukt"
+   },
+   "uploadMediaForRecognition": {
+      "message": "Geen ondertitels gevonden. Wilt u de video uploaden voor AI-ondertitelherkenning?"
+   },
+   "uploading": {
+      "message": "Uploaden"
+   },
+   "uploadingMedia": {
+      "message": "Media uploaden..."
+   },
+   "videoDrmProtected": {
+      "message": "Deze video is beveiligd met DRM en kan niet worden gebruikt voor nasynchronisatie."
+   },
+   "videoDurationExceedsLimit": {
+      "message": "Deze video is langer dan 3 uur. Universele nasynchronisatie wordt momenteel niet ondersteund voor video's langer dan 3 uur."
+   },
+   "vipAndBalanceRequiredText": {
+      "message": "U moet lid zijn en voldoende saldo hebben om deze functie te gebruiken"
+   },
+   "vipAndBalanceRequiredTitle": {
+      "message": "Lidmaatschap en saldo vereist"
+   },
+   "vipFreeOptionTipText": {
+      "message": "Als lid kunt u de volgende vertaalservices gratis gebruiken"
+   },
+   "vipRequiredText": {
+      "message": "U moet lid zijn om deze functie te gebruiken"
+   },
+   "vipRequiredTitle": {
+      "message": "Lidmaatschap vereist"
+   },
+   "vipTranslateEngineTipText": {
+      "message": "Wijzig vertaalservice naar lid-gratis services zoals gemini, deepseek, gpt-3.5-turbo of claude-3-haiku"
+   },
+   "voice": {
+      "message": "Stem"
+   },
+   "voiceSettingsMismatch": {
+      "message": "Stemtype en steminstellingen komen niet overeen. Ga naar de instellingenpagina om de steminstellingen opnieuw te selecteren en op te slaan."
+   },
+   "voiceTypeTipText": {
+      "message": "wijzig het stemtype naar de gratis versie"
+   },
+   "voices": {
+      "message": "Stem:"
+   },
+   "voicesAndSubtitles": {
+      "message": "Stem & Ondertitels"
+   },
+   "voicesAndSubtitlesTitle": {
+      "message": "Stem & Ondertitels"
+   },
+   "voicesType": {
+      "message": "Stemtype:"
+   },
+   "waitingForRecognition": {
+      "message": "Video succesvol geüpload. AI-ondertitelherkenning is bezig. U ontvangt een e-mailmelding wanneer het klaar is."
+   },
+   "woman": {
+      "message": "Vrouw"
+   },
+   "zoomRecordingDnrNotSupported": {
+      "message": "Uw browser ondersteunt Zoom-opname uploadherkenning niet. Gebruik Chrome/Edge."
+   },
+   "zoomRecordingDownloadForbidden403": {
+      "message": "Zoom-opname download werd verboden (403). Speel/ververs de pagina voor verificatie en probeer het opnieuw."
+   }
+}

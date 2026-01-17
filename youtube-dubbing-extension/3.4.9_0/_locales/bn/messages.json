@@ -1,0 +1,473 @@
+{
+   "accountBalance": {
+      "message": "অ্যাকাউন্ট ব্যালেন্স:"
+   },
+   "advancedSettings": {
+      "message": "উন্নত সেটিংস"
+   },
+   "aiSubtitlesRecognitionInBackground": {
+      "message": "AI সাবটাইটেল এখনও উপলব্ধ নয়। প্লাগইন পটভূমিতে তাদের চিনতে শুরু করেছে। প্রথম ডাব করা বাক্য শোনার পর, আপনি পৃষ্ঠা বন্ধ করতে এবং ইমেল বিজ্ঞপ্তির জন্য অপেক্ষা করতে পারেন; যখন এটি প্রস্তুত হবে, ডাবিং বোতাম সবুজ হবে এবং অনুবাদের গুণমান আরও ভাল হবে।"
+   },
+   "back": {
+      "message": "ফিরে যান"
+   },
+   "backToSettings": {
+      "message": "সেটিংসে ফিরে যান"
+   },
+   "backgroundAudio": {
+      "message": "পটভূমি অডিও"
+   },
+   "balanceRequiredText": {
+      "message": "আপনার অ্যাকাউন্ট ব্যালেন্স অপর্যাপ্ত। এই বৈশিষ্ট্য ব্যবহার করতে অনুগ্রহ করে রিচার্জ করুন"
+   },
+   "balanceRequiredTitle": {
+      "message": "ব্যালেন্স প্রয়োজন"
+   },
+   "balanceRunningLow": {
+      "message": "আপনার ব্যালেন্স শেষ হয়ে যাচ্ছে। একটি খারাপ দেখার অভিজ্ঞতা এড়াতে, পূর্বে রিচার্জ করার পরামর্শ দেওয়া হয়।"
+   },
+   "browserShortcutSettingsTip": {
+      "message": "অনুগ্রহ করে ব্রাউজার এক্সটেনশন সেটিংসে শর্টকাট কনফিগার করুন"
+   },
+   "cancel": {
+      "message": "বাতিল"
+   },
+   "cancelButton": {
+      "message": "বাতিল"
+   },
+   "completing": {
+      "message": "সম্পন্ন হচ্ছে"
+   },
+   "confirmButton": {
+      "message": "চালিয়ে যান এবং সংরক্ষণ করুন"
+   },
+   "confirmDeleteSpeaker": {
+      "message": "আপনি কি নিশ্চিত যে আপনি এই বক্তা মুছতে চান?"
+   },
+   "contentMenusTitle": {
+      "message": "ভয়েসওভার প্লেব্যাক শুরু করুন"
+   },
+   "corsNotSupported": {
+      "message": "এই ওয়েবসাইট মিডিয়া ফাইল ডাউনলোড করার অনুমতি দেয় না। ইউনিভার্সাল ডাবিং সমর্থিত নয়।"
+   },
+   "debugInfo": {
+      "message": "ডিবাগ তথ্য"
+   },
+   "delete": {
+      "message": "মুছুন"
+   },
+   "deleteSpeaker": {
+      "message": "মুছুন"
+   },
+   "description": {
+      "message": "এক-ক্লিক ভিডিও অনুবাদ এবং ডাবিং—তাৎক্ষণিকভাবে বিদেশী ভাষা বুঝুন, বৈশ্বিক জ্ঞান অ্যাক্সেস করুন"
+   },
+   "disableGlobally": {
+      "message": "বিশ্বব্যাপী নিষ্ক্রিয় করুন"
+   },
+   "doNotClosePage": {
+      "message": "আপলোডের সময় দয়া করে এই পৃষ্ঠাটি বন্ধ বা রিফ্রেশ করবেন না, অন্যথায় আপলোড বাধাগ্রস্ত হবে।"
+   },
+   "downloading": {
+      "message": "ডাউনলোড হচ্ছে"
+   },
+   "dropboxClickCcToTranscribe": {
+      "message": "এই ভিডিও এখনও ট্রান্সক্রাইব করা হয়নি। সাবটাইটেল ট্রান্সক্রাইব করতে Dropbox ভিডিওর নীচে CC বোতামে ক্লিক করুন। ট্রান্সক্রিপশন সম্পূর্ণ হওয়ার পর, অনুবাদ এবং ডাব করতে প্লাগইনের ডাবিং বোতামে ক্লিক করুন।"
+   },
+   "dropdownNoOptions": {
+      "message": "কোন বিকল্প নেই"
+   },
+   "dropdownPlaceholder": {
+      "message": "পছন্দ করুন"
+   },
+   "dropdownSearch": {
+      "message": "অনুসন্ধান করুন..."
+   },
+   "dubbingSettings": {
+      "message": "ডাবিং সেটিংস"
+   },
+   "edgeShortcutSettingsTip": {
+      "message": "Edge এক্সটেনশন শর্টকাট সেটিংস পৃষ্ঠা খোলা হচ্ছে"
+   },
+   "edit": {
+      "message": "সম্পাদনা করুন"
+   },
+   "editSpeaker": {
+      "message": "সম্পাদনা করুন"
+   },
+   "enterSpeakerName": {
+      "message": "বক্তা নাম লিখুন"
+   },
+   "enterVoice": {
+      "message": "ভয়েস নাম লিখুন"
+   },
+   "error": {
+      "message": "ত্রুটি"
+   },
+   "female": {
+      "message": "মহিলা"
+   },
+   "firefoxShortcutSettingsTip": {
+      "message": "Firefox অ্যাড-অন পৃষ্ঠা খোলা হচ্ছে, অনুগ্রহ করে Extensions and Themes এ শর্টকাট সেট করুন"
+   },
+   "free": {
+      "message": "বিনামূল্যে"
+   },
+   "freeForVip": {
+      "message": "VIP বিনামূল্যে"
+   },
+   "freeOptionTipText": {
+      "message": "আপনি যদি রিচার্জ করতে না চান, তাহলে বিনামূল্যে বিকল্প নির্বাচন করতে পারেন, "
+   },
+   "freeUserDailyLimit": {
+      "message": "বিনামূল্যে ব্যবহারকারীরা প্লাগইনের মাধ্যমে প্রতিদিন সর্বাধিক ৫টি ভিডিও দেখতে পারে। সীমাহীন দেখার সুবিধা আনলক করতে সদস্যপদে আপগ্রেড করুন।"
+   },
+   "freeUserNoSubtitles": {
+      "message": "এই ভিডিওতে কোন বিল্ট-ইন সাবটাইটেল নেই। সাবটাইটেল চিনতে এবং অনুবাদ ও ডাবিং বৈশিষ্ট্য উপভোগ করতে প্লাগইন সদস্যপদ সাবস্ক্রাইব করুন।"
+   },
+   "gender": {
+      "message": "লিঙ্গ"
+   },
+   "hideUntilNextVisit": {
+      "message": "পরবর্তী ভিজিট পর্যন্ত লুকান"
+   },
+   "insufficientBalance": {
+      "message": "অপর্যাপ্ত ব্যালেন্সের কারণে, সেবা Google Translate এ ডাউনগ্রেড করা হয়েছে। AI অনুবাদ ব্যবহার করতে, অনুগ্রহ করে আপনার ক্রেডিট রিচার্জ করুন।"
+   },
+   "insufficientBalanceAlertMsg": {
+      "message": "আপনার ব্যালেন্স অপর্যাপ্ত। AI অনুবাদ এবং Azure TTS ব্যবহার করার আগে আপনার ব্যালেন্স রিচার্জ করুন। আপনি যদি রিচার্জ করতে না চান, তাহলে Google Translate এবং বিনামূল্যে ভয়েস টাইপে ফিরে যেতে পারেন।"
+   },
+   "insufficientBalanceAndMembership": {
+      "message": "AI অনুবাদ এবং Azure TTS ব্যবহার করার আগে আপনার সদস্যপদ এবং ব্যালেন্স রিচার্জ করুন। আপনি যদি রিচার্জ করতে না চান, তাহলে Google Translate এবং বিনামূল্যে ভয়েস টাইপ নির্বাচন করতে পারেন।"
+   },
+   "insufficientMembership": {
+      "message": "আপনার সদস্যপদ মেয়াদ শেষ হয়ে গেছে। AI অনুবাদ এবং Azure TTS ব্যবহার করার আগে আপনার সদস্যপদ রিচার্জ করুন। আপনি যদি রিচার্জ করতে না চান, তাহলে Google Translate এবং বিনামূল্যে ভয়েস টাইপ নির্বাচন করতে পারেন।"
+   },
+   "iosInterceptorConflictMessage": {
+      "message": "অন্য একটি ব্রাউজার এক্সটেনশন সাবটাইটেল অনুরোধ বাধা ব্লক করছে। দ্বন্দ্বপূর্ণ এক্সটেনশন নিষ্ক্রিয় করুন, পৃষ্ঠা রিফ্রেশ করুন, তারপর আবার চেষ্টা করুন।"
+   },
+   "iosInterceptorConflictTitle": {
+      "message": "এক্সটেনশন দ্বন্দ্ব সনাক্ত করা হয়েছে"
+   },
+   "iosOpenOriginVolume": {
+      "message": "মূল অডিও চালু করুন"
+   },
+   "iosUniversalDubbingNotSupported": {
+      "message": "iOS ডিভাইসে ইউনিভার্সাল ডাবিং সমর্থিত নয়। অনুগ্রহ করে ডেস্কটপ ব্রাউজার ব্যবহার করুন।"
+   },
+   "liveStreamNotSupported": {
+      "message": "লাইভ স্ট্রিম ইউনিভার্সাল ডাবিং-এর জন্য সমর্থিত নয়।"
+   },
+   "liveVideoNotSupported": {
+      "message": "লাইভ ভিডিও বর্তমানে ডাবিংয়ের জন্য সমর্থিত নয়"
+   },
+   "loading": {
+      "message": "লোড হচ্ছে"
+   },
+   "login": {
+      "message": "লগ ইন"
+   },
+   "loginAndUsePlugin": {
+      "message": "প্রথমে লগ ইন করতে প্লাগইন আইকনে ক্লিক করুন, তারপর ভয়েসওভার প্লেব্যাকের জন্য প্লাগইন ব্যবহার করুন।"
+   },
+   "logout": {
+      "message": "লগ আউট"
+   },
+   "lowBalanceText": {
+      "message": "আপনার অ্যাকাউন্ট ব্যালেন্স $১ এর নিচে। নিরবচ্ছিন্ন সেবা নিশ্চিত করতে আমরা শীঘ্রই রিচার্জ করার পরামর্শ দিই"
+   },
+   "lowBalanceTitle": {
+      "message": "কম ব্যালেন্স সতর্কতা"
+   },
+   "male": {
+      "message": "পুরুষ"
+   },
+   "man": {
+      "message": "পুরুষ"
+   },
+   "mediaSourceNotDetected": {
+      "message": "ভিডিও উৎস সনাক্ত করা যায়নি। এই ওয়েবসাইট সমর্থিত নাও হতে পারে।"
+   },
+   "memberUser": {
+      "message": "PRO"
+   },
+   "membershipExpires": {
+      "message": "সদস্যতা শেষ:"
+   },
+   "membershipIcon": {
+      "message": "সদস্যপদ আইকন"
+   },
+   "membershipRequired": {
+      "message": "OpenAI অনুবাদ ব্যবহার করার আগে একটি সদস্যপদে আপগ্রেড করুন।"
+   },
+   "membershipRequiredForAI": {
+      "message": "AI অনুবাদ ব্যবহার করার আগে আপনার সদস্যপদ রিচার্জ করুন। আপনি যদি রিচার্জ করতে না চান, তাহলে Google Translate নির্বাচন করতে পারেন।"
+   },
+   "membershipRequiredTitle": {
+      "message": "সদস্যপদ প্রয়োজন"
+   },
+   "metadataNotFound": {
+      "message": "ভিডিও মেটাডেটা পাওয়া যায়নি, অনুগ্রহ করে রিফ্রেশ করে আবার চেষ্টা করুন"
+   },
+   "multiVideoNotSupported": {
+      "message": "এই পৃষ্ঠায় একাধিক ভিডিও আছে। HLS স্ট্রিম ব্যবহার করার সময় ইউনিভার্সাল ডাবিং শুধুমাত্র একটি ভিডিও সহ পৃষ্ঠাগুলিকে সমর্থন করে।"
+   },
+   "name": {
+      "message": "YouTube ডাবিং – অনুবাদ ও ডাব"
+   },
+   "noAudioTrackFound": {
+      "message": "কোনো অডিও ট্র্যাক সনাক্ত হয়নি। এই ভিডিওটি অডিও ছাড়া শুধুমাত্র ভিডিও বলে মনে হচ্ছে এবং ডাবিং সনাক্তকরণের জন্য ব্যবহার করা যাবে না।"
+   },
+   "noSpeakers": {
+      "message": "কোন বক্তা নেই"
+   },
+   "noSubtitlesFound": {
+      "message": "এই ভিডিওতে কোন সাবটাইটেল নেই এবং অনুবাদ ও ডাবিং সমর্থন করে না"
+   },
+   "noSubtitlesWaitOptimization": {
+      "message": "কোন সাবটাইটেল উপলব্ধ নেই। এই ভিডিওর জন্য সাবটাইটেল চিনতে প্লাগইনের জন্য অপেক্ষা করুন। চিনতে সম্পূর্ণ হলে আপনার নিবন্ধিত ইমেল ঠিকানায় একটি ইমেল বিজ্ঞপ্তি পাবেন।"
+   },
+   "notSupported": {
+      "message": "সমর্থিত নয়"
+   },
+   "originalAudio": {
+      "message": "মূল কণ্ঠ"
+   },
+   "pauseVideo": {
+      "message": "ভিডিও বিরাম দিন"
+   },
+   "pay": {
+      "message": "পে করুন"
+   },
+   "pleaseClickVideoToPlay": {
+      "message": "অনুগ্রহ করে ভিডিওটি খুলতে ক্লিক করুন এবং তারপর ডাবিং বৈশিষ্ট্যটি ব্যবহার করুন।"
+   },
+   "postLoginTranslationSettings": {
+      "message": "লগইন সফল। অনুবাদ ভাষা এবং ভয়েস তালিকা নির্বাচন করতে প্লাগইন আইকনে ক্লিক করুন।"
+   },
+   "premiumMemberDurationLimit": {
+      "message": "এই ভিডিওতে কোন সাবটাইটেল নেই এবং ভিডিওর সময়কাল ৩ ঘন্টা অতিক্রম করে, অনুবাদ এবং ডাবিং সমর্থিত নয়। অনুগ্রহ করে একটি ছোট ভিডিও বা সাবটাইটেল সহ ভিডিও পছন্দ করুন।"
+   },
+   "rechargeLimit": {
+      "message": "ক্রেডিট+সদস্য"
+   },
+   "safariShortcutSettingsTip": {
+      "message": "অনুগ্রহ করে Safari > Preferences > Extensions এ শর্টকাট সেট করুন"
+   },
+   "save": {
+      "message": "সংরক্ষণ করুন"
+   },
+   "saveFailedText": {
+      "message": "সংরক্ষণ ব্যর্থ, আবার চেষ্টা করুন"
+   },
+   "saveFailedTitle": {
+      "message": "সংরক্ষণ ব্যর্থ"
+   },
+   "saveSuccessText": {
+      "message": "সেটিংস সংরক্ষিত হয়েছে"
+   },
+   "saveSuccessTitle": {
+      "message": "সংরক্ষণ সফল"
+   },
+   "save_settings": {
+      "message": "সংরক্ষণ করুন"
+   },
+   "saving": {
+      "message": "সংরক্ষণ করা হচ্ছে..."
+   },
+   "searchSourceLanguage": {
+      "message": "উৎস ভাষা অনুসন্ধান করুন..."
+   },
+   "searchTargetLanguage": {
+      "message": "লক্ষ্য ভাষা অনুসন্ধান করুন..."
+   },
+   "selectSourceLanguage": {
+      "message": "উৎস ভাষা পছন্দ করুন"
+   },
+   "selectSpeaker": {
+      "message": "পছন্দ করুন"
+   },
+   "selectTargetLanguage": {
+      "message": "লক্ষ্য ভাষা পছন্দ করুন"
+   },
+   "sex": {
+      "message": "লিঙ্গ:"
+   },
+   "shortcutSettings": {
+      "message": "শর্টকাট সেটিংস"
+   },
+   "showSubtitle": {
+      "message": "সাবটাইটেল:"
+   },
+   "sourceLanguage": {
+      "message": "উৎস ভাষা"
+   },
+   "source_languages": {
+      "message": "উৎস ভাষা:"
+   },
+   "speaker": {
+      "message": "বক্তা"
+   },
+   "speakerList": {
+      "message": "বক্তা তালিকা"
+   },
+   "speakerName": {
+      "message": "বক্তা নাম"
+   },
+   "speakersTitle": {
+      "message": "বক্তা"
+   },
+   "startUpload": {
+      "message": "আপলোড শুরু করুন"
+   },
+   "subscribe": {
+      "message": "সদস্যতা নিন"
+   },
+   "subscriptionRecharge": {
+      "message": "সাবস্ক্রিপশন ও রিচার্জ"
+   },
+   "subtitleSize": {
+      "message": "আকার"
+   },
+   "subtitles": {
+      "message": "সাবটাইটেল"
+   },
+   "subtitlesRateLimitedByYouTube": {
+      "message": "এই ভিডিওর সাবটাইটেল বর্তমানে YouTube দ্বারা রেট-লিমিটেড। অনুগ্রহ করে পরে আবার চেষ্টা করুন।"
+   },
+   "swapVolumeSettingsCommand": {
+      "message": "মূল এবং ডাব করা অডিওর মধ্যে ভলিউম সেটিংস টগল করুন"
+   },
+   "switchModelWarning": {
+      "message": "ভিডিও প্লেব্যাকের সময় ভয়েস বা অনুবাদ মডেল পরিবর্তন করলে নষ্ট হওয়া সম্পদের কারণে অতিরিক্ত চার্জ হবে। আমরা পরবর্তী ভিডিওতে পরিবর্তন করার পরামর্শ দিই। যাইহোক, এগিয়ে যেতে চাইলে চালিয়ে যান এবং সংরক্ষণ করুন ক্লিক করুন।"
+   },
+   "targetLanguage": {
+      "message": "লক্ষ্য ভাষা"
+   },
+   "target_languages": {
+      "message": "লক্ষ্য ভাষা:"
+   },
+   "taskAlreadySubmitted": {
+      "message": "এই ভিডিওটি AI সাবটাইটেল স্বীকৃতির জন্য ইতিমধ্যে প্রক্রিয়াধীন রয়েছে। অনুগ্রহ করে ইমেল বিজ্ঞপ্তির জন্য অপেক্ষা করুন।"
+   },
+   "textToSpeech": {
+      "message": "টেক্সট টু স্পিচ:"
+   },
+   "textToSpeechToggle": {
+      "message": "ভাসমান বোতাম"
+   },
+   "toggleSubtitles": {
+      "message": "সাবটাইটেল টগল করুন"
+   },
+   "tooExpensive": {
+      "message": "খুব ব্যয়বহুল"
+   },
+   "translateEngineTipText": {
+      "message": "অনুবাদ সেবা Google এ পরিবর্তন করুন"
+   },
+   "translateService": {
+      "message": "অনুবাদ:"
+   },
+   "translatedAudio": {
+      "message": "অনুবাদ কণ্ঠ"
+   },
+   "translationEngine": {
+      "message": "অনুবাদ ইঞ্জিন"
+   },
+   "translationService": {
+      "message": "অনুবাদ সেবা"
+   },
+   "translationServiceTitle": {
+      "message": "অনুবাদ সেবা"
+   },
+   "trialMemberDurationLimit": {
+      "message": "এই ভিডিওতে কোন সাবটাইটেল নেই। ট্রায়াল সদস্য হিসাবে, বর্তমানে শুধুমাত্র ১৫ মিনিটের কম ভিডিও সাবটাইটেল চিনতে সমর্থিত। প্রিমিয়াম সদস্যরা ৩ ঘন্টার কম ভিডিও সমর্থন করে।"
+   },
+   "trialMemberModelLimit": {
+      "message": "ট্রায়াল সদস্যরা শুধুমাত্র Gemini এবং Google Translate ব্যবহার করতে পারে। অন্যান্য মডেল ব্যবহার করতে, আমাদের সদস্যপদ সাবস্ক্রাইব করুন।"
+   },
+   "universalDubbingMemberOnly": {
+      "message": "ইউনিভার্সাল ডাবিং-এর জন্য ক্লাউড GPU কম্পিউটিং পাওয়ার প্রয়োজন (উচ্চ খরচ), শুধুমাত্র VIP-দের জন্য।"
+   },
+   "universalDubbingNotSupported": {
+      "message": "বর্তমান সংস্করণে এই ভিডিওর জন্য সর্বজনীন ডাবিং সমর্থিত নয়। পরবর্তী সংস্করণে সমর্থন পরিকল্পনা করা হয়েছে। বিস্তারিত জানতে গ্রাহক সেবায় যোগাযোগ করুন।"
+   },
+   "unknownError": {
+      "message": "একটি অজানা ত্রুটি ঘটেছে। অনুগ্রহ করে আবার চেষ্টা করুন।"
+   },
+   "upgradeMembershipForBackgroundRecognition": {
+      "message": "সদস্যপদে আপগ্রেড করুন এবং প্লাগইন পটভূমিতে AI সাবটাইটেল চিনবে। ইমেল বিজ্ঞপ্তি পাওয়ার পর, দেখতে ফিরে আসুন; ডাবিং বোতাম সবুজ হবে এবং অনুবাদ আরও নিখুঁত হবে।"
+   },
+   "uploadComplete": {
+      "message": "আপলোড সম্পন্ন"
+   },
+   "uploadFailed": {
+      "message": "আপলোড ব্যর্থ"
+   },
+   "uploadMediaForRecognition": {
+      "message": "কোনো সাবটাইটেল পাওয়া যায়নি। AI সাবটাইটেল শনাক্তকরণের জন্য ভিডিও আপলোড করতে চান?"
+   },
+   "uploading": {
+      "message": "আপলোড হচ্ছে"
+   },
+   "uploadingMedia": {
+      "message": "মিডিয়া আপলোড হচ্ছে..."
+   },
+   "videoDrmProtected": {
+      "message": "এই ভিডিওটি DRM দ্বারা সুরক্ষিত এবং ডাবিংয়ের জন্য ব্যবহার করা যাবে না।"
+   },
+   "videoDurationExceedsLimit": {
+      "message": "এই ভিডিওটি ৩ ঘণ্টার বেশি দীর্ঘ। ৩ ঘণ্টার বেশি দীর্ঘ ভিডিওগুলির জন্য বর্তমানে ইউনিভার্সাল ডাবিং সমর্থিত নয়।"
+   },
+   "vipAndBalanceRequiredText": {
+      "message": "এই বৈশিষ্ট্য ব্যবহার করতে আপনাকে একজন সদস্য হতে হবে এবং পর্যাপ্ত ব্যালেন্স থাকতে হবে"
+   },
+   "vipAndBalanceRequiredTitle": {
+      "message": "সদস্যপদ এবং ব্যালেন্স প্রয়োজন"
+   },
+   "vipFreeOptionTipText": {
+      "message": "একজন সদস্য হিসাবে, আপনি নিম্নলিখিত অনুবাদ সেবা বিনামূল্যে ব্যবহার করতে পারেন"
+   },
+   "vipRequiredText": {
+      "message": "এই বৈশিষ্ট্য ব্যবহার করতে আপনাকে একজন সদস্য হতে হবে"
+   },
+   "vipRequiredTitle": {
+      "message": "সদস্যপদ প্রয়োজন"
+   },
+   "vipTranslateEngineTipText": {
+      "message": "অনুবাদ সেবা সদস্য-বিনামূল্যে সেবায় পরিবর্তন করুন যেমন gemini, deepseek, gpt-3.5-turbo, বা claude-3-haiku"
+   },
+   "voice": {
+      "message": "ভয়েস"
+   },
+   "voiceSettingsMismatch": {
+      "message": "ভয়েস টাইপ এবং ভয়েস সেটিংস মিলছে না। দয়া করে সেটিংস পেজে গিয়ে ভয়েস সেটিংস পুনরায় নির্বাচন এবং সংরক্ষণ করুন।"
+   },
+   "voiceTypeTipText": {
+      "message": "ভয়েস টাইপ বিনামূল্যে সংস্করণে পরিবর্তন করুন"
+   },
+   "voices": {
+      "message": "ভয়েস:"
+   },
+   "voicesAndSubtitles": {
+      "message": "ভয়েস এবং সাবটাইটেল"
+   },
+   "voicesAndSubtitlesTitle": {
+      "message": "ভয়েস এবং সাবটাইটেল"
+   },
+   "voicesType": {
+      "message": "ভয়েস টাইপ:"
+   },
+   "waitingForRecognition": {
+      "message": "ভিডিও সফলভাবে আপলোড হয়েছে। AI সাবটাইটেল শনাক্তকরণ চলছে। প্রস্তুত হলে আপনি ইমেল বিজ্ঞপ্তি পাবেন।"
+   },
+   "woman": {
+      "message": "মহিলা"
+   },
+   "zoomRecordingDnrNotSupported": {
+      "message": "আপনার ব্রাউজার Zoom রেকর্ডিং আপলোড সনাক্তকরণ সমর্থন করে না। অনুগ্রহ করে Chrome/Edge ব্যবহার করুন।"
+   },
+   "zoomRecordingDownloadForbidden403": {
+      "message": "Zoom রেকর্ডিং ডাউনলোড নিষিদ্ধ করা হয়েছে (403)। যাচাইকরণ পাস করতে পৃষ্ঠাটি চালান/রিফ্রেশ করুন, তারপর আবার আপলোড করার চেষ্টা করুন।"
+   }
+}
