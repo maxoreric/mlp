@@ -38,13 +38,13 @@ export const DEFAULT_DUBBING_OPTIONS: DubbingOptions = {
 export interface AudioInstance {
     id: string
     text: string
-    startTime: number
-    endTime: number
-    isPlaying: boolean
     play(): void
     pause(): void
+    resume?(): void
     stop(): void
+    seek(time: number): void
     onEnd(callback: () => void): void
+    onError?(callback: (err: any) => void): void
 }
 
 /**

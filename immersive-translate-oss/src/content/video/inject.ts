@@ -226,6 +226,7 @@ function hookFetch() {
 
 /**
  * Hook JSON.parse for Netflix-style metadata extraction
+ * SAFETY: Uses try-catch and deferred processing to avoid breaking host page
  */
 function hookJSONParse() {
     const originalParse = JSON.parse
@@ -233,31 +234,44 @@ function hookJSONParse() {
     JSON.parse = function (text: string, reviver?: any) {
         const result = originalParse.call(this, text, reviver)
 
-        try {
-            // Netflix: timedtexttracks
-            if (result?.result?.timedtexttracks && result?.result?.movieId) {
-                injectBridge.sendMessage({
-                    type: 'VIDEO_META_INTERCEPTED',
-                    data: {
-                        source: 'netflix',
-                        movieId: result.result.movieId,
-                        tracks: result.result.timedtexttracks
-                    }
-                })
-            }
+        // Skip small/irrelevant JSON to reduce overhead (early exit for performance)
+        if (typeof text !== 'string' || text.length < 100) {
+            return result
+        }
 
-            // YouTube: playerResponse
-            if (result?.captions?.playerCaptionsTracklistRenderer) {
-                injectBridge.sendMessage({
-                    type: 'VIDEO_META_INTERCEPTED',
-                    data: {
-                        source: 'youtube',
-                        captionTracks: result.captions.playerCaptionsTracklistRenderer.captionTracks
+        // Process asynchronously to avoid blocking main thread
+        try {
+            // Use setTimeout to defer metadata extraction (non-blocking)
+            setTimeout(() => {
+                try {
+                    // Netflix: timedtexttracks
+                    if (result?.result?.timedtexttracks && result?.result?.movieId) {
+                        injectBridge.sendMessage({
+                            type: 'VIDEO_META_INTERCEPTED',
+                            data: {
+                                source: 'netflix',
+                                movieId: result.result.movieId,
+                                tracks: result.result.timedtexttracks
+                            }
+                        })
                     }
-                })
-            }
+
+                    // YouTube: playerResponse
+                    if (result?.captions?.playerCaptionsTracklistRenderer) {
+                        injectBridge.sendMessage({
+                            type: 'VIDEO_META_INTERCEPTED',
+                            data: {
+                                source: 'youtube',
+                                captionTracks: result.captions.playerCaptionsTracklistRenderer.captionTracks
+                            }
+                        })
+                    }
+                } catch {
+                    // Silently ignore - never break host page
+                }
+            }, 0)
         } catch {
-            // Ignore parsing errors
+            // Ignore any scheduling errors
         }
 
         return result
@@ -289,16 +303,20 @@ const platformHandlers: Record<string, () => void> = {
 
     bilibili: () => {
         // Bilibili: extract CID from __INITIAL_STATE__
-        const extractCid = () => {
+        let lastExtractedCid: number | null = null
+
+        const extractCid = (): boolean => {
             try {
                 const state = (window as any).__INITIAL_STATE__
-                if (state?.videoData?.cid) {
+                if (state?.videoData?.cid && state.videoData.cid !== lastExtractedCid) {
+                    lastExtractedCid = state.videoData.cid
                     injectBridge.sendMessage({
                         type: 'VIDEO_META_INTERCEPTED',
                         data: {
                             source: 'bilibili',
                             cid: state.videoData.cid,
-                            bvid: state.bvid
+                            bvid: state.bvid,
+                            aid: state.aid
                         }
                     })
                     return true
@@ -309,12 +327,33 @@ const platformHandlers: Record<string, () => void> = {
             return false
         }
 
+        // Initial extraction
         if (!extractCid()) {
+            // Retry with longer timeout (30s instead of 10s for slow pages)
             const interval = setInterval(() => {
                 if (extractCid()) clearInterval(interval)
             }, 500)
-            setTimeout(() => clearInterval(interval), 10000)
+            setTimeout(() => clearInterval(interval), 30000)
         }
+
+        // Watch for SPA navigation (Bilibili uses SPA for video transitions)
+        let lastUrl = location.href
+        const checkUrlChange = () => {
+            if (location.href !== lastUrl) {
+                lastUrl = location.href
+                // Re-extract after URL change (wait for state update)
+                setTimeout(() => extractCid(), 500)
+            }
+        }
+
+        // Listen for popstate (back/forward)
+        window.addEventListener('popstate', checkUrlChange)
+
+        // Use MutationObserver to detect URL changes from pushState
+        const observer = new MutationObserver(() => {
+            checkUrlChange()
+        })
+        observer.observe(document.body, { childList: true, subtree: true })
     }
 }
 

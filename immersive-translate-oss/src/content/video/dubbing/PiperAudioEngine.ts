@@ -5,7 +5,7 @@ import {
     SpeakOptions,
     VoiceInfo
 } from './types'
-import { TtsSession } from '@mintplex-labs/piper-tts-web'
+import { MessagePayload } from '@/types/messages'
 
 /**
  * Generate unique ID for audio instances
@@ -15,14 +15,14 @@ function generateId(): string {
 }
 
 /**
- * Piper TTS Audio Engine
- * Uses @mintplex-labs/piper-tts-web for WASM-based in-browser inference
+ * Piper Client Audio Engine
+ * 
+ * Functions as a proxy to the background/offscreen TTS service.
+ * Does NOT load WASM or heavy dependencies in the content script.
  */
 export class PiperAudioEngine implements IAudioEngine {
-    // private session: TtsSession | null = null // Unused, using promise instead
-    private currentInstance: PiperAudioInstance | null = null
-    private sessionPromise: Promise<TtsSession> | null = null
-    private currentVoiceId: string | null = null
+    private currentInstance: PiperClientAudioInstance | null = null
+    private boundMessageHandler: (message: MessagePayload) => void
 
     // Default config
     private defaultOptions: Partial<SpeakOptions> = {
@@ -33,53 +33,26 @@ export class PiperAudioEngine implements IAudioEngine {
     }
 
     constructor() {
-        // Lazy init in speak() to know which voice to load
-    }
-
-    /**
-     * Initialize Piper Session with local WASM paths
-     */
-    private initSession(voiceId: string) {
-        try {
-            // Configure WASM paths to point to extension assets
-            // These files must be in public/piper/ in the source
-            // and copied to dist/piper/ in the build
-            const wasmBase = chrome.runtime.getURL('piper/')
-            this.currentVoiceId = voiceId // Track current voice
-
-            this.sessionPromise = TtsSession.create({
-                voiceId: voiceId,
-                wasmPaths: {
-                    onnxWasm: wasmBase + 'ort-wasm-simd-threaded.wasm',
-                    piperData: wasmBase + 'piper_phonemize.data',
-                    piperWasm: wasmBase + 'piper_phonemize.wasm'
-                },
-                logger: (msg) => console.log('[PiperEngine]', msg)
-            })
-
-            this.sessionPromise.then(() => {
-                // this.session = session
-                console.log('[PiperEngine] Session initialized')
-            }).catch(err => {
-                console.error('[PiperEngine] Failed to init session:', err)
-            })
-        } catch (e) {
-            console.error('[PiperEngine] Init error:', e)
-        }
+        // Listen for callbacks from background -> content script
+        this.boundMessageHandler = this.handleMessage.bind(this)
+        chrome.runtime.onMessage.addListener(this.boundMessageHandler)
     }
 
     isSupported(): boolean {
-        return true // WASM is supported in modern browsers
+        return true
     }
 
     getVoices(): VoiceInfo[] {
-        // TODO: Implement voice listing using TtsSession.voices()
-        // For now return a hardcoded list or empty
-        return []
+        // TODO: Could fetch from backend
+        return [
+            { name: 'Piper English (Female)', lang: 'en-US', id: 'en_US-hfc_female-medium', localService: true, default: false },
+            { name: 'Piper Chinese (Huayan)', lang: 'zh-CN', id: 'zh_CN-huayan-medium', localService: true, default: true }
+        ]
     }
 
     speak(text: string, options?: Partial<SpeakOptions>): AudioInstance | null {
         const opts = { ...this.defaultOptions, ...options }
+        const requestId = generateId()
 
         // Determine voice ID based on language if not provided
         let voiceId = opts.voice
@@ -91,34 +64,43 @@ export class PiperAudioEngine implements IAudioEngine {
             }
         }
 
-        // Initialize or switch session if needed
-        if (!this.sessionPromise || this.currentVoiceId !== voiceId) {
-            console.log(`[PiperEngine] Switching voice: ${this.currentVoiceId} -> ${voiceId}`)
-            this.initSession(voiceId)
-        }
-
-        const id = generateId()
-        const instance = new PiperAudioInstance(id, text, opts, this.sessionPromise!)
-
+        const instance = new PiperClientAudioInstance(requestId, text, opts)
         this.currentInstance = instance
 
-        // Auto play
-        instance.play()
+        // Send request to background
+        chrome.runtime.sendMessage({
+            action: 'TTS_SPEAK',
+            data: {
+                text,
+                voiceId,
+                lang: opts.lang,
+                rate: opts.rate,
+                volume: opts.volume,
+                requestId
+            }
+        }).catch(err => {
+            console.error('[PiperClient] Failed to send TTS request:', err)
+            instance._triggerError(err)
+        })
 
         return instance
     }
 
     pause(): void {
-        this.currentInstance?.pause()
+        // Not fully supported in current offscreen implementation, but we can send a stop
+        // or add PAUSE action to offscreen later
+        console.warn('[PiperClient] Pause not fully implemented for offscreen TTS')
     }
 
     resume(): void {
-        this.currentInstance?.play()
+        console.warn('[PiperClient] Resume not fully implemented for offscreen TTS')
     }
 
     stop(): void {
-        this.currentInstance?.stop()
-        this.currentInstance = null
+        if (this.currentInstance) {
+            chrome.runtime.sendMessage({ action: 'TTS_STOP' }).catch(() => { })
+            this.currentInstance = null
+        }
     }
 
     setRate(rate: number): void {
@@ -128,127 +110,86 @@ export class PiperAudioEngine implements IAudioEngine {
     setVolume(volume: number): void {
         this.defaultOptions.volume = volume
     }
+
+    private handleMessage(message: MessagePayload) {
+        if (!this.currentInstance) return
+
+        if (message.action === 'TTS_END') {
+            const data = message.data as { requestId: string }
+            if (data.requestId === this.currentInstance.id) {
+                this.currentInstance._triggerEnd()
+            }
+        } else if (message.action === 'TTS_ERROR') {
+            const data = message.data as { requestId: string, error?: string }
+            if (data.requestId === this.currentInstance.id) {
+                console.error('[PiperClient] TTS Error:', data.error)
+                this.currentInstance._triggerError(data.error)
+            }
+        }
+    }
+
+    destroy() {
+        chrome.runtime.onMessage.removeListener(this.boundMessageHandler)
+    }
 }
 
 /**
- * Audio instance for Piper TTS
- * Wraps HTMLAudioElement + Async Generation
+ * Client-side Audio Instance representation
  */
-class PiperAudioInstance implements AudioInstance {
+class PiperClientAudioInstance implements AudioInstance {
     id: string
     text: string
     startTime: number = 0
     endTime: number = 0
-    isPlaying: boolean = false
 
-    private audio: HTMLAudioElement
+    // We don't strictly track isPlaying here since it's remote, 
+    // but we assume true after creation until end
+    isPlaying: boolean = true
+
     private endCallbacks: Array<() => void> = []
-    private sessionPromise: Promise<TtsSession>
-    private options: Partial<SpeakOptions>
-    private blobUrl: string | null = null
-    private isGenerating: boolean = false
-    private playRequested: boolean = false
+    private errorCallbacks: Array<(err: any) => void> = []
 
     constructor(
         id: string,
         text: string,
-        options: Partial<SpeakOptions>,
-        sessionPromise: Promise<TtsSession>
+        _options: Partial<SpeakOptions>
     ) {
         this.id = id
         this.text = text
-        this.options = options
-        this.sessionPromise = sessionPromise
-
-        this.audio = new Audio()
-        this.audio.onended = () => {
-            this.isPlaying = false
-            this._triggerEnd()
-        }
-        this.audio.onerror = (e) => {
-            console.error('[PiperInstance] Audio error:', e)
-            this.isPlaying = false
-        }
-
-        this.generate()
-    }
-
-    private async generate() {
-        this.isGenerating = true
-        try {
-            const session = await this.sessionPromise
-            // TODO: Handle voice switching if options.voice differs from session voice
-            // const voiceId = this.options.voice || 'en_US-hfc_female-medium'
-
-            // Check if we need to switch voice on session? 
-            // TtsSession seems bound to a voiceId in constructor.
-            // But library might support switching? 
-            // Looking at TtsSession definition, voiceId is a property.
-            // We might need a new session for a new voice or check if predict accepts voiceId.
-            // The standalone predict(config) accepts voiceId.
-            // But we are using session directly.
-            // Let's assume for now we use the session's voice or re-create session if needed.
-            // Actually, TtsSession methods might not expose voice switching easily. 
-            // But let's try just calling predict on session.
-
-            const blob = await session.predict(this.text)
-            this.blobUrl = URL.createObjectURL(blob)
-
-            this.audio.src = this.blobUrl
-            this.audio.playbackRate = this.options.rate || 1.0
-            this.audio.volume = this.options.volume || 1.0
-
-            this.isGenerating = false
-
-            if (this.playRequested) {
-                this.doPlay()
-            }
-        } catch (e) {
-            console.error('[PiperInstance] Generation failed:', e)
-            this.isGenerating = false
-        }
     }
 
     play(): void {
-        this.playRequested = true
-        if (!this.isGenerating && this.blobUrl) {
-            this.doPlay()
-        }
-    }
-
-    private doPlay() {
-        this.audio.play().catch(e => console.error('[PiperInstance] Play error:', e))
-        this.isPlaying = true
+        // Already played via sendMessage in engine
     }
 
     pause(): void {
-        this.playRequested = false
-        this.audio.pause()
-        this.isPlaying = false
+        // Remote control needed
     }
 
     stop(): void {
-        this.playRequested = false
-        this.audio.pause()
-        this.audio.currentTime = 0
-        this.isPlaying = false
-        if (this.blobUrl) {
-            URL.revokeObjectURL(this.blobUrl)
-            this.blobUrl = null
-        }
+        // Handled by engine stop() typically, but instance level also exists
+        chrome.runtime.sendMessage({ action: 'TTS_STOP' }).catch(() => { })
     }
 
-    seek(time: number): void {
-        if (Number.isFinite(time)) {
-            this.audio.currentTime = time
-        }
+    seek(_time: number): void {
+        // Not supported
     }
 
     onEnd(callback: () => void): void {
         this.endCallbacks.push(callback)
     }
 
+    onError(callback: (err: any) => void): void {
+        this.errorCallbacks.push(callback)
+    }
+
     _triggerEnd(): void {
+        this.isPlaying = false
         this.endCallbacks.forEach(cb => cb())
+    }
+
+    _triggerError(err: any): void {
+        this.isPlaying = false
+        this.errorCallbacks.forEach(cb => cb(err))
     }
 }

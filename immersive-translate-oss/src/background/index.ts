@@ -7,6 +7,39 @@ import { MessagePayload, MessageResponse } from '@/types/messages'
 import { translateWithAdapter, translateStreamWithAdapter } from '@/services/translator'
 import { getConfig, saveConfig } from '@/lib/storage'
 
+// Offscreen document state
+let offscreenDocumentCreating: Promise<void> | null = null
+
+/**
+ * Ensure offscreen document is created for TTS
+ */
+async function ensureOffscreenDocument(): Promise<void> {
+    // Check if already exists
+    const existingContexts = await chrome.runtime.getContexts({
+        contextTypes: ['OFFSCREEN_DOCUMENT' as chrome.runtime.ContextType]
+    })
+
+    if (existingContexts.length > 0) {
+        return
+    }
+
+    // Avoid race conditions
+    if (offscreenDocumentCreating) {
+        await offscreenDocumentCreating
+        return
+    }
+
+    offscreenDocumentCreating = chrome.offscreen.createDocument({
+        url: 'src/offscreen/offscreen.html',
+        reasons: ['AUDIO_PLAYBACK' as chrome.offscreen.Reason],
+        justification: 'Piper TTS audio synthesis and playback'
+    })
+
+    await offscreenDocumentCreating
+    offscreenDocumentCreating = null
+    console.log('[Background] Offscreen document created')
+}
+
 // Message handler
 chrome.runtime.onMessage.addListener(
     (message: MessagePayload, sender, sendResponse): boolean => {
@@ -35,6 +68,17 @@ async function handleMessage(
 
             case 'SAVE_CONFIG':
                 return await handleSaveConfig(message.data)
+
+            case 'TTS_SPEAK':
+                return await handleTTSSpeak(message.data as { text: string; voiceId?: string; lang?: string; requestId: string }, sender)
+
+            case 'TTS_STOP':
+                return await handleTTSStop()
+
+            case 'TTS_END':
+            case 'TTS_ERROR':
+                // Forward to content script
+                return await handleTTSCallback(message, sender)
 
             default:
                 return { success: false, error: 'Unknown action' }
@@ -124,6 +168,80 @@ async function handleSaveConfig(data: any): Promise<MessageResponse> {
         console.error('[Background] Save config failed:', e)
         return { success: false, error: String(e) }
     }
+}
+
+/**
+ * Handle TTS speak request - forward to offscreen document
+ */
+async function handleTTSSpeak(
+    data: { text: string; voiceId?: string; lang?: string; requestId: string },
+    sender: chrome.runtime.MessageSender
+): Promise<MessageResponse> {
+    console.log('[Background] TTS speak request:', data.text.substring(0, 50))
+
+    try {
+        await ensureOffscreenDocument()
+
+        // Forward to offscreen document
+        // Store sender tab for callback
+        const tabId = sender.tab?.id
+        if (tabId) {
+            pendingTTSRequests.set(data.requestId, tabId)
+        }
+
+        // Send to offscreen (it listens via chrome.runtime.onMessage)
+        await chrome.runtime.sendMessage({
+            action: 'TTS_SPEAK',
+            data
+        })
+
+        return { success: true }
+    } catch (error) {
+        console.error('[Background] TTS speak error:', error)
+        return {
+            success: false,
+            error: error instanceof Error ? error.message : 'TTS failed'
+        }
+    }
+}
+
+/**
+ * Handle TTS stop request
+ */
+async function handleTTSStop(): Promise<MessageResponse> {
+    console.log('[Background] TTS stop request')
+
+    try {
+        // Forward stop to offscreen
+        await chrome.runtime.sendMessage({
+            action: 'TTS_STOP'
+        })
+        return { success: true }
+    } catch (error) {
+        return { success: false, error: 'TTS stop failed' }
+    }
+}
+
+// Track pending TTS requests to route callbacks
+const pendingTTSRequests = new Map<string, number>()
+
+/**
+ * Handle TTS callbacks from offscreen (TTS_END, TTS_ERROR)
+ */
+async function handleTTSCallback(
+    message: MessagePayload,
+    _sender: chrome.runtime.MessageSender
+): Promise<MessageResponse> {
+    const requestId = (message.data as any)?.requestId
+    const tabId = pendingTTSRequests.get(requestId)
+
+    if (tabId) {
+        // Forward to content script
+        chrome.tabs.sendMessage(tabId, message).catch(() => { })
+        pendingTTSRequests.delete(requestId)
+    }
+
+    return { success: true }
 }
 
 // Extension install/update handler

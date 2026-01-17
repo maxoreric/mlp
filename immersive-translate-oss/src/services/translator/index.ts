@@ -90,23 +90,21 @@ export async function translateStreamWithAdapter(
     onChunk: (index: number, translation: string) => void
 ): Promise<void> {
     // Streaming only supported for zai-claude
-    if (serviceConfig.type !== 'zai-claude') {
-        // Fallback to batch translation
-        const results = await translateWithAdapter(texts, sourceLang, targetLang, serviceConfig)
-        results.forEach((result, index) => onChunk(index, result))
+    const adapter = getAdapter(serviceConfig)
+
+    // Check if adapter supports streaming
+    if (adapter.translateStream) {
+        await adapter.translateStream(texts, sourceLang, targetLang, onChunk)
         return
     }
 
-    if (!serviceConfig.apiKey) {
-        throw new TranslationError('API key is required for Z.AI Claude service')
+    // Fallback to batch translation
+    try {
+        const results = await translateWithAdapter(texts, sourceLang, targetLang, serviceConfig)
+        results.forEach((result, index) => onChunk(index, result))
+    } catch (error) {
+        throw error
     }
-
-    const adapter = new ZaiClaudeAdapter({
-        apiKey: serviceConfig.apiKey,
-        model: serviceConfig.model || 'glm-4.7',
-    } as ZaiClaudeConfig)
-
-    await adapter.translateStream(texts, sourceLang, targetLang, onChunk)
 }
 
 function sleep(ms: number): Promise<void> {

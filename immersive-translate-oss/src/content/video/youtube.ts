@@ -24,6 +24,11 @@ export class YouTubeSubtitleHook {
     // Dubbing support
     private dubbingController: SyncController | null = null
     private dubbingEnabled = false
+    private controlButton: HTMLElement | null = null
+    private loadingOverlay: HTMLElement | null = null
+    private currentRequestId = 0
+
+
 
     constructor() {
         this.overlay = new SubtitleOverlay()
@@ -34,7 +39,28 @@ export class YouTubeSubtitleHook {
         this.waitForVideo()
         this.setupNavigationWatch()
         this.setupInterceptionListener()
+        this.setupStreamListener()
     }
+
+    /**
+     * Setup listener for streaming translation chunks
+     */
+    private setupStreamListener(): void {
+        chrome.runtime.onMessage.addListener((message: MessagePayload) => {
+            if (message.action === 'STREAM_CHUNK') {
+                const { requestId, index, translation } = message.data as any
+                // Verify requestId matches current request to avoid old stream conflict
+                if (parseInt(requestId) === this.currentRequestId && this.dubbingController) {
+                    this.dubbingController.updateCueTranslation(index, translation)
+                }
+            } else if (message.action === 'STREAM_COMPLETE') {
+                console.log('[YouTube Hook] Stream translation complete')
+                this.showToast('Translation complete')
+            }
+            return false
+        })
+    }
+
 
     /**
      * Setup listener for intercepted subtitles from inject script
@@ -228,55 +254,37 @@ export class YouTubeSubtitleHook {
         console.log(`[YouTube Hook] Translating ${this.cues.length} subtitle cues...`)
         this.showToast('Translating subtitles...')
 
-        const BATCH_SIZE = 20
-        const translations = new Map<number, string>()
-        let failureCount = 0
-        let lastError = ''
-
         const config = await getConfig()
         const targetLang = config.targetLang || 'zh-CN'
 
-        for (let i = 0; i < this.cues.length; i += BATCH_SIZE) {
-            const batch = this.cues.slice(i, i + BATCH_SIZE)
-            const texts = batch.map(cue => cue.text)
+        // Use streaming translation for better performance and to avoid rate limits
+        // Send all texts in one large request
 
-            try {
-                const response = await this.sendMessage({
-                    action: 'TRANSLATE_BATCH',
-                    data: {
-                        texts,
-                        sourceLang: 'auto',
-                        targetLang: targetLang,
-                    },
-                })
+        const texts = this.cues.map(cue => cue.text)
+        this.currentRequestId++
+        const requestId = this.currentRequestId.toString()
 
-                if (response.success && Array.isArray(response.data)) {
-                    response.data.forEach((translation, idx) => {
-                        const cueIndex = i + idx
-                        translations.set(cueIndex, translation)
+        try {
+            this.showToast('Starting streaming translation...')
 
-                        // Update dubbing controller if active
-                        this.dubbingController?.updateCueTranslation(cueIndex, translation)
-                    })
-                } else {
-                    console.warn('[YouTube Hook] Batch translation error:', response.error)
-                    failureCount++
-                    lastError = response.error || 'Unknown API Error'
-                }
-            } catch (error) {
-                console.error('[YouTube Hook] Translation batch failed:', error)
-                failureCount++
-                lastError = error instanceof Error ? error.message : 'Network Error'
+            // Send signal to start stream
+            const response = await this.sendMessage({
+                action: 'TRANSLATE_STREAM',
+                data: {
+                    texts,
+                    sourceLang: 'auto',
+                    targetLang: targetLang,
+                    requestId
+                },
+            })
+
+            if (!response.success) {
+                console.error('[YouTube Hook] Stream start failed:', response.error)
+                this.showToast(`Translation failed: ${response.error}`)
             }
-        }
-
-        this.overlay.setTranslations(translations)
-
-        if (failureCount > 0) {
-            this.showToast(`Translation failed (${failureCount} batches). Error: ${lastError}`)
-        } else {
-            console.log('[YouTube Hook] Subtitles translated')
-            this.showToast('Translation complete')
+        } catch (error) {
+            console.error('[YouTube Hook] Translation error:', error)
+            this.showToast('Translation error')
         }
     }
 
@@ -316,61 +324,191 @@ export class YouTubeSubtitleHook {
     /**
      * Initialize dubbing controller
      */
+
+
+    /**
+     * Initialize Dubbing Controller
+     */
     private async initDubbing(): Promise<void> {
-        if (!this.videoElement || this.cues.length === 0) {
+        if (this.dubbingController) {
+            this.dubbingController.setCues(this.cues)
             return
         }
 
-        // Cleanup existing controller
-        if (this.dubbingController) {
-            this.dubbingController.destroy()
-        }
+        if (!this.videoElement) return
 
         // Load config
         const config = await getConfig()
         const dubbingOptions = config.dubbing || DEFAULT_DUBBING_OPTIONS
 
-        // Create new controller
         this.dubbingController = new SyncController(this.videoElement, {
             ...dubbingOptions,
-            // Override with local state if managed, but here allow config to drive defaults
-            // If runtime toggle overrides config enabled, we should handle that.
-            // But dubbingEnabled is local state.
             enabled: this.dubbingEnabled
         })
 
-        // Set cues for dubbing (will use translation when available)
+        // Setup UI callbacks
+        this.dubbingController.onStartCallback = () => this.updateButtonState(true)
+        this.dubbingController.onStopCallback = () => this.updateButtonState(false)
+        this.dubbingController.onBufferingStartCallback = () => this.showLoading(true)
+        this.dubbingController.onBufferingEndCallback = () => this.showLoading(false)
+
         this.dubbingController.setCues(this.cues)
 
-        console.log('[YouTube Hook] Dubbing controller initialized', dubbingOptions)
+        // Auto-enable if previously active
+        if (this.dubbingEnabled) {
+            this.dubbingController.start()
+        }
+
+        // Inject UI controls
+        this.injectControl()
+    }
+
+    /**
+     * Inject Dubbing Control Button
+     */
+    private injectControl(): void {
+        if (this.controlButton && document.body.contains(this.controlButton)) return
+
+        const rightControls = document.querySelector('.ytp-right-controls')
+        if (!rightControls) return
+
+        const button = document.createElement('button')
+        button.className = 'ytp-button imt-dubbing-btn'
+        button.title = 'Enable Dubbing (Immersive Translate)'
+        button.setAttribute('aria-pressed', 'false')
+        button.innerHTML = `
+            <svg height="100%" version="1.1" viewBox="0 0 36 36" width="100%">
+                <path d="M11,11 L11,25 L24,18 L11,11 Z" fill="currentColor"></path>
+            </svg>
+        `
+        // Custom styling for the button
+        button.style.verticalAlign = 'top'
+        button.style.width = '30px'
+        button.style.opacity = '0.9'
+
+        button.onclick = () => {
+            this.toggleDubbing()
+        }
+
+        // Insert before settings button (usually last or second to last)
+        rightControls.insertBefore(button, rightControls.firstChild)
+        this.controlButton = button
+        this.updateButtonState(this.dubbingEnabled)
+    }
+
+    /**
+     * Update button visual state
+     */
+    private updateButtonState(active: boolean): void {
+        if (!this.controlButton) return
+
+        const path = this.controlButton.querySelector('path')
+        if (active) {
+            this.controlButton.setAttribute('aria-pressed', 'true')
+            this.controlButton.title = 'Disable Dubbing'
+            if (path) path.style.fill = '#f87171' // Red/Pink accent color
+        } else {
+            this.controlButton.setAttribute('aria-pressed', 'false')
+            this.controlButton.title = 'Enable Dubbing'
+            if (path) path.style.fill = 'currentColor'
+        }
+    }
+
+    /**
+     * Show/Hide Loading Overlay
+     */
+    private showLoading(show: boolean): void {
+        const player = document.querySelector('.html5-video-player')
+        if (!player) return
+
+        if (!this.loadingOverlay) {
+            this.loadingOverlay = document.createElement('div')
+            this.loadingOverlay.className = 'imt-loading-overlay'
+            this.loadingOverlay.innerHTML = `
+                <div class="imt-spinner"></div>
+                <div class="imt-loading-text">Generating Dubbing...</div>
+            `
+            // CSS Injection for spinner
+            const style = document.createElement('style')
+            style.textContent = `
+                .imt-loading-overlay {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    z-index: 60;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    background: rgba(0, 0, 0, 0.7);
+                    padding: 20px;
+                    border-radius: 12px;
+                    backdrop-filter: blur(4px);
+                }
+                .imt-spinner {
+                    width: 40px;
+                    height: 40px;
+                    border: 4px solid #f3f3f3;
+                    border-top: 4px solid #f87171;
+                    border-radius: 50%;
+                    animation: imt-spin 1s linear infinite;
+                    margin-bottom: 10px;
+                }
+                .imt-loading-text {
+                    color: white;
+                    font-size: 14px;
+                    font-family: Roboto, Arial, sans-serif;
+                }
+                @keyframes imt-spin {
+                    0% { transform: rotate(0deg); }
+                    100% { transform: rotate(360deg); }
+                }
+            `
+            document.head.appendChild(style)
+        }
+
+        if (show) {
+            if (!player.contains(this.loadingOverlay)) {
+                player.appendChild(this.loadingOverlay)
+            }
+        } else {
+            if (player.contains(this.loadingOverlay)) {
+                player.removeChild(this.loadingOverlay)
+            }
+        }
+    }
+
+    /**
+     * Toggle dubbing on/off
+     */
+    private toggleDubbing(): void {
+        this.dubbingEnabled = !this.dubbingEnabled
+
+        if (this.dubbingEnabled) {
+            this.dubbingController?.start()
+        } else {
+            this.dubbingController?.stop()
+        }
+
+        // Persist setting if needed (TODO)
+        this.updateButtonState(this.dubbingEnabled)
     }
 
     /**
      * Enable dubbing playback
      */
-    enableDubbing(): void {
-        this.dubbingEnabled = true
-
-        if (this.dubbingController) {
-            this.dubbingController.start()
-            this.showToast('Dubbing enabled')
-        } else if (this.videoElement && this.cues.length > 0) {
-            this.initDubbing()
-            // initDubbing creates the controller, use non-null assertion
-            this.dubbingController!.start()
-            this.showToast('Dubbing enabled')
+    public enableDubbing(): void {
+        if (!this.dubbingEnabled) {
+            this.toggleDubbing()
         }
     }
 
     /**
      * Disable dubbing playback
      */
-    disableDubbing(): void {
-        this.dubbingEnabled = false
-
-        if (this.dubbingController) {
-            this.dubbingController.stop()
-            this.showToast('Dubbing disabled')
+    public disableDubbing(): void {
+        if (this.dubbingEnabled) {
+            this.toggleDubbing()
         }
     }
 

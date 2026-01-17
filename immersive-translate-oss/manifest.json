@@ -6,11 +6,15 @@
     "permissions": [
         "storage",
         "activeTab",
-        "scripting"
+        "scripting",
+        "offscreen"
     ],
     "host_permissions": [
         "<all_urls>"
     ],
+    "content_security_policy": {
+        "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'"
+    },
     "background": {
         "service_worker": "src/background/index.ts",
         "type": "module"
@@ -47,11 +51,16 @@
             "world": "MAIN"
         }
     ],
+    "icons": {
+        "128": "icon-128.png"
+    },
     "web_accessible_resources": [
         {
             "resources": [
                 "assets/*",
-                "pdf/*"
+                "pdf/*",
+                "piper/*",
+                "floating-ball.png"
             ],
             "matches": [
                 "<all_urls>",

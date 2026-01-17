@@ -161,11 +161,12 @@ function calculateBlockScore(el: HTMLElement): number {
 
 /**
  * Tokenize element content, preserving inline tags as placeholders
+ * Returns both raw text (with placeholders) for translation and a tagMap for restoration
  */
 export function tokenizeElement(el: HTMLElement): TokenizedText {
     const segments: TextSegment[] = []
     let tagIndex = 0
-    const tagMap = new Map<number, string>()
+    const tagMap = new Map<number, { tagName: string; openTag: string; closeTag: string }>()
 
     function processNode(node: Node): void {
         if (node.nodeType === Node.TEXT_NODE) {
@@ -184,12 +185,22 @@ export function tokenizeElement(el: HTMLElement): TokenizedText {
             if (INLINE_TAGS.has(element.tagName)) {
                 // Preserve inline tag as placeholder
                 const idx = tagIndex++
-                tagMap.set(idx, element.outerHTML)
+                
+                // Extract opening and closing tags
+                const clone = element.cloneNode(false) as HTMLElement
+                const openTag = clone.outerHTML.replace(/<\/[^>]+>$/, '') // Remove self-closing or closing part
+                const closeTag = `</${element.tagName.toLowerCase()}>`
+                
+                tagMap.set(idx, { 
+                    tagName: element.tagName.toLowerCase(),
+                    openTag: openTag.endsWith('/>') ? openTag.slice(0, -2) + '>' : openTag,
+                    closeTag 
+                })
 
-                // Add opening placeholder
+                // Add opening placeholder (simplified format for LLM)
                 segments.push({
                     type: 'tag',
-                    content: `{{${idx}:start}}`,
+                    content: `{{${idx}}}`,
                     tagIndex: idx,
                 })
 
@@ -201,7 +212,7 @@ export function tokenizeElement(el: HTMLElement): TokenizedText {
                 // Add closing placeholder
                 segments.push({
                     type: 'tag',
-                    content: `{{${idx}:end}}`,
+                    content: `{{/${idx}}}`,
                     tagIndex: idx,
                 })
             } else {
@@ -217,25 +228,49 @@ export function tokenizeElement(el: HTMLElement): TokenizedText {
         processNode(child)
     }
 
-    // Build raw text for translation (simplified - just text with placeholders)
+    // Build raw text for translation - include placeholders so translator can preserve them
     const raw = segments
-        .map(s => s.type === 'text' ? s.content : '')
+        .map(s => s.content)
         .join('')
         .trim()
 
-    return { raw, segments }
+    // Attach tagMap to segments for restoration
+    return { raw, segments, tagMap } as TokenizedText & { tagMap: Map<number, any> }
 }
 
 /**
  * Restore tags in translated text
+ * Converts placeholders like {{0}} and {{/0}} back to original HTML tags
  */
 export function restoreTagsInTranslation(
-    _originalTokens: TokenizedText,
+    originalTokens: TokenizedText,
     translatedText: string
 ): string {
-    // For MVP, return translated text as-is
-    // TODO: Implement smart tag restoration
-    return translatedText
+    // Get tagMap from originalTokens (attached during tokenization)
+    const tagMap = (originalTokens as any).tagMap as Map<number, { tagName: string; openTag: string; closeTag: string }> | undefined
+    
+    if (!tagMap || tagMap.size === 0) {
+        // No tags to restore
+        return translatedText
+    }
+
+    let result = translatedText
+
+    // Restore tags by replacing placeholders
+    tagMap.forEach((tagInfo, idx) => {
+        // Replace opening placeholder {{idx}} with opening tag
+        const openPlaceholder = new RegExp(`\\{\\{${idx}\\}\\}`, 'g')
+        result = result.replace(openPlaceholder, tagInfo.openTag)
+
+        // Replace closing placeholder {{/idx}} with closing tag
+        const closePlaceholder = new RegExp(`\\{\\{/${idx}\\}\\}`, 'g')
+        result = result.replace(closePlaceholder, tagInfo.closeTag)
+    })
+
+    // Clean up any unmatched placeholders (in case LLM removed them)
+    result = result.replace(/\{\{\/?[0-9]+\}\}/g, '')
+
+    return result
 }
 
 /**

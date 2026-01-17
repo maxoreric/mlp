@@ -102,6 +102,127 @@ export class OpenAIAdapter implements TranslationAdapter {
         return JSON.stringify(texts)
     }
 
+    /**
+     * Streaming translation - calls onChunk as each translation is ready
+     */
+    async translateStream(
+        texts: string[],
+        sourceLang: string,
+        targetLang: string,
+        onChunk: (index: number, translation: string) => void
+    ): Promise<void> {
+        const isSenseMode = texts.some(t => t.startsWith('[SENSE_MODE]'));
+        const cleanTexts = isSenseMode ? texts.map(t => t.replace('[SENSE_MODE]', '')) : texts;
+
+        const systemContent = isSenseMode
+            ? `You are an expert language tutor. Analyze the following English sentences.
+               1. Split each sentence into logical sense groups based heavily on PREPOSITIONS and conjunctions.
+               2. Translate each sense group into ${targetLang}.
+               3. Output exactly ONE line of JSON per input sentence: [{"src": "part1", "tgt": "trans1"}, ...].
+               4. Output lines in the same order as input.`
+            : `You are a professional translator. Translate the following texts from ${sourceLang} to ${targetLang}. 
+               Output exactly ONE TRANSLATED LINE per input text. 
+               Output in the same order as input. No extra text or explanations.`;
+
+        const prompt = JSON.stringify(cleanTexts);
+
+        try {
+            const response = await fetch(
+                `${this.config.endpoint}/chat/completions`,
+                {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Authorization': `Bearer ${this.config.apiKey}`,
+                    },
+                    body: JSON.stringify({
+                        model: this.config.model,
+                        messages: [
+                            { role: 'system', content: systemContent },
+                            { role: 'user', content: prompt }
+                        ],
+                        temperature: 0,
+                        stream: true
+                    }),
+                }
+            )
+
+            if (!response.ok) {
+                const errorData = await response.json().catch(() => ({}))
+                throw new TranslationError(
+                    `OpenAI stream error: ${errorData.error?.message || response.statusText}`,
+                    response.status === 429 || response.status >= 500,
+                    response.status
+                )
+            }
+
+            // Parse SSE stream
+            const reader = response.body?.getReader()
+            if (!reader) throw new TranslationError('No response body')
+
+            const decoder = new TextDecoder()
+            let buffer = ''
+            let lineIndex = 0
+            let accumulatedText = ''
+
+            while (true) {
+                const { done, value } = await reader.read()
+                if (done) break
+
+                buffer += decoder.decode(value, { stream: true })
+                const lines = buffer.split('\n')
+                buffer = lines.pop() || ''
+
+                for (const line of lines) {
+                    if (line.trim().startsWith('data: ')) {
+                        const data = line.trim().slice(6)
+                        if (data === '[DONE]') continue
+
+                        try {
+                            const event = JSON.parse(data)
+                            const delta = event.choices?.[0]?.delta?.content || ''
+
+                            if (delta) {
+                                accumulatedText += delta
+
+                                // Process complete lines
+                                const textLines = accumulatedText.split('\n')
+                                while (textLines.length > 1 && lineIndex < cleanTexts.length) {
+                                    const completeLine = textLines.shift()!.trim()
+                                    if (completeLine) {
+                                        onChunk(lineIndex, completeLine)
+                                        lineIndex++
+                                    }
+                                }
+                                accumulatedText = textLines.join('\n')
+                            }
+                        } catch {
+                            // Skip malformed chunks
+                        }
+                    }
+                }
+            }
+
+            // Handle remaining text
+            if (accumulatedText.trim() && lineIndex < cleanTexts.length) {
+                const remainingLines = accumulatedText.split('\n')
+                for (const line of remainingLines) {
+                    if (line.trim() && lineIndex < cleanTexts.length) {
+                        onChunk(lineIndex, line.trim())
+                        lineIndex++
+                    }
+                }
+            }
+
+        } catch (error) {
+            if (error instanceof TranslationError) throw error
+            throw new TranslationError(
+                `OpenAI streaming failed: ${error instanceof Error ? error.message : 'Unknown error'}`,
+                true
+            )
+        }
+    }
+
     private parseResponse(content: string, expectedCount: number, isSenseMode = false): string[] {
         try {
             // Try to extract JSON array from the response

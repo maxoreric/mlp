@@ -16,6 +16,7 @@ import {
     SyncState
 } from './types'
 
+
 /**
  * SyncController - manages dubbing audio playback synchronized with video
  */
@@ -26,6 +27,12 @@ export class SyncController {
     private audioEngine: IAudioEngine
     private volumeDucker: VolumeDucker
     private waitingForTranslation: boolean = false
+    private waitingForCueIndex: number = -1
+    private waitingTimeout: ReturnType<typeof setTimeout> | null = null
+
+    // Smart Pause State
+    private isSpeaking: boolean = false
+    private pausedForDubbing: boolean = false
 
     private state: SyncState = {
         isActive: false,
@@ -44,13 +51,22 @@ export class SyncController {
         ratechange: () => void
     }
 
+    // Callbacks for UI
+    public onStartCallback?: () => void
+    public onStopCallback?: () => void
+    public onBufferingStartCallback?: () => void
+    public onBufferingEndCallback?: () => void
+
     constructor(
         video: HTMLVideoElement,
         options: Partial<DubbingOptions> = {}
     ) {
         this.video = video
         this.options = { ...DEFAULT_DUBBING_OPTIONS, ...options }
+
+        // Initialize Audio Engine
         this.audioEngine = getAudioEngine(this.options.engine)
+
         this.volumeDucker = new VolumeDucker(video, {
             duckedVolume: this.options.originalVolumeLevel,
             fadeDuration: 100
@@ -92,13 +108,29 @@ export class SyncController {
             this.cues[index].translation = translation
             console.log(`[SyncController] Updated translation for cue ${index}`)
 
-            // Check if we were waiting for this translation
-            if (this.waitingForTranslation && this.state.currentCueIndex === index) {
+            // Check if we were waiting for THIS SPECIFIC translation
+            if (this.waitingForTranslation && this.waitingForCueIndex === index) {
                 console.log('[SyncController] Translation arrived, resuming...')
-                this.waitingForTranslation = false
+                this.clearWaitingState()
                 this.playDubbing(index)
                 this.video.play() // Resume playback
             }
+        }
+    }
+
+    /**
+     * Clear waiting state and timeout
+     */
+    private clearWaitingState(): void {
+        const wasWaiting = this.waitingForTranslation
+        this.waitingForTranslation = false
+        this.waitingForCueIndex = -1
+        if (this.waitingTimeout) {
+            clearTimeout(this.waitingTimeout)
+            this.waitingTimeout = null
+        }
+        if (wasWaiting) {
+            this.onBufferingEndCallback?.()
         }
     }
 
@@ -115,6 +147,7 @@ export class SyncController {
         this.state.isActive = true
         this.bindVideoEvents()
 
+        this.onStartCallback?.()
         console.log('[SyncController] Started dubbing sync')
     }
 
@@ -126,11 +159,15 @@ export class SyncController {
 
         this.unbindVideoEvents()
         this.audioEngine.stop()
+        this.isSpeaking = false
+        this.pausedForDubbing = false
+
         this.volumeDucker.forceUnduck()
 
         this.state.isActive = false
         this.state.currentCueIndex = -1
 
+        this.onStopCallback?.()
         console.log('[SyncController] Stopped dubbing sync')
     }
 
@@ -166,25 +203,59 @@ export class SyncController {
         if (!this.state.isActive) return
 
         // If manually paused, do nothing (respect user pause)
-        if (this.video.paused && !this.waitingForTranslation) return
+        if (this.video.paused && !this.waitingForTranslation && !this.pausedForDubbing) return
 
         const currentTime = this.video.currentTime
+
+        // --- Smart Pause Logic ---
+        // If we are currently speaking a cue, and we are nearing the end of that cue
+        if (this.isSpeaking && this.state.currentCueIndex >= 0) {
+            const currentCue = this.cues[this.state.currentCueIndex]
+            if (currentCue) {
+                // Buffer zone: pause 0.2s before the literal end to avoid frame skipping over it
+                const timeToFinish = currentCue.endTime - currentTime
+                if (timeToFinish < 0.25 && timeToFinish > -1.0) { // Tolerance range
+                    if (!this.pausedForDubbing) {
+                        console.log(`[SyncController] Smart Pause: waiting for TTS (Cue ${this.state.currentCueIndex})`)
+                        this.pausedForDubbing = true
+                        this.video.pause()
+                    }
+                    return // Stay here, do not look for new cues
+                }
+            }
+        }
+        // -------------------------
+
         const cueIndex = this.findCueAtTime(currentTime)
 
         // Different cue than currently playing
         if (cueIndex !== this.state.currentCueIndex) {
+
+            // Don't switch if we are paused for dubbing (should be caught above, but safety check)
+            if (this.pausedForDubbing) return
+
             this.state.currentCueIndex = cueIndex
 
             if (cueIndex >= 0) {
                 const cue = this.cues[cueIndex]
 
-                // Smart Buffering: Wait for translation if needed
+                // Smart Buffering: Wait for translation if needed (with timeout)
                 if (!cue.translation && cue.text) {
                     console.log(`[SyncController] Translation missing for cue ${cueIndex}, buffering...`)
                     this.waitingForTranslation = true
+                    this.waitingForCueIndex = cueIndex
                     this.video.pause() // Pause video
 
-                    // We will resume in updateCueTranslation
+                    // Set timeout to avoid indefinite waiting (5 seconds max)
+                    this.waitingTimeout = setTimeout(() => {
+                        if (this.waitingForTranslation && this.waitingForCueIndex === cueIndex) {
+                            console.log('[SyncController] Translation timeout, skipping cue...')
+                            this.clearWaitingState() // This will trigger onBufferingEnd via clearWaitingState logic if updated
+                            this.video.play() // Resume without dubbing for this cue
+                        }
+                    }, 5000)
+
+                    this.onBufferingStartCallback?.()
                     return
                 }
 
@@ -199,6 +270,11 @@ export class SyncController {
     private onPause(): void {
         if (!this.state.isActive) return
 
+        // Ignore if we paused it ourselves for dubbing
+        if (this.pausedForDubbing) return
+        // Ignore if we paused for buffering translation
+        if (this.waitingForTranslation) return
+
         this.state.isPaused = true
         this.audioEngine.pause()
 
@@ -212,6 +288,14 @@ export class SyncController {
         if (!this.state.isActive) return
 
         this.state.isPaused = false
+
+        // If user manually hit play while we were smart-paused, cancel the smart pause
+        if (this.pausedForDubbing) {
+            console.log('[SyncController] User forced play during Smart Pause')
+            this.pausedForDubbing = false
+            // We don't stop audio here, let it finish overlapping
+        }
+
         this.audioEngine.resume()
 
         console.log('[SyncController] Resumed')
@@ -225,7 +309,15 @@ export class SyncController {
 
         // Stop current audio when seeking
         this.audioEngine.stop()
+        this.isSpeaking = false
+
+        // Reset Smart Pause state
+        this.pausedForDubbing = false
+
         this.state.currentCueIndex = -1
+
+        // Clear waiting state to avoid stale resume
+        this.clearWaitingState()
     }
 
     /**
@@ -271,25 +363,57 @@ export class SyncController {
 
         // Stop any current audio
         this.audioEngine.stop()
+        this.isSpeaking = false
+        this.pausedForDubbing = false // Safety reset
 
         // Duck volume if enabled
         if (this.options.duckOriginalAudio) {
             this.volumeDucker.duck()
         }
 
-        // Speak the translation
-        this.audioEngine.speak(textToSpeak, {
+        this.isSpeaking = true
+
+        // Use audio engine (unified for both browser and piper)
+        const instance = this.audioEngine.speak(textToSpeak, {
             lang: this.options.language,
             rate: this.state.playbackRate * this.options.rate,
             pitch: this.options.pitch,
-            volume: this.options.volume,
-            onEnd: () => {
+            volume: this.options.volume
+        })
+
+        if (instance) {
+            instance.onEnd(() => {
+                this.isSpeaking = false // TTS finished
+
                 // Unduck when speech ends
                 if (this.options.duckOriginalAudio) {
                     this.volumeDucker.unduck()
                 }
+
+                // Smart Resume: If we were paused waiting for this, resume now
+                if (this.pausedForDubbing) {
+                    console.log('[SyncController] Smart Resume: TTS finished')
+                    this.pausedForDubbing = false
+                    this.video.play()
+                }
+            })
+
+            // Optional: Handle errors to unduck
+            if (instance.onError) {
+                instance.onError((err) => {
+                    console.error('[SyncController] TTS Error:', err)
+                    this.isSpeaking = false
+                    if (this.options.duckOriginalAudio) {
+                        this.volumeDucker.unduck()
+                    }
+                    // Also resume if we were paused
+                    if (this.pausedForDubbing) {
+                        this.pausedForDubbing = false
+                        this.video.play()
+                    }
+                })
             }
-        })
+        }
 
         console.log(`[SyncController] Speaking cue ${cueIndex}: "${textToSpeak.substring(0, 30)}..."`)
     }
@@ -357,5 +481,9 @@ export class SyncController {
         this.stop()
         this.volumeDucker.destroy()
         this.cues = []
+        // Clean up audio engine resources if needed
+        if ((this.audioEngine as any).destroy) {
+            (this.audioEngine as any).destroy()
+        }
     }
 }

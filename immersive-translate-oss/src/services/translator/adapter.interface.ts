@@ -20,6 +20,20 @@ export interface TranslationAdapter {
     ): Promise<string[]>
 
     /**
+     * Translate texts in streaming mode (optional)
+     * @param texts Array of texts to translate
+     * @param sourceLang Source language code
+     * @param targetLang Target language code
+     * @param onChunk Callback for each translated chunk/line
+     */
+    translateStream?(
+        texts: string[],
+        sourceLang: string,
+        targetLang: string,
+        onChunk: (index: number, translation: string) => void
+    ): Promise<void>
+
+    /**
      * Validate the adapter configuration
      * @param config Adapter-specific configuration
      * @returns Promise resolving to true if valid

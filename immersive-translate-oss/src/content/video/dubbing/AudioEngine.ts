@@ -12,7 +12,8 @@ import {
     SpeakOptions,
     VoiceInfo
 } from './types'
-import { PiperAudioEngine } from './PiperAudioEngine'
+// NOTE: PiperAudioEngine is no longer imported here.
+// Piper TTS runs in the offscreen document to avoid WASM issues in content script.
 
 /**
  * Generate unique ID for audio instances
@@ -238,6 +239,10 @@ class WebSpeechAudioInstance implements AudioInstance {
         this.isPlaying = false
     }
 
+    seek(_time: number): void {
+        // Not supported by Web Speech API
+    }
+
     onEnd(callback: () => void): void {
         this.endCallbacks.push(callback)
     }
@@ -254,16 +259,11 @@ class WebSpeechAudioInstance implements AudioInstance {
  * Export singleton instances
  */
 let webSpeechInstance: WebSpeechEngine | null = null
-let piperInstance: PiperAudioEngine | null = null
 
-export function getAudioEngine(type: 'browser' | 'piper' = 'browser'): IAudioEngine {
-    if (type === 'piper') {
-        if (!piperInstance) {
-            piperInstance = new PiperAudioEngine()
-        }
-        return piperInstance
-    }
-
+export function getAudioEngine(_type: 'browser' | 'piper' = 'browser'): IAudioEngine {
+    // Always return WebSpeechEngine in content script.
+    // When 'piper' is selected, actual TTS runs in offscreen document via messages.
+    // This function just provides audio control methods (pause/resume/stop).
     if (!webSpeechInstance) {
         webSpeechInstance = new WebSpeechEngine()
     }

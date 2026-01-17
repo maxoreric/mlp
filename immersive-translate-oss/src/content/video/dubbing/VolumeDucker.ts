@@ -35,6 +35,7 @@ export class VolumeDucker {
     private track: TextTrack | null = null
     private cueListeners: Map<VTTCue, { enter: () => void; exit: () => void }> = new Map()
     private activeCueCount: number = 0
+    private static TRACK_LABEL = 'imt-dubbing-ducker'
 
     constructor(
         video: HTMLVideoElement,
@@ -48,13 +49,32 @@ export class VolumeDucker {
     /**
      * Setup ducking based on subtitle timing
      * Uses VTTCue enter/exit events for precise timing (pattern from youtube-dubbing-extension)
+     * 
+     * IMPORTANT: Reuses existing track to avoid memory leak (TextTrack cannot be removed from video)
      */
     setupWithCues(cues: SubtitleCue[]): void {
-        // Remove any existing track
-        this.cleanup()
+        // Clean up existing cues and listeners, but try to reuse the track
+        this.cleanupCues()
 
-        // Create a hidden text track for timing
-        this.track = this.video.addTextTrack('metadata', 'dubbing-ducker', 'en')
+        // Try to find existing track or create new one
+        if (!this.track) {
+            // Check if track already exists from previous instance
+            for (let i = 0; i < this.video.textTracks.length; i++) {
+                const existingTrack = this.video.textTracks[i]
+                if (existingTrack.label === VolumeDucker.TRACK_LABEL) {
+                    this.track = existingTrack
+                    console.log('[VolumeDucker] Reusing existing text track')
+                    break
+                }
+            }
+
+            // Only create if not found
+            if (!this.track) {
+                this.track = this.video.addTextTrack('metadata', VolumeDucker.TRACK_LABEL, 'en')
+                console.log('[VolumeDucker] Created new text track')
+            }
+        }
+
         this.track.mode = 'hidden'
 
         // Add cues and listeners
@@ -72,6 +92,27 @@ export class VolumeDucker {
         })
 
         console.log(`[VolumeDucker] Setup with ${cues.length} cues`)
+    }
+
+    /**
+     * Clean up cues only (not the track itself)
+     */
+    private cleanupCues(): void {
+        // Remove cue listeners
+        this.cueListeners.forEach((listeners, cue) => {
+            cue.removeEventListener('enter', listeners.enter)
+            cue.removeEventListener('exit', listeners.exit)
+        })
+        this.cueListeners.clear()
+
+        // Remove cues from track
+        if (this.track?.cues) {
+            while (this.track.cues.length > 0) {
+                this.track.removeCue(this.track.cues[0])
+            }
+        }
+
+        this.activeCueCount = 0
     }
 
     /**
@@ -192,22 +233,10 @@ export class VolumeDucker {
     }
 
     /**
-     * Cleanup
+     * Cleanup (restore volume, remove listeners, clear cues)
      */
     cleanup(): void {
-        // Remove cue listeners
-        this.cueListeners.forEach((listeners, cue) => {
-            cue.removeEventListener('enter', listeners.enter)
-            cue.removeEventListener('exit', listeners.exit)
-        })
-        this.cueListeners.clear()
-
-        // Remove cues from track
-        if (this.track?.cues) {
-            while (this.track.cues.length > 0) {
-                this.track.removeCue(this.track.cues[0])
-            }
-        }
+        this.cleanupCues()
 
         // Restore volume
         if (this.isDucked) {
@@ -215,8 +244,7 @@ export class VolumeDucker {
             this.isDucked = false
         }
 
-        this.activeCueCount = 0
-        this.track = null
+        // Note: we don't set track to null here to allow reuse
     }
 
     /**
@@ -224,5 +252,6 @@ export class VolumeDucker {
      */
     destroy(): void {
         this.cleanup()
+        this.track = null
     }
 }

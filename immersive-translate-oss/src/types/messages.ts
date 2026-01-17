@@ -14,6 +14,11 @@ export type MessageAction =
     | 'TOGGLE_TRANSLATION'  // Show/hide translations
     | 'RESTORE_PAGE'     // Remove all translations
     | 'TOGGLE_DUBBING'   // Enable/disable voice dubbing
+    // TTS via Offscreen Document
+    | 'TTS_SPEAK'        // Request TTS playback
+    | 'TTS_STOP'         // Stop TTS playback
+    | 'TTS_END'          // TTS playback finished (from offscreen)
+    | 'TTS_ERROR'        // TTS error (from offscreen)
 
 export interface MessagePayload {
     action: MessageAction
