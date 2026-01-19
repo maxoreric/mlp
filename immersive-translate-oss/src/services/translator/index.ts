@@ -40,7 +40,7 @@ function getAdapter(config: ExtensionConfig): TranslationAdapter {
             return new ZaiClaudeAdapter({
                 apiKey: serviceConfig.apiKey,
                 model: serviceConfig.model || 'glm-4.7',
-                endpoint: serviceConfig.endpoint,
+                ...(serviceConfig.endpoint && { endpoint: serviceConfig.endpoint }),
                 ...promptConfig
             } as ZaiClaudeConfig)
 

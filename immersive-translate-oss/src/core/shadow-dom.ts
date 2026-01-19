@@ -190,7 +190,9 @@ export function updateTranslationContent(
     }
   }
 
-  content.textContent = text
+  // Clean up any {{N}} or {{/N}} tag placeholders from the text before display
+  const cleanedText = text.replace(/\{\{\/?[0-9]+\}\}/g, '')
+  content.textContent = cleanedText
 }
 
 /**
